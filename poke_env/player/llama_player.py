@@ -29,9 +29,9 @@ class LLAMAPlayer(LLMPlayer):
         super().__init__(battle_format=battle_format,
                          account_configuration=account_configuration,
                          server_configuration=server_configuration)
+        
         # initialize the LLAMA model
         # load the LLAMA model
-
         self.except_cnt = 0
         self.total_cnt = 0
         self.log_dir = log_dir
@@ -40,14 +40,6 @@ class LLAMAPlayer(LLMPlayer):
         self.last_state_prompt = None
 
         assert (model_name_or_path), "Please specify the model path"
-
-        # if tokenizer_path:
-        #     self.tokenizer = transformers.AutoTokenizer.from_pretrained(
-        #         tokenizer_path,
-        #         use_fast=False,
-        #         use_auth_token=my_token
-        #     )
-        # else:
 
         self.tokenizer = transformers.AutoTokenizer.from_pretrained(
             model_name_or_path,
