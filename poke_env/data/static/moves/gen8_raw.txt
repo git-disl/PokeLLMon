@@ -1,0 +1,2183 @@
+10,000,000 Volt Thunderbolt	Electric	special	1	195	—
+Inflicts regular damage with no additional effect.
+
+Absorb	Grass	special	25	20	100%
+Drains half the damage inflicted to heal the user.
+
+Accelerock	Rock	physical	20	40	100%	1
+Inflicts regular damage with no additional effect.
+
+Acid	Poison	special	30	40	100%
+Has a 10% chance to lower the target's Special Defense by one stage.
+
+Acid Armor	Poison	status	20	—	—
+Raises the user's Defense by two stages.
+
+Acid Downpour	Poison	physical	1	*	—
+Inflicts regular damage with no additional effect.
+
+Acid Downpour	Poison	special	1	*	—
+Inflicts regular damage with no additional effect.
+
+Acid Spray	Poison	special	20	40	100%
+Lowers the target's Special Defense by two stages.
+
+Acrobatics	Flying	physical	15	55	100%
+Has double power if the user has no held item.
+
+Acupressure	Normal	status	30	—	—
+Raises one of a friendly Pokémon's stats at random by two stages.
+
+Aerial Ace	Flying	physical	20	60	—
+Never misses.
+
+Aeroblast	Flying	special	5	100	95%
+Has an increased chance for a critical hit.
+
+After You	Normal	status	15	—	—
+Makes the target act next this turn.
+
+Agility	Psychic	status	30	—	—
+Raises the user's Speed by two stages.
+
+Air Cutter	Flying	special	25	60	95%
+Has an increased chance for a critical hit.
+
+Air Slash	Flying	special	15	75	95%
+Has a 30% chance to make the target flinch.
+
+All-Out Pummeling	Fighting	physical	1	*	—
+Inflicts regular damage with no additional effect.
+
+All-Out Pummeling	Fighting	special	1	*	—
+Inflicts regular damage with no additional effect.
+
+Ally Switch	Psychic	status	15	—	—	2
+User switches places with the friendly Pokémon opposite it.
+
+Amnesia	Psychic	status	20	—	—
+Raises the user's Special Defense by two stages.
+
+Anchor Shot	Steel	physical	20	80	100%
+Traps the target.
+
+Ancient Power	Rock	special	5	60	100%
+Has a 10% chance to raise all of the user's stats by one stage.
+
+Aqua Jet	Water	physical	20	40	100%	1
+Inflicts regular damage with no additional effect.
+
+Aqua Ring	Water	status	20	—	—
+Restores 1/16 of the user's max HP each turn.
+
+Aqua Tail	Water	physical	10	90	90%
+Inflicts regular damage with no additional effect.
+
+Arm Thrust	Fighting	physical	20	15	100%
+Hits 2-5 times in one turn.
+
+Aromatherapy	Grass	status	5	—	—
+Cures the entire party of major status effects.
+
+Aromatic Mist	Fairy	status	20	—	—
+Raises a selected ally's Special Defense by one stage.
+
+Assist	Normal	status	20	—	—
+Randomly selects and uses one of the trainer's other Pokémon's moves.
+
+Assurance	Dark	physical	10	60	100%
+Power is doubled if the target has already received damage this turn.
+
+Astonish	Ghost	physical	15	30	100%
+Has a 30% chance to make the target flinch.
+
+Attack Order	Bug	physical	15	90	100%
+Has an increased chance for a critical hit.
+
+Attract	Normal	status	15	—	100%
+Target falls in love if it has the opposite gender, and has a 50% chance to refuse attacking the user.
+
+Aura Sphere	Fighting	special	20	80	—
+Never misses.
+
+Aurora Beam	Ice	special	20	65	100%
+Has a 10% chance to lower the target's Attack by one stage.
+
+Aurora Veil	Ice	status	20	—	—
+Reduces damage five turns, but must be used during hail.
+
+Autotomize	Steel	status	15	—	—
+Raises the user's Speed by two stages and halves the user's weight.
+
+Avalanche	Ice	physical	10	60	100%	-4
+Inflicts double damage if the user takes damage before attacking this turn.
+
+Baby-Doll Eyes	Fairy	status	30	—	100%	1
+Lowers the target's Attack by one stage.
+
+Baneful Bunker	Poison	status	10	—	—	4
+Grants the user protection for the rest of the turn and poisons any Pokémon that tries to use a contact move on it.
+
+Barrage	Normal	physical	20	15	85%
+Hits 2-5 times in one turn.
+
+Barrier	Psychic	status	20	—	—
+Raises the user's Defense by two stages.
+
+Baton Pass	Normal	status	40	—	—
+Allows the trainer to switch out the user and pass effects along to its replacement.
+
+Beak Blast	Flying	physical	15	100	100%	-3
+Inflicts a burn on any Pokémon that makes contact before the attack.
+
+Beat Up	Dark	physical	10	*	100%
+Hits once for every conscious Pokémon the trainer has.
+
+Belch	Poison	special	10	120	90%
+Can only be used after the user has eaten a berry.
+
+Belly Drum	Normal	status	10	—	—
+User pays half its max HP to max out its Attack.
+
+Bestow	Normal	status	15	—	—
+Gives the user's held item to the target.
+
+Bide	Normal	physical	10	*	—	1
+User waits for two turns, then hits back for twice the damage it took.
+
+Bind	Normal	physical	20	15	85%
+Prevents the target from fleeing and inflicts damage for 2-5 turns.
+
+Bite	Dark	physical	25	60	100%
+Has a 30% chance to make the target flinch.
+
+Black Hole Eclipse	Dark	physical	1	*	—
+Inflicts regular damage with no additional effect.
+
+Black Hole Eclipse	Dark	special	1	*	—
+Inflicts regular damage with no additional effect.
+
+Blast Burn	Fire	special	5	150	90%
+User foregoes its next turn to recharge.
+
+Blaze Kick	Fire	physical	10	85	90%
+Has an increased chance for a critical hit and a 10% chance to burn the target.
+
+Blizzard	Ice	special	5	110	70%
+Has a 10% chance to freeze the target.
+
+Block	Normal	status	5	—	—
+Prevents the target from leaving battle.
+
+Bloom Doom	Grass	physical	1	*	—
+Inflicts regular damage with no additional effect.
+
+Bloom Doom	Grass	special	1	*	—
+Inflicts regular damage with no additional effect.
+
+Blue Flare	Fire	special	5	130	85%
+Has a 20% chance to burn the target.
+
+Body Slam	Normal	physical	15	85	100%
+Has a 30% chance to paralyze the target.
+
+Bolt Strike	Electric	physical	5	130	85%
+Has a 20% chance to paralyze the target.
+
+Bone Club	Ground	physical	20	65	85%
+Has a 10% chance to make the target flinch.
+
+Bonemerang	Ground	physical	10	50	90%
+Hits twice in one turn.
+
+Bone Rush	Ground	physical	10	25	90%
+Hits 2-5 times in one turn.
+
+Boomburst	Normal	special	10	140	100%
+Inflicts regular damage.
+
+Bounce	Flying	physical	5	85	85%
+User bounces high into the air, dodging all attacks, and hits next turn.
+
+Brave Bird	Flying	physical	15	120	100%
+User receives 1/3 the damage inflicted in recoil.
+
+Breakneck Blitz	Normal	physical	1	*	—
+Inflicts regular damage with no additional effect.
+
+Breakneck Blitz	Normal	special	1	*	—
+Inflicts regular damage with no additional effect.
+
+Brick Break	Fighting	physical	15	75	100%
+Destroys Reflect and Light Screen.
+
+Brine	Water	special	10	65	100%
+Has double power against Pokémon that have less than half their max HP remaining.
+
+Brutal Swing	Dark	physical	20	60	100%
+Inflicts regular damage with no additional effect.
+
+Bubble	Water	special	30	40	100%
+Has a 10% chance to lower the target's Speed by one stage.
+
+Bubble Beam	Water	special	20	65	100%
+Has a 10% chance to lower the target's Speed by one stage.
+
+Bug Bite	Bug	physical	20	60	100%
+If target has a berry, inflicts double damage and uses the berry.
+
+Bug Buzz	Bug	special	10	90	100%
+Has a 10% chance to lower the target's Special Defense by one stage.
+
+Bulk Up	Fighting	status	20	—	—
+Raises the user's Attack and Defense by one stage.
+
+Bulldoze	Ground	physical	20	60	100%
+Has a 100% chance to lower the target's Speed by one stage.
+
+Bullet Punch	Steel	physical	30	40	100%	1
+Inflicts regular damage with no additional effect.
+
+Bullet Seed	Grass	physical	30	25	100%
+Hits 2-5 times in one turn.
+
+Burn Up	Fire	special	5	130	100%
+Removes the user's Fire type after inflicting damage.
+
+Calm Mind	Psychic	status	20	—	—
+Raises the user's Special Attack and Special Defense by one stage.
+
+Camouflage	Normal	status	20	—	—
+User's type changes to match the terrain.
+
+Captivate	Normal	status	20	—	100%
+Lowers the target's Special Attack by two stages if it's the opposite gender.
+
+Catastropika	Electric	physical	1	210	—
+Inflicts regular damage with no additional effect.
+
+Celebrate	Normal	status	40	—	—
+Does nothing.
+
+Charge	Electric	status	20	—	—
+Raises the user's Special Defense by one stage. User's Electric moves have doubled power next turn.
+
+Charge Beam	Electric	special	10	50	90%
+Has a 70% chance to raise the user's Special Attack by one stage.
+
+Charm	Fairy	status	20	—	100%
+Lowers the target's Attack by two stages.
+
+Chatter	Flying	special	20	65	100%
+Has a higher chance to confuse the target when the recorded sound is louder.
+
+Chip Away	Normal	physical	20	70	100%
+Ignores the target's stat modifiers.
+
+Circle Throw	Fighting	physical	10	60	90%	-6
+Ends wild battles. Forces trainers to switch Pokémon.
+
+Clamp	Water	physical	15	35	85%
+Prevents the target from fleeing and inflicts damage for 2-5 turns.
+
+Clanging Scales	Dragon	special	5	110	100%
+Lowers the user's Defense by one stage after inflicting damage.
+
+Clangorous Soulblaze	Dragon	special	1	185	—
+XXX new effect for clangorous-soulblaze
+
+Clear Smog	Poison	special	15	50	—
+Removes all of the target's stat modifiers.
+
+Close Combat	Fighting	physical	5	120	100%
+Lowers the user's Defense and Special Defense by one stage after inflicting damage.
+
+Coil	Poison	status	20	—	—
+Raises the user's Attack, Defense, and accuracy by one stage each.
+
+Comet Punch	Normal	physical	15	18	85%
+Hits 2-5 times in one turn.
+
+Confide	Normal	status	20	—	—
+Lowers the target's Special Attack by one stage.
+
+Confuse Ray	Ghost	status	10	—	100%
+Confuses the target.
+
+Confusion	Psychic	special	25	50	100%
+Has a 10% chance to confuse the target.
+
+Constrict	Normal	physical	35	10	100%
+Has a 10% chance to lower the target's Speed by one stage.
+
+Continental Crush	Rock	physical	1	*	—
+Inflicts regular damage with no additional effect.
+
+Continental Crush	Rock	special	1	*	—
+Inflicts regular damage with no additional effect.
+
+Conversion	Normal	status	30	—	—
+User's type changes to the type of one of its moves at random.
+
+Conversion 2	Normal	status	30	—	—
+Changes the user's type to a random type either resistant or immune to the last move used against it.
+
+Copycat	Normal	status	20	—	—
+Uses the target's last used move.
+
+Core Enforcer	Dragon	special	10	100	100%
+Nullifies the target's ability if it moves earlier.
+
+Corkscrew Crash	Steel	physical	1	*	—
+Inflicts regular damage with no additional effect.
+
+Corkscrew Crash	Steel	special	1	*	—
+Inflicts regular damage with no additional effect.
+
+Cosmic Power	Psychic	status	20	—	—
+Raises the user's Defense and Special Defense by one stage.
+
+Cotton Guard	Grass	status	10	—	—
+Raises the user's Defense by three stages.
+
+Cotton Spore	Grass	status	40	—	100%
+Lowers the target's Speed by two stages.
+
+Counter	Fighting	physical	20	*	100%	-5
+Inflicts twice the damage the user received from the last physical hit it took.
+
+Covet	Normal	physical	25	60	100%
+Takes the target's item.
+
+Crabhammer	Water	physical	10	100	90%
+Has an increased chance for a critical hit.
+
+Crafty Shield	Fairy	status	10	—	—	3
+Protects all friendly Pokémon from non-damaging moves.
+
+Cross Chop	Fighting	physical	5	100	80%
+Has an increased chance for a critical hit.
+
+Cross Poison	Poison	physical	20	70	100%
+Has an increased chance for a critical hit and a 10% chance to poison the target.
+
+Crunch	Dark	physical	15	80	100%
+Has a 20% chance to lower the target's Defense by one stage.
+
+Crush Claw	Normal	physical	10	75	95%
+Has a 50% chance to lower the target's Defense by one stage.
+
+Crush Grip	Normal	physical	5	*	100%
+Power increases against targets with more HP remaining, up to a maximum of 121 power.
+
+Curse	Ghost	status	10	—	—
+Ghosts pay half their max HP to hurt the target every turn. Others decrease Speed but raise Attack and Defense.
+
+Cut	Normal	physical	30	50	95%
+Inflicts regular damage with no additional effect.
+
+Darkest Lariat	Dark	physical	10	85	100%
+Ignores the target's stat modifiers.
+
+Dark Pulse	Dark	special	15	80	100%
+Has a 20% chance to make the target flinch.
+
+Dark Void	Dark	status	10	—	50%
+Puts the target to sleep.
+
+Dazzling Gleam	Fairy	special	10	80	100%
+Inflicts regular damage with no additional effect.
+
+Defend Order	Bug	status	10	—	—
+Raises the user's Defense and Special Defense by one stage.
+
+Defense Curl	Normal	status	40	—	—
+Raises user's Defense by one stage.
+
+Defog	Flying	status	15	—	—
+Lowers the target's evasion by one stage. Removes field effects from the enemy field.
+
+Destiny Bond	Ghost	status	5	—	—
+If the user faints this turn, the target automatically will, too.
+
+Detect	Fighting	status	5	—	—	4
+Prevents any moves from hitting the user this turn.
+
+Devastating Drake	Dragon	physical	1	*	—
+Inflicts regular damage with no additional effect.
+
+Devastating Drake	Dragon	special	1	*	—
+Inflicts regular damage with no additional effect.
+
+Diamond Storm	Rock	physical	5	100	95%
+Has a 50% chance to raise the user's Defense by two stages for each target hit.
+
+Dig	Ground	physical	10	80	100%
+User digs underground, dodging all attacks, and hits next turn.
+
+Disable	Normal	status	20	—	100%
+Disables the target's last used move for 1-8 turns.
+
+Disarming Voice	Fairy	special	15	40	—
+Never misses.
+
+Discharge	Electric	special	15	80	100%
+Has a 30% chance to paralyze the target.
+
+Dive	Water	physical	10	80	100%
+User dives underwater, dodging all attacks, and hits next turn.
+
+Dizzy Punch	Normal	physical	10	70	100%
+Has a 20% chance to confuse the target.
+
+Doom Desire	Steel	special	5	140	100%
+Hits the target two turns later.
+
+Double-Edge	Normal	physical	15	120	100%
+User receives 1/3 the damage inflicted in recoil.
+
+Double Hit	Normal	physical	10	35	90%
+Hits twice in one turn.
+
+Double Kick	Fighting	physical	30	30	100%
+Hits twice in one turn.
+
+Double Slap	Normal	physical	10	15	85%
+Hits 2-5 times in one turn.
+
+Double Team	Normal	status	15	—	—
+Raises the user's evasion by one stage.
+
+Draco Meteor	Dragon	special	5	130	90%
+Lowers the user's Special Attack by two stages after inflicting damage.
+
+Dragon Ascent	Flying	physical	5	120	100%
+Lowers the user's Defense and Special Defense by one stage after inflicting damage.
+
+Dragon Breath	Dragon	special	20	60	100%
+Has a 30% chance to paralyze the target.
+
+Dragon Claw	Dragon	physical	15	80	100%
+Inflicts regular damage with no additional effect.
+
+Dragon Dance	Dragon	status	20	—	—
+Raises the user's Attack and Speed by one stage.
+
+Dragon Hammer	Dragon	physical	15	90	100%
+Inflicts regular damage with no additional effect.
+
+Dragon Pulse	Dragon	special	10	85	100%
+Inflicts regular damage with no additional effect.
+
+Dragon Rage	Dragon	special	10	*	100%
+Inflicts 40 points of damage.
+
+Dragon Rush	Dragon	physical	10	100	75%
+Has a 20% chance to make the target flinch.
+
+Dragon Tail	Dragon	physical	10	60	90%	-6
+Ends wild battles. Forces trainers to switch Pokémon.
+
+Draining Kiss	Fairy	special	10	50	100%
+Drains 75% of the damage inflicted to heal the user.
+
+Drain Punch	Fighting	physical	10	75	100%
+Drains half the damage inflicted to heal the user.
+
+Dream Eater	Psychic	special	15	100	100%
+Only works on sleeping Pokémon. Drains half the damage inflicted to heal the user.
+
+Drill Peck	Flying	physical	20	80	100%
+Inflicts regular damage with no additional effect.
+
+Drill Run	Ground	physical	10	80	95%
+Has an increased chance for a critical hit.
+
+Dual Chop	Dragon	physical	15	40	90%
+Hits twice in one turn.
+
+Dynamic Punch	Fighting	physical	5	100	50%
+Has a 100% chance to confuse the target.
+
+Earth Power	Ground	special	10	90	100%
+Has a 10% chance to lower the target's Special Defense by one stage.
+
+Earthquake	Ground	physical	10	100	100%
+Inflicts regular damage and can hit Dig users.
+
+Echoed Voice	Normal	special	15	40	100%
+Power increases by 100% for each consecutive use by any friendly Pokémon, to a maximum of 200.
+
+Eerie Impulse	Electric	status	15	—	100%
+Lowers the target's Special Attack by two stages.
+
+Egg Bomb	Normal	physical	10	100	75%
+Inflicts regular damage with no additional effect.
+
+Electric Terrain	Electric	status	10	—	—
+For five turns, prevents all Pokémon on the ground from sleeping and strengthens their Electric moves to 1.5× their power.
+
+Electrify	Electric	status	20	—	—
+Changes the target's move's type to Electric if it hasn't moved yet this turn.
+
+Electro Ball	Electric	special	10	*	100%
+Power is higher when the user has greater Speed than the target, up to a maximum of 150.
+
+Electroweb	Electric	special	15	55	95%
+Lowers the target's Speed by one stage.
+
+Embargo	Dark	status	15	—	100%
+Target cannot use held items.
+
+Ember	Fire	special	25	40	100%
+Has a 10% chance to burn the target.
+
+Encore	Normal	status	5	—	100%
+Forces the target to repeat its last used move every turn for 2 to 6 turns.
+
+Endeavor	Normal	physical	5	*	100%
+Lowers the target's HP to equal the user's.
+
+Endure	Normal	status	10	—	—	4
+Prevents the user's HP from lowering below 1 this turn.
+
+Energy Ball	Grass	special	10	90	100%
+Has a 10% chance to lower the target's Special Defense by one stage.
+
+Entrainment	Normal	status	15	—	100%
+Copies the user's ability onto the target.
+
+Eruption	Fire	special	5	150	100%
+Inflicts more damage when the user has more HP remaining, with a maximum of 150 power.
+
+Explosion	Normal	physical	5	250	100%
+User faints.
+
+Extrasensory	Psychic	special	20	80	100%
+Has a 10% chance to make the target flinch.
+
+Extreme Evoboost	Normal	status	1	—	—
+Raises all of the user's stats by two stages.
+
+Extreme Speed	Normal	physical	5	80	100%	2
+Inflicts regular damage with no additional effect.
+
+Facade	Normal	physical	20	70	100%
+Power doubles if user is burned, paralyzed, or poisoned.
+
+Fairy Lock	Fairy	status	10	—	—
+Prevents all Pokémon from fleeing or switching out during the next turn.
+
+Fairy Wind	Fairy	special	30	40	100%
+Inflicts regular damage with no additional effect.
+
+Fake Out	Normal	physical	10	40	100%	3
+Can only be used as the first move after the user enters battle. Causes the target to flinch.
+
+Fake Tears	Dark	status	20	—	100%
+Lowers the target's Special Defense by two stages.
+
+False Swipe	Normal	physical	40	40	100%
+Cannot lower the target's HP below 1.
+
+Feather Dance	Flying	status	15	—	100%
+Lowers the target's Attack by two stages.
+
+Feint	Normal	physical	10	30	100%	2
+Hits through Protect and Detect.
+
+Feint Attack	Dark	physical	20	60	—
+Never misses.
+
+Fell Stinger	Bug	physical	25	50	100%
+Raises the user's Attack by two stages if it KOs the target.
+
+Fiery Dance	Fire	special	10	80	100%
+Has a 50% chance to raise the user's Special Attack by one stage.
+
+Final Gambit	Fighting	special	5	*	100%
+Inflicts damage equal to the user's remaining HP. User faints.
+
+Fire Blast	Fire	special	5	110	85%
+Has a 10% chance to burn the target.
+
+Fire Fang	Fire	physical	15	65	95%
+Has a 10% chance to burn the target and a 10% chance to make the target flinch.
+
+Fire Lash	Fire	physical	15	80	100%
+Lowers the target's Defense by one stage after inflicting damage.
+
+Fire Pledge	Fire	special	10	80	100%
+With Water Pledge, doubles the effect chance of friendly Pokémon's moves for four turns.
+
+Fire Punch	Fire	physical	15	75	100%
+Has a 10% chance to burn the target.
+
+Fire Spin	Fire	special	15	35	85%
+Prevents the target from fleeing and inflicts damage for 2-5 turns.
+
+First Impression	Bug	physical	10	90	100%	2
+Can only be used as the first move after the user enters battle.
+
+Fissure	Ground	physical	5	*	30%
+Causes a one-hit KO.
+
+Flail	Normal	physical	15	*	100%
+Inflicts more damage when the user has less HP remaining, with a maximum of 200 power.
+
+Flame Burst	Fire	special	15	70	100%
+Deals splash damage to Pokémon next to the target.
+
+Flame Charge	Fire	physical	20	50	100%
+Inflicts regular damage. Raises the user's Speed by one stage.
+
+Flamethrower	Fire	special	15	90	100%
+Has a 10% chance to burn the target.
+
+Flame Wheel	Fire	physical	25	60	100%
+Has a 10% chance to burn the target. Lets frozen Pokémon thaw themselves.
+
+Flare Blitz	Fire	physical	15	120	100%
+User takes 1/3 the damage inflicted in recoil. Has a 10% chance to burn the target.
+
+Flash	Normal	status	20	—	100%
+Lowers the target's accuracy by one stage.
+
+Flash Cannon	Steel	special	10	80	100%
+Has a 10% chance to lower the target's Special Defense by one stage.
+
+Flatter	Dark	status	15	—	100%
+Raises the target's Special Attack by one stage and confuses the target.
+
+Fleur Cannon	Fairy	special	5	130	90%
+Lowers the user's Special Attack by two stages after inflicting damage.
+
+Fling	Dark	physical	10	*	100%
+Throws held item at the target; power depends on the item.
+
+Floral Healing	Fairy	status	10	—	—
+Heals the target for ½ its max HP, or ⅔ on Grassy Terrain.
+
+Flower Shield	Fairy	status	10	—	—
+Raises the Defense of all Grass Pokémon in battle.
+
+Fly	Flying	physical	15	90	95%
+User flies high into the air, dodging all attacks, and hits next turn.
+
+Flying Press	Fighting	physical	10	100	95%
+Deals both Fighting and Flying-type damage.
+
+Focus Blast	Fighting	special	5	120	70%
+Has a 10% chance to lower the target's Special Defense by one stage.
+
+Focus Energy	Normal	status	30	—	—
+Increases the user's chance to score a critical hit.
+
+Focus Punch	Fighting	physical	20	150	100%	-3
+If the user takes damage before attacking, the attack is canceled.
+
+Follow Me	Normal	status	20	—	—	2
+Redirects the target's single-target effects to the user for this turn.
+
+Force Palm	Fighting	physical	10	60	100%
+Has a 30% chance to paralyze the target.
+
+Foresight	Normal	status	40	—	—
+Forces the target to have no Evade, and allows it to be hit by Normal and Fighting moves even if it's a Ghost.
+
+Forest’s Curse	Grass	status	20	—	100%
+Adds Grass to the target's types.
+
+Foul Play	Dark	physical	15	95	100%
+Calculates damage with the target's attacking stat.
+
+Freeze-Dry	Ice	special	20	70	100%
+Super-effective against Water.
+
+Freeze Shock	Ice	physical	5	140	90%
+Requires a turn to charge before attacking. Has a 30% chance to paralyze the target.
+
+Frenzy Plant	Grass	special	5	150	90%
+User foregoes its next turn to recharge.
+
+Frost Breath	Ice	special	10	60	90%
+Always scores a critical hit.
+
+Frustration	Normal	physical	20	*	100%
+Power increases as happiness decreases, up to a maximum of 102.
+
+Fury Attack	Normal	physical	20	15	85%
+Hits 2-5 times in one turn.
+
+Fury Cutter	Bug	physical	20	40	95%
+Power doubles every turn this move is used in succession after the first, maxing out after five turns.
+
+Fury Swipes	Normal	physical	15	18	80%
+Hits 2-5 times in one turn.
+
+Fusion Bolt	Electric	physical	5	100	100%
+With Fusion Flare, inflicts double damage.
+
+Fusion Flare	Fire	special	5	100	100%
+With Fusion Bolt, inflicts double damage.
+
+Future Sight	Psychic	special	10	120	100%
+Hits the target two turns later.
+
+Gastro Acid	Poison	status	10	—	100%
+Nullifies target's ability until it leaves battle.
+
+Gear Grind	Steel	physical	15	50	85%
+Hits twice in one turn.
+
+Gear Up	Steel	status	20	—	—
+Raises the Attack and Special Attack of all friendly Pokémon with Plus or Minus by one stage.
+
+Genesis Supernova	Psychic	special	1	185	—
+Changes the terrain to Psychic Terrain after inflicting damage.
+
+Geomancy	Fairy	status	10	—	—
+Takes one turn to charge, then raises the user's Special Attack, Special Defense, and Speed by two stages.
+
+Giga Drain	Grass	special	10	75	100%
+Drains half the damage inflicted to heal the user.
+
+Giga Impact	Normal	physical	5	150	90%
+User foregoes its next turn to recharge.
+
+Gigavolt Havoc	Electric	physical	1	*	—
+Inflicts regular damage with no additional effect.
+
+Gigavolt Havoc	Electric	special	1	*	—
+Inflicts regular damage with no additional effect.
+
+Glaciate	Ice	special	10	65	95%
+Lowers the target's Speed by one stage.
+
+Glare	Normal	status	30	—	100%
+Paralyzes the target.
+
+Grass Knot	Grass	special	20	*	100%
+Inflicts more damage to heavier targets, with a maximum of 120 power.
+
+Grass Pledge	Grass	special	10	80	100%
+With Fire Pledge, damages opposing Pokémon for 1/8 their max HP every turn for four turns.
+
+Grass Whistle	Grass	status	15	—	55%
+Puts the target to sleep.
+
+Grassy Terrain	Grass	status	10	—	—
+For five turns, heals all Pokémon on the ground for 1/16 max HP each turn and strengthens their Grass moves to 1.5× their power.
+
+Gravity	Psychic	status	5	—	—
+Disables moves and immunities that involve flying or levitating for five turns.
+
+Growl	Normal	status	40	—	100%
+Lowers the target's Attack by one stage.
+
+Growth	Normal	status	20	—	—
+Raises the user's Attack and Special Attack by one stage.
+
+Grudge	Ghost	status	5	—	—
+If the user faints this turn, the PP of the move that fainted it drops to 0.
+
+Guardian of Alola	Fairy	special	1	*	—
+Damages the target for 75% of its remaining HP.
+
+Guard Split	Psychic	status	10	—	—
+Averages Defense and Special Defense with the target.
+
+Guard Swap	Psychic	status	10	—	—
+User swaps Defense and Special Defense changes with the target.
+
+Guillotine	Normal	physical	5	*	30%
+Causes a one-hit KO.
+
+Gunk Shot	Poison	physical	5	120	80%
+Has a 30% chance to poison the target.
+
+Gust	Flying	special	35	40	100%
+Inflicts regular damage and can hit Pokémon in the air.
+
+Gyro Ball	Steel	physical	5	*	100%
+Power raises when the user has lower Speed, up to a maximum of 150.
+
+Hail	Ice	status	10	—	—
+Changes the weather to a hailstorm for five turns.
+
+Hammer Arm	Fighting	physical	10	100	90%
+Lowers user's Speed by one stage.
+
+Happy Hour	Normal	status	30	—	—
+Doubles prize money.
+
+Harden	Normal	status	30	—	—
+Raises the user's Defense by one stage.
+
+Haze	Ice	status	30	—	—
+Resets all Pokémon's stats, accuracy, and evasion.
+
+Headbutt	Normal	physical	15	70	100%
+Has a 30% chance to make the target flinch.
+
+Head Charge	Normal	physical	15	120	100%
+User receives 1/4 the damage it inflicts in recoil.
+
+Head Smash	Rock	physical	5	150	80%
+User receives 1/2 the damage inflicted in recoil.
+
+Heal Bell	Normal	status	5	—	—
+Cures the entire party of major status effects.
+
+Heal Block	Psychic	status	15	—	100%
+Prevents target from restoring its HP for five turns.
+
+Healing Wish	Psychic	status	10	—	—
+User faints. Its replacement has its HP fully restored and any major status effect removed.
+
+Heal Order	Bug	status	10	—	—
+Heals the user by half its max HP.
+
+Heal Pulse	Psychic	status	10	—	—
+Heals the target for half its max HP.
+
+Heart Stamp	Psychic	physical	25	60	100%
+Has a 30% chance to make the target flinch.
+
+Heart Swap	Psychic	status	10	—	—
+User and target swap stat changes.
+
+Heat Crash	Fire	physical	10	*	100%
+Power is higher when the user weighs more than the target, up to a maximum of 120.
+
+Heat Wave	Fire	special	10	95	90%
+Has a 10% chance to burn the target.
+
+Heavy Slam	Steel	physical	10	*	100%
+Power is higher when the user weighs more than the target, up to a maximum of 120.
+
+Helping Hand	Normal	status	20	—	—	5
+Ally's next move inflicts half more damage.
+
+Hex	Ghost	special	10	65	100%
+Has double power if the target has a major status ailment.
+
+Hidden Power	Normal	special	15	60	100%
+Power and type depend upon user's IVs. Power can range from 30 to 70.
+
+High Horsepower	Ground	physical	10	95	95%
+Inflicts regular damage with no additional effect.
+
+High Jump Kick	Fighting	physical	10	130	90%
+If the user misses, it takes half the damage it would have inflicted in recoil.
+
+Hold Back	Normal	physical	40	40	100%
+Cannot lower the target's HP below 1.
+
+Hold Hands	Normal	status	40	—	—
+Does nothing.
+
+Hone Claws	Dark	status	15	—	—
+Raises the user's Attack and accuracy by one stage.
+
+Horn Attack	Normal	physical	25	65	100%
+Inflicts regular damage with no additional effect.
+
+Horn Drill	Normal	physical	5	*	30%
+Causes a one-hit KO.
+
+Horn Leech	Grass	physical	10	75	100%
+Drains half the damage inflicted to heal the user.
+
+Howl	Normal	status	40	—	—
+Raises the user's Attack by one stage.
+
+Hurricane	Flying	special	10	110	70%
+Has a 30% chance to confuse the target.
+
+Hydro Cannon	Water	special	5	150	90%
+User foregoes its next turn to recharge.
+
+Hydro Pump	Water	special	5	110	80%
+Inflicts regular damage with no additional effect.
+
+Hydro Vortex	Water	physical	1	*	—
+Inflicts regular damage with no additional effect.
+
+Hydro Vortex	Water	special	1	*	—
+Inflicts regular damage with no additional effect.
+
+Hyper Beam	Normal	special	5	150	90%
+User foregoes its next turn to recharge.
+
+Hyper Fang	Normal	physical	15	80	90%
+Has a 10% chance to make the target flinch.
+
+Hyperspace Fury	Dark	physical	5	100	—
+Ignores and destroys protection effects.
+
+Hyperspace Hole	Psychic	special	5	80	—
+Ignores and destroys protection effects.
+
+Hyper Voice	Normal	special	10	90	100%
+Inflicts regular damage with no additional effect.
+
+Hypnosis	Psychic	status	20	—	60%
+Puts the target to sleep.
+
+Ice Ball	Ice	physical	20	30	90%
+Power doubles every turn this move is used in succession after the first, resetting after five turns.
+
+Ice Beam	Ice	special	10	90	100%
+Has a 10% chance to freeze the target.
+
+Ice Burn	Ice	special	5	140	90%
+Requires a turn to charge before attacking. Has a 30% chance to burn the target.
+
+Ice Fang	Ice	physical	15	65	95%
+Has a 10% chance to freeze the target and a 10% chance to make the target flinch.
+
+Ice Hammer	Ice	physical	10	100	90%
+Lowers user's Speed by one stage.
+
+Ice Punch	Ice	physical	15	75	100%
+Has a 10% chance to freeze the target.
+
+Ice Shard	Ice	physical	30	40	100%	1
+Inflicts regular damage with no additional effect.
+
+Icicle Crash	Ice	physical	10	85	90%
+Has a 30% chance to make the target flinch.
+
+Icicle Spear	Ice	physical	30	25	100%
+Hits 2-5 times in one turn.
+
+Icy Wind	Ice	special	15	55	95%
+Has a 100% chance to lower the target's Speed by one stage.
+
+Imprison	Psychic	status	10	—	—
+Prevents the target from using any moves that the user also knows.
+
+Incinerate	Fire	special	15	60	100%
+Destroys the target's held berry.
+
+Inferno	Fire	special	5	100	50%
+Has a 100% chance to burn the target.
+
+Inferno Overdrive	Fire	physical	1	*	—
+Inflicts regular damage with no additional effect.
+
+Inferno Overdrive	Fire	special	1	*	—
+Inflicts regular damage with no additional effect.
+
+Infestation	Bug	special	20	20	100%
+Prevents the target from fleeing and inflicts damage for 2-5 turns.
+
+Ingrain	Grass	status	20	—	—
+Prevents the user from leaving battle. User regains 1/16 of its max HP every turn.
+
+Instruct	Psychic	status	15	—	—
+Forces the target to repeat its last used move.
+
+Ion Deluge	Electric	status	25	—	—	1
+Changes all Normal moves to Electric moves for the rest of the turn.
+
+Iron Defense	Steel	status	15	—	—
+Raises the user's Defense by two stages.
+
+Iron Head	Steel	physical	15	80	100%
+Has a 30% chance to make the target flinch.
+
+Iron Tail	Steel	physical	15	100	75%
+Has a 30% chance to lower the target's Defense by one stage.
+
+Judgment	Normal	special	10	100	100%
+If the user is holding a appropriate plate or drive, the damage inflicted will match it.
+
+Jump Kick	Fighting	physical	10	100	95%
+If the user misses, it takes half the damage it would have inflicted in recoil.
+
+Karate Chop	Fighting	physical	25	50	100%
+Has an increased chance for a critical hit.
+
+Kinesis	Psychic	status	15	—	80%
+Lowers the target's accuracy by one stage.
+
+King’s Shield	Steel	status	10	—	—	4
+Blocks damaging attacks and lowers attacking Pokémon's Attack by two stages on contact. Switches Aegislash to Shield Forme.
+
+Knock Off	Dark	physical	20	65	100%
+Target drops its held item.
+
+Land’s Wrath	Ground	physical	10	90	100%
+Inflicts regular damage with no additional effect.
+
+Laser Focus	Normal	status	30	—	—
+Guarantees a critical hit with the user's next move.
+
+Last Resort	Normal	physical	5	140	100%
+Can only be used after all of the user's other moves have been used.
+
+Lava Plume	Fire	special	15	80	100%
+Has a 30% chance to burn the target.
+
+Leafage	Grass	physical	40	40	100%
+Inflicts regular damage with no additional effect.
+
+Leaf Blade	Grass	physical	15	90	100%
+Has an increased chance for a critical hit.
+
+Leaf Storm	Grass	special	5	130	90%
+Lowers the user's Special Attack by two stages after inflicting damage.
+
+Leaf Tornado	Grass	special	10	65	90%
+Has a 50% chance to lower the target's accuracy by one stage.
+
+Leech Life	Bug	physical	10	80	100%
+Drains half the damage inflicted to heal the user.
+
+Leech Seed	Grass	status	10	—	90%
+Seeds the target, stealing HP from it every turn.
+
+Leer	Normal	status	30	—	100%
+Lowers the target's Defense by one stage.
+
+Let’s Snuggle Forever	Fairy	physical	1	190	—
+XXX new effect for lets-snuggle-forever
+
+Lick	Ghost	physical	30	30	100%
+Has a 30% chance to paralyze the target.
+
+Light of Ruin	Fairy	special	5	140	90%
+User receives 1/2 the damage inflicted in recoil.
+
+Light Screen	Psychic	status	30	—	—
+Reduces damage from special attacks by 50% for five turns.
+
+Light That Burns the Sky	Psychic	special	1	200	—
+XXX new effect for light-that-burns-the-sky
+
+Liquidation	Water	physical	10	85	100%
+Has a 20% chance to lower the target's Defense by one stage.
+
+Lock-On	Normal	status	5	—	—
+Ensures that the user's next move will hit the target.
+
+Lovely Kiss	Normal	status	10	—	75%
+Puts the target to sleep.
+
+Low Kick	Fighting	physical	20	*	100%
+Inflicts more damage to heavier targets, with a maximum of 120 power.
+
+Low Sweep	Fighting	physical	20	65	100%
+Lowers the target's Speed by one stage.
+
+Lucky Chant	Normal	status	30	—	—
+Prevents the target from scoring critical hits for five turns.
+
+Lunar Dance	Psychic	status	10	—	—
+User faints, and its replacement is fully healed.
+
+Lunge	Bug	physical	15	80	100%
+Lowers the target's Attack by one stage after inflicting damage.
+
+Luster Purge	Psychic	special	5	70	100%
+Has a 50% chance to lower the target's Special Defense by one stage.
+
+Mach Punch	Fighting	physical	30	40	100%	1
+Inflicts regular damage with no additional effect.
+
+Magical Leaf	Grass	special	20	60	—
+Never misses.
+
+Magic Coat	Psychic	status	15	—	—	4
+Reflects back the first effect move used on the user this turn.
+
+Magic Room	Psychic	status	10	—	—
+Negates held items for five turns.
+
+Magma Storm	Fire	special	5	100	75%
+Prevents the target from fleeing and inflicts damage for 2-5 turns.
+
+Magnet Bomb	Steel	physical	20	60	—
+Never misses.
+
+Magnetic Flux	Electric	status	20	—	—
+Raises the Defense and Special Defense of all friendly Pokémon with Plus or Minus by one stage.
+
+Magnet Rise	Electric	status	10	—	—
+User is immune to Ground moves and effects for five turns.
+
+Magnitude	Ground	physical	30	*	100%
+Power varies randomly from 10 to 150.
+
+Malicious Moonsault	Dark	physical	1	180	—
+Inflicts regular damage with no additional effect.
+
+Mat Block	Fighting	status	10	—	—
+Protects all friendly Pokémon from damaging moves. Only works on the first turn after the user is sent out.
+
+Mean Look	Normal	status	5	—	—
+Prevents the target from leaving battle.
+
+Meditate	Psychic	status	40	—	—
+Raises the user's Attack by one stage.
+
+Me First	Normal	status	20	—	—
+Uses the target's move against it before it attacks, with power increased by half.
+
+Mega Drain	Grass	special	15	40	100%
+Drains half the damage inflicted to heal the user.
+
+Megahorn	Bug	physical	10	120	85%
+Inflicts regular damage with no additional effect.
+
+Mega Kick	Normal	physical	5	120	75%
+Inflicts regular damage with no additional effect.
+
+Mega Punch	Normal	physical	20	80	85%
+Inflicts regular damage with no additional effect.
+
+Memento	Dark	status	10	—	100%
+Lowers the target's Attack and Special Attack by two stages. User faints.
+
+Menacing Moonraze Maelstrom	Ghost	special	1	200	—
+Cannot be disrupted by abilities.
+
+Metal Burst	Steel	physical	10	*	100%
+Strikes back at the last Pokémon to hit the user this turn with 1.5× the damage.
+
+Metal Claw	Steel	physical	35	50	95%
+Has a 10% chance to raise the user's Attack by one stage.
+
+Metal Sound	Steel	status	40	—	85%
+Lowers the target's Special Defense by two stages.
+
+Meteor Mash	Steel	physical	10	90	90%
+Has a 20% chance to raise the user's Attack by one stage.
+
+Metronome	Normal	status	10	—	—
+Randomly selects and uses any move in the game.
+
+Milk Drink	Normal	status	10	—	—
+Heals the user by half its max HP.
+
+Mimic	Normal	status	10	—	—
+Copies the target's last used move.
+
+Mind Blown	Fire	special	5	150	100%
+XXX new effect for mind-blown
+
+Mind Reader	Normal	status	5	—	—
+Ensures that the user's next move will hit the target.
+
+Minimize	Normal	status	10	—	—
+Raises the user's evasion by two stages.
+
+Miracle Eye	Psychic	status	40	—	—
+Forces the target to have no evasion, and allows it to be hit by Psychic moves even if it's Dark.
+
+Mirror Coat	Psychic	special	20	*	100%	-5
+Inflicts twice the damage the user received from the last special hit it took.
+
+Mirror Move	Flying	status	20	—	—
+Uses the target's last used move.
+
+Mirror Shot	Steel	special	10	65	85%
+Has a 30% chance to lower the target's accuracy by one stage.
+
+Mist	Ice	status	30	—	—
+Protects the user's stats from being changed by enemy moves.
+
+Mist Ball	Psychic	special	5	70	100%
+Has a 50% chance to lower the target's Special Attack by one stage.
+
+Misty Terrain	Fairy	status	10	—	—
+For five turns, protects all Pokémon on the ground from major status ailments and confusion, and halves the power of incoming Dragon moves.
+
+Moonblast	Fairy	special	15	95	100%
+Has a 30% chance to lower the target's Special Attack by one stage.
+
+Moongeist Beam	Ghost	special	5	100	100%
+Cannot be disrupted by abilities.
+
+Moonlight	Fairy	status	5	—	—
+Heals the user by half its max HP. Affected by weather.
+
+Morning Sun	Normal	status	5	—	—
+Heals the user by half its max HP. Affected by weather.
+
+Mud Bomb	Ground	special	10	65	85%
+Has a 30% chance to lower the target's accuracy by one stage.
+
+Muddy Water	Water	special	10	90	85%
+Has a 30% chance to lower the target's accuracy by one stage.
+
+Mud Shot	Ground	special	15	55	95%
+Has a 100% chance to lower the target's Speed by one stage.
+
+Mud-Slap	Ground	special	10	20	100%
+Has a 100% chance to lower the target's accuracy by one stage.
+
+Mud Sport	Ground	status	15	—	—
+Halves all Electric-type damage.
+
+Multi-Attack	Normal	physical	10	90	100%
+If the user is holding a appropriate plate or drive, the damage inflicted will match it.
+
+Mystical Fire	Fire	special	10	75	100%
+Has a 100% chance to lower the target's Special Attack by one stage.
+
+Nasty Plot	Dark	status	20	—	—
+Raises the user's Special Attack by two stages.
+
+Natural Gift	Normal	physical	15	*	100%
+Power and type depend on the held berry.
+
+Nature Power	Normal	status	20	—	—
+Uses a move which depends upon the terrain.
+
+Nature’s Madness	Fairy	special	10	*	90%
+Inflicts damage equal to half the target's HP.
+
+Needle Arm	Grass	physical	15	60	100%
+Has a 30% chance to make the target flinch.
+
+Never-Ending Nightmare	Ghost	physical	1	*	—
+Inflicts regular damage with no additional effect.
+
+Never-Ending Nightmare	Ghost	special	1	*	—
+Inflicts regular damage with no additional effect.
+
+Night Daze	Dark	special	10	85	95%
+Has a 40% chance to lower the target's accuracy by one stage.
+
+Nightmare	Ghost	status	15	—	100%
+Target loses 1/4 its max HP every turn as long as it's asleep.
+
+Night Shade	Ghost	special	15	*	100%
+Inflicts damage equal to the user's level.
+
+Night Slash	Dark	physical	15	70	100%
+Has an increased chance for a critical hit.
+
+Noble Roar	Normal	status	30	—	100%
+Lowers the target's Attack and Special Attack by one stage.
+
+Nuzzle	Electric	physical	20	20	100%
+Has a 100% chance to paralyze the target.
+
+Oblivion Wing	Flying	special	10	80	100%
+Drains 75% of the damage inflicted to heal the user.
+
+Oceanic Operetta	Water	special	1	195	—
+Inflicts regular damage with no additional effect.
+
+Octazooka	Water	special	10	65	85%
+Has a 50% chance to lower the target's accuracy by one stage.
+
+Odor Sleuth	Normal	status	40	—	—
+Forces the target to have no Evade, and allows it to be hit by Normal and Fighting moves even if it's a Ghost.
+
+Ominous Wind	Ghost	special	5	60	100%
+Has a 10% chance to raise all of the user's stats by one stage.
+
+Origin Pulse	Water	special	10	110	85%
+Inflicts regular damage with no additional effect.
+
+Outrage	Dragon	physical	10	120	100%
+Hits every turn for 2-3 turns, then confuses the user.
+
+Overheat	Fire	special	5	130	90%
+Lowers the user's Special Attack by two stages after inflicting damage.
+
+Pain Split	Normal	status	20	—	—
+Sets the user's and targets's HP to the average of their current HP.
+
+Parabolic Charge	Electric	special	20	65	100%
+Heals the user for half the total damage dealt to all targets.
+
+Parting Shot	Dark	status	20	—	100%
+Lowers all targets' Attack and Special Attack by one stage. Makes the user switch out.
+
+Payback	Dark	physical	10	50	100%
+Power is doubled if the target has already moved this turn.
+
+Pay Day	Normal	physical	20	40	100%
+Scatters money on the ground worth five times the user's level.
+
+Peck	Flying	physical	35	35	100%
+Inflicts regular damage with no additional effect.
+
+Perish Song	Normal	status	5	—	—
+User and target both faint after three turns.
+
+Petal Blizzard	Grass	physical	15	90	100%
+Inflicts regular damage.
+
+Petal Dance	Grass	special	10	120	100%
+Hits every turn for 2-3 turns, then confuses the user.
+
+Phantom Force	Ghost	physical	10	90	100%
+User vanishes, dodging all attacks, and hits next turn. Hits through Protect and Detect.
+
+Photon Geyser	Psychic	special	5	100	100%
+Inflicts regular damage with no additional effect.
+
+Pin Missile	Bug	physical	20	25	95%
+Hits 2-5 times in one turn.
+
+Plasma Fists	Electric	physical	15	100	100%
+Inflicts regular damage with no additional effect.
+
+Play Nice	Normal	status	20	—	—
+Lowers the target's Attack by one stage.
+
+Play Rough	Fairy	physical	10	90	90%
+Has a 10% chance to lower the target's Attack by one stage.
+
+Pluck	Flying	physical	20	60	100%
+If target has a berry, inflicts double damage and uses the berry.
+
+Poison Fang	Poison	physical	15	50	100%
+Has a 50% chance to badly poison the target.
+
+Poison Gas	Poison	status	40	—	90%
+Poisons the target.
+
+Poison Jab	Poison	physical	20	80	100%
+Has a 30% chance to poison the target.
+
+Poison Powder	Poison	status	35	—	75%
+Poisons the target.
+
+Poison Sting	Poison	physical	35	15	100%
+Has a 30% chance to poison the target.
+
+Poison Tail	Poison	physical	25	50	100%
+Has an increased chance for a critical hit and a 10% chance to poison the target.
+
+Pollen Puff	Bug	special	15	90	100%
+Damages opponents, but heals allies for 50% of their max HP.
+
+Pound	Normal	physical	35	40	100%
+Inflicts regular damage with no additional effect.
+
+Powder	Bug	status	20	—	100%	1
+Explodes if the target uses a Fire move this turn, damaging it for 1/4 its max HP and preventing the move.
+
+Powder Snow	Ice	special	25	40	100%
+Has a 10% chance to freeze the target.
+
+Power Gem	Rock	special	20	80	100%
+Inflicts regular damage with no additional effect.
+
+Power Split	Psychic	status	10	—	—
+Averages Attack and Special Attack with the target.
+
+Power Swap	Psychic	status	10	—	—
+User swaps Attack and Special Attack changes with the target.
+
+Power Trick	Psychic	status	10	—	—
+User swaps Attack and Defense.
+
+Power Trip	Dark	physical	10	20	100%
+Power is higher the more the user's stats have been raised, to a maximum of 31×.
+
+Power-Up Punch	Fighting	physical	20	40	100%
+Raises the user's Attack by one stage after inflicting damage.
+
+Power Whip	Grass	physical	10	120	85%
+Inflicts regular damage with no additional effect.
+
+Precipice Blades	Ground	physical	10	120	85%
+Inflicts regular damage with no additional effect.
+
+Present	Normal	physical	15	*	90%
+Randomly inflicts damage with power from 40 to 120 or heals the target for 1/4 its max HP.
+
+Prismatic Laser	Psychic	special	10	160	100%
+User foregoes its next turn to recharge.
+
+Protect	Normal	status	10	—	—	4
+Prevents any moves from hitting the user this turn.
+
+Psybeam	Psychic	special	20	65	100%
+Has a 10% chance to confuse the target.
+
+Psychic	Psychic	special	10	90	100%
+Has a 10% chance to lower the target's Special Defense by one stage.
+
+Psychic Fangs	Psychic	physical	10	85	100%
+Destroys Reflect and Light Screen.
+
+Psychic Terrain	Psychic	status	10	—	—
+Protects Pokémon on the ground from priority moves and increases the power of their Psychic moves by 50%.
+
+Psycho Boost	Psychic	special	5	140	90%
+Lowers the user's Special Attack by two stages after inflicting damage.
+
+Psycho Cut	Psychic	physical	20	70	100%
+Has an increased chance for a critical hit.
+
+Psycho Shift	Psychic	status	10	—	100%
+Transfers the user's major status effect to the target.
+
+Psych Up	Normal	status	10	—	—
+Discards the user's stat changes and copies the target's.
+
+Psyshock	Psychic	special	10	80	100%
+Inflicts damage based on the target's Defense, not Special Defense.
+
+Psystrike	Psychic	special	10	100	100%
+Inflicts damage based on the target's Defense, not Special Defense.
+
+Psywave	Psychic	special	15	*	100%
+Inflicts damage between 50% and 150% of the user's level.
+
+Pulverizing Pancake	Normal	physical	1	210	—
+Inflicts regular damage with no additional effect.
+
+Punishment	Dark	physical	5	*	100%
+Power increases against targets with more raised stats, up to a maximum of 200.
+
+Purify	Poison	status	20	—	—
+Cures the target of a major status ailment and heals the user for 50% of its max HP.
+
+Pursuit	Dark	physical	20	40	100%
+Has double power against, and can hit, Pokémon attempting to switch out.
+
+Quash	Dark	status	15	—	100%
+Makes the target act last this turn.
+
+Quick Attack	Normal	physical	30	40	100%	1
+Inflicts regular damage with no additional effect.
+
+Quick Guard	Fighting	status	15	—	—	3
+Prevents any priority moves from hitting friendly Pokémon this turn.
+
+Quiver Dance	Bug	status	20	—	—
+Raises the user's Special Attack, Special Defense, and Speed by one stage each.
+
+Rage	Normal	physical	20	20	100%
+If the user is hit after using this move, its Attack rises by one stage.
+
+Rage Powder	Bug	status	20	—	—	2
+Redirects the target's single-target effects to the user for this turn.
+
+Rain Dance	Water	status	5	—	—
+Changes the weather to rain for five turns.
+
+Rapid Spin	Normal	physical	40	20	100%
+Frees the user from binding moves, removes Leech Seed, and blows away Spikes.
+
+Razor Leaf	Grass	physical	25	55	95%
+Has an increased chance for a critical hit.
+
+Razor Shell	Water	physical	10	75	95%
+Has a 50% chance to lower the target's Defense by one stage.
+
+Razor Wind	Normal	special	10	80	100%
+Requires a turn to charge before attacking.
+
+Recover	Normal	status	10	—	—
+Heals the user by half its max HP.
+
+Recycle	Normal	status	10	—	—
+User recovers the item it last used up.
+
+Reflect	Psychic	status	20	—	—
+Reduces damage from physical attacks by half.
+
+Reflect Type	Normal	status	15	—	—
+User becomes the target's type.
+
+Refresh	Normal	status	20	—	—
+Cleanses the user of a burn, paralysis, or poison.
+
+Relic Song	Normal	special	10	75	100%
+Has a 10% chance to put the target to sleep.
+
+Rest	Psychic	status	10	—	—
+User sleeps for two turns, completely healing itself.
+
+Retaliate	Normal	physical	5	70	100%
+Has double power if a friendly Pokémon fainted last turn.
+
+Return	Normal	physical	20	*	100%
+Power increases with happiness, up to a maximum of 102.
+
+Revelation Dance	Normal	special	15	90	100%
+Has the same type as the user.
+
+Revenge	Fighting	physical	10	60	100%	-4
+Inflicts double damage if the user takes damage before attacking this turn.
+
+Reversal	Fighting	physical	15	*	100%
+Inflicts more damage when the user has less HP remaining, with a maximum of 200 power.
+
+Roar	Normal	status	20	—	—	-6
+Immediately ends wild battles. Forces trainers to switch Pokémon.
+
+Roar of Time	Dragon	special	5	150	90%
+User foregoes its next turn to recharge.
+
+Rock Blast	Rock	physical	10	25	90%
+Hits 2-5 times in one turn.
+
+Rock Climb	Normal	physical	20	90	85%
+Has a 20% chance to confuse the target.
+
+Rock Polish	Rock	status	20	—	—
+Raises the user's Speed by two stages.
+
+Rock Slide	Rock	physical	10	75	90%
+Has a 30% chance to make the target flinch.
+
+Rock Smash	Fighting	physical	15	40	100%
+Has a 50% chance to lower the target's Defense by one stage.
+
+Rock Throw	Rock	physical	15	50	90%
+Inflicts regular damage with no additional effect.
+
+Rock Tomb	Rock	physical	15	60	95%
+Has a 100% chance to lower the target's Speed by one stage.
+
+Rock Wrecker	Rock	physical	5	150	90%
+User foregoes its next turn to recharge.
+
+Role Play	Psychic	status	10	—	—
+Copies the target's ability.
+
+Rolling Kick	Fighting	physical	15	60	85%
+Has a 30% chance to make the target flinch.
+
+Rollout	Rock	physical	20	30	90%
+Power doubles every turn this move is used in succession after the first, resetting after five turns.
+
+Roost	Flying	status	10	—	—
+Heals the user by half its max HP.
+
+Rototiller	Ground	status	10	—	—
+Raises the Attack and Special Attack of all Grass Pokémon in battle.
+
+Round	Normal	special	15	60	100%
+Has double power if it's used more than once per turn.
+
+Sacred Fire	Fire	physical	5	100	95%
+Has a 50% chance to burn the target. Lets frozen Pokémon thaw themselves.
+
+Sacred Sword	Fighting	physical	15	90	100%
+Ignores the target's stat modifiers.
+
+Safeguard	Normal	status	25	—	—
+Protects the user's field from major status ailments and confusion for five turns.
+
+Sand Attack	Ground	status	15	—	100%
+Lowers the target's accuracy by one stage.
+
+Sandstorm	Rock	status	10	—	—
+Changes the weather to a sandstorm for five turns.
+
+Sand Tomb	Ground	physical	15	35	85%
+Prevents the target from fleeing and inflicts damage for 2-5 turns.
+
+Savage Spin-Out	Bug	physical	1	*	—
+Inflicts regular damage with no additional effect.
+
+Savage Spin-Out	Bug	special	1	*	—
+Inflicts regular damage with no additional effect.
+
+Scald	Water	special	15	80	100%
+Has a 30% chance to burn the target.
+
+Scary Face	Normal	status	10	—	100%
+Lowers the target's Speed by two stages.
+
+Scratch	Normal	physical	35	40	100%
+Inflicts regular damage with no additional effect.
+
+Screech	Normal	status	40	—	85%
+Lowers the target's Defense by two stages.
+
+Searing Shot	Fire	special	5	100	100%
+Has a 30% chance to burn the target.
+
+Searing Sunraze Smash	Steel	physical	1	200	—
+Cannot be disrupted by abilities.
+
+Secret Power	Normal	physical	20	70	100%
+Has a 30% chance to inflict a status effect which depends upon the terrain.
+
+Secret Sword	Fighting	special	10	85	100%
+Inflicts damage based on the target's Defense, not Special Defense.
+
+Seed Bomb	Grass	physical	15	80	100%
+Inflicts regular damage with no additional effect.
+
+Seed Flare	Grass	special	5	120	85%
+Has a 40% chance to lower the target's Special Defense by two stages.
+
+Seismic Toss	Fighting	physical	20	*	100%
+Inflicts damage equal to the user's level.
+
+Self-Destruct	Normal	physical	5	200	100%
+User faints.
+
+Shadow Ball	Ghost	special	15	80	100%
+Has a 20% chance to lower the target's Special Defense by one stage.
+
+Shadow Bone	Ghost	physical	10	85	100%
+Has a 20% chance to lower the target's Defense by one stage.
+
+Shadow Claw	Ghost	physical	15	70	100%
+Has an increased chance for a critical hit.
+
+Shadow Force	Ghost	physical	5	120	100%
+User vanishes, dodging all attacks, and hits next turn. Hits through Protect and Detect.
+
+Shadow Punch	Ghost	physical	20	60	—
+Never misses.
+
+Shadow Sneak	Ghost	physical	30	40	100%	1
+Inflicts regular damage with no additional effect.
+
+Sharpen	Normal	status	30	—	—
+Raises the user's Attack by one stage.
+
+Shattered Psyche	Psychic	physical	1	*	—
+Inflicts regular damage with no additional effect.
+
+Shattered Psyche	Psychic	special	1	*	—
+Inflicts regular damage with no additional effect.
+
+Sheer Cold	Ice	special	5	*	30%
+Causes a one-hit KO.
+
+Shell Smash	Normal	status	15	—	—
+Raises user's Attack, Special Attack, and Speed by two stages. Lower user's Defense and Special Defense by one stage.
+
+Shell Trap	Fire	special	5	150	100%	-3
+Only inflicts damage if the user was hit by a physical move this turn.
+
+Shift Gear	Steel	status	10	—	—
+Raises the user's Attack by one stage and its Speed by two stages.
+
+Shock Wave	Electric	special	20	60	—
+Never misses.
+
+Shore Up	Ground	status	10	—	—
+Heals the user for ½ its max HP, or ⅔ during a sandstorm.
+
+Signal Beam	Bug	special	15	75	100%
+Has a 10% chance to confuse the target.
+
+Silver Wind	Bug	special	5	60	100%
+Has a 10% chance to raise all of the user's stats by one stage.
+
+Simple Beam	Normal	status	15	—	100%
+Changes the target's ability to Simple.
+
+Sing	Normal	status	15	—	55%
+Puts the target to sleep.
+
+Sinister Arrow Raid	Ghost	physical	1	180	—
+Inflicts regular damage with no additional effect.
+
+Sketch	Normal	status	1	—	—
+Permanently becomes the target's last used move.
+
+Skill Swap	Psychic	status	10	—	—
+User and target swap abilities.
+
+Skull Bash	Normal	physical	10	130	100%
+Raises the user's Defense by one stage. User charges for one turn before attacking.
+
+Sky Attack	Flying	physical	5	140	90%
+User charges for one turn before attacking. Has a 30% chance to make the target flinch.
+
+Sky Drop	Flying	physical	10	60	100%
+Carries the target high into the air, dodging all attacks against either, and drops it next turn.
+
+Sky Uppercut	Fighting	physical	15	85	90%
+Inflicts regular damage and can hit Bounce and Fly users.
+
+Slack Off	Normal	status	10	—	—
+Heals the user by half its max HP.
+
+Slam	Normal	physical	20	80	75%
+Inflicts regular damage with no additional effect.
+
+Slash	Normal	physical	20	70	100%
+Has an increased chance for a critical hit.
+
+Sleep Powder	Grass	status	15	—	75%
+Puts the target to sleep.
+
+Sleep Talk	Normal	status	10	—	—
+Randomly uses one of the user's other three moves. Only works if the user is sleeping.
+
+Sludge	Poison	special	20	65	100%
+Has a 30% chance to poison the target.
+
+Sludge Bomb	Poison	special	10	90	100%
+Has a 30% chance to poison the target.
+
+Sludge Wave	Poison	special	10	95	100%
+Has a 10% chance to poison the target.
+
+Smack Down	Rock	physical	15	50	100%
+Removes any immunity to Ground damage.
+
+Smart Strike	Steel	physical	10	70	—
+Never misses.
+
+Smelling Salts	Normal	physical	10	70	100%
+If the target is paralyzed, inflicts double damage and cures the paralysis.
+
+Smog	Poison	special	20	30	70%
+Has a 40% chance to poison the target.
+
+Smokescreen	Normal	status	20	—	100%
+Lowers the target's accuracy by one stage.
+
+Snarl	Dark	special	15	55	95%
+Has a 100% chance to lower the target's Special Attack by one stage.
+
+Snatch	Dark	status	10	—	—	4
+Steals the target's move, if it's self-targeted.
+
+Snore	Normal	special	15	50	100%
+Has a 30% chance to make the target flinch. Only works if the user is sleeping.
+
+Soak	Water	status	20	—	100%
+Changes the target's type to Water.
+
+Soft-Boiled	Normal	status	10	—	—
+Heals the user by half its max HP.
+
+Solar Beam	Grass	special	10	120	100%
+Requires a turn to charge before attacking.
+
+Solar Blade	Grass	physical	10	125	100%
+Requires a turn to charge before attacking.
+
+Sonic Boom	Normal	special	20	*	90%
+Inflicts 20 points of damage.
+
+Soul-Stealing 7-Star Strike	Ghost	physical	1	195	—
+Inflicts regular damage with no additional effect.
+
+Spacial Rend	Dragon	special	5	100	95%
+Has an increased chance for a critical hit.
+
+Spark	Electric	physical	20	65	100%
+Has a 30% chance to paralyze the target.
+
+Sparkling Aria	Water	special	10	90	100%
+Cures the target of burns.
+
+Spectral Thief	Ghost	physical	10	90	100%
+Steals the target's stat increases, then inflicts damage.
+
+Speed Swap	Psychic	status	10	—	—
+Exchanges the user's Speed with the target's.
+
+Spider Web	Bug	status	10	—	—
+Prevents the target from leaving battle.
+
+Spike Cannon	Normal	physical	15	20	100%
+Hits 2-5 times in one turn.
+
+Spikes	Ground	status	20	—	—
+Scatters Spikes, hurting opposing Pokémon that switch in.
+
+Spiky Shield	Grass	status	10	—	—	4
+Blocks damaging attacks and damages attacking Pokémon for 1/8 their max HP.
+
+Spirit Shackle	Ghost	physical	10	80	100%
+Traps the target.
+
+Spite	Ghost	status	10	—	100%
+Lowers the PP of the target's last used move by 4.
+
+Spit Up	Normal	special	10	*	100%
+Power is 100 times the amount of energy Stockpiled.
+
+Splash	Normal	status	40	—	—
+Does nothing.
+
+Splintered Stormshards	Rock	physical	1	190	—
+XXX new effect for splintered-stormshards
+
+Spore	Grass	status	15	—	100%
+Puts the target to sleep.
+
+Spotlight	Normal	status	15	—	—	3
+Forces the target's opponents to aim at the target for the rest of the turn.
+
+Stealth Rock	Rock	status	20	—	—
+Causes damage when opposing Pokémon switch in.
+
+Steam Eruption	Water	special	5	110	95%
+Has a 30% chance to burn the target.
+
+Steamroller	Bug	physical	20	65	100%
+Has a 30% chance to make the target flinch.
+
+Steel Wing	Steel	physical	25	70	90%
+Has a 10% chance to raise the user's Defense by one stage.
+
+Sticky Web	Bug	status	20	—	—
+Covers the opposing field, lowering opponents' Speed by one stage upon switching in.
+
+Stockpile	Normal	status	20	—	—
+Stores energy up to three times for use with Spit Up and Swallow.
+
+Stoked Sparksurfer	Electric	special	1	175	—
+Has a 100% chance to paralyze the target.
+
+Stomp	Normal	physical	20	65	100%
+Has a 30% chance to make the target flinch.
+
+Stomping Tantrum	Ground	physical	10	75	100%
+Has double power if the user's last move failed.
+
+Stone Edge	Rock	physical	5	100	80%
+Has an increased chance for a critical hit.
+
+Stored Power	Psychic	special	10	20	100%
+Power is higher the more the user's stats have been raised, to a maximum of 31×.
+
+Storm Throw	Fighting	physical	10	60	100%
+Always scores a critical hit.
+
+Strength	Normal	physical	15	80	100%
+Inflicts regular damage with no additional effect.
+
+Strength Sap	Grass	status	10	—	100%
+Heals the user by the target's current Attack stat and lowers the target's Attack by one stage.
+
+String Shot	Bug	status	40	—	95%
+Lowers the target's Speed by two stages.
+
+Struggle	Normal	physical	1	50	—
+User takes 1/4 its max HP in recoil.
+
+Struggle Bug	Bug	special	20	50	100%
+Has a 100% chance to lower the target's Special Attack by one stage.
+
+Stun Spore	Grass	status	30	—	75%
+Paralyzes the target.
+
+Submission	Fighting	physical	20	80	80%
+User receives 1/4 the damage it inflicts in recoil.
+
+Substitute	Normal	status	10	—	—
+Transfers 1/4 of the user's max HP into a doll, protecting the user from further damage or status changes until it breaks.
+
+Subzero Slammer	Ice	physical	1	*	—
+Inflicts regular damage with no additional effect.
+
+Subzero Slammer	Ice	special	1	*	—
+Inflicts regular damage with no additional effect.
+
+Sucker Punch	Dark	physical	5	70	100%	1
+Only works if the target is about to use a damaging move.
+
+Sunny Day	Fire	status	5	—	—
+Changes the weather to sunny for five turns.
+
+Sunsteel Strike	Steel	physical	5	100	100%
+Cannot be disrupted by abilities.
+
+Super Fang	Normal	physical	10	*	90%
+Inflicts damage equal to half the target's HP.
+
+Superpower	Fighting	physical	5	120	100%
+Lowers the user's Attack and Defense by one stage after inflicting damage.
+
+Supersonic	Normal	status	20	—	55%
+Confuses the target.
+
+Supersonic Skystrike	Flying	physical	1	*	—
+Inflicts regular damage with no additional effect.
+
+Supersonic Skystrike	Flying	special	1	*	—
+Inflicts regular damage with no additional effect.
+
+Surf	Water	special	15	90	100%
+Inflicts regular damage and can hit Dive users.
+
+Swagger	Normal	status	15	—	85%
+Raises the target's Attack by two stages and confuses the target.
+
+Swallow	Normal	status	10	—	—
+Recovers 1/4 HP after one Stockpile, 1/2 HP after two Stockpiles, or full HP after three Stockpiles.
+
+Sweet Kiss	Fairy	status	10	—	75%
+Confuses the target.
+
+Sweet Scent	Normal	status	20	—	100%
+Lowers the target's evasion by one stage.
+
+Swift	Normal	special	20	60	—
+Never misses.
+
+Switcheroo	Dark	status	10	—	100%
+User and target swap items.
+
+Swords Dance	Normal	status	20	—	—
+Raises the user's Attack by two stages.
+
+Synchronoise	Psychic	special	10	120	100%
+Hits any Pokémon that shares a type with the user.
+
+Synthesis	Grass	status	5	—	—
+Heals the user by half its max HP. Affected by weather.
+
+Tackle	Normal	physical	35	40	100%
+Inflicts regular damage with no additional effect.
+
+Tail Glow	Bug	status	20	—	—
+Raises the user's Special Attack by three stages.
+
+Tail Slap	Normal	physical	10	25	85%
+Hits 2-5 times in one turn.
+
+Tail Whip	Normal	status	30	—	100%
+Lowers the target's Defense by one stage.
+
+Tailwind	Flying	status	15	—	—
+For three turns, friendly Pokémon have doubled Speed.
+
+Take Down	Normal	physical	20	90	85%
+User receives 1/4 the damage it inflicts in recoil.
+
+Taunt	Dark	status	20	—	100%
+For the next few turns, the target can only use damaging moves.
+
+Tearful Look	Normal	status	20	—	—
+Lowers the target's Attack and Special Attack by one stage.
+
+Techno Blast	Normal	special	5	120	100%
+If the user is holding a appropriate plate or drive, the damage inflicted will match it.
+
+Tectonic Rage	Ground	physical	1	*	—
+Inflicts regular damage with no additional effect.
+
+Tectonic Rage	Ground	special	1	*	—
+Inflicts regular damage with no additional effect.
+
+Teeter Dance	Normal	status	20	—	100%
+Confuses the target.
+
+Telekinesis	Psychic	status	15	—	—
+Moves have 100% accuracy against the target for three turns.
+
+Teleport	Psychic	status	20	—	—
+Immediately ends wild battles. No effect otherwise.
+
+Thief	Dark	physical	25	60	100%
+Takes the target's item.
+
+Thousand Arrows	Ground	physical	10	90	100%
+Grounds the target, and hits even Flying-type or levitating Pokémon.
+
+Thousand Waves	Ground	physical	10	90	100%
+Prevents the target from leaving battle.
+
+Thrash	Normal	physical	10	120	100%
+Hits every turn for 2-3 turns, then confuses the user.
+
+Throat Chop	Dark	physical	15	80	100%
+Prevents the target from using sound-based moves for two turns.
+
+Thunder	Electric	special	10	110	70%
+Has a 30% chance to paralyze the target.
+
+Thunderbolt	Electric	special	15	90	100%
+Has a 10% chance to paralyze the target.
+
+Thunder Fang	Electric	physical	15	65	95%
+Has a 10% chance to paralyze the target and a 10% chance to make the target flinch.
+
+Thunder Punch	Electric	physical	15	75	100%
+Has a 10% chance to paralyze the target.
+
+Thunder Shock	Electric	special	30	40	100%
+Has a 10% chance to paralyze the target.
+
+Thunder Wave	Electric	status	20	—	90%
+Paralyzes the target.
+
+Tickle	Normal	status	20	—	100%
+Lowers the target's Attack and Defense by one stage.
+
+Topsy-Turvy	Dark	status	20	—	—
+Inverts the target's stat modifiers.
+
+Torment	Dark	status	15	—	100%
+Prevents the target from using the same move twice in a row.
+
+Toxic	Poison	status	10	—	90%
+Badly poisons the target, inflicting more damage every turn.
+
+Toxic Spikes	Poison	status	20	—	—
+Scatters poisoned spikes, poisoning opposing Pokémon that switch in.
+
+Toxic Thread	Poison	status	20	—	100%
+Poisons the target and lowers its Speed by one stage.
+
+Transform	Normal	status	10	—	—
+User becomes a copy of the target until it leaves battle.
+
+Tri Attack	Normal	special	10	80	100%
+Has a 20% chance to burn, freeze, or paralyze the target.
+
+Trick	Psychic	status	10	—	100%
+User and target swap items.
+
+Trick-or-Treat	Ghost	status	20	—	100%
+Adds Ghost to the target's types.
+
+Trick Room	Psychic	status	5	—	—	-7
+For five turns, slower Pokémon will act before faster Pokémon.
+
+Triple Kick	Fighting	physical	10	10	90%
+Hits three times, increasing power by 100% with each successful hit.
+
+Trop Kick	Grass	physical	15	70	100%
+Lowers the target's Attack by one stage after inflicting damage.
+
+Trump Card	Normal	special	5	*	—
+Power increases when this move has less PP, up to a maximum of 200.
+
+Twineedle	Bug	physical	20	25	100%
+Hits twice in the same turn. Has a 20% chance to poison the target.
+
+Twinkle Tackle	Fairy	physical	1	*	—
+Inflicts regular damage with no additional effect.
+
+Twinkle Tackle	Fairy	special	1	*	—
+Inflicts regular damage with no additional effect.
+
+Twister	Dragon	special	20	40	100%
+Has a 20% chance to make the target flinch.
+
+Uproar	Normal	special	10	90	100%
+Forced to use this move for several turns. Pokémon cannot fall asleep in that time.
+
+U-turn	Bug	physical	20	70	100%
+User must switch out after attacking.
+
+Vacuum Wave	Fighting	special	30	40	100%	1
+Inflicts regular damage with no additional effect.
+
+V-create	Fire	physical	5	180	95%
+Lowers the user's Defense, Special Defense, and Speed by one stage each.
+
+Venom Drench	Poison	status	20	—	100%
+Lowers the target's Attack, Special Attack, and Speed by one stage if it is poisoned.
+
+Venoshock	Poison	special	10	65	100%
+Inflicts double damage if the target is Poisoned.
+
+Vice Grip	Normal	physical	30	55	100%
+Inflicts regular damage with no additional effect.
+
+Vine Whip	Grass	physical	25	45	100%
+Inflicts regular damage with no additional effect.
+
+Vital Throw	Fighting	physical	10	70	—	-1
+Never misses.
+
+Volt Switch	Electric	special	20	70	100%
+User must switch out after attacking.
+
+Volt Tackle	Electric	physical	15	120	100%
+User takes 1/3 the damage inflicted in recoil. Has a 10% chance to paralyze the target.
+
+Wake-Up Slap	Fighting	physical	10	70	100%
+If the target is asleep, has double power and wakes it up.
+
+Waterfall	Water	physical	15	80	100%
+Has a 20% chance to make the target flinch.
+
+Water Gun	Water	special	25	40	100%
+Inflicts regular damage with no additional effect.
+
+Water Pledge	Water	special	10	80	100%
+With Grass Pledge, halves opposing Pokémon's Speed for four turns.
+
+Water Pulse	Water	special	20	60	100%
+Has a 20% chance to confuse the target.
+
+Water Shuriken	Water	special	20	15	100%	1
+Hits 2–5 times.
+
+Water Sport	Water	status	15	—	—
+Halves all Fire-type damage.
+
+Water Spout	Water	special	5	150	100%
+Inflicts more damage when the user has more HP remaining, with a maximum of 150 power.
+
+Weather Ball	Normal	special	10	50	100%
+If there be weather, this move has doubled power and the weather's type.
+
+Whirlpool	Water	special	15	35	85%
+Prevents the target from leaving battle and inflicts 1/16 its max HP in damage for 2-5 turns.
+
+Whirlwind	Normal	status	20	—	—	-6
+Immediately ends wild battles. Forces trainers to switch Pokémon.
+
+Wide Guard	Rock	status	10	—	—	3
+Prevents any multi-target moves from hitting friendly Pokémon this turn.
+
+Wild Charge	Electric	physical	15	90	100%
+User receives 1/4 the damage it inflicts in recoil.
+
+Will-O-Wisp	Fire	status	15	—	85%
+Burns the target.
+
+Wing Attack	Flying	physical	35	60	100%
+Inflicts regular damage with no additional effect.
+
+Wish	Normal	status	10	—	—
+User will recover half its max HP at the end of the next turn.
+
+Withdraw	Water	status	40	—	—
+Raises the user's Defense by one stage.
+
+Wonder Room	Psychic	status	10	—	—
+All Pokémon's Defense and Special Defense are swapped for 5 turns.
+
+Wood Hammer	Grass	physical	15	120	100%
+User receives 1/3 the damage inflicted in recoil.
+
+Work Up	Normal	status	30	—	—
+Raises the user's Attack and Special Attack by one stage each.
+
+Worry Seed	Grass	status	10	—	100%
+Changes the target's ability to Insomnia.
+
+Wrap	Normal	physical	20	15	90%
+Prevents the target from fleeing and inflicts damage for 2-5 turns.
+
+Wring Out	Normal	special	5	*	100%
+Power increases against targets with more HP remaining, up to a maximum of 121 power.
+
+X-Scissor	Bug	physical	15	80	100%
+Inflicts regular damage with no additional effect.
+
+Yawn	Normal	status	10	—	—
+Target sleeps at the end of the next turn.
+
+Zap Cannon	Electric	special	5	120	50%
+Has a 100% chance to paralyze the target.
+
+Zen Headbutt	Psychic	physical	15	80	90%
+Has a 20% chance to make the target flinch.
+
+Zing Zap	Electric	physical	10	80	100%
+Has a 30% chance to make the target flinch.

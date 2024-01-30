@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<!-- version 1 -->
+<title>battle-gen8randombattle-87158</title>
+<style>
+    html,
+    body {
+        font-family: Verdana, sans-serif;
+        font-size: 10pt;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        padding: 12px 0;
+    }
+
+    .battle-log {
+        font-family: Verdana, sans-serif;
+        font-size: 10pt;
+    }
+
+    .battle-log-inline {
+        border: 1px solid #AAAAAA;
+        background: #EEF2F5;
+        color: black;
+        max-width: 640px;
+        margin: 0 auto 80px;
+        padding-bottom: 5px;
+    }
+
+    .battle-log .inner {
+        padding: 4px 8px 0px 8px;
+    }
+
+    .battle-log .inner-preempt {
+        padding: 0 8px 4px 8px;
+    }
+
+    .battle-log .inner-after {
+        margin-top: 0.5em;
+    }
+
+    .battle-log h2 {
+        margin: 0.5em -8px;
+        padding: 4px 8px;
+        border: 1px solid #AAAAAA;
+        background: #E0E7EA;
+        border-left: 0;
+        border-right: 0;
+        font-family: Verdana, sans-serif;
+        font-size: 13pt;
+    }
+
+    .backprop {
+        top: 0;
+    }
+
+    .battle-log .chat {
+        vertical-align: middle;
+        padding: 3px 0 3px 0;
+        font-size: 8pt;
+    }
+
+    .battle-log .chat strong {
+        color: #40576A;
+    }
+
+    .battle-log .chat em {
+        padding: 1px 4px 1px 3px;
+        color: #000000;
+        font-style: normal;
+    }
+
+    .chat.mine {
+        background: rgba(0, 0, 0, 0.05);
+        margin-left: -8px;
+        margin-right: -8px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .spoiler {
+        color: #BBBBBB;
+        background: #BBBBBB;
+        padding: 0px 3px;
+    }
+
+    .spoiler:hover,
+    .spoiler:active,
+    .spoiler-shown {
+        color: #000000;
+        background: #E2E2E2;
+        padding: 0px 3px;
+    }
+
+    .spoiler a {
+        color: #BBBBBB;
+    }
+
+    .spoiler:hover a,
+    .spoiler:active a,
+    .spoiler-shown a {
+        color: #2288CC;
+    }
+
+    .chat code,
+    .chat .spoiler:hover code,
+    .chat .spoiler:active code,
+    .chat .spoiler-shown code {
+        border: 1px solid #C0C0C0;
+        background: #EEEEEE;
+        color: black;
+        padding: 0 2px;
+    }
+
+    .chat .spoiler code {
+        border: 1px solid #CCCCCC;
+        background: #CCCCCC;
+        color: #CCCCCC;
+    }
+
+    .battle-log .rated {
+        padding: 3px 4px;
+    }
+
+    .battle-log .rated strong {
+        color: white;
+        background: #89A;
+        padding: 1px 4px;
+        border-radius: 4px;
+    }
+
+    .spacer {
+        margin-top: 0.5em;
+    }
+
+    .message-announce {
+        background: #6688AA;
+        color: white;
+        padding: 1px 4px 2px;
+    }
+
+    .message-announce a,
+    .broadcast-green a,
+    .broadcast-blue a,
+    .broadcast-red a {
+        color: #DDEEFF;
+    }
+
+    .broadcast-green {
+        background-color: #559955;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .broadcast-blue {
+        background-color: #6688AA;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .infobox {
+        border: 1px solid #6688AA;
+        padding: 2px 4px;
+    }
+
+    .infobox-limited {
+        max-height: 200px;
+        overflow: auto;
+        overflow-x: hidden;
+    }
+
+    .broadcast-red {
+        background-color: #AA5544;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .message-learn-canlearn {
+        font-weight: bold;
+        color: #228822;
+        text-decoration: underline;
+    }
+
+    .message-learn-cannotlearn {
+        font-weight: bold;
+        color: #CC2222;
+        text-decoration: underline;
+    }
+
+    .message-effect-weak {
+        font-weight: bold;
+        color: #CC2222;
+    }
+
+    .message-effect-resist {
+        font-weight: bold;
+        color: #6688AA;
+    }
+
+    .message-effect-immune {
+        font-weight: bold;
+        color: #666666;
+    }
+
+    .message-learn-list {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .message-throttle-notice,
+    .message-error {
+        color: #992222;
+    }
+
+    .message-overflow,
+    .chat small.message-overflow {
+        font-size: 0pt;
+    }
+
+    .message-overflow::before {
+        font-size: 9pt;
+        content: '...';
+    }
+
+    .subtle {
+        color: #3A4A66;
+    }
+</style>
+<div class="wrapper replay-wrapper" style="max-width:1180px;margin:0 auto">
+    <input type="hidden" name="replayid" value="unregisteredserver-gen8randombattle-320064" />
+    <div class="battle"></div>
+    <div class="battle-log"></div>
+    <div class="replay-controls"></div>
+    <div class="replay-controls-2"></div>
+    <h1 style="font-weight:normal;text-align:center"><strong>poke-env battle replay</strong><br />battle-gen8randombattle-87158<br /><a
+            href="http://pokemonshowdown.com/users/randomplayer1" class="subtle" target="_blank">PokeLLM</a>
+        vs. <a href="http://pokemonshowdown.com/users/randomplayer2" class="subtle"
+            target="_blank">BayiHu</a></h1>
+    <script type="text/plain" class="battle-log-data">
+    >battle-gen8randombattle-87158|init|battle
+|title|BayiHu vs. PokeLLM
+|j|☆BayiHu
+|j|☆PokeLLM
+|gametype|singles
+|player|p1|BayiHu|101|1190
+|player|p2|PokeLLM|169|1325
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Illusion Level Mod: Illusion disguises the Pokémon's true level
+|start
+|switch|p1a: Mawile|Mawile, L87, F|100/100
+|switch|p2a: Abomasnow|Abomasnow, L82, M|282/282
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|turn|1
+|switch|p2a: Aggron|Aggron, L86, F|261/261
+|-item|p2a: Aggron|Air Balloon
+|move|p1a: Mawile|Swords Dance|p1a: Mawile
+|-boost|p1a: Mawile|atk|2
+|-weather|Hail|[upkeep]
+|-damage|p1a: Mawile|94/100|[from] Hail
+|-damage|p2a: Aggron|245/261|[from] Hail
+|upkeep
+|turn|2
+|move|p1a: Mawile|Sucker Punch|p2a: Aggron
+|-damage|p2a: Aggron|180/261
+|-enditem|p2a: Aggron|Air Balloon
+|-damage|p1a: Mawile|85/100|[from] item: Life Orb
+|move|p2a: Aggron|Earthquake|p1a: Mawile
+|-supereffective|p1a: Mawile
+|-damage|p1a: Mawile|15/100
+|-weather|Hail|[upkeep]
+|-damage|p1a: Mawile|9/100|[from] Hail
+|-damage|p2a: Aggron|164/261|[from] Hail
+|upkeep
+|turn|3
+|move|p1a: Mawile|Iron Head|p2a: Aggron
+|-damage|p2a: Aggron|22/261
+|move|p2a: Aggron|Earthquake|p1a: Mawile
+|-supereffective|p1a: Mawile
+|-damage|p1a: Mawile|0 fnt
+|faint|p1a: Mawile
+|-weather|Hail|[upkeep]
+|-damage|p2a: Aggron|6/261|[from] Hail
+|upkeep
+|switch|p1a: Zacian|Zacian, L66|100/100
+|-ability|p1a: Zacian|Intrepid Sword|boost
+|-boost|p1a: Zacian|atk|1
+|turn|4
+|switch|p2a: Espeon|Espeon, L82, M|241/241
+|move|p1a: Zacian|Crunch|p2a: Espeon
+|-supereffective|p2a: Espeon
+|-damage|p2a: Espeon|55/241
+|-weather|Hail|[upkeep]
+|-damage|p2a: Espeon|40/241|[from] Hail
+|-damage|p1a: Zacian|94/100|[from] Hail
+|-heal|p2a: Espeon|55/241|[from] item: Leftovers
+|upkeep
+|turn|5
+|move|p2a: Espeon|Shadow Ball|p1a: Zacian
+|-damage|p1a: Zacian|65/100
+|-unboost|p1a: Zacian|spd|1
+|move|p1a: Zacian|Crunch|p2a: Espeon
+|-supereffective|p2a: Espeon
+|-damage|p2a: Espeon|0 fnt
+|faint|p2a: Espeon
+|-weather|none
+|upkeep
+|switch|p2a: Persian|Persian, L89, M|260/260
+|-ability|p2a: Persian|Unnerve
+|turn|6
+|move|p2a: Persian|Play Rough|p1a: Zacian
+|-damage|p1a: Zacian|28/100
+|move|p1a: Zacian|Swords Dance|p1a: Zacian
+|-boost|p1a: Zacian|atk|2
+|upkeep
+|turn|7
+|move|p2a: Persian|Play Rough|p1a: Zacian|[miss]
+|-miss|p2a: Persian|p1a: Zacian
+|move|p1a: Zacian|Close Combat|p2a: Persian
+|-supereffective|p2a: Persian
+|-damage|p2a: Persian|0 fnt
+|-unboost|p1a: Zacian|def|1
+|-unboost|p1a: Zacian|spd|1
+|faint|p2a: Persian
+|upkeep
+|switch|p2a: Falinks|Falinks, L84|246/246
+|turn|8
+|move|p1a: Zacian|Close Combat|p2a: Falinks
+|-damage|p2a: Falinks|105/246
+|-unboost|p1a: Zacian|def|1
+|-unboost|p1a: Zacian|spd|1
+|move|p2a: Falinks|Poison Jab|p1a: Zacian
+|-supereffective|p1a: Zacian
+|-damage|p1a: Zacian|0 fnt
+|faint|p1a: Zacian
+|-damage|p2a: Falinks|81/246|[from] item: Life Orb
+|upkeep
+|switch|p1a: Basculin|Basculin, L85, M|100/100
+|turn|9
+|switch|p2a: Abomasnow|Abomasnow, L82, M|282/282
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|move|p1a: Basculin|Psychic Fangs|p2a: Abomasnow
+|-damage|p2a: Abomasnow|173/282
+|-weather|Hail|[upkeep]
+|-damage|p1a: Basculin|94/100|[from] Hail
+|upkeep
+|turn|10
+|move|p1a: Basculin|Psychic Fangs|p2a: Abomasnow
+|-damage|p2a: Abomasnow|77/282
+|move|p2a: Abomasnow|Wood Hammer|p1a: Basculin
+|-supereffective|p1a: Basculin
+|-damage|p1a: Basculin|0 fnt
+|faint|p1a: Basculin
+|-damage|p2a: Abomasnow|0 fnt|[from] Recoil
+|faint|p2a: Abomasnow
+|-weather|Hail|[upkeep]
+|upkeep
+|switch|p1a: Moltres|Moltres-Galar, L75|100/100
+|switch|p2a: Gardevoir|Gardevoir, L82, F|246/246
+|-ability|p2a: Gardevoir|Berserk|[from] ability: Trace|[of] p1a: Moltres
+|turn|11
+|-start|p2a: Gardevoir|Dynamax|
+|-heal|p2a: Gardevoir|492/492|[silent]
+|move|p1a: Moltres|Nasty Plot|p1a: Moltres
+|-boost|p1a: Moltres|spa|2
+|move|p2a: Gardevoir|Max Starfall|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|5/100
+|-fieldstart|move: Misty Terrain
+|-ability|p1a: Moltres|Berserk|boost
+|-boost|p1a: Moltres|spa|1
+|-weather|Hail|[upkeep]
+|-damage|p1a: Moltres|0 fnt|[from] Hail
+|-damage|p2a: Gardevoir|477/492|[from] Hail
+|faint|p1a: Moltres
+|-heal|p2a: Gardevoir|492/492|[from] item: Leftovers
+|upkeep
+|switch|p1a: Magmortar|Magmortar, L87, F|100/100
+|turn|12
+|move|p1a: Magmortar|Fire Blast|p2a: Gardevoir
+|-damage|p2a: Gardevoir|372/492
+|move|p2a: Gardevoir|Max Mindstorm|p1a: Magmortar
+|-damage|p1a: Magmortar|43/100
+|-fieldstart|move: Psychic Terrain
+|-weather|Hail|[upkeep]
+|-damage|p1a: Magmortar|37/100|[from] Hail
+|-damage|p2a: Gardevoir|357/492|[from] Hail
+|-heal|p2a: Gardevoir|372/492|[from] item: Leftovers
+|upkeep
+|turn|13
+|move|p1a: Magmortar|Thunderbolt|p2a: Gardevoir
+|-damage|p2a: Gardevoir|307/492
+|move|p2a: Gardevoir|Max Mindstorm|p1a: Magmortar
+|-damage|p1a: Magmortar|0 fnt
+|faint|p1a: Magmortar
+|-weather|none
+|-heal|p2a: Gardevoir|322/492|[from] item: Leftovers
+|upkeep
+|switch|p1a: Blaziken|Blaziken, L75, M|100/100
+|-end|p2a: Gardevoir|Dynamax
+|-heal|p2a: Gardevoir|161/246|[silent]
+|turn|14
+|-start|p1a: Blaziken|Dynamax|
+|-heal|p1a: Blaziken|100/100|[silent]
+|move|p2a: Gardevoir|Moonblast|p1a: Blaziken
+|-damage|p1a: Blaziken|71/100
+|-unboost|p1a: Blaziken|spa|1
+|move|p1a: Blaziken|Max Darkness|p2a: Gardevoir
+|-damage|p2a: Gardevoir|28/246
+|-unboost|p2a: Gardevoir|spd|1
+|-ability|p2a: Gardevoir|Berserk|boost
+|-boost|p2a: Gardevoir|spa|1
+|-damage|p1a: Blaziken|66/100|[from] item: Life Orb
+|-heal|p2a: Gardevoir|43/246|[from] item: Leftovers
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|15
+|move|p1a: Blaziken|Max Knuckle|p2a: Gardevoir
+|-resisted|p2a: Gardevoir
+|-damage|p2a: Gardevoir|0 fnt
+|-boost|p1a: Blaziken|atk|1
+|faint|p2a: Gardevoir
+|-damage|p1a: Blaziken|61/100|[from] item: Life Orb
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|switch|p2a: Aggron|Aggron, L86, F|6/261
+|turn|16
+|move|p1a: Blaziken|Max Knuckle|p2a: Aggron
+|-supereffective|p2a: Aggron
+|-damage|p2a: Aggron|0 fnt
+|-boost|p1a: Blaziken|atk|1
+|faint|p2a: Aggron
+|-damage|p1a: Blaziken|56/100|[from] item: Life Orb
+|-fieldend|move: Psychic Terrain
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|switch|p2a: Falinks|Falinks, L84|81/246
+|-end|p1a: Blaziken|Dynamax
+|-heal|p1a: Blaziken|56/100|[silent]
+|turn|17
+|move|p1a: Blaziken|Close Combat|p2a: Falinks
+|-crit|p2a: Falinks
+|-damage|p2a: Falinks|0 fnt
+|-unboost|p1a: Blaziken|def|1
+|-unboost|p1a: Blaziken|spd|1
+|faint|p2a: Falinks
+|-damage|p1a: Blaziken|46/100|[from] item: Life Orb
+    </script>
+</div>
+
+<div class="battle-log battle-log-inline" style="display:none"></div>
+
+<script>
+    let daily = Math.floor(Date.now() / 1000 / 60 / 60 / 24); document.write('<script src="https://play.pokemonshowdown.com/js/replay-embed.js?version' + daily + '"></' + 'script>');
+</script>
+
+<p style="text-align:center"> Replay created by <a href="https://github.com/hsahovic/poke-env">poke-env</a>, with code from <a
+        href="https://github.com/smogon/pokemon-showdown"> pokemon-showdown</a>. If something goes wrong, don't hesitate
+    to open an <a href="https://github.com/hsahovic/poke-env/issues">issue!</a></p>

@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<!-- version 1 -->
+<title>battle-gen8randombattle-2044096904-3ip2b408qu24hfkpim0kxv3wy5lz26mpw</title>
+<style>
+    html,
+    body {
+        font-family: Verdana, sans-serif;
+        font-size: 10pt;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        padding: 12px 0;
+    }
+
+    .battle-log {
+        font-family: Verdana, sans-serif;
+        font-size: 10pt;
+    }
+
+    .battle-log-inline {
+        border: 1px solid #AAAAAA;
+        background: #EEF2F5;
+        color: black;
+        max-width: 640px;
+        margin: 0 auto 80px;
+        padding-bottom: 5px;
+    }
+
+    .battle-log .inner {
+        padding: 4px 8px 0px 8px;
+    }
+
+    .battle-log .inner-preempt {
+        padding: 0 8px 4px 8px;
+    }
+
+    .battle-log .inner-after {
+        margin-top: 0.5em;
+    }
+
+    .battle-log h2 {
+        margin: 0.5em -8px;
+        padding: 4px 8px;
+        border: 1px solid #AAAAAA;
+        background: #E0E7EA;
+        border-left: 0;
+        border-right: 0;
+        font-family: Verdana, sans-serif;
+        font-size: 13pt;
+    }
+
+    .backprop {
+        top: 0;
+    }
+
+    .battle-log .chat {
+        vertical-align: middle;
+        padding: 3px 0 3px 0;
+        font-size: 8pt;
+    }
+
+    .battle-log .chat strong {
+        color: #40576A;
+    }
+
+    .battle-log .chat em {
+        padding: 1px 4px 1px 3px;
+        color: #000000;
+        font-style: normal;
+    }
+
+    .chat.mine {
+        background: rgba(0, 0, 0, 0.05);
+        margin-left: -8px;
+        margin-right: -8px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .spoiler {
+        color: #BBBBBB;
+        background: #BBBBBB;
+        padding: 0px 3px;
+    }
+
+    .spoiler:hover,
+    .spoiler:active,
+    .spoiler-shown {
+        color: #000000;
+        background: #E2E2E2;
+        padding: 0px 3px;
+    }
+
+    .spoiler a {
+        color: #BBBBBB;
+    }
+
+    .spoiler:hover a,
+    .spoiler:active a,
+    .spoiler-shown a {
+        color: #2288CC;
+    }
+
+    .chat code,
+    .chat .spoiler:hover code,
+    .chat .spoiler:active code,
+    .chat .spoiler-shown code {
+        border: 1px solid #C0C0C0;
+        background: #EEEEEE;
+        color: black;
+        padding: 0 2px;
+    }
+
+    .chat .spoiler code {
+        border: 1px solid #CCCCCC;
+        background: #CCCCCC;
+        color: #CCCCCC;
+    }
+
+    .battle-log .rated {
+        padding: 3px 4px;
+    }
+
+    .battle-log .rated strong {
+        color: white;
+        background: #89A;
+        padding: 1px 4px;
+        border-radius: 4px;
+    }
+
+    .spacer {
+        margin-top: 0.5em;
+    }
+
+    .message-announce {
+        background: #6688AA;
+        color: white;
+        padding: 1px 4px 2px;
+    }
+
+    .message-announce a,
+    .broadcast-green a,
+    .broadcast-blue a,
+    .broadcast-red a {
+        color: #DDEEFF;
+    }
+
+    .broadcast-green {
+        background-color: #559955;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .broadcast-blue {
+        background-color: #6688AA;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .infobox {
+        border: 1px solid #6688AA;
+        padding: 2px 4px;
+    }
+
+    .infobox-limited {
+        max-height: 200px;
+        overflow: auto;
+        overflow-x: hidden;
+    }
+
+    .broadcast-red {
+        background-color: #AA5544;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .message-learn-canlearn {
+        font-weight: bold;
+        color: #228822;
+        text-decoration: underline;
+    }
+
+    .message-learn-cannotlearn {
+        font-weight: bold;
+        color: #CC2222;
+        text-decoration: underline;
+    }
+
+    .message-effect-weak {
+        font-weight: bold;
+        color: #CC2222;
+    }
+
+    .message-effect-resist {
+        font-weight: bold;
+        color: #6688AA;
+    }
+
+    .message-effect-immune {
+        font-weight: bold;
+        color: #666666;
+    }
+
+    .message-learn-list {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .message-throttle-notice,
+    .message-error {
+        color: #992222;
+    }
+
+    .message-overflow,
+    .chat small.message-overflow {
+        font-size: 0pt;
+    }
+
+    .message-overflow::before {
+        font-size: 9pt;
+        content: '...';
+    }
+
+    .subtle {
+        color: #3A4A66;
+    }
+</style>
+<div class="wrapper replay-wrapper" style="max-width:1180px;margin:0 auto">
+    <input type="hidden" name="replayid" value="unregisteredserver-gen8randombattle-320064" />
+    <div class="battle"></div>
+    <div class="battle-log"></div>
+    <div class="replay-controls"></div>
+    <div class="replay-controls-2"></div>
+    <h1 style="font-weight:normal;text-align:center"><strong>poke-env battle replay</strong><br />battle-gen8randombattle-2044096904-3ip2b408qu24hfkpim0kxv3wy5lz26mpw<br /><a
+            href="http://pokemonshowdown.com/users/randomplayer1" class="subtle" target="_blank">PokeLLM</a>
+        vs. <a href="http://pokemonshowdown.com/users/randomplayer2" class="subtle"
+            target="_blank">lilliumlanko</a></h1>
+    <script type="text/plain" class="battle-log-data">
+    >battle-gen8randombattle-2044096904-3ip2b408qu24hfkpim0kxv3wy5lz26mpw|init|battle
+|title|lilliumlanko vs. PokeLLM
+|j|☆lilliumlanko
+|j|☆PokeLLM
+|gametype|singles
+|player|p1|lilliumlanko|clair|1142
+|player|p2|PokeLLM|supernerd|1191
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Illusion Level Mod: Illusion disguises the Pokémon's true level
+|start
+|switch|p1a: Polteageist|Polteageist, L78|100/100
+|switch|p2a: Gothitelle|Gothitelle, L87, M|264/264
+|turn|1
+|move|p2a: Gothitelle|Shadow Ball|p1a: Polteageist
+|-supereffective|p1a: Polteageist
+|-damage|p1a: Polteageist|49/100
+|move|p1a: Polteageist|Shell Smash|p1a: Polteageist
+|-unboost|p1a: Polteageist|def|1
+|-unboost|p1a: Polteageist|spd|1
+|-boost|p1a: Polteageist|atk|2
+|-boost|p1a: Polteageist|spa|2
+|-boost|p1a: Polteageist|spe|2
+|-enditem|p1a: Polteageist|White Herb
+|-clearnegativeboost|p1a: Polteageist|[silent]
+|upkeep
+|turn|2
+|move|p1a: Polteageist|Shadow Ball|p2a: Gothitelle
+|-supereffective|p2a: Gothitelle
+|-damage|p2a: Gothitelle|0 fnt
+|faint|p2a: Gothitelle
+|upkeep
+|switch|p2a: Dragapult|Dragapult, L77, F|262/262
+|turn|3
+|move|p1a: Polteageist|Shadow Ball|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|upkeep
+|switch|p2a: Excadrill|Excadrill, L77, M|296/296
+|turn|4
+|move|p1a: Polteageist|Strength Sap|p2a: Excadrill
+|-unboost|p2a: Excadrill|atk|1
+|-heal|p1a: Polteageist|100/100
+|move|p2a: Excadrill|Earthquake|p1a: Polteageist
+|-damage|p1a: Polteageist|37/100
+|-damage|p2a: Excadrill|267/296|[from] item: Life Orb
+|upkeep
+|turn|5
+|move|p1a: Polteageist|Strength Sap|p2a: Excadrill
+|-unboost|p2a: Excadrill|atk|1
+|-heal|p1a: Polteageist|100/100
+|move|p2a: Excadrill|Earthquake|p1a: Polteageist
+|-damage|p1a: Polteageist|52/100
+|-start|p2a: Excadrill|Disable|Earthquake|[from] ability: Cursed Body|[of] p1a: Polteageist
+|-damage|p2a: Excadrill|238/296|[from] item: Life Orb
+|upkeep
+|turn|6
+|switch|p2a: Terrakion|Terrakion, L77|267/267
+|move|p1a: Polteageist|Giga Drain|p2a: Terrakion
+|-supereffective|p2a: Terrakion
+|-damage|p2a: Terrakion|27/267
+|-heal|p1a: Polteageist|100/100|[from] drain|[of] p2a: Terrakion
+|upkeep
+|turn|7
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by PokeLLM)
+|inactive|Time left: 150 sec this turn | 150 sec total | 60 sec grace
+|switch|p2a: Abomasnow|Abomasnow, L82, M|282/282
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|move|p1a: Polteageist|Giga Drain|p2a: Abomasnow
+|-resisted|p2a: Abomasnow
+|-damage|p2a: Abomasnow|238/282
+|-weather|Hail|[upkeep]
+|-damage|p1a: Polteageist|95/100|[from] Hail
+|upkeep
+|turn|8
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p1a: Polteageist|Shadow Ball|p2a: Abomasnow
+|-damage|p2a: Abomasnow|111/282
+|move|p2a: Abomasnow|Blizzard|p1a: Polteageist
+|-damage|p1a: Polteageist|52/100
+|-weather|Hail|[upkeep]
+|-damage|p1a: Polteageist|46/100|[from] Hail
+|upkeep
+|turn|9
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p1a: Polteageist|Strength Sap|p2a: Abomasnow
+|-unboost|p2a: Abomasnow|atk|1
+|-heal|p1a: Polteageist|100/100
+|move|p2a: Abomasnow|Blizzard|p1a: Polteageist
+|-damage|p1a: Polteageist|60/100
+|-start|p2a: Abomasnow|Disable|Blizzard|[from] ability: Cursed Body|[of] p1a: Polteageist
+|-weather|Hail|[upkeep]
+|-damage|p1a: Polteageist|54/100|[from] Hail
+|upkeep
+|turn|10
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p2a: Abomasnow|Ice Shard|p1a: Polteageist
+|-damage|p1a: Polteageist|39/100
+|move|p1a: Polteageist|Shadow Ball|p2a: Abomasnow
+|-damage|p2a: Abomasnow|0 fnt
+|faint|p2a: Abomasnow
+|-weather|Hail|[upkeep]
+|-damage|p1a: Polteageist|33/100|[from] Hail
+|upkeep
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p2a: Excadrill|Excadrill, L77, M|238/296
+|turn|11
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p1a: Polteageist|Giga Drain|p2a: Excadrill
+|-damage|p2a: Excadrill|65/296
+|-heal|p1a: Polteageist|72/100|[from] drain|[of] p2a: Excadrill
+|move|p2a: Excadrill|Earthquake|p1a: Polteageist
+|-damage|p1a: Polteageist|0 fnt
+|-start|p2a: Excadrill|Disable|Earthquake|[from] ability: Cursed Body|[of] p1a: Polteageist
+|faint|p1a: Polteageist
+|-damage|p2a: Excadrill|36/296|[from] item: Life Orb
+|-weather|none
+|upkeep
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p1a: Omastar|Omastar, L82, F|100/100
+|turn|12
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p2a: Excadrill|Iron Head|p1a: Omastar
+|-damage|p1a: Omastar|63/100
+|-damage|p2a: Excadrill|7/296|[from] item: Life Orb
+|move|p1a: Omastar|Shell Smash|p1a: Omastar
+|-unboost|p1a: Omastar|def|1
+|-unboost|p1a: Omastar|spd|1
+|-boost|p1a: Omastar|atk|2
+|-boost|p1a: Omastar|spa|2
+|-boost|p1a: Omastar|spe|2
+|-enditem|p1a: Omastar|White Herb
+|-clearnegativeboost|p1a: Omastar|[silent]
+|upkeep
+|turn|13
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p1a: Omastar|Hydro Pump|p2a: Excadrill|[miss]
+|-miss|p1a: Omastar|p2a: Excadrill
+|move|p2a: Excadrill|Iron Head|p1a: Omastar
+|-damage|p1a: Omastar|23/100
+|-damage|p2a: Excadrill|0 fnt|[from] item: Life Orb
+|faint|p2a: Excadrill
+|upkeep
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p2a: Groudon|Groudon, L71|259/259
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Groudon
+|turn|14
+|inactive|Time left: 150 sec this turn | 150 sec total
+|-start|p2a: Groudon|Dynamax|
+|-heal|p2a: Groudon|518/518|[silent]
+|move|p1a: Omastar|Hydro Pump|p2a: Groudon
+|-supereffective|p2a: Groudon
+|-damage|p2a: Groudon|252/518
+|move|p2a: Groudon|Max Quake|p1a: Omastar
+|-supereffective|p1a: Omastar
+|-crit|p1a: Omastar
+|-damage|p1a: Omastar|0 fnt
+|-boost|p2a: Groudon|spd|1
+|faint|p1a: Omastar
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Groudon|268/518|[from] item: Leftovers
+|upkeep
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p1a: Lopunny|Lopunny, L93, F|100/100
+|turn|15
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p1a: Lopunny|Switcheroo|p2a: Groudon
+|-activate|p1a: Lopunny|move: Trick|[of] p2a: Groudon
+|-item|p2a: Groudon|Toxic Orb|[from] move: Switcheroo
+|-item|p1a: Lopunny|Leftovers|[from] move: Switcheroo
+|move|p2a: Groudon|Max Quake|p1a: Lopunny
+|-damage|p1a: Lopunny|47/100
+|-boost|p2a: Groudon|spd|1
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Lopunny|53/100|[from] item: Leftovers
+|-status|p2a: Groudon|tox|[from] item: Toxic Orb
+|upkeep
+|turn|16
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p1a: Mantine|Mantine, L86, M|100/100
+|move|p2a: Groudon|Max Quake|p1a: Mantine
+|-immune|p1a: Mantine
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Groudon|252/518 tox|[from] psn
+|upkeep
+|-end|p2a: Groudon|Dynamax
+|-heal|p2a: Groudon|126/259 tox|[silent]
+|turn|17
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p1a: Mantine|Scald|p2a: Groudon
+|-supereffective|p2a: Groudon
+|-damage|p2a: Groudon|88/259 tox
+|move|p2a: Groudon|Stone Edge|p1a: Mantine
+|-supereffective|p1a: Mantine
+|-damage|p1a: Mantine|37/100
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Groudon|56/259 tox|[from] psn
+|upkeep
+|turn|18
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p1a: Mantine|Roost|p1a: Mantine
+|-heal|p1a: Mantine|87/100
+|-singleturn|p1a: Mantine|move: Roost
+|move|p2a: Groudon|Stone Edge|p1a: Mantine|[miss]
+|-miss|p2a: Groudon|p1a: Mantine
+|-weather|none
+|-damage|p2a: Groudon|8/259 tox|[from] psn
+|upkeep
+|turn|19
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p1a: Mantine|Roost|p1a: Mantine
+|-heal|p1a: Mantine|100/100
+|-singleturn|p1a: Mantine|move: Roost
+|move|p2a: Groudon|Stone Edge|p1a: Mantine
+|-damage|p1a: Mantine|73/100
+|-damage|p2a: Groudon|0 fnt|[from] psn
+|faint|p2a: Groudon
+|upkeep
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p2a: Terrakion|Terrakion, L77|27/267
+|turn|20
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p2a: Terrakion|Stone Edge|p1a: Mantine
+|-supereffective|p1a: Mantine
+|-crit|p1a: Mantine
+|-damage|p1a: Mantine|0 fnt
+|faint|p1a: Mantine
+|-damage|p2a: Terrakion|1/267|[from] item: Life Orb
+|upkeep
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p1a: Lopunny|Lopunny, L93, F|53/100
+|turn|21
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p1a: Lopunny|Facade|p2a: Terrakion
+|-resisted|p2a: Terrakion
+|-damage|p2a: Terrakion|0 fnt
+|faint|p2a: Terrakion
+    </script>
+</div>
+
+<div class="battle-log battle-log-inline" style="display:none"></div>
+
+<script>
+    let daily = Math.floor(Date.now() / 1000 / 60 / 60 / 24); document.write('<script src="https://play.pokemonshowdown.com/js/replay-embed.js?version' + daily + '"></' + 'script>');
+</script>
+
+<p style="text-align:center"> Replay created by <a href="https://github.com/hsahovic/poke-env">poke-env</a>, with code from <a
+        href="https://github.com/smogon/pokemon-showdown"> pokemon-showdown</a>. If something goes wrong, don't hesitate
+    to open an <a href="https://github.com/hsahovic/poke-env/issues">issue!</a></p>

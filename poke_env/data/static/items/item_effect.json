@@ -1,0 +1,3914 @@
+{
+    "abilitycapsule": {
+        "name": "Ability Capsule",
+        "effect": "A capsule that allows a Pok\u00e9mon with two Abilities to switch between these Abilities when it is used."
+    },
+    "abilitypatch": {
+        "name": "Ability Patch",
+        "effect": "Changes a Pok\u00e9mon's ability to its Hidden Ability."
+    },
+    "abilityshield": {
+        "name": "Ability Shield",
+        "effect": "An item to be held by a Pok\u00e9mon. This cute and rather unique-looking shield protects the holder from having its Ability changed by others."
+    },
+    "abilityurge": {
+        "name": "Ability Urge",
+        "effect": "When used, it activates the Ability of an ally Pok\u00e9mon."
+    },
+    "abomasite": {
+        "name": "Abomasite",
+        "effect": "Enables Abomasnow to Mega Evolve during battle."
+    },
+    "absolite": {
+        "name": "Absolite",
+        "effect": "Enables Absol to Mega Evolve during battle."
+    },
+    "absorbbulb": {
+        "name": "Absorb Bulb",
+        "effect": "A consumable bulb. If the holder is hit by a Water-type move, its Sp. Atk will rise."
+    },
+    "academyball": {
+        "name": "Academy Ball",
+        "effect": "The academy\u2019s standard-issue ball in a regulation size. Lots of students believe that if you kick it right on the academy emblem, it\u2019ll fly in a straight line."
+    },
+    "academybottle": {
+        "name": "Academy Bottle",
+        "effect": "A bottle emblazoned with the academy\u2019s emblem. It\u2019s light, sturdy, and vacuum insulated, so it\u2019ll keep your hots hot and your colds cold."
+    },
+    "academycup": {
+        "name": "Academy Cup",
+        "effect": "The academy\u2019s standard-issue cup for picnicking. The careful design of its mouth makes it popular both inside and outside the academy."
+    },
+    "academytablecloth": {
+        "name": "Academy Tablecloth",
+        "effect": "The academy\u2019s standard-issue tablecloth. It\u2019s made with the latest fiber-processing technology and is so tough that not even a Razor Claw can tear it."
+    },
+    "adamantmint": {
+        "name": "Adamant Mint",
+        "effect": "Changes the Pok\u00e9mon's stats to match the Adamant nature."
+    },
+    "adamantorb": {
+        "name": "Adamant Orb",
+        "effect": "Increases the power of Dragon- and Steel-type moves when held by Dialga."
+    },
+    "adrenalineorb": {
+        "name": "Adrenaline Orb",
+        "effect": "Using it makes wild Pok\u00e9mon more likely to call for help. If held by a Pok\u00e9mon, it boosts Speed when intimidated. It can be used only once."
+    },
+    "aerodactylite": {
+        "name": "Aerodactylite",
+        "effect": "Enables Aerodactyl to Mega Evolve during battle."
+    },
+    "aggronite": {
+        "name": "Aggronite",
+        "effect": "Enables Aggron to Mega Evolve during battle."
+    },
+    "aguavberry": {
+        "name": "Aguav Berry",
+        "effect": "Restores HP if it's low, but may cause confusion."
+    },
+    "airballoon": {
+        "name": "Air Balloon",
+        "effect": "When held by a Pok\u00e9mon, the Pok\u00e9mon will float into the air. When the holder is attacked, this item will burst."
+    },
+    "alakazite": {
+        "name": "Alakazite",
+        "effect": "Enables Alakazam to Mega Evolve during battle."
+    },
+    "alomomolamucus": {
+        "name": "Alomomola Mucus",
+        "effect": "Material obtained after defeating/catching Alomomola, used in TM crafting."
+    },
+    "aloraichiumz": {
+        "name": "Aloraichium Z",
+        "effect": "Allows Alolan Raichu to upgrade Thunderbolt to a Z-Move, Stoked Sparksurfer."
+    },
+    "altarianite": {
+        "name": "Altarianite",
+        "effect": "Enables Altaria to Mega Evolve during battle."
+    },
+    "ampharosite": {
+        "name": "Ampharosite",
+        "effect": "Enables Ampharos to Mega Evolve during battle."
+    },
+    "amuletcoin": {
+        "name": "Amulet Coin",
+        "effect": "Doubles prize money if held."
+    },
+    "antidote": {
+        "name": "Antidote",
+        "effect": "Cures a Pok\u00e9mon of poisoning."
+    },
+    "apicotberry": {
+        "name": "Apicot Berry",
+        "effect": "Raises Special Defense when HP is low."
+    },
+    "apple": {
+        "name": "Apple",
+        "effect": "This very sweet ingredient is sliced thin to make it easy to add into a sandwich."
+    },
+    "applinjuice": {
+        "name": "Applin Juice",
+        "effect": "Material obtained after defeating/catching Applin, used in TM crafting."
+    },
+    "apricorn": {
+        "name": "Apricorn",
+        "effect": "A fruit whose shell can be used to form the capsules of all manner of Pok\u00e9 Balls when crafting them from scratch."
+    },
+    "armorfossil": {
+        "name": "Armor Fossil",
+        "effect": "A fossil from a prehistoric Pok\u00e9mon that lived on the land. It appears to be part of a collar."
+    },
+    "arrokudascales": {
+        "name": "Arrokuda Scales",
+        "effect": "Material obtained after defeating/catching Arrokuda, used in TM crafting."
+    },
+    "aspearberry": {
+        "name": "Aspear Berry",
+        "effect": "If held by a Pok\u00e9mon, it defrosts it."
+    },
+    "assaultvest": {
+        "name": "Assault Vest",
+        "effect": "Raises Special Defense but prevents the use of status moves."
+    },
+    "audinite": {
+        "name": "Audinite",
+        "effect": "Enables Audino to Mega Evolve during battle."
+    },
+    "auspiciousarmor": {
+        "name": "Auspicious Armor",
+        "effect": "Evolves Charcadet into Armarouge."
+    },
+    "auxevasion": {
+        "name": "Aux Evasion",
+        "effect": "Makes moves less likely to strike a Pok\u00e9mon during a battle."
+    },
+    "auxguard": {
+        "name": "Aux Guard",
+        "effect": "Sharply boosts the defensive stats of a Pok\u00e9mon during a battle."
+    },
+    "auxpower": {
+        "name": "Aux Power",
+        "effect": "Sharply boosts the offensive stats of a Pok\u00e9mon during a battle."
+    },
+    "auxpowerguard": {
+        "name": "Aux Powerguard",
+        "effect": "Sharply boosts the offensive and defensive stats of a Pok\u00e9mon during a battle."
+    },
+    "avocado": {
+        "name": "Avocado",
+        "effect": "An ingredient with sweet notes\u2014though its flavor is very mild. The avocado\u2019s richness, however, makes it satisfying to eat."
+    },
+    "awakening": {
+        "name": "Awakening",
+        "effect": "Wakes up a sleeping Pok\u00e9mon."
+    },
+    "axewscales": {
+        "name": "Axew Scales",
+        "effect": "Material obtained after defeating/catching Axew, used in TM crafting."
+    },
+    "azurillfur": {
+        "name": "Azurill Fur",
+        "effect": "Material obtained after defeating/catching Azurill, used in TM crafting."
+    },
+    "b&wgrasstablecloth": {
+        "name": "B&W Grass Tablecloth",
+        "effect": "A tablecloth with a fun, trendy black-and-white design featuring Pok\u00e9mon that seem poised to leap from the tall grass at any moment."
+    },
+    "babiriberry": {
+        "name": "Babiri Berry",
+        "effect": "Weakens a supereffective Steel-type attack against the holding Pok\u00e9mon."
+    },
+    "bach'sfoodtin": {
+        "name": "Bach's Food Tin",
+        "effect": "One of the many ingredients that can be used for cooking at your camp. The tinned food that Bach sells is curiously popular in Galar."
+    },
+    "bacon": {
+        "name": "Bacon",
+        "effect": "This very salty ingredient has been cooked just shy of charred, making it burst with fragrance and tasty flavor."
+    },
+    "bagonscales": {
+        "name": "Bagon Scales",
+        "effect": "Material obtained after defeating/catching Bagon, used in TM crafting."
+    },
+    "baguette": {
+        "name": "Baguette",
+        "effect": "A long loaf sliced into top and bottom halves. Its aroma of wheat and its straightforward, salty flavor make it pair well with all kinds of sandwich ingredients."
+    },
+    "balmmushroom": {
+        "name": "Balm Mushroom",
+        "effect": "A rare mushroom which gives off a nice fragrance. A maniac will buy it for a high price."
+    },
+    "banana": {
+        "name": "Banana",
+        "effect": "A very sweet ingredient. This go-to fruit is sweet and rich, and it\u2019s beloved by many Pok\u00e9mon."
+    },
+    "banettite": {
+        "name": "Banettite",
+        "effect": "Enables Banette to Mega Evolve during battle."
+    },
+    "barboachslime": {
+        "name": "Barboach Slime",
+        "effect": "Material obtained after defeating/catching Barboach, used in TM crafting."
+    },
+    "barredcup": {
+        "name": "Barred Cup",
+        "effect": "A cup that\u2019s as good for using at home as on a picnic. It\u2019s light, sturdy, and stacks well, so it\u2019s a cinch to pack up and carry around."
+    },
+    "basculinfang": {
+        "name": "Basculin Fang",
+        "effect": "Material obtained after defeating/catching Basculin, used in TM crafting."
+    },
+    "basil": {
+        "name": "Basil",
+        "effect": "A very bitter ingredient that\u2019s quite versatile, as herbs go. It\u2019s fragrant and goes well with tomatoes."
+    },
+    "battletablecloth": {
+        "name": "Battle Tablecloth",
+        "effect": "A garish, eye-catching tablecloth. Putting this on your picnic table will inspire any person or Pok\u00e9mon who eats there to do their best."
+    },
+    "beachglass": {
+        "name": "Beach Glass",
+        "effect": "A piece of colored glass. Waves have rounded its edges. It's slightly rough to the touch."
+    },
+    "beastball": {
+        "name": "Beast Ball",
+        "effect": "A special Pok\u00e9 Ball designed to catch Ultra Beasts. It has a low success rate for catching others."
+    },
+    "beedrillite": {
+        "name": "Beedrillite",
+        "effect": "Enables Beedrill to Mega Evolve during battle."
+    },
+    "belueberry": {
+        "name": "Belue Berry",
+        "effect": "A Berry which is very rare in the Unova region. A maniac will buy it for a high price."
+    },
+    "bergmiteice": {
+        "name": "Bergmite Ice",
+        "effect": "Material obtained after defeating/catching Bergmite, used in TM crafting."
+    },
+    "berryjuice": {
+        "name": "Berry Juice",
+        "effect": "Restores 20 HP."
+    },
+    "berrysweet": {
+        "name": "Berry Sweet",
+        "effect": "Evolves Milcery into Blueberry Flavor Alcremie."
+    },
+    "bigbambooshoot": {
+        "name": "Big Bamboo Shoot",
+        "effect": "A large and rare bamboo shoot. It\u2019s extremely popular with a certain class of gourmands."
+    },
+    "bigmalasada": {
+        "name": "Big Malasada",
+        "effect": "Heals all major status conditions."
+    },
+    "bigmushroom": {
+        "name": "Big Mushroom",
+        "effect": "A large and rare mushroom. It is sought after by collectors."
+    },
+    "bignugget": {
+        "name": "Big Nugget",
+        "effect": "A big nugget of pure gold that gives off a lustrous gleam. A maniac will buy it for a high price."
+    },
+    "bigpearl": {
+        "name": "Big Pearl",
+        "effect": "A quite-large pearl that sparkles in a pretty silver color. It can be sold at a high price to shops."
+    },
+    "bigroot": {
+        "name": "Big Root",
+        "effect": "Recovers more HP from HP-stealing moves."
+    },
+    "bindingband": {
+        "name": "Binding Band",
+        "effect": "A band that increases the power of binding moves when held."
+    },
+    "bitterherbamystica": {
+        "name": "Bitter Herba Mystica",
+        "effect": "A legendary condiment with a deeply bitter taste. It\u2019s said to dramatically bolster a body\u2019s immune defenses, though that hasn\u2019t been proven."
+    },
+    "blackapricorn": {
+        "name": "Black Apricorn",
+        "effect": "A black Apricorn It has an indescribable scent."
+    },
+    "blackaugurite": {
+        "name": "Black Augurite",
+        "effect": "A glassy black stone that produces a sharp cutting edge when split. It\u2019s loved by a certain Pok\u00e9mon."
+    },
+    "blackbelt": {
+        "name": "Black Belt",
+        "effect": "Increases the power of Fighting-type moves."
+    },
+    "blackflute": {
+        "name": "Black Flute",
+        "effect": "A toy flute made from black glass. A maniac will buy it for a high price."
+    },
+    "blackglasses": {
+        "name": "Black Glasses",
+        "effect": "Increases the power of Dark-type moves."
+    },
+    "blacksludge": {
+        "name": "Black Sludge",
+        "effect": "A held item that gradually restores the HP of Poison-type Pok\u00e9mon. It inflicts damage on all other types."
+    },
+    "blastoisinite": {
+        "name": "Blastoisinite",
+        "effect": "Enables Blastoise to Mega Evolve during battle."
+    },
+    "blazikenite": {
+        "name": "Blazikenite",
+        "effect": "Enables Blaziken to Mega Evolve during battle."
+    },
+    "blueapricorn": {
+        "name": "Blue Apricorn",
+        "effect": "A blue Apricorn. It smells a bit like grass."
+    },
+    "bluebottle": {
+        "name": "Blue Bottle",
+        "effect": "A go-to bottle widely used for drinks at picnics. Its simple design and portability make it popular among all sorts of people."
+    },
+    "bluecup": {
+        "name": "Blue Cup",
+        "effect": "A cup sold with the Blue Bottle. The two don\u2019t stack, so they\u2019re tough to pack\u2014but they look good, so they\u2019re popular with those who like to post picnic photos."
+    },
+    "bluedish": {
+        "name": "Blue Dish",
+        "effect": "A dish for picnics. Comes in plenty of colors to choose from based on the food or the mood. The blue variety is a consistent strong seller."
+    },
+    "blueflute": {
+        "name": "Blue Flute",
+        "effect": "A toy flute made from blue glass. A maniac will buy it for a high price."
+    },
+    "bluepok\u00e9ballpick": {
+        "name": "Blue Pok\u00e9 Ball Pick",
+        "effect": "A sandwich pick with a simple blue Pok\u00e9 Ball design. Often used by Trainers who picked a Water-type Pok\u00e9mon for their first partner."
+    },
+    "bluescarf": {
+        "name": "Blue Scarf",
+        "effect": "Raises holder's Beauty aspect in a Contest."
+    },
+    "blueshard": {
+        "name": "Blue Shard",
+        "effect": "A small blue shard. It appears to be from some sort of implement made long ago."
+    },
+    "bluetablecloth": {
+        "name": "Blue Tablecloth",
+        "effect": "A simple blue tablecloth. It\u2019s smooth and pleasant to the touch, and dishes can be placed on it with hardly a sound."
+    },
+    "blue-flagpick": {
+        "name": "Blue-Flag Pick",
+        "effect": "This pick flies a blue flag that lends an air of adventure. The flag itself is made of card stock, so it\u2019ll fly proudly even with no wind."
+    },
+    "blue-skyflowerpick": {
+        "name": "Blue-Sky Flower Pick",
+        "effect": "A flower pick designed to evoke a blue sky. It\u2019s part of a line of \u201csky-flower\u201d picks. Using a few is guaranteed to boost that special picnic spirit."
+    },
+    "blukberry": {
+        "name": "Bluk Berry",
+        "effect": "A Berry which is very rare in the Unova region. A maniac will buy it for a high price."
+    },
+    "blunderpolicy": {
+        "name": "Blunder Policy",
+        "effect": "Raises Speed sharply if its attack misses."
+    },
+    "bob'sfoodtin": {
+        "name": "Bob's Food Tin",
+        "effect": "One of the many ingredients that can be used for cooking at your camp. The tinned food that Bob sells is curiously popular in Galar."
+    },
+    "boiledegg": {
+        "name": "Boiled Egg",
+        "effect": "One of the many ingredients that can be used for cooking at your camp. Even just one boiled egg can really enhance a dish."
+    },
+    "boldmint": {
+        "name": "Bold Mint",
+        "effect": "Changes the Pok\u00e9mon's stats to match the Bold nature."
+    },
+    "bombirdierfeather": {
+        "name": "Bombirdier Feather",
+        "effect": "Material obtained after defeating/catching Bombirdier, used in TM crafting."
+    },
+    "bonslytears": {
+        "name": "Bonsly Tears",
+        "effect": "Material obtained after defeating/catching Bonsly, used in TM crafting."
+    },
+    "boosterenergy": {
+        "name": "Booster Energy",
+        "effect": "An item to be held by Pok\u00e9mon with certain Abilities. The energy that fills this capsule boosts the strength of the Pok\u00e9mon."
+    },
+    "bottlecap": {
+        "name": "Bottle Cap",
+        "effect": "Maximizes one IV stat in Hyper Training."
+    },
+    "bounsweetsweat": {
+        "name": "Bounsweet Sweat",
+        "effect": "Material obtained after defeating/catching Bounsweet, used in TM crafting."
+    },
+    "bramblintwig": {
+        "name": "Bramblin Twig",
+        "effect": "Material obtained after defeating/catching Bramblin, used in TM crafting."
+    },
+    "bravemint": {
+        "name": "Brave Mint",
+        "effect": "Changes the Pok\u00e9mon's stats to match the Brave nature."
+    },
+    "bread": {
+        "name": "Bread",
+        "effect": "One of the many ingredients that can be used for cooking at your camp. An indispensable tool for mopping up that extra curry left on your plate."
+    },
+    "brightpowder": {
+        "name": "Bright Powder",
+        "effect": "Lowers the opponent's accuracy."
+    },
+    "brittlebones": {
+        "name": "Brittle Bones",
+        "effect": "One of the many ingredients that can be used for cooking at your camp. The taste boiled off from the bones is sure to give a dish a light umami taste."
+    },
+    "bronzebottle": {
+        "name": "Bronze Bottle",
+        "effect": "A popular option among hikers. It\u2019s made with titanium, so it doesn\u2019t rust even if it\u2019s used to hold drinks with high sodium content."
+    },
+    "bronzecup": {
+        "name": "Bronze Cup",
+        "effect": "A popular option among hikers. It\u2019s made with titanium, so it doesn\u2019t rust even if it\u2019s used to hold drinks with high sodium content."
+    },
+    "bronzorfragment": {
+        "name": "Bronzor Fragment",
+        "effect": "Material obtained after defeating/catching Bronzor, used in TM crafting."
+    },
+    "bruxishtooth": {
+        "name": "Bruxish Tooth",
+        "effect": "Material obtained after defeating/catching Bruxish, used in TM crafting."
+    },
+    "buggem": {
+        "name": "Bug Gem",
+        "effect": "Increases the power of a Bug-type move only once."
+    },
+    "bugmemory": {
+        "name": "Bug Memory",
+        "effect": "Changes Silvally and its move Multi-Attack to Bug type."
+    },
+    "bugterashard": {
+        "name": "Bug Tera Shard",
+        "effect": "Changes a Pok\u00e9mon's Tera Type to Bug."
+    },
+    "buginiumz": {
+        "name": "Buginium Z",
+        "effect": "Allows the use of Savage Spin-Out, the Bug type Z-Move."
+    },
+    "buizelfur": {
+        "name": "Buizel Fur",
+        "effect": "Material obtained after defeating/catching Buizel, used in TM crafting."
+    },
+    "burndrive": {
+        "name": "Burn Drive",
+        "effect": "Changes Techno Blast to a Fire-type move when held by Genesect."
+    },
+    "burnheal": {
+        "name": "Burn Heal",
+        "effect": "Cures a Pok\u00e9mon of a burn."
+    },
+    "butter": {
+        "name": "Butter",
+        "effect": "A condiment that unites salty and sweet and also packs a richness that makes bread a delight to eat. The finest butter products are made of 100 percent Moomoo Milk."
+    },
+    "cacneaneedle": {
+        "name": "Cacnea Needle",
+        "effect": "Material obtained after defeating/catching Cacnea, used in TM crafting."
+    },
+    "calcium": {
+        "name": "Calcium",
+        "effect": "Increases Special Attack EVs by 10."
+    },
+    "calmmint": {
+        "name": "Calm Mint",
+        "effect": "Changes the Pok\u00e9mon's stats to match the Calm nature."
+    },
+    "cameruptite": {
+        "name": "Cameruptite",
+        "effect": "Enables Camerupt to Mega Evolve during battle."
+    },
+    "capsakidseed": {
+        "name": "Capsakid Seed",
+        "effect": "Material obtained after defeating/catching Capsakid, used in TM crafting."
+    },
+    "carbos": {
+        "name": "Carbos",
+        "effect": "Increases Speed EVs by 10."
+    },
+    "carefulmint": {
+        "name": "Careful Mint",
+        "effect": "Changes the Pok\u00e9mon's stats to match the Careful nature."
+    },
+    "carrotseeds": {
+        "name": "Carrot Seeds",
+        "effect": "Seeds to plant in a field. The kind of carrot you\u2019ll get is determined by which field you plant the seeds in."
+    },
+    "casteliacone": {
+        "name": "Casteliacone",
+        "effect": "Heals all major status conditions."
+    },
+    "cellbattery": {
+        "name": "Cell Battery",
+        "effect": "A consumable battery. If the holder is hit by an Electric-type move, its Attack will rise."
+    },
+    "cetoddlegrease": {
+        "name": "Cetoddle Grease",
+        "effect": "Material obtained after defeating/catching Cetoddle, used in TM crafting."
+    },
+    "chalkystone": {
+        "name": "Chalky Stone",
+        "effect": "A small whitish stone picked up at the edge of the road."
+    },
+    "charcadetsoot": {
+        "name": "Charcadet Soot",
+        "effect": "Material obtained after defeating/catching Charcadet, used in TM crafting."
+    },
+    "charcoal": {
+        "name": "Charcoal",
+        "effect": "Increases the power of Fire-type moves."
+    },
+    "charizarditex": {
+        "name": "Charizardite X",
+        "effect": "Enables Charizard to Mega Evolve during battle."
+    },
+    "charizarditey": {
+        "name": "Charizardite Y",
+        "effect": "Enables Charizard to Mega Evolve during battle."
+    },
+    "chartiberry": {
+        "name": "Charti Berry",
+        "effect": "Weakens a supereffective Rock-type attack against the holding Pok\u00e9mon."
+    },
+    "cheese": {
+        "name": "Cheese",
+        "effect": "A very salty ingredient. This thinly sliced cheese is perfect for adding to a sandwich."
+    },
+    "cheriberry": {
+        "name": "Cheri Berry",
+        "effect": "If held by a Pok\u00e9mon, it recovers from paralysis."
+    },
+    "cherishball": {
+        "name": "Cherish Ball",
+        "effect": "Rre Pok\u00e9 Ball used for event Pok\u00e9mon."
+    },
+    "cherrytomatoes": {
+        "name": "Cherry Tomatoes",
+        "effect": "A very tart ingredient. Some varieties are also very sweet, and these are prized above all others by the people of Paldea."
+    },
+    "chestoberry": {
+        "name": "Chesto Berry",
+        "effect": "If held by a Pok\u00e9mon, it recovers from sleep."
+    },
+    "chewtleclaw": {
+        "name": "Chewtle Claw",
+        "effect": "Material obtained after defeating/catching Chewtle, used in TM crafting."
+    },
+    "chilanberry": {
+        "name": "Chilan Berry",
+        "effect": "Weakens a Normal-type attack against the Pok\u00e9mon holding this berry."
+    },
+    "chilisauce": {
+        "name": "Chili Sauce",
+        "effect": "A condiment with a very spicy kick. It\u2019s thanks to Scovillain that this sauce gets its signature mouth-tingling burn."
+    },
+    "chilldrive": {
+        "name": "Chill Drive",
+        "effect": "Changes Techno Blast to an Ice-type move when held by Genesect."
+    },
+    "chippedpot": {
+        "name": "Chipped Pot",
+        "effect": "Evolves Sinistea into Polteageist."
+    },
+    "choiceband": {
+        "name": "Choice Band",
+        "effect": "Raises Attack, but only one move can be used."
+    },
+    "choicescarf": {
+        "name": "Choice Scarf",
+        "effect": "Raises Speed, but only one move can be used."
+    },
+    "choicespecs": {
+        "name": "Choice Specs",
+        "effect": "Raises Special Attack, but only one move can be used."
+    },
+    "chopleberry": {
+        "name": "Chople Berry",
+        "effect": "Weakens a supereffective Fighting-type attack against the holding Pok\u00e9mon."
+    },
+    "chorizo": {
+        "name": "Chorizo",
+        "effect": "A very salty and spicy ingredient. This type of sausage has particularly robust salty flavor, and the spicier varieties are extra popular."
+    },
+    "clauncherclaw": {
+        "name": "Clauncher Claw",
+        "effect": "Material obtained after defeating/catching Clauncher, used in TM crafting."
+    },
+    "clawfossil": {
+        "name": "Claw Fossil",
+        "effect": "A fossil of an ancient Pok\u00e9mon that lived in the sea. It appears to be part of a claw."
+    },
+    "cleansetag": {
+        "name": "Cleanse Tag",
+        "effect": "An item to be held by a Pok\u00e9mon. It helps keep wild Pok\u00e9mon away if the holder is the first one in the party."
+    },
+    "clearamulet": {
+        "name": "Clear Amulet",
+        "effect": "An item to be held by a Pok\u00e9mon. This clear, sparkling amulet protects the holder from having its stats lowered by moves used against it or by other Pok\u00e9mon\u2019s Abilities."
+    },
+    "cleverfeather": {
+        "name": "Clever Feather",
+        "effect": "Increases Special Defense EVs by 1."
+    },
+    "clevermochi": {
+        "name": "Clever Mochi",
+        "effect": "Increases Special Defense EVs."
+    },
+    "cloversweet": {
+        "name": "Clover Sweet",
+        "effect": "Evolves Milcery into Clover Flavor Alcremie."
+    },
+    "cobaberry": {
+        "name": "Coba Berry",
+        "effect": "Weakens a supereffective Flying-type attack against the holding Pok\u00e9mon."
+    },
+    "coconutmilk": {
+        "name": "Coconut Milk",
+        "effect": "One of the many ingredients that can be used for cooking at your camp. The refined sweetness of this coconut milk makes it quite popular."
+    },
+    "colburberry": {
+        "name": "Colbur Berry",
+        "effect": "Weakens a supereffective Dark-type attack against the holding Pok\u00e9mon."
+    },
+    "combeehoney": {
+        "name": "Combee Honey",
+        "effect": "Material obtained after defeating/catching Combee, used in TM crafting."
+    },
+    "cometshard": {
+        "name": "Comet Shard",
+        "effect": "A shard which fell to the ground when a comet approached. A maniac will buy it for a high price."
+    },
+    "cornnberry": {
+        "name": "Cornn Berry",
+        "effect": "A Berry which is very rare in the Unova region. A maniac will buy it for a high price."
+    },
+    "couragecandy": {
+        "name": "Courage Candy",
+        "effect": "Increases a Pok\u00e9mon's Special Defense stat by 1."
+    },
+    "couragecandyl": {
+        "name": "Courage Candy L",
+        "effect": "Increases a Pok\u00e9mon's Special Defense stat."
+    },
+    "couragecandyxl": {
+        "name": "Courage Candy XL",
+        "effect": "Increases a Pok\u00e9mon's Special Defense stat."
+    },
+    "coverfossil": {
+        "name": "Cover Fossil",
+        "effect": "A fossil of an ancient Pok\u00e9mon that lived in the sea in ancient times. It appears to be part of its back."
+    },
+    "covertcloak": {
+        "name": "Covert Cloak",
+        "effect": "Conceals the holder, protecting it from the additional effects of moves."
+    },
+    "crabrawlershell": {
+        "name": "Crabrawler Shell",
+        "effect": "Material obtained after defeating/catching Crabrawler, used in TM crafting."
+    },
+    "crackedpot": {
+        "name": "Cracked Pot",
+        "effect": "Evolves Sinistea into Polteageist."
+    },
+    "creamcheese": {
+        "name": "Cream Cheese",
+        "effect": "A condiment offering very sweet and very tart flavor. It goes well with more ingredients than you\u2019d expect, making it a convenient go-to."
+    },
+    "croagunkpoison": {
+        "name": "Croagunk Poison",
+        "effect": "Material obtained after defeating/catching Croagunk, used in TM crafting."
+    },
+    "cryogonalice": {
+        "name": "Cryogonal Ice",
+        "effect": "Material obtained after defeating/catching Cryogonal, used in TM crafting."
+    },
+    "cubchoofur": {
+        "name": "Cubchoo Fur",
+        "effect": "Material obtained after defeating/catching Cubchoo, used in TM crafting."
+    },
+    "cucumber": {
+        "name": "Cucumber",
+        "effect": "A tart and bitter ingredient. Using it together with rich-tasting ingredients in a sandwich will really make the most of a cucumber\u2019s fresh-veggie aroma."
+    },
+    "cufanttarnish": {
+        "name": "Cufant Tarnish",
+        "effect": "Material obtained after defeating/catching Cufant, used in TM crafting."
+    },
+    "currypowder": {
+        "name": "Curry Powder",
+        "effect": "A very spicy condiment. Just watch out\u2014use too much of this potent seasoning, and it\u2019ll cancel out the other flavors."
+    },
+    "custapberry": {
+        "name": "Custap Berry",
+        "effect": "Holder can move first when HP is low."
+    },
+    "cyberball": {
+        "name": "Cyber Ball",
+        "effect": "A ball themed after hardcore gaming PCs. It may not light up like its inspiration, but it still stands out."
+    },
+    "cyclizarscales": {
+        "name": "Cyclizar Scales",
+        "effect": "Material obtained after defeating/catching Cyclizar, used in TM crafting."
+    },
+    "dampmulch": {
+        "name": "Damp Mulch",
+        "effect": "A fertilizer to be spread on soft soil in regions where Berries are grown. A maniac will buy it for a high price."
+    },
+    "damprock": {
+        "name": "Damp Rock",
+        "effect": "A Pok\u00e9mon held item that extends the duration of the move Rain Dance used by the holder."
+    },
+    "darkgem": {
+        "name": "Dark Gem",
+        "effect": "Increases the power of a Dark-type move only once."
+    },
+    "darkmemory": {
+        "name": "Dark Memory",
+        "effect": "Changes Silvally and its move Multi-Attack to Dark type."
+    },
+    "darkterashard": {
+        "name": "Dark Tera Shard",
+        "effect": "Changes a Pok\u00e9mon's Tera Type to Dark."
+    },
+    "darkiniumz": {
+        "name": "Darkinium Z",
+        "effect": "Allows the use of Black Hole Eclipse, the Dark type Z-Move."
+    },
+    "dawnstone": {
+        "name": "Dawn Stone",
+        "effect": "Evolves certain species of Pok\u00e9mon."
+    },
+    "decidiumz": {
+        "name": "Decidium Z",
+        "effect": "Allows Decidueye to upgrade Spirit Shackle to a Z-Move, Sinister Arrow Raid."
+    },
+    "dedennefur": {
+        "name": "Dedenne Fur",
+        "effect": "Material obtained after defeating/catching Dedenne, used in TM crafting."
+    },
+    "deepseascale": {
+        "name": "Deep Sea Scale",
+        "effect": "Increases Special Defense when held by Clamperl. Evolves Clamperl when traded holding the item."
+    },
+    "deepseatooth": {
+        "name": "Deep Sea Tooth",
+        "effect": "Increases Special Attack when held by Clamperl. Evolves Clamperl when traded holding the item."
+    },
+    "deerlinghair": {
+        "name": "Deerling Hair",
+        "effect": "Material obtained after defeating/catching Deerling, used in TM crafting."
+    },
+    "deinoscales": {
+        "name": "Deino Scales",
+        "effect": "Material obtained after defeating/catching Deino, used in TM crafting."
+    },
+    "delibirdparcel": {
+        "name": "Delibird Parcel",
+        "effect": "Material obtained after defeating/catching Delibird, used in TM crafting."
+    },
+    "destinyknot": {
+        "name": "Destiny Knot",
+        "effect": "A long, thin, bright-red string to be held by a Pok\u00e9mon. If the holder becomes infatuated, the foe does too."
+    },
+    "diamondbottle": {
+        "name": "Diamond Bottle",
+        "effect": "A diamond-patterned bottle that\u2019s small, light, and even comes with a cup. The detachable strap makes it handy for walking around with."
+    },
+    "diamondpatterncup": {
+        "name": "Diamond Pattern Cup",
+        "effect": "A cup that\u2019s as good for using at home as on a picnic. It\u2019s light, sturdy, and stacks well, so it\u2019s a cinch to pack up and carry around."
+    },
+    "diamondtablecloth": {
+        "name": "Diamond Tablecloth",
+        "effect": "A tablecloth with a fashionable diamond pattern. It\u2019s great at repelling water and mold, and stains and smudges wipe right off."
+    },
+    "diancite": {
+        "name": "Diancite",
+        "effect": "Enables Diancie to Mega Evolve during battle."
+    },
+    "diggerdrill": {
+        "name": "Digger Drill",
+        "effect": "A single-use drill to bore a hole in the wall for your Secret Base."
+    },
+    "diglettdirt": {
+        "name": "Diglett Dirt",
+        "effect": "Material obtained after defeating/catching Diglett, used in TM crafting."
+    },
+    "direhit": {
+        "name": "Dire Hit",
+        "effect": "Raises critical-hit ratio of a Pok\u00e9mon in battle."
+    },
+    "direhit2": {
+        "name": "Dire Hit 2",
+        "effect": "Raises a Pok\u00e9mon's critical-hit ratio in battle."
+    },
+    "direhit3": {
+        "name": "Dire Hit 3",
+        "effect": "Greatly raises a Pok\u00e9mon's critical-hit ratio in battle."
+    },
+    "discountcoupon": {
+        "name": "Discount Coupon",
+        "effect": "This special coupon allows you to buy items at a discount when you are shopping at a boutique."
+    },
+    "discoveryslate": {
+        "name": "Discovery Slate",
+        "effect": "A slate overflowing with enigmatic energy. You can feel a strong connection between it and the Discovery Room at Ramanas Park."
+    },
+    "distortionslate": {
+        "name": "Distortion Slate",
+        "effect": "A slate overflowing with enigmatic energy. You can feel a strong connection between it and the Distortion Room at Ramanas Park."
+    },
+    "dittogoo": {
+        "name": "Ditto Goo",
+        "effect": "Material obtained after defeating/catching Ditto, used in TM crafting."
+    },
+    "diveball": {
+        "name": "Dive Ball",
+        "effect": "Catches Pok\u00e9mon that live in water with 3.5x the rate of a standard Pok\u00e9 Ball."
+    },
+    "dnasplicers": {
+        "name": "DNA Splicers",
+        "effect": "A splicer that fuses Kyurem and a certain Pok\u00e9mon. They are said to have been one in the beginning."
+    },
+    "domefossil": {
+        "name": "Dome Fossil",
+        "effect": "A fossil of an ancient Pok\u00e9mon that lived in the sea. It appears to be part of a shell."
+    },
+    "dondozowhisker": {
+        "name": "Dondozo Whisker",
+        "effect": "Material obtained after defeating/catching Dondozo, used in TM crafting."
+    },
+    "dousedrive": {
+        "name": "Douse Drive",
+        "effect": "Changes Techno Blast to a Water-type move when held by Genesect."
+    },
+    "dracoplate": {
+        "name": "Draco Plate",
+        "effect": "Increases power of Dragon-type moves. Changes Arceus' type to Dragon."
+    },
+    "dragonfang": {
+        "name": "Dragon Fang",
+        "effect": "Increases the power of Dragon-type moves."
+    },
+    "dragongem": {
+        "name": "Dragon Gem",
+        "effect": "Increases the power of a Dragon-type move only once."
+    },
+    "dragonmemory": {
+        "name": "Dragon Memory",
+        "effect": "Changes Silvally and its move Multi-Attack to Dragon type."
+    },
+    "dragonscale": {
+        "name": "Dragon Scale",
+        "effect": "Evolves Seadra when traded holding the item."
+    },
+    "dragonterashard": {
+        "name": "Dragon Tera Shard",
+        "effect": "Changes a Pok\u00e9mon's Tera Type to ."
+    },
+    "dragoniumz": {
+        "name": "Dragonium Z",
+        "effect": "Allows the use of Devastating Drake, the Dragon type Z-Move."
+    },
+    "dratiniscales": {
+        "name": "Dratini Scales",
+        "effect": "Material obtained after defeating/catching Dratini, used in TM crafting."
+    },
+    "dreadplate": {
+        "name": "Dread Plate",
+        "effect": "Increases power of Dark-type moves. Changes Arceus' type to Dark."
+    },
+    "dreamball": {
+        "name": "Dream Ball",
+        "effect": "A special Pok\u00e9 Ball that appears out of nowhere in a bag at the Entree Forest. It can catch any Pok\u00e9mon."
+    },
+    "dreepypowder": {
+        "name": "Dreepy Powder",
+        "effect": "Material obtained after defeating/catching Dreepy, used in TM crafting."
+    },
+    "drifloongas": {
+        "name": "Drifloon Gas",
+        "effect": "Material obtained after defeating/catching Drifloon, used in TM crafting."
+    },
+    "droppeditem": {
+        "name": "Dropped Item",
+        "effect": "The Xtransceiver found at the Nimbasa City amusement park. It seems it belongs to a boy."
+    },
+    "drowzeefur": {
+        "name": "Drowzee Fur",
+        "effect": "Material obtained after defeating/catching Drowzee, used in TM crafting."
+    },
+    "dubiousdisc": {
+        "name": "Dubious Disc",
+        "effect": "Evolves Porygon2 when traded holding the item."
+    },
+    "dunsparcescales": {
+        "name": "Dunsparce Scales",
+        "effect": "Material obtained after defeating/catching Dunsparce, used in TM crafting."
+    },
+    "durinberry": {
+        "name": "Durin Berry",
+        "effect": "A Berry which is very rare in the Unova region. A maniac will buy it for a high price."
+    },
+    "duskball": {
+        "name": "Dusk Ball",
+        "effect": "Catches Pok\u00e9mon at night or in caves with 3x the rate of a standard Pok\u00e9 Ball."
+    },
+    "duskstone": {
+        "name": "Dusk Stone",
+        "effect": "Evolves certain species of Pok\u00e9mon."
+    },
+    "dynamaxcandy": {
+        "name": "Dynamax Candy",
+        "effect": "Raises Dynamax Level."
+    },
+    "dyniteore": {
+        "name": "Dynite Ore",
+        "effect": "Mysterious ore that can be obtained in the Max Lair. Something good will happen if you give it to a collector in the Crown Tundra."
+    },
+    "earthplate": {
+        "name": "Earth Plate",
+        "effect": "Increases power of Ground-type moves. Changes Arceus' type to Ground."
+    },
+    "eeveecup": {
+        "name": "Eevee Cup",
+        "effect": "A cup for big-time Pok\u00e9mon fans. Kids will happily drink out of it, making it a boon to parents."
+    },
+    "eeveefur": {
+        "name": "Eevee Fur",
+        "effect": "Material obtained after defeating/catching Eevee, used in TM crafting."
+    },
+    "eeviumz": {
+        "name": "Eevium Z",
+        "effect": "Allows Eevee to upgrade Last Resort to a Z-Move, Extreme Evoboost."
+    },
+    "egg": {
+        "name": "Egg",
+        "effect": "An ingredient with a touch of saltiness. It\u2019s full of nutrients and can be enjoyed with all sorts of seasonings."
+    },
+    "eiscuedown": {
+        "name": "Eiscue Down",
+        "effect": "Material obtained after defeating/catching Eiscue, used in TM crafting."
+    },
+    "ejectbutton": {
+        "name": "Eject Button",
+        "effect": "If the holder is hit by an attack, it will switch with another Pok\u00e9mon in your party."
+    },
+    "ejectpack": {
+        "name": "Eject Pack",
+        "effect": "The Pok\u00e9mon switches out if its stats are lowered."
+    },
+    "electirizer": {
+        "name": "Electirizer",
+        "effect": "Evolves Electabuzz when traded holding the item."
+    },
+    "electricgem": {
+        "name": "Electric Gem",
+        "effect": "Increases the power of an Electric-type move only once."
+    },
+    "electricmemory": {
+        "name": "Electric Memory",
+        "effect": "Changes Silvally and its move Multi-Attack to Electric type."
+    },
+    "electricseed": {
+        "name": "Electric Seed",
+        "effect": "An item to be held by a Pok\u00e9mon. It boosts Defense on Electric Terrain. It can only be used once."
+    },
+    "electricterashard": {
+        "name": "Electric Tera Shard",
+        "effect": "Changes a Pok\u00e9mon's Tera Type to Electric."
+    },
+    "electriumz": {
+        "name": "Electrium Z",
+        "effect": "Allows the use of Gigavolt Havoc, the Electric type Z-Move."
+    },
+    "elevatorkey": {
+        "name": "Elevator Key",
+        "effect": "A card key that activates the elevator in Lysandre Labs. It is emblazoned with Team Flare's logo."
+    },
+    "elixir": {
+        "name": "Elixir",
+        "effect": "Restores 10 PP to all moves of a Pok\u00e9mon."
+    },
+    "energypowder": {
+        "name": "Energy Powder",
+        "effect": "Restores 60 HP but lowers Friendship."
+    },
+    "energyroot": {
+        "name": "Energy Root",
+        "effect": "Restores 120 HP but lowers Friendship."
+    },
+    "enigmaberry": {
+        "name": "Enigma Berry",
+        "effect": "If held by a Pok\u00e9mon, it restores its HP if it is hit by any supereffective attack."
+    },
+    "escaperope": {
+        "name": "Escape Rope",
+        "effect": "A long, durable rope. Use it to escape instantly from a cave or a dungeon."
+    },
+    "ether": {
+        "name": "Ether",
+        "effect": "Restores 10 PP to one move of a Pok\u00e9mon."
+    },
+    "everstone": {
+        "name": "Everstone",
+        "effect": "An item to be held by a Pok\u00e9mon. The Pok\u00e9mon holding this peculiar stone is prevented from evolving."
+    },
+    "eviolite": {
+        "name": "Eviolite",
+        "effect": "A mysterious evolutionary lump. When held, it raises the Defense and Sp. Def of a Pok\u00e9mon that can still evolve."
+    },
+    "exerciseball": {
+        "name": "Exercise Ball",
+        "effect": "A big ball designed for exercising. It can work as a seat if you get tired, too."
+    },
+    "exp.candyl": {
+        "name": "Exp. Candy L",
+        "effect": "Increases the Pok\u00e9mon's Exp points by 10,000."
+    },
+    "exp.candym": {
+        "name": "Exp. Candy M",
+        "effect": "Increases the Pok\u00e9mon's Exp points by 3,000."
+    },
+    "exp.candys": {
+        "name": "Exp. Candy S",
+        "effect": "Increases the Pok\u00e9mon's Exp points by 800."
+    },
+    "exp.candyxl": {
+        "name": "Exp. Candy XL",
+        "effect": "Increases the Pok\u00e9mon's Exp. Points by 30,000."
+    },
+    "exp.candyxs": {
+        "name": "Exp. Candy XS",
+        "effect": "Increases the Pok\u00e9mon's Exp points by 100."
+    },
+    "exp.share": {
+        "name": "Exp. Share",
+        "effect": "An item to be held by a Pok\u00e9mon. The holder gets a share of a battle's Exp. Points without battling."
+    },
+    "expertbelt": {
+        "name": "Expert Belt",
+        "effect": "Increases the power of super-effective moves."
+    },
+    "fairiumz": {
+        "name": "Fairium Z",
+        "effect": "Allows the use of Twinkle Tackle, the Fairy type Z-Move."
+    },
+    "fairygem": {
+        "name": "Fairy Gem",
+        "effect": "Increases the power of a Fairy-type move only once."
+    },
+    "fairymemory": {
+        "name": "Fairy Memory",
+        "effect": "Changes Silvally and its move Multi-Attack to Fairy type."
+    },
+    "fairyterashard": {
+        "name": "Fairy Tera Shard",
+        "effect": "Changes a Pok\u00e9mon's Tera Type to Fairy."
+    },
+    "falinkssweat": {
+        "name": "Falinks Sweat",
+        "effect": "Material obtained after defeating/catching Falinks, used in TM crafting."
+    },
+    "fancyapple": {
+        "name": "Fancy Apple",
+        "effect": "One of the many ingredients that can be used for cooking at your camp. An apple chosen above others. It has spectacular form and a brilliant sheen."
+    },
+    "fastball": {
+        "name": "Fast Ball",
+        "effect": "A Pok\u00e9 Ball that makes it easier to catch Pok\u00e9mon which are quick to run away."
+    },
+    "festivalticket": {
+        "name": "Festival Ticket",
+        "effect": "A ticket that allows you to host a mission in Festival Plaza."
+    },
+    "fidoughfur": {
+        "name": "Fidough Fur",
+        "effect": "Material obtained after defeating/catching Fidough, used in TM crafting."
+    },
+    "fightinggem": {
+        "name": "Fighting Gem",
+        "effect": "Increases the power of a Fighting-type move only once."
+    },
+    "fightingmemory": {
+        "name": "Fighting Memory",
+        "effect": "Changes Silvally and its move Multi-Attack to Fighting type."
+    },
+    "fightingterashard": {
+        "name": "Fighting Tera Shard",
+        "effect": "Changes a Pok\u00e9mon's Tera Type to Fighting."
+    },
+    "fightiniumz": {
+        "name": "Fightinium Z",
+        "effect": "Allows the use of All-Out Pummeling, the Fighting type Z-Move."
+    },
+    "figyberry": {
+        "name": "Figy Berry",
+        "effect": "Restores HP if it's low, but may cause confusion."
+    },
+    "finizenmucus": {
+        "name": "Finizen Mucus",
+        "effect": "Material obtained after defeating/catching Finizen, used in TM crafting."
+    },
+    "finneonscales": {
+        "name": "Finneon Scales",
+        "effect": "Material obtained after defeating/catching Finneon, used in TM crafting."
+    },
+    "firegem": {
+        "name": "Fire Gem",
+        "effect": "Increases the power of a Fire-type move only once."
+    },
+    "firememory": {
+        "name": "Fire Memory",
+        "effect": "Changes Silvally and its move Multi-Attack to Fire type."
+    },
+    "firepatterncup": {
+        "name": "Fire Pattern Cup",
+        "effect": "A cup that\u2019s as good for using at home as on a picnic. It\u2019s light, sturdy, and stacks well, so it\u2019s a cinch to pack up and carry around."
+    },
+    "firestone": {
+        "name": "Fire Stone",
+        "effect": "Evolves certain species of Pok\u00e9mon."
+    },
+    "fireterashard": {
+        "name": "Fire Tera Shard",
+        "effect": "Changes a Pok\u00e9mon's Tera Type to Fire."
+    },
+    "firiumz": {
+        "name": "Firium Z",
+        "effect": "Allows the use of Inferno Overdrive, the Fire type Z-Move."
+    },
+    "fistplate": {
+        "name": "Fist Plate",
+        "effect": "Increases power of Fighting-type moves. Changes Arceus' type to Fighting."
+    },
+    "flab\u00e9b\u00e9pollen": {
+        "name": "Flab\u00e9b\u00e9 Pollen",
+        "effect": "Material obtained after defeating/catching Flab\u00e9b\u00e9, used in TM crafting."
+    },
+    "flameorb": {
+        "name": "Flame Orb",
+        "effect": "An item to be held by a Pok\u00e9mon. It is a bizarre orb that inflicts a burn on the holder in battle."
+    },
+    "flameplate": {
+        "name": "Flame Plate",
+        "effect": "Increases power of Fire-type moves. Changes Arceus' type to Fire."
+    },
+    "flamigodown": {
+        "name": "Flamigo Down",
+        "effect": "Material obtained after defeating/catching Flamigo, used in TM crafting."
+    },
+    "fletchlingfeather": {
+        "name": "Fletchling Feather",
+        "effect": "Material obtained after defeating/catching Fletchling, used in TM crafting."
+    },
+    "flittledown": {
+        "name": "Flittle Down",
+        "effect": "Material obtained after defeating/catching Flittle, used in TM crafting."
+    },
+    "floatstone": {
+        "name": "Float Stone",
+        "effect": "A very light stone. It reduces the weight of a Pok\u00e9mon when held."
+    },
+    "flowerpatterncup": {
+        "name": "Flower Pattern Cup",
+        "effect": "A cup for kids to use at picnics. It\u2019s made of light but strong material. It\u2019s stackable, which makes it handy for carrying around."
+    },
+    "flowersweet": {
+        "name": "Flower Sweet",
+        "effect": "Evolves Milcery into Flower Flavor Alcremie."
+    },
+    "fluffytail": {
+        "name": "Fluffy Tail",
+        "effect": "An item that attracts Pok\u00e9mon. Use it to flee from any battle with a wild Pok\u00e9mon."
+    },
+    "flyinggem": {
+        "name": "Flying Gem",
+        "effect": "Increases the power of a Flying-type move only once."
+    },
+    "flyingmemory": {
+        "name": "Flying Memory",
+        "effect": "Changes Silvally and its move Multi-Attack to Flying type."
+    },
+    "flyingterashard": {
+        "name": "Flying Tera Shard",
+        "effect": "Changes a Pok\u00e9mon's Tera Type to Flying."
+    },
+    "flyiniumz": {
+        "name": "Flyinium Z",
+        "effect": "Allows the use of Supersonic Skystrike, the Flying type Z-Move."
+    },
+    "focusband": {
+        "name": "Focus Band",
+        "effect": "An item to be held by a Pok\u00e9mon. The holder may endure a potential KO attack, leaving it with just 1 HP."
+    },
+    "focussash": {
+        "name": "Focus Sash",
+        "effect": "An item to be held by a Pok\u00e9mon. If it has full HP, the holder will endure one potential KO attack, leaving 1 HP."
+    },
+    "fomantisleaf": {
+        "name": "Fomantis Leaf",
+        "effect": "Material obtained after defeating/catching Fomantis, used in TM crafting."
+    },
+    "foongusspores": {
+        "name": "Foongus Spores",
+        "effect": "Material obtained after defeating/catching Foongus, used in TM crafting."
+    },
+    "fossilizedbird": {
+        "name": "Fossilized Bird",
+        "effect": "The fossil of an ancient Pok\u00e9mon that once soared through the sky. What it looked like is a mystery."
+    },
+    "fossilizeddino": {
+        "name": "Fossilized Dino",
+        "effect": "The fossil of an ancient Pok\u00e9mon that once lived in the sea. What it looked like is a mystery."
+    },
+    "fossilizeddrake": {
+        "name": "Fossilized Drake",
+        "effect": "The fossil of an ancient Pok\u00e9mon that once roamed the land. What it looked like is a mystery."
+    },
+    "fossilizedfish": {
+        "name": "Fossilized Fish",
+        "effect": "The fossil of an ancient Pok\u00e9mon that once lived in the sea. What it looked like is a mystery."
+    },
+    "freshcream": {
+        "name": "Fresh Cream",
+        "effect": "One of the many ingredients that can be used for cooking at your camp. Add some whipped cream to a spicy curry to give it some sweetness."
+    },
+    "freshwater": {
+        "name": "Fresh Water",
+        "effect": "Restores 30 HP."
+    },
+    "fresh-startmochi": {
+        "name": "Fresh-Start Mochi",
+        "effect": "Resets a Pok\u00e9mon's EVs."
+    },
+    "friedfillet": {
+        "name": "Fried Fillet",
+        "effect": "When used in a sandwich, this very salty and bitter ingredient is at its best paired with sour seasonings."
+    },
+    "friedfood": {
+        "name": "Fried Food",
+        "effect": "One of the many ingredients that can be used for cooking at your camp. It\u2019s been a while since it was fried, so it\u2019s gotten greasy."
+    },
+    "friendball": {
+        "name": "Friend Ball",
+        "effect": "A Pok\u00e9 Ball that makes caught Pok\u00e9mon more friendly."
+    },
+    "frigibaxscales": {
+        "name": "Frigibax Scales",
+        "effect": "Material obtained after defeating/catching Frigibax, used in TM crafting."
+    },
+    "fruitbunch": {
+        "name": "Fruit Bunch",
+        "effect": "One of the many ingredients that can be used for cooking at your camp. The syrupy fruits give off a strong tropical feel."
+    },
+    "fullheal": {
+        "name": "Full Heal",
+        "effect": "Cures a Pok\u00e9mon of any status condition."
+    },
+    "fullincense": {
+        "name": "Full Incense",
+        "effect": "Holder always attacks last. Breeding Snorlax produces Munchlax when held."
+    },
+    "fullrestore": {
+        "name": "Full Restore",
+        "effect": "Fully restores HP and cures any status condition of a Pok\u00e9mon."
+    },
+    "galaricacuff": {
+        "name": "Galarica Cuff",
+        "effect": "Evolves Galarian Slowpoke into Galarian Slowbro."
+    },
+    "galaricatwig": {
+        "name": "Galarica Twig",
+        "effect": "Used to create Galarica Cuff/Wreath, to evolve Galarian Slowpoke."
+    },
+    "galaricawreath": {
+        "name": "Galarica Wreath",
+        "effect": "Evolves Galarian Slowpoke into Galarian Slowking."
+    },
+    "galladite": {
+        "name": "Galladite",
+        "effect": "Enables Gallade to Mega Evolve during battle."
+    },
+    "ganlonberry": {
+        "name": "Ganlon Berry",
+        "effect": "Raises Defense when HP is low."
+    },
+    "garchompite": {
+        "name": "Garchompite",
+        "effect": "Enables Garchomp to Mega Evolve during battle."
+    },
+    "gardevoirite": {
+        "name": "Gardevoirite",
+        "effect": "Enables Gardevoir to Mega Evolve during battle."
+    },
+    "gastlygas": {
+        "name": "Gastly Gas",
+        "effect": "Material obtained after defeating/catching Gastly, used in TM crafting."
+    },
+    "gengarite": {
+        "name": "Gengarite",
+        "effect": "Enables Gengar to Mega Evolve during battle."
+    },
+    "geniusfeather": {
+        "name": "Genius Feather",
+        "effect": "Increases Special Attack EVs by 1."
+    },
+    "geniusmochi": {
+        "name": "Genius Mochi",
+        "effect": "Increases Special Attack EVs."
+    },
+    "genomeslate": {
+        "name": "Genome Slate",
+        "effect": "A slate overflowing with enigmatic energy. You can feel a strong connection between it and the Genome Room at Ramanas Park."
+    },
+    "gentlemint": {
+        "name": "Gentle Mint",
+        "effect": "Changes the Pok\u00e9mon's stats to match the Gentle nature."
+    },
+    "ghostgem": {
+        "name": "Ghost Gem",
+        "effect": "Increases the power of a Ghost-type move only once."
+    },
+    "ghostmemory": {
+        "name": "Ghost Memory",
+        "effect": "Changes Silvally and its move Multi-Attack to Ghost type."
+    },
+    "ghostterashard": {
+        "name": "Ghost Tera Shard",
+        "effect": "Changes a Pok\u00e9mon's Tera Type to Ghost."
+    },
+    "ghostiumz": {
+        "name": "Ghostium Z",
+        "effect": "Allows the use of Never-Ending Nightmare, the Ghost type Z-Move."
+    },
+    "giblescales": {
+        "name": "Gible Scales",
+        "effect": "Material obtained after defeating/catching Gible, used in TM crafting."
+    },
+    "gigantamix": {
+        "name": "Gigantamix",
+        "effect": "One of the many ingredients that can be used for cooking at your camp. A mysterious spice. Even a tiny sprinkle is sure to make a curry gigantic."
+    },
+    "gimmighoulcoin": {
+        "name": "Gimmighoul Coin",
+        "effect": "Material obtained after defeating/catching Gimmighoul. Allows evolution into Gholdengo."
+    },
+    "girafarigfur": {
+        "name": "Girafarig Fur",
+        "effect": "Material obtained after defeating/catching Girafarig, used in TM crafting."
+    },
+    "glalitite": {
+        "name": "Glalitite",
+        "effect": "Enables Glalie to Mega Evolve during battle."
+    },
+    "glimmetcrystal": {
+        "name": "Glimmet Crystal",
+        "effect": "Material obtained after defeating/catching Glimmet, used in TM crafting."
+    },
+    "goldbottle": {
+        "name": "Gold Bottle",
+        "effect": "A popular option among hikers. It\u2019s made with titanium, so it doesn\u2019t rust even if it\u2019s used to hold drinks with high sodium content."
+    },
+    "goldbottlecap": {
+        "name": "Gold Bottle Cap",
+        "effect": "Maximizes all of a Pok\u00e9mon's IV stats in Hyper Training."
+    },
+    "goldcup": {
+        "name": "Gold Cup",
+        "effect": "A popular option among hikers. It\u2019s made with titanium, so it doesn\u2019t rust even if it\u2019s used to hold drinks with high sodium content."
+    },
+    "goldpick": {
+        "name": "Gold Pick",
+        "effect": "A golden pick that oozes class. Using it on a sandwich lends an extravagant air that\u2019ll make you want to eat up, even if you don\u2019t love the fillings."
+    },
+    "goldennanabberry": {
+        "name": "Golden Nanab Berry",
+        "effect": "Drastically calms a Pok\u00e9mon in battle, in Let's Go Pikachu/Eevee."
+    },
+    "goldenpinapberry": {
+        "name": "Golden Pinap Berry",
+        "effect": "Drastically increases chance of getting items when a Pok\u00e9mon is caught, in Pok\u00e9mon Let's Go."
+    },
+    "goldenrazzberry": {
+        "name": "Golden Razz Berry",
+        "effect": "Makes a Pok\u00e9mon easier to catch in Pok\u00e9mon Let's Go."
+    },
+    "gooeymulch": {
+        "name": "Gooey Mulch",
+        "effect": "A fertilizer to be spread on soft soil in regions where Berries are grown. A maniac will buy it for a high price."
+    },
+    "goomygoo": {
+        "name": "Goomy Goo",
+        "effect": "Material obtained after defeating/catching Goomy, used in TM crafting."
+    },
+    "gothitaeyelash": {
+        "name": "Gothita Eyelash",
+        "effect": "Material obtained after defeating/catching Gothita, used in TM crafting."
+    },
+    "grassgem": {
+        "name": "Grass Gem",
+        "effect": "Increases the power of a Grass-type move only once."
+    },
+    "grassmemory": {
+        "name": "Grass Memory",
+        "effect": "Changes Silvally and its move Multi-Attack to Grass type."
+    },
+    "grassterashard": {
+        "name": "Grass Tera Shard",
+        "effect": "Changes a Pok\u00e9mon's Tera Type to Grass."
+    },
+    "grassiumz": {
+        "name": "Grassium Z",
+        "effect": "Allows the use of Bloom Doom, the Grass type Z-Move."
+    },
+    "grassyseed": {
+        "name": "Grassy Seed",
+        "effect": "An item to be held by a Pok\u00e9mon. It boosts Defense on Grassy Terrain. It can only be used once."
+    },
+    "greatball": {
+        "name": "Great Ball",
+        "effect": "Catches wild Pok\u00e9mon with 1.5x the rate of a Pok\u00e9 Ball."
+    },
+    "greavardwax": {
+        "name": "Greavard Wax",
+        "effect": "Material obtained after defeating/catching Greavard, used in TM crafting."
+    },
+    "greenapricorn": {
+        "name": "Green Apricorn",
+        "effect": "A green Apricorn. It has a mysterious, aromatic scent."
+    },
+    "greenbellpepper": {
+        "name": "Green Bell Pepper",
+        "effect": "An ingredient with some bitterness. When sliced, it adds a nice accent to a sandwich."
+    },
+    "greendish": {
+        "name": "Green Dish",
+        "effect": "A dish for picnics. Comes in plenty of colors to choose from based on the food or the mood. The green variety is quite popular."
+    },
+    "greenpok\u00e9ballpick": {
+        "name": "Green Pok\u00e9 Ball Pick",
+        "effect": "A sandwich pick with a simple green Pok\u00e9 Ball design. Often used by Trainers who picked a Grass-type Pok\u00e9mon for their first partner."
+    },
+    "greenscarf": {
+        "name": "Green Scarf",
+        "effect": "Raises holder's Smart aspect in a Contest."
+    },
+    "greenshard": {
+        "name": "Green Shard",
+        "effect": "A small green shard. It appears to be from some sort of implement made long ago."
+    },
+    "grepaberry": {
+        "name": "Grepa Berry",
+        "effect": "Increases Friendship but lowers Special Defense EVs."
+    },
+    "grimertoxin": {
+        "name": "Grimer Toxin",
+        "effect": "Material obtained after defeating/catching Grimer, used in TM crafting."
+    },
+    "gripclaw": {
+        "name": "Grip Claw",
+        "effect": "A Pok\u00e9mon held item that extends the duration of multiturn attacks like Bind and Wrap."
+    },
+    "griseousorb": {
+        "name": "Griseous Orb",
+        "effect": "Increases the power of Dragon- and Ghost-type moves when held by Giratina, and changes it to Origin Forme."
+    },
+    "gritdust": {
+        "name": "Grit Dust",
+        "effect": "Raises EVs by 1 in Legends: Arceus, when current EVs are between 0-2."
+    },
+    "gritgravel": {
+        "name": "Grit Gravel",
+        "effect": "Raises EVs by 1 in Legends: Arceus, when current EVs are between 3-5."
+    },
+    "gritpebble": {
+        "name": "Grit Pebble",
+        "effect": "Raises EVs by 1 in Legends: Arceus, when current EVs are between 6-8."
+    },
+    "gritrock": {
+        "name": "Grit Rock",
+        "effect": "Raises EVs by 1 in Legends: Arceus, when current EVs are between 8-9."
+    },
+    "groundgem": {
+        "name": "Ground Gem",
+        "effect": "Increases the power of a Ground-type move only once."
+    },
+    "groundmemory": {
+        "name": "Ground Memory",
+        "effect": "Changes Silvally and its move Multi-Attack to Ground type."
+    },
+    "groundterashard": {
+        "name": "Ground Tera Shard",
+        "effect": "Changes a Pok\u00e9mon's Tera Type to Ground."
+    },
+    "groundiumz": {
+        "name": "Groundium Z",
+        "effect": "Allows the use of Tectonic Rage, the Ground type Z-Move."
+    },
+    "growlithefur": {
+        "name": "Growlithe Fur",
+        "effect": "Material obtained after defeating/catching Growlithe, used in TM crafting."
+    },
+    "growthmulch": {
+        "name": "Growth Mulch",
+        "effect": "A fertilizer to be spread on soft soil in regions where Berries are grown. A maniac will buy it for a high price."
+    },
+    "grubbyhanky": {
+        "name": "Grubby Hanky",
+        "effect": "A handkerchief dropped by a regular at Caf\u00e9 Warehouse. It smells faintly like a Pok\u00e9mon."
+    },
+    "guardspec.": {
+        "name": "Guard Spec.",
+        "effect": "Prevents stat reduction for five turns."
+    },
+    "gulpinmucus": {
+        "name": "Gulpin Mucus",
+        "effect": "Material obtained after defeating/catching Gulpin, used in TM crafting."
+    },
+    "gyaradosite": {
+        "name": "Gyaradosite",
+        "effect": "Enables Gyarados to Mega Evolve during battle."
+    },
+    "habanberry": {
+        "name": "Haban Berry",
+        "effect": "Weakens a supereffective Dragon-type attack against the holding Pok\u00e9mon."
+    },
+    "ham": {
+        "name": "Ham",
+        "effect": "A very salty ingredient\u2014and that very saltiness is what makes it such a nice companion to veggies."
+    },
+    "hamburger": {
+        "name": "Hamburger",
+        "effect": "This very salty ingredient is the thing to add if you want to make your sandwich truly filling."
+    },
+    "happinydust": {
+        "name": "Happiny Dust",
+        "effect": "Material obtained after defeating/catching Happiny, used in TM crafting."
+    },
+    "hardstone": {
+        "name": "Hard Stone",
+        "effect": "Increases the power of Rock-type moves."
+    },
+    "hastymint": {
+        "name": "Hasty Mint",
+        "effect": "Changes the Pok\u00e9mon's stats to match the Hasty nature."
+    },
+    "hatennadust": {
+        "name": "Hatenna Dust",
+        "effect": "Material obtained after defeating/catching Hatenna, used in TM crafting."
+    },
+    "hawluchadown": {
+        "name": "Hawlucha Down",
+        "effect": "Material obtained after defeating/catching Hawlucha, used in TM crafting."
+    },
+    "healball": {
+        "name": "Heal Ball",
+        "effect": "Catches wild Pok\u00e9mon and fully heals them."
+    },
+    "healpowder": {
+        "name": "Heal Powder",
+        "effect": "Heals all status problems, but lowers Friendship."
+    },
+    "healthcandy": {
+        "name": "Health Candy",
+        "effect": "Increases a Pok\u00e9mon's HP stat by 1."
+    },
+    "healthcandyl": {
+        "name": "Health Candy L",
+        "effect": "Increases a Pok\u00e9mon's HP stat."
+    },
+    "healthcandyxl": {
+        "name": "Health Candy XL",
+        "effect": "Increases a Pok\u00e9mon's HP stat."
+    },
+    "healthfeather": {
+        "name": "Health Feather",
+        "effect": "Increases HP EVs by 1."
+    },
+    "healthmochi": {
+        "name": "Health Mochi",
+        "effect": "Increases HP EVs."
+    },
+    "heartscale": {
+        "name": "Heart Scale",
+        "effect": "A pretty, heart-shaped scale that is extremely rare. It glows faintly in the colors of the rainbow."
+    },
+    "heatrock": {
+        "name": "Heat Rock",
+        "effect": "A Pok\u00e9mon held item that extends the duration of the move Sunny Day used by the holder."
+    },
+    "heavyball": {
+        "name": "Heavy Ball",
+        "effect": "A Pok\u00e9 Ball for catching very heavy Pok\u00e9mon."
+    },
+    "heavy-dutyboots": {
+        "name": "Heavy-Duty Boots",
+        "effect": "Protects the holder from traps set on the battlefield."
+    },
+    "helixfossil": {
+        "name": "Helix Fossil",
+        "effect": "A fossil of an ancient Pok\u00e9mon that lived in the sea. It appears to be part of a seashell."
+    },
+    "heracronite": {
+        "name": "Heracronite",
+        "effect": "Enables Heracross to Mega Evolve during battle."
+    },
+    "heracrossclaw": {
+        "name": "Heracross Claw",
+        "effect": "Material obtained after defeating/catching Heracross, used in TM crafting."
+    },
+    "herbedsausage": {
+        "name": "Herbed Sausage",
+        "effect": "A very salty and bitter ingredient. The balance between the potent saltiness and the herbs\u2019 bitterness make this sausage a pleasure."
+    },
+    "heroicswordpick": {
+        "name": "Heroic Sword Pick",
+        "effect": "A pick made to be the coolest. Once you\u2019ve eaten, you can pretend you\u2019re a hero of legend. Souvenir shops at tourist spots sell these for some reason."
+    },
+    "hi-techearbuds": {
+        "name": "Hi-tech Earbuds",
+        "effect": "Strange earbuds that allow you to freely control the volume of various sounds."
+    },
+    "hippopotassand": {
+        "name": "Hippopotas Sand",
+        "effect": "Material obtained after defeating/catching Hippopotas, used in TM crafting."
+    },
+    "hm01": {
+        "name": "HM01",
+        "effect": "Teaches the move Cut."
+    },
+    "hm02": {
+        "name": "HM02",
+        "effect": "Teaches the move Fly."
+    },
+    "hm03": {
+        "name": "HM03",
+        "effect": "Teaches the move Surf."
+    },
+    "hm04": {
+        "name": "HM04",
+        "effect": "Teaches the move Strength."
+    },
+    "hm05": {
+        "name": "HM05",
+        "effect": "Teaches the move Flash/Defog/Whirlpool/Waterfall."
+    },
+    "hm06": {
+        "name": "HM06",
+        "effect": "Teaches the move Whirlpool/Rock Smash/Dive."
+    },
+    "hm07": {
+        "name": "HM07",
+        "effect": "Teaches the move Waterfall."
+    },
+    "hm08": {
+        "name": "HM08",
+        "effect": "Teaches the move Dive/Rock Climb."
+    },
+    "hondewberry": {
+        "name": "Hondew Berry",
+        "effect": "Increases Friendship but lowers Special Attack EVs."
+    },
+    "honey": {
+        "name": "Honey",
+        "effect": "A sweet honey with a lush aroma that attracts wild Pok\u00e9mon when it is used in grass, caves, or on special trees."
+    },
+    "honorofkalos": {
+        "name": "Honor Of Kalos",
+        "effect": "A precious symbol that is awarded only to an individual who has done great things for the Kalos region."
+    },
+    "hopoberry": {
+        "name": "Hopo Berry",
+        "effect": "A Berry that can be fed to a Pok\u00e9mon to restore its PP. If a wild Pok\u00e9mon eats one of these Berries, that Pok\u00e9mon\u2019s reactions will be dulled."
+    },
+    "hoppipleaf": {
+        "name": "Hoppip Leaf",
+        "effect": "Material obtained after defeating/catching Hoppip, used in TM crafting."
+    },
+    "horseradish": {
+        "name": "Horseradish",
+        "effect": "A very spicy condiment. Its distinctive sharp sizzle in your sinuses makes it a good match for rich fillings."
+    },
+    "houndoominite": {
+        "name": "Houndoominite",
+        "effect": "Enables Houndoom to Mega Evolve during battle."
+    },
+    "houndourfang": {
+        "name": "Houndour Fang",
+        "effect": "Material obtained after defeating/catching Houndour, used in TM crafting."
+    },
+    "hpup": {
+        "name": "HP Up",
+        "effect": "Increases HP EVs by 10."
+    },
+    "hyperpotion": {
+        "name": "Hyper Potion",
+        "effect": "Restores 120 HP."
+    },
+    "iapapaberry": {
+        "name": "Iapapa Berry",
+        "effect": "Restores HP if it's low, but may cause confusion."
+    },
+    "icegem": {
+        "name": "Ice Gem",
+        "effect": "Increases the power of an Ice-type move only once."
+    },
+    "iceheal": {
+        "name": "Ice Heal",
+        "effect": "Cures a Pok\u00e9mon of freezing."
+    },
+    "icememory": {
+        "name": "Ice Memory",
+        "effect": "Changes Silvally and its move Multi-Attack to Ice type."
+    },
+    "icestone": {
+        "name": "Ice Stone",
+        "effect": "Evolves certain species of Pok\u00e9mon."
+    },
+    "iceterashard": {
+        "name": "Ice Tera Shard",
+        "effect": "Changes a Pok\u00e9mon's Tera Type to Ice."
+    },
+    "icerootcarrot": {
+        "name": "Iceroot Carrot",
+        "effect": "Produce that the King of Bountiful Harvests\u2019 beloved steed likes to eat. It grew in a field covered in snow."
+    },
+    "icicleplate": {
+        "name": "Icicle Plate",
+        "effect": "Increases power of Ice-type moves. Changes Arceus' type to Ice."
+    },
+    "iciumz": {
+        "name": "Icium Z",
+        "effect": "Allows the use of Subzero Slammer, the Ice type Z-Move."
+    },
+    "icyrock": {
+        "name": "Icy Rock",
+        "effect": "A Pok\u00e9mon held item that extends the duration of the move Hail used by the holder."
+    },
+    "igglybufffluff": {
+        "name": "Igglybuff Fluff",
+        "effect": "Material obtained after defeating/catching Igglybuff, used in TM crafting."
+    },
+    "impidimphair": {
+        "name": "Impidimp Hair",
+        "effect": "Material obtained after defeating/catching Impidimp, used in TM crafting."
+    },
+    "impishmint": {
+        "name": "Impish Mint",
+        "effect": "Changes the Pok\u00e9mon's stats to match the Impish nature."
+    },
+    "inciniumz": {
+        "name": "Incinium Z",
+        "effect": "Allows Incineroar to upgrade Darkest Lariat to a Z-Move, Malicious Moonsault."
+    },
+    "indeedeefur": {
+        "name": "Indeedee Fur",
+        "effect": "Material obtained after defeating/catching Indeedee, used in TM crafting."
+    },
+    "insectplate": {
+        "name": "Insect Plate",
+        "effect": "Increases power of Bug-type moves. Changes Arceus' type to Bug."
+    },
+    "instantnoodles": {
+        "name": "Instant Noodles",
+        "effect": "One of the many ingredients that can be used for cooking at your camp. It has a junk-food sort of taste, but it goes well with curry."
+    },
+    "intriguingstone": {
+        "name": "Intriguing Stone",
+        "effect": "A rather curious stone that might appear to be valuable to some. It's all in the eye of the beholder."
+    },
+    "iron": {
+        "name": "Iron",
+        "effect": "Increases Defense EVs by 10."
+    },
+    "ironball": {
+        "name": "Iron Ball",
+        "effect": "A Pok\u00e9mon held item that cuts Speed. It makes Flying-type and levitating holders susceptible to Ground moves."
+    },
+    "ironplate": {
+        "name": "Iron Plate",
+        "effect": "Increases power of Steel-type moves. Changes Arceus' type to Steel."
+    },
+    "itemdrop": {
+        "name": "Item Drop",
+        "effect": "When used, it causes an ally Pok\u00e9mon to drop a held item."
+    },
+    "itemurge": {
+        "name": "Item Urge",
+        "effect": "When used, it causes an ally Pok\u00e9mon to use its held item."
+    },
+    "jabocaberry": {
+        "name": "Jaboca Berry",
+        "effect": "If held by a Pok\u00e9mon and a physical attack lands, the attacker also takes damage."
+    },
+    "jalape\u00f1o": {
+        "name": "Jalape\u00f1o",
+        "effect": "A very spicy ingredient\u2014so spicy as to leave no room for ambivalence about it. You either like it or you don\u2019t."
+    },
+    "jam": {
+        "name": "Jam",
+        "effect": "A condiment that\u2019s very sweet and likewise very sour. Take care when adding it to sandwiches, as the sweet side can overwhelm."
+    },
+    "johtoslate": {
+        "name": "Johto Slate",
+        "effect": "A slate overflowing with enigmatic energy. You can feel a strong connection between it and the Johto Room at Ramanas Park."
+    },
+    "jollymint": {
+        "name": "Jolly Mint",
+        "effect": "Changes the Pok\u00e9mon's stats to match the Jolly nature."
+    },
+    "kangaskhanite": {
+        "name": "Kangaskhanite",
+        "effect": "Enables Kangaskhan to Mega Evolve during battle."
+    },
+    "kantoslate": {
+        "name": "Kanto Slate",
+        "effect": "A slate overflowing with enigmatic energy. You can feel a strong connection between it and the Kanto Room at Ramanas Park."
+    },
+    "kasibberry": {
+        "name": "Kasib Berry",
+        "effect": "Weakens a supereffective Ghost-type attack against the holding Pok\u00e9mon."
+    },
+    "kebiaberry": {
+        "name": "Kebia Berry",
+        "effect": "Weakens a supereffective Poison-type attack against the holding Pok\u00e9mon."
+    },
+    "keeberry": {
+        "name": "Kee Berry",
+        "effect": "If held by a Pok\u00e9mon, this Berry will increase the holder's Defense if it's hit with a physical move."
+    },
+    "kelpsyberry": {
+        "name": "Kelpsy Berry",
+        "effect": "Increases Friendship but lowers Attack EVs."
+    },
+    "ketchup": {
+        "name": "Ketchup",
+        "effect": "A condiment with very salty and tart flavor. While a number of other ingredients go into its signature flavor, the noble tomato is its heart and soul."
+    },
+    "king'srock": {
+        "name": "King's Rock",
+        "effect": "May cause opponent to flinch. Evolves Poliwhirl and Slowpoke when traded holding the item."
+    },
+    "kiwi": {
+        "name": "Kiwi",
+        "effect": "A very tart ingredient that has a light touch of sweetness as well. It goes well with rich ingredients."
+    },
+    "klawfclaw": {
+        "name": "Klawf Claw",
+        "effect": "Material obtained after defeating/catching Klawf, used in TM crafting."
+    },
+    "klawfstick": {
+        "name": "Klawf Stick",
+        "effect": "A very sweet and salty ingredient. It\u2019s a nutritious processed food made with a concentrate derived from shed Klawf shells."
+    },
+    "klefkikey": {
+        "name": "Klefki Key",
+        "effect": "Material obtained after defeating/catching Klefki, used in TM crafting."
+    },
+    "kofu'swallet": {
+        "name": "Kofu's Wallet",
+        "effect": "A wallet that was left behind by Kofu, the Gym Leader at the Cascarrafa Gym. You\u2019re to deliver it to him at the market in Porto Marinada."
+    },
+    "komalaclaw": {
+        "name": "Komala Claw",
+        "effect": "Material obtained after defeating/catching Komala, used in TM crafting."
+    },
+    "kommoniumz": {
+        "name": "Kommonium Z",
+        "effect": "Allows Kommo-o to upgrade Clanging Scales to a Z-Move, Clangorous Soulblaze."
+    },
+    "koraidon'spok\u00e9ball": {
+        "name": "Koraidon's Pok\u00e9 Ball",
+        "effect": "A Pok\u00e9 Ball that can hold the mysterious Pok\u00e9mon known as Koraidon. A boy named Arven gave it to you."
+    },
+    "kricketotshell": {
+        "name": "Kricketot Shell",
+        "effect": "Material obtained after defeating/catching Kricketot, used in TM crafting."
+    },
+    "laggingtail": {
+        "name": "Lagging Tail",
+        "effect": "Holder always attacks last."
+    },
+    "lansatberry": {
+        "name": "Lansat Berry",
+        "effect": "Increases critical-hit ratio when HP is low."
+    },
+    "largeleek": {
+        "name": "Large Leek",
+        "effect": "One of the many ingredients that can be used for cooking at your camp. Whether this is the kind of vegetable stalk that Farfetch\u2019d like is unknown."
+    },
+    "larvestafuzz": {
+        "name": "Larvesta Fuzz",
+        "effect": "Material obtained after defeating/catching Larvesta, used in TM crafting."
+    },
+    "larvitarclaw": {
+        "name": "Larvitar Claw",
+        "effect": "Material obtained after defeating/catching Larvitar, used in TM crafting."
+    },
+    "latiasite": {
+        "name": "Latiasite",
+        "effect": "Enables Latias to Mega Evolve during battle."
+    },
+    "latiosite": {
+        "name": "Latiosite",
+        "effect": "Enables Latios to Mega Evolve during battle."
+    },
+    "lavacookie": {
+        "name": "Lava Cookie",
+        "effect": "Heals all major status conditions."
+    },
+    "laxincense": {
+        "name": "Lax Incense",
+        "effect": "Lowers the opponent's accuracy. Breeding Wobbuffet produces Wynaut when held."
+    },
+    "laxmint": {
+        "name": "Lax Mint",
+        "effect": "Changes the Pok\u00e9mon's stats to match the Lax nature."
+    },
+    "leader'screst": {
+        "name": "Leader's Crest",
+        "effect": "A shard of what appears to be an old blade of some sort. It is held only by Bisharp that head up a group of Pawniard."
+    },
+    "leafletter": {
+        "name": "Leaf Letter",
+        "effect": "A letter written on a leaf. Something is written using Eevee's footprints."
+    },
+    "leafstone": {
+        "name": "Leaf Stone",
+        "effect": "Evolves certain species of Pok\u00e9mon."
+    },
+    "leafytablecloth": {
+        "name": "Leafy Tablecloth",
+        "effect": "A botanically themed tablecloth featuring Grass-type Pok\u00e9mon. Can you find the Pok\u00e9mon that doesn\u2019t quite fit in?"
+    },
+    "lechonkhair": {
+        "name": "Lechonk Hair",
+        "effect": "Material obtained after defeating/catching Lechonk, used in TM crafting."
+    },
+    "leek": {
+        "name": "Leek",
+        "effect": "Increases critical-hit ratio when held by Farfetch'd."
+    },
+    "leftovers": {
+        "name": "Leftovers",
+        "effect": "An item to be held by a Pok\u00e9mon. The holder's HP is gradually restored during battle."
+    },
+    "lemonade": {
+        "name": "Lemonade",
+        "effect": "Restores 70 HP."
+    },
+    "leppaberry": {
+        "name": "Leppa Berry",
+        "effect": "If held by a Pok\u00e9mon, it restores a move's PP by 10."
+    },
+    "lettuce": {
+        "name": "Lettuce",
+        "effect": "This bitter-tasting ingredient is simple and straightforward\u2014just add it to all kinds of other ingredients for a delightfully crunchy time."
+    },
+    "levelball": {
+        "name": "Level Ball",
+        "effect": "A Pok\u00e9 Ball for catching Pok\u00e9mon that are a lower level than your own."
+    },
+    "liechiberry": {
+        "name": "Liechi Berry",
+        "effect": "Raises Attack when HP is low."
+    },
+    "lifeorb": {
+        "name": "Life Orb",
+        "effect": "Increases the power of moves, but loses HP each turn."
+    },
+    "lightball": {
+        "name": "Light Ball",
+        "effect": "An item to be held by PIKACHU. It is a puzzling orb that raises the Attack and Sp. Atk stat."
+    },
+    "lightclay": {
+        "name": "Light Clay",
+        "effect": "A Pok\u00e9mon held item that extends the duration of barrier moves like Light Screen and Reflect used by the holder."
+    },
+    "lilactablecloth": {
+        "name": "Lilac Tablecloth",
+        "effect": "A light purple tablecloth. It\u2019s smooth and pleasant to the touch, and dishes can be placed on it with hardly a sound."
+    },
+    "linkingcord": {
+        "name": "Linking Cord",
+        "effect": "A string exuding a mysterious energy that makes you feel a strange sense of connection. It\u2019s loved by certain Pok\u00e9mon."
+    },
+    "litleotuft": {
+        "name": "Litleo Tuft",
+        "effect": "Material obtained after defeating/catching Litleo, used in TM crafting."
+    },
+    "loadeddice": {
+        "name": "Loaded Dice",
+        "effect": "Makes multi-strike moves more likely to hit more times."
+    },
+    "lonelymint": {
+        "name": "Lonely Mint",
+        "effect": "Changes the Pok\u00e9mon's stats to match the Lonely nature."
+    },
+    "lookerticket": {
+        "name": "Looker Ticket",
+        "effect": "A ticket that was handmade by Looker. It's decorated with a liberal amount of glittery paint."
+    },
+    "lopunnite": {
+        "name": "Lopunnite",
+        "effect": "Enables Lopunny to Mega Evolve during battle."
+    },
+    "loveball": {
+        "name": "Love Ball",
+        "effect": "Pok\u00e9 Ball for catching Pok\u00e9mon that are the opposite gender of your Pok\u00e9mon."
+    },
+    "lovesweet": {
+        "name": "Love Sweet",
+        "effect": "Evolves Milcery into Heart Flavor Alcremie."
+    },
+    "lucarionite": {
+        "name": "Lucarionite",
+        "effect": "Enables Lucario to Mega Evolve during battle."
+    },
+    "luckincense": {
+        "name": "Luck Incense",
+        "effect": "Doubles prize money if held. Breeding Chansey or Blissey produces Happiny when held."
+    },
+    "luckyegg": {
+        "name": "Lucky Egg",
+        "effect": "An item to be held by a Pok\u00e9mon. It is an egg filled with happiness that earns extra Exp. Points in battle."
+    },
+    "luckypunch": {
+        "name": "Lucky Punch",
+        "effect": "Increases critical-hit ratio when held by Chansey."
+    },
+    "lumberry": {
+        "name": "Lum Berry",
+        "effect": "If held by a Pok\u00e9mon, it recovers from any status problem."
+    },
+    "luminousmoss": {
+        "name": "Luminous Moss",
+        "effect": "Raises Special Defense if hit by a Water-type move."
+    },
+    "lumiosegalette": {
+        "name": "Lumiose Galette",
+        "effect": "Heals all major status conditions."
+    },
+    "lunaliumz": {
+        "name": "Lunalium Z",
+        "effect": "Allows Lunala to upgrade Moongeist Beam to a Z-Move, Menacing Moonraze Maelstrom."
+    },
+    "lure": {
+        "name": "Lure",
+        "effect": "Attracts Pok\u00e9mon in the wild."
+    },
+    "lureball": {
+        "name": "Lure Ball",
+        "effect": "A Pok\u00e9 Ball for catching Pok\u00e9mon hooked by a Rod when fishing."
+    },
+    "lustrousorb": {
+        "name": "Lustrous Orb",
+        "effect": "Increases the power of Dragon- and Water-type moves when held by Palkia."
+    },
+    "luvdiscscales": {
+        "name": "Luvdisc Scales",
+        "effect": "Material obtained after defeating/catching Luvdisc, used in TM crafting."
+    },
+    "luxuryball": {
+        "name": "Luxury Ball",
+        "effect": "Catches wild Pok\u00e9mon and increases their friendship more quickly."
+    },
+    "lycaniumz": {
+        "name": "Lycanium Z",
+        "effect": "Allows Lycanroc to upgrade Stone Edge to a Z-Move, Splintered Stormshards."
+    },
+    "machobrace": {
+        "name": "Macho Brace",
+        "effect": "An item to be held by a Pok\u00e9mon. It is a stiff and heavy brace that promotes strong growth but lowers Speed."
+    },
+    "magicalheartpick": {
+        "name": "Magical Heart Pick",
+        "effect": "A pick shaped after a magic wand. Perhaps the real magic is the food maker\u2019s wish for a delicious dish."
+    },
+    "magicalstarpick": {
+        "name": "Magical Star Pick",
+        "effect": "A pick shaped after a magic wand. Perhaps the real magic is the food maker\u2019s wish for a delicious dish."
+    },
+    "magikarpscales": {
+        "name": "Magikarp Scales",
+        "effect": "Material obtained after defeating/catching Magikarp, used in TM crafting."
+    },
+    "magmarizer": {
+        "name": "Magmarizer",
+        "effect": "Evolves Magmar when traded holding the item."
+    },
+    "magnemitescrew": {
+        "name": "Magnemite Screw",
+        "effect": "Material obtained after defeating/catching Magnemite, used in TM crafting."
+    },
+    "magnet": {
+        "name": "Magnet",
+        "effect": "Increases the power of Electric-type moves."
+    },
+    "magoberry": {
+        "name": "Mago Berry",
+        "effect": "Restores HP if it's low, but may cause confusion."
+    },
+    "magostberry": {
+        "name": "Magost Berry",
+        "effect": "A Berry which is very rare in the Unova region. A maniac will buy it for a high price."
+    },
+    "makuhitasweat": {
+        "name": "Makuhita Sweat",
+        "effect": "Material obtained after defeating/catching Makuhita, used in TM crafting."
+    },
+    "maliciousarmor": {
+        "name": "Malicious Armor",
+        "effect": "Evolves Charcadet into Ceruledge."
+    },
+    "manectite": {
+        "name": "Manectite",
+        "effect": "Enables Manectric to Mega Evolve during battle."
+    },
+    "mankeyfur": {
+        "name": "Mankey Fur",
+        "effect": "Material obtained after defeating/catching Mankey, used in TM crafting."
+    },
+    "marangaberry": {
+        "name": "Maranga Berry",
+        "effect": "If held by a Pok\u00e9mon, this Berry will increase the holder's Sp. Def if it's hit with a special move."
+    },
+    "mareaniespike": {
+        "name": "Mareanie Spike",
+        "effect": "Material obtained after defeating/catching Mareanie, used in TM crafting."
+    },
+    "mareepwool": {
+        "name": "Mareep Wool",
+        "effect": "Material obtained after defeating/catching Mareep, used in TM crafting."
+    },
+    "marillball": {
+        "name": "Marill Ball",
+        "effect": "A Marill-themed ball. It\u2019s soft and springy. Make sure you haven\u2019t mistaken a real Marill for this ball before throwing."
+    },
+    "marmalade": {
+        "name": "Marmalade",
+        "effect": "A condiment with sour and bitter notes. It\u2019s surprisingly useful, as it makes a nice counterpoint to oilier foods."
+    },
+    "marshadiumz": {
+        "name": "Marshadium Z",
+        "effect": "Allows Marshadow to upgrade Spectral Thief to a Z-Move, Soul-Stealing 7-Star Strike."
+    },
+    "maschifffang": {
+        "name": "Maschiff Fang",
+        "effect": "Material obtained after defeating/catching Maschiff, used in TM crafting."
+    },
+    "masterball": {
+        "name": "Master Ball",
+        "effect": "Catches any wild Pok\u00e9mon without fail."
+    },
+    "masterpieceteacup": {
+        "name": "Masterpiece Teacup",
+        "effect": "Evolves Poltchageist (Masterpiece) into Sinistcha (Masterpiece)."
+    },
+    "mawilite": {
+        "name": "Mawilite",
+        "effect": "Enables Mawile to Mega Evolve during battle."
+    },
+    "maxelixir": {
+        "name": "Max Elixir",
+        "effect": "Fully restores PP to all moves of a Pok\u00e9mon."
+    },
+    "maxether": {
+        "name": "Max Ether",
+        "effect": "Fully restores PP to one move of a Pok\u00e9mon."
+    },
+    "maxlure": {
+        "name": "Max Lure",
+        "effect": "Attracts Pok\u00e9mon in the wild."
+    },
+    "maxpotion": {
+        "name": "Max Potion",
+        "effect": "Fully restores HP."
+    },
+    "maxrepel": {
+        "name": "Max Repel",
+        "effect": "An item that prevents weak wild Pok\u00e9mon from appearing for 250 steps after its use."
+    },
+    "maxrevive": {
+        "name": "Max Revive",
+        "effect": "Revives a fainted Pok\u00e9mon, fully restoring its HP."
+    },
+    "mayonnaise": {
+        "name": "Mayonnaise",
+        "effect": "A condiment that packs a very tart punch yet pairs well with various ingredients."
+    },
+    "meadowplate": {
+        "name": "Meadow Plate",
+        "effect": "Increases power of Grass-type moves. Changes Arceus' type to Grass."
+    },
+    "medichamite": {
+        "name": "Medichamite",
+        "effect": "Enables Medicham to Mega Evolve during battle."
+    },
+    "medititesweat": {
+        "name": "Meditite Sweat",
+        "effect": "Material obtained after defeating/catching Meditite, used in TM crafting."
+    },
+    "mentalherb": {
+        "name": "Mental Herb",
+        "effect": "An item to be held by a Pok\u00e9mon. It snaps the holder out of infatuation. It can be used only once."
+    },
+    "meowthfur": {
+        "name": "Meowth Fur",
+        "effect": "Material obtained after defeating/catching Meowth, used in TM crafting."
+    },
+    "metagrossite": {
+        "name": "Metagrossite",
+        "effect": "Enables Metagross to Mega Evolve during battle."
+    },
+    "metalalloy": {
+        "name": "Metal Alloy",
+        "effect": "Evolves Duraludon into Archaludon."
+    },
+    "metalcoat": {
+        "name": "Metal Coat",
+        "effect": "Increases the power of Steel-type moves. Evolves Onix and Scyther when traded holding the item."
+    },
+    "metalpowder": {
+        "name": "Metal Powder",
+        "effect": "Increases Defense when held by Ditto."
+    },
+    "metronome": {
+        "name": "Metronome",
+        "effect": "Increases the power of moves used consecutively."
+    },
+    "mewniumz": {
+        "name": "Mewnium Z",
+        "effect": "Allows Mew to upgrade Psychic to a Z-Move, Genesis Supernova."
+    },
+    "mewtwonitex": {
+        "name": "Mewtwonite X",
+        "effect": "Enables Mewtwo to Mega Evolve during battle."
+    },
+    "mewtwonitey": {
+        "name": "Mewtwonite Y",
+        "effect": "Enables Mewtwo to Mega Evolve during battle."
+    },
+    "micleberry": {
+        "name": "Micle Berry",
+        "effect": "Increases a move's accuracy when HP is low."
+    },
+    "mightycandy": {
+        "name": "Mighty Candy",
+        "effect": "Increases a Pok\u00e9mon's Attack stat by 1."
+    },
+    "mightycandyl": {
+        "name": "Mighty Candy L",
+        "effect": "Increases a Pok\u00e9mon's Attack stat."
+    },
+    "mightycandyxl": {
+        "name": "Mighty Candy XL",
+        "effect": "Increases a Pok\u00e9mon's Attack stat."
+    },
+    "mildmint": {
+        "name": "Mild Mint",
+        "effect": "Changes the Pok\u00e9mon's stats to match the Mild nature."
+    },
+    "mimikiumz": {
+        "name": "Mimikium Z",
+        "effect": "Allows Mimikyu to upgrade Play Rough to a Z-Move, Let's Snuggle Forever."
+    },
+    "mimikyuscrap": {
+        "name": "Mimikyu Scrap",
+        "effect": "Material obtained after defeating/catching Mimikyu, used in TM crafting."
+    },
+    "mindplate": {
+        "name": "Mind Plate",
+        "effect": "Increases power of Psychic-type moves. Changes Arceus' type to Psychic."
+    },
+    "minttablecloth": {
+        "name": "Mint Tablecloth",
+        "effect": "A light mint-colored tablecloth. It\u2019s smooth and pleasant to the touch, and dishes can be placed on it with hardly a sound."
+    },
+    "miracleseed": {
+        "name": "Miracle Seed",
+        "effect": "Increases the power of Grass-type moves."
+    },
+    "miraidon'spok\u00e9ball": {
+        "name": "Miraidon's Pok\u00e9 Ball",
+        "effect": "A Pok\u00e9 Ball that can hold the mysterious Pok\u00e9mon known as Miraidon. A boy named Arven gave it to you."
+    },
+    "mirrorherb": {
+        "name": "Mirror Herb",
+        "effect": "Copies an opponent's stat increases when consumed."
+    },
+    "misdreavustears": {
+        "name": "Misdreavus Tears",
+        "effect": "Material obtained after defeating/catching Misdreavus, used in TM crafting."
+    },
+    "mistyseed": {
+        "name": "Misty Seed",
+        "effect": "An item to be held by a Pok\u00e9mon. It boosts Sp. Def on Misty Terrain. It can only be used once."
+    },
+    "mixedmushrooms": {
+        "name": "Mixed Mushrooms",
+        "effect": "One of the many ingredients that can be used for cooking at your camp. The chewy texture of the mushrooms transforms any dish they\u2019re added to."
+    },
+    "modestmint": {
+        "name": "Modest Mint",
+        "effect": "Changes the Pok\u00e9mon's stats to match the Modest nature."
+    },
+    "monstroustablecloth": {
+        "name": "Monstrous Tablecloth",
+        "effect": "A tablecloth designed by the Pewter Museum of Science. The academic air of the pattern is a big hit with kids and adults alike."
+    },
+    "moomoocheese": {
+        "name": "Moomoo Cheese",
+        "effect": "One of the many ingredients that can be used for cooking at your camp. Melted cheese can really give a curry some richness."
+    },
+    "moomoomilk": {
+        "name": "Moomoo Milk",
+        "effect": "Restores 100 HP."
+    },
+    "moonball": {
+        "name": "Moon Ball",
+        "effect": "A Pok\u00e9 Ball for catching Pok\u00e9mon that evolve using the Moon Stone."
+    },
+    "moonstone": {
+        "name": "Moon Stone",
+        "effect": "Evolves certain species of Pok\u00e9mon."
+    },
+    "mudbraymud": {
+        "name": "Mudbray Mud",
+        "effect": "Material obtained after defeating/catching Mudbray, used in TM crafting."
+    },
+    "murkrowbauble": {
+        "name": "Murkrow Bauble",
+        "effect": "Material obtained after defeating/catching Murkrow, used in TM crafting."
+    },
+    "muscleband": {
+        "name": "Muscle Band",
+        "effect": "Increases the power of Physical-category moves."
+    },
+    "musclefeather": {
+        "name": "Muscle Feather",
+        "effect": "Increases Attack EVs by 1."
+    },
+    "musclemochi": {
+        "name": "Muscle Mochi",
+        "effect": "Increases Attack EVs."
+    },
+    "mustard": {
+        "name": "Mustard",
+        "effect": "A very spicy condiment that\u2019s indispensable when bread is on the table. It pairs tremendously with ketchup."
+    },
+    "mysteriousshardl": {
+        "name": "Mysterious Shard L",
+        "effect": "A large shard that emanates an enigmatic power. Inside the shard, you can see a pattern that looks like Ramanas roses."
+    },
+    "mysteriousshards": {
+        "name": "Mysterious Shard S",
+        "effect": "A small shard that emanates an enigmatic power. Inside the shard, you can see a pattern that looks like Ramanas roses."
+    },
+    "mysticwater": {
+        "name": "Mystic Water",
+        "effect": "Increases the power of Water-type moves."
+    },
+    "naclisalt": {
+        "name": "Nacli Salt",
+        "effect": "Material obtained after defeating/catching Nacli, used in TM crafting."
+    },
+    "naivemint": {
+        "name": "Naive Mint",
+        "effect": "Changes the Pok\u00e9mon's stats to match the Naive nature."
+    },
+    "nanabberry": {
+        "name": "Nanab Berry",
+        "effect": "A Berry to be used in cooking. Calms a Pok\u00e9mon in battle, in Let's Go Pikachu/Eevee."
+    },
+    "naughtymint": {
+        "name": "Naughty Mint",
+        "effect": "Changes the Pok\u00e9mon's stats to match the Naughty nature."
+    },
+    "nestball": {
+        "name": "Nest Ball",
+        "effect": "Catches lower level wild Pok\u00e9mon with a higher rate (up to 4x for level 1)."
+    },
+    "netball": {
+        "name": "Net Ball",
+        "effect": "Catches Water- and Bug-type Pok\u00e9mon with 3.5x the rate of a standard Pok\u00e9 Ball."
+    },
+    "never-meltice": {
+        "name": "Never-Melt Ice",
+        "effect": "Increases the power of Ice-type moves."
+    },
+    "noibatfur": {
+        "name": "Noibat Fur",
+        "effect": "Material obtained after defeating/catching Noibat, used in TM crafting."
+    },
+    "nomelberry": {
+        "name": "Nomel Berry",
+        "effect": "A Berry which is very rare in the Unova region. A maniac will buy it for a high price."
+    },
+    "noodles": {
+        "name": "Noodles",
+        "effect": "A nice salty ingredient. It\u2019s unclear how well these boiled noodles will serve as a sandwich filling."
+    },
+    "normalgem": {
+        "name": "Normal Gem",
+        "effect": "Increases the power of a Normal-type move only once."
+    },
+    "normalterashard": {
+        "name": "Normal Tera Shard",
+        "effect": "Changes a Pok\u00e9mon's Tera Type to Normal."
+    },
+    "normaliumz": {
+        "name": "Normalium Z",
+        "effect": "Allows the use of Breakneck Blitz, the Normal type Z-Move."
+    },
+    "nugget": {
+        "name": "Nugget",
+        "effect": "A nugget of pure gold that gives off a lustrous gleam. It can be sold at a high price to shops."
+    },
+    "numellava": {
+        "name": "Numel Lava",
+        "effect": "Material obtained after defeating/catching Numel, used in TM crafting."
+    },
+    "nymbleclaw": {
+        "name": "Nymble Claw",
+        "effect": "Material obtained after defeating/catching Nymble, used in TM crafting."
+    },
+    "occaberry": {
+        "name": "Occa Berry",
+        "effect": "Weakens a supereffective Fire-type attack against the holding Pok\u00e9mon."
+    },
+    "oceanicslate": {
+        "name": "Oceanic Slate",
+        "effect": "A slate overflowing with enigmatic energy. You can feel a strong connection between it and the Oceanic Room at Ramanas Park."
+    },
+    "oddincense": {
+        "name": "Odd Incense",
+        "effect": "Increases the power of Psychic-type moves. Breeding Mr. Mime produces Mime Jr. when held."
+    },
+    "oddkeystone": {
+        "name": "Odd Keystone",
+        "effect": "A vital item that is needed to keep a stone tower from collapsing. Voices can be heard from it occasionally."
+    },
+    "oldamber": {
+        "name": "Old Amber",
+        "effect": "A piece of amber that contains the genetic material of an ancient Pok\u00e9mon. It is clear with a reddish tint."
+    },
+    "oldgateau": {
+        "name": "Old Gateau",
+        "effect": "Heals all major status conditions."
+    },
+    "oliveoil": {
+        "name": "Olive Oil",
+        "effect": "A condiment offering faint notes of sour and bitter flavors. The most prized varieties are the ones Smoliv love the smell of\u2014such oils\u2019 quality is assured."
+    },
+    "onion": {
+        "name": "Onion",
+        "effect": "This spicy veggie is indispensable to many sandwiches. It goes well with rich ingredients."
+    },
+    "oranberry": {
+        "name": "Oran Berry",
+        "effect": "If held by a Pok\u00e9mon, it heals the user by just 10 HP."
+    },
+    "orangedish": {
+        "name": "Orange Dish",
+        "effect": "A dish for picnics. Comes in plenty of colors to choose from based on the food or the mood. The orange variety is the most popular of all."
+    },
+    "orangurufur": {
+        "name": "Oranguru Fur",
+        "effect": "Material obtained after defeating/catching Oranguru, used in TM crafting."
+    },
+    "oricoriofeather": {
+        "name": "Oricorio Feather",
+        "effect": "Material obtained after defeating/catching Oricorio, used in TM crafting."
+    },
+    "orthwormtarnish": {
+        "name": "Orthworm Tarnish",
+        "effect": "Material obtained after defeating/catching Orthworm, used in TM crafting."
+    },
+    "ovalcharm": {
+        "name": "Oval Charm",
+        "effect": "An oval charm said to increase the chance of Pok\u00e9mon Eggs being found at the Day Care."
+    },
+    "ovalstone": {
+        "name": "Oval Stone",
+        "effect": "Evolves Happiny when held."
+    },
+    "pachirisufur": {
+        "name": "Pachirisu Fur",
+        "effect": "Material obtained after defeating/catching Pachirisu, used in TM crafting."
+    },
+    "packofpotatoes": {
+        "name": "Pack of Potatoes",
+        "effect": "One of the many ingredients that can be used for cooking at your camp. Potatoes help mellow out a spicy taste, to make a dish more mild."
+    },
+    "packagedcurry": {
+        "name": "Packaged Curry",
+        "effect": "One of the many ingredients that can be used for cooking at your camp. Using packaged curry helps make sure there are no slipups when cooking."
+    },
+    "pamtreberry": {
+        "name": "Pamtre Berry",
+        "effect": "A Berry which is very rare in the Unova region. A maniac will buy it for a high price."
+    },
+    "paralyzeheal": {
+        "name": "Paralyze Heal",
+        "effect": "Cures a Pok\u00e9mon of paralysis."
+    },
+    "parasolpick": {
+        "name": "Parasol Pick",
+        "effect": "Some complain that the parasol part of this pick is hard to hold on to, so your fingers get messy. Still, it\u2019s fun to twirl this all around after you\u2019ve eaten."
+    },
+    "parkball": {
+        "name": "Park Ball",
+        "effect": "A special Pok\u00e9 Ball for the Pal Park."
+    },
+    "partysparklerpick": {
+        "name": "Party Sparkler Pick",
+        "effect": "This pick features a small sparkler that goes off automatically. It\u2019s used at parties or for guests of honor. It leaves an oddly appealing aroma once it\u2019s burned out."
+    },
+    "passorb": {
+        "name": "Pass Orb",
+        "effect": "A mysterious orb containing the power of the Unova region, to be used when generating Pass Power."
+    },
+    "passhoberry": {
+        "name": "Passho Berry",
+        "effect": "Weakens a supereffective Water-type attack against the holding Pok\u00e9mon."
+    },
+    "passimianfur": {
+        "name": "Passimian Fur",
+        "effect": "Material obtained after defeating/catching Passimian, used in TM crafting."
+    },
+    "pasta": {
+        "name": "Pasta",
+        "effect": "One of the many ingredients that can be used for cooking at your camp. These flour noodles make for a surprisingly good match with curry."
+    },
+    "pawmifur": {
+        "name": "Pawmi Fur",
+        "effect": "Material obtained after defeating/catching Pawmi, used in TM crafting."
+    },
+    "pawniardblade": {
+        "name": "Pawniard Blade",
+        "effect": "Material obtained after defeating/catching Pawniard, used in TM crafting."
+    },
+    "payapaberry": {
+        "name": "Payapa Berry",
+        "effect": "Weakens a supereffective Psychic-type attack against the holding Pok\u00e9mon."
+    },
+    "peachtablecloth": {
+        "name": "Peach Tablecloth",
+        "effect": "A light peach-colored tablecloth. It\u2019s smooth and pleasant to the touch, and dishes can be placed on it with hardly a sound."
+    },
+    "peanutbutter": {
+        "name": "Peanut Butter",
+        "effect": "A very sweet condiment. People in Paldea seem to favor the sweet varieties over the unsweetened."
+    },
+    "pearl": {
+        "name": "Pearl",
+        "effect": "A somewhat-small pearl that sparkles in a pretty silver color. It can be sold cheaply to shops."
+    },
+    "pearlstring": {
+        "name": "Pearl String",
+        "effect": "Very large pearls that sparkle in a pretty silver color. A maniac will buy them for a high price."
+    },
+    "peatblock": {
+        "name": "Peat Block",
+        "effect": "A block of muddy material that can be used as fuel for burning when it is dried. It\u2019s loved by a certain Pok\u00e9mon."
+    },
+    "pechaberry": {
+        "name": "Pecha Berry",
+        "effect": "If held by a Pok\u00e9mon, it recovers from poison."
+    },
+    "pepper": {
+        "name": "Pepper",
+        "effect": "A seasoning packing very spicy flavor. It goes nicely with oilier foods and works especially well when you add just a pinch for a hint of flavor."
+    },
+    "permit": {
+        "name": "Permit",
+        "effect": "A permit that is needed to enter the Nature Preserve. Not many know about it."
+    },
+    "persimberry": {
+        "name": "Persim Berry",
+        "effect": "If held by a Pok\u00e9mon, it recovers from confusion."
+    },
+    "petayaberry": {
+        "name": "Petaya Berry",
+        "effect": "Raises Special Attack when HP is low."
+    },
+    "petililleaf": {
+        "name": "Petilil Leaf",
+        "effect": "Material obtained after defeating/catching Petilil, used in TM crafting."
+    },
+    "pewtercrunchies": {
+        "name": "Pewter Crunchies",
+        "effect": "Heals all major status conditions."
+    },
+    "phanpynail": {
+        "name": "Phanpy Nail",
+        "effect": "Material obtained after defeating/catching Phanpy, used in TM crafting."
+    },
+    "pichufur": {
+        "name": "Pichu Fur",
+        "effect": "Material obtained after defeating/catching Pichu, used in TM crafting."
+    },
+    "pickle": {
+        "name": "Pickle",
+        "effect": "This very sour ingredient is made by pickling veggies in a flavorful brine made from spices and vinegar."
+    },
+    "picnicset": {
+        "name": "Picnic Set",
+        "effect": "A roomy basket packed with all sorts of things for use when enjoying picnicking with your Pok\u00e9mon."
+    },
+    "pidgeotite": {
+        "name": "Pidgeotite",
+        "effect": "Enables Pidgeot to Mega Evolve during battle."
+    },
+    "pika-pikapick": {
+        "name": "Pika-Pika Pick",
+        "effect": "A Pick-achu, as it were, sporting Pikachu\u2019s usual expression. It\u2019s easy to grab by the ears, which is part of why it\u2019s so popular."
+    },
+    "pikachucup": {
+        "name": "Pikachu Cup",
+        "effect": "A cup for big-time Pok\u00e9mon fans. Kids will happily drink out of it, making it a boon to parents."
+    },
+    "pikaniumz": {
+        "name": "Pikanium Z",
+        "effect": "Allows Pikachu to upgrade Volt Tackle to a Z-Move, Catastropika."
+    },
+    "pikashuniumz": {
+        "name": "Pikashunium Z",
+        "effect": "Allows Pikachu in a cap to upgrade Thunderbolt to a Z-Move, 10,000,000 Volt Thunderbolt."
+    },
+    "pinapberry": {
+        "name": "Pinap Berry",
+        "effect": "A Berry to be used in cooking. Increases chances of getting items when a Pok\u00e9mon is caught, in Pok\u00e9mon Let's Go."
+    },
+    "pincurchinspines": {
+        "name": "Pincurchin Spines",
+        "effect": "Material obtained after defeating/catching Pincurchin, used in TM crafting."
+    },
+    "pineapple": {
+        "name": "Pineapple",
+        "effect": "This very tart ingredient is a fruit of southern lands, and its color and texture are a thrill. It\u2019s been cut into chunks to be easily manageable."
+    },
+    "pinecohusk": {
+        "name": "Pineco Husk",
+        "effect": "Material obtained after defeating/catching Pineco, used in TM crafting."
+    },
+    "pinkapricorn": {
+        "name": "Pink Apricorn",
+        "effect": "A pink Apricorn. It has a nice, sweet scent."
+    },
+    "pinkbottle": {
+        "name": "Pink Bottle",
+        "effect": "A go-to bottle widely used for drinks at picnics. Its simple design and portability make it popular among all sorts of people."
+    },
+    "pinkcup": {
+        "name": "Pink Cup",
+        "effect": "A cup sold with the Pink Bottle. The two don\u2019t stack, so they\u2019re tough to pack\u2014but they look good, so they\u2019re popular with those who like to post picnic photos."
+    },
+    "pinknectar": {
+        "name": "Pink Nectar",
+        "effect": "The flower nectar obtained at the flowering shrubs on Royal Avenue. It changes the form of certain species of Pok\u00e9mon."
+    },
+    "pinkscarf": {
+        "name": "Pink Scarf",
+        "effect": "Raises holder's Cute aspect in a Contest."
+    },
+    "pinktablecloth": {
+        "name": "Pink Tablecloth",
+        "effect": "A simple pink tablecloth. It\u2019s smooth and pleasant to the touch, and dishes can be placed on it with hardly a sound."
+    },
+    "pinsirite": {
+        "name": "Pinsirite",
+        "effect": "Enables Pinsir to Mega Evolve during battle."
+    },
+    "pixieplate": {
+        "name": "Pixie Plate",
+        "effect": "Increases power of Fairy-type moves. Changes Arceus' type to Fairy."
+    },
+    "plaidtablecloth(b)": {
+        "name": "Plaid Tablecloth (B)",
+        "effect": "A sturdy tablecloth made of thick fabric. The gentle blue plaid gives a table a crisp look."
+    },
+    "plaidtablecloth(r)": {
+        "name": "Plaid Tablecloth (R)",
+        "effect": "A sturdy tablecloth made of thick fabric. The quietly composed red plaid gives the table some flair."
+    },
+    "plaidtablecloth(y)": {
+        "name": "Plaid Tablecloth (Y)",
+        "effect": "A sturdy tablecloth made of thick fabric. The cheery yellow plaid brightens up a table."
+    },
+    "plasmacard": {
+        "name": "Plasma Card",
+        "effect": "A card key needed to enter the password inside the Plasma Frigate."
+    },
+    "plumefossil": {
+        "name": "Plume Fossil",
+        "effect": "A fossil of an ancient Pok\u00e9mon that flew in the sky in ancient times. It appears to be part of its wing."
+    },
+    "poisonbarb": {
+        "name": "Poison Barb",
+        "effect": "Increases the power of Poison-type moves."
+    },
+    "poisongem": {
+        "name": "Poison Gem",
+        "effect": "Increases the power of a Poison-type move only once."
+    },
+    "poisonmemory": {
+        "name": "Poison Memory",
+        "effect": "Changes Silvally and its move Multi-Attack to Poison type."
+    },
+    "poisonterashard": {
+        "name": "Poison Tera Shard",
+        "effect": "Changes a Pok\u00e9mon's Tera Type to Poison."
+    },
+    "poisoniumz": {
+        "name": "Poisonium Z",
+        "effect": "Allows the use of Acid Downpour, the Poison type Z-Move."
+    },
+    "pok\u00e9ball": {
+        "name": "Pok\u00e9 Ball",
+        "effect": "Catches wild Pok\u00e9mon."
+    },
+    "pok\u00e9doll": {
+        "name": "Pok\u00e9 Doll",
+        "effect": "A doll that attracts Pok\u00e9mon. Use it to flee from any battle with a wild Pok\u00e9mon."
+    },
+    "pok\u00e9toy": {
+        "name": "Pok\u00e9 Toy",
+        "effect": "An item that attracts Pok\u00e9mon. Use it to flee from any battle with a wild Pok\u00e9mon."
+    },
+    "polka-dotbottle": {
+        "name": "Polka-Dot Bottle",
+        "effect": "A polka-dot-patterned bottle that\u2019s small, light, and even comes with a cup. The detachable strap makes it handy for walking around with."
+    },
+    "polka-dotcup": {
+        "name": "Polka-Dot Cup",
+        "effect": "A cup for kids to use at picnics. It\u2019s made of light but strong material. It\u2019s stackable, which makes it handy for carrying around."
+    },
+    "polka-dottablecloth": {
+        "name": "Polka-Dot Tablecloth",
+        "effect": "A tablecloth with a fashionable polka-dot pattern. It\u2019s great at repelling water and mold, and stains and smudges wipe right off."
+    },
+    "pomegberry": {
+        "name": "Pomeg Berry",
+        "effect": "Increases Friendship but lowers HP EVs."
+    },
+    "potatosalad": {
+        "name": "Potato Salad",
+        "effect": "This very tart ingredient\u2014a soft salad that\u2019s all about potatoes\u2014pairs tremendously well with bread."
+    },
+    "potatotortilla": {
+        "name": "Potato Tortilla",
+        "effect": "A very salty ingredient and a popular dish in Paldea. It\u2019s undeniably filling."
+    },
+    "potion": {
+        "name": "Potion",
+        "effect": "Restores 20 HP."
+    },
+    "poweranklet": {
+        "name": "Power Anklet",
+        "effect": "A Pok\u00e9mon held item that promotes Speed gain on leveling, but reduces the Speed stat."
+    },
+    "powerband": {
+        "name": "Power Band",
+        "effect": "A Pok\u00e9mon held item that promotes Sp. Def gain on leveling, but reduces the Speed stat."
+    },
+    "powerbelt": {
+        "name": "Power Belt",
+        "effect": "A Pok\u00e9mon held item that promotes Defense gain on leveling, but reduces the Speed stat."
+    },
+    "powerbracer": {
+        "name": "Power Bracer",
+        "effect": "A Pok\u00e9mon held item that promotes Attack gain on leveling, but reduces the Speed stat."
+    },
+    "powerherb": {
+        "name": "Power Herb",
+        "effect": "A single-use item to be held by a Pok\u00e9mon. It allows the immediate use of a move that charges on the first turn."
+    },
+    "powerlens": {
+        "name": "Power Lens",
+        "effect": "A Pok\u00e9mon held item that promotes Sp. Atk gain on leveling, but reduces the Speed stat."
+    },
+    "powerplantpass": {
+        "name": "Power Plant Pass",
+        "effect": "This pass serves as an ID card for gaining access to the power plant that lies along Route 13."
+    },
+    "powerweight": {
+        "name": "Power Weight",
+        "effect": "A Pok\u00e9mon held item that promotes HP gain on leveling, but reduces the Speed stat."
+    },
+    "ppmax": {
+        "name": "PP Max",
+        "effect": "Raises the maximum PP of a move to its maximum."
+    },
+    "ppup": {
+        "name": "PP Up",
+        "effect": "Raises the maximum PP of a move."
+    },
+    "precookedburger": {
+        "name": "Precooked Burger",
+        "effect": "One of the many ingredients that can be used for cooking at your camp. If you\u2019re unsure about what to cook, you can\u2019t go wrong with some burger."
+    },
+    "premierball": {
+        "name": "Premier Ball",
+        "effect": "Catches wild Pok\u00e9mon; received after buying 10 Pok\u00e9 Balls."
+    },
+    "prettyfeather": {
+        "name": "Pretty Feather",
+        "effect": "Can be sold for a high price."
+    },
+    "primariumz": {
+        "name": "Primarium Z",
+        "effect": "Allows Primarina to upgrade Sparkling Aria to a Z-Move, Oceanic Operetta."
+    },
+    "prismscale": {
+        "name": "Prism Scale",
+        "effect": "Evolves Feebas when traded holding the item."
+    },
+    "prisonbottle": {
+        "name": "Prison Bottle",
+        "effect": "Transforms Hoopa Confined to Hoopa Unbound."
+    },
+    "prof'sletter": {
+        "name": "Prof's Letter",
+        "effect": "A letter that Professor Sycamore wrote to your mother. A faint but pleasant perfume seems to cling to the paper."
+    },
+    "prosciutto": {
+        "name": "Prosciutto",
+        "effect": "This ingredient is very salty like regular ham, but the difference is prosciutto is not cooked after it is cured, giving it a fun freshness."
+    },
+    "protectivepads": {
+        "name": "Protective Pads",
+        "effect": "An item to be held by a Pok\u00e9mon. These pads protect the holder from effects caused by making direct contact with the target."
+    },
+    "protector": {
+        "name": "Protector",
+        "effect": "Evolves Rhydon when traded holding the item."
+    },
+    "protein": {
+        "name": "Protein",
+        "effect": "Increases Attack EVs by 10."
+    },
+    "psychicgem": {
+        "name": "Psychic Gem",
+        "effect": "Increases the power of a Psychic-type move only once."
+    },
+    "psychicmemory": {
+        "name": "Psychic Memory",
+        "effect": "Changes Silvally and its move Multi-Attack to Psychic type."
+    },
+    "psychicseed": {
+        "name": "Psychic Seed",
+        "effect": "An item to be held by a Pok\u00e9mon. It boosts Sp. Def on Psychic Terrain. It can only be used once."
+    },
+    "psychicterashard": {
+        "name": "Psychic Tera Shard",
+        "effect": "Changes a Pok\u00e9mon's Tera Type to Psychic."
+    },
+    "psychiumz": {
+        "name": "Psychium Z",
+        "effect": "Allows the use of Shattered Psyche, the Psychic type Z-Move."
+    },
+    "psyduckdown": {
+        "name": "Psyduck Down",
+        "effect": "Material obtained after defeating/catching Psyduck, used in TM crafting."
+    },
+    "punchingglove": {
+        "name": "Punching Glove",
+        "effect": "An item to be held by a Pok\u00e9mon. This protective glove boosts the power of the holder\u2019s punching moves and prevents direct contact with targets."
+    },
+    "pungentroot": {
+        "name": "Pungent Root",
+        "effect": "One of the many ingredients that can be used for cooking at your camp. Though carelessly picked, these herbs can add a fragrant accent to a dish."
+    },
+    "pureincense": {
+        "name": "Pure Incense",
+        "effect": "Descreases the likelihood of meeting wild Pok\u00e9mon. Breeding Chimecho produces Chingling when held."
+    },
+    "purplenectar": {
+        "name": "Purple Nectar",
+        "effect": "A flower nectar obtained at Poni Meadow. It changes the form of certain species of Pok\u00e9mon."
+    },
+    "qualotberry": {
+        "name": "Qualot Berry",
+        "effect": "Increases Friendship but lowers Defense EVs."
+    },
+    "quickball": {
+        "name": "Quick Ball",
+        "effect": "Catches wild Pok\u00e9mon with a higher rate (5x) on the first turn of a battle."
+    },
+    "quickcandy": {
+        "name": "Quick Candy",
+        "effect": "Increases a Pok\u00e9mon's Speed stat by 1."
+    },
+    "quickcandyl": {
+        "name": "Quick Candy L",
+        "effect": "Increases a Pok\u00e9mon's Speed stat."
+    },
+    "quickcandyxl": {
+        "name": "Quick Candy XL",
+        "effect": "Increases a Pok\u00e9mon's Speed stat."
+    },
+    "quickclaw": {
+        "name": "Quick Claw",
+        "effect": "An item to be held by a Pok\u00e9mon. A light, sharp claw that lets the bearer move first occasionally."
+    },
+    "quickpowder": {
+        "name": "Quick Powder",
+        "effect": "Increases Speed when held by Ditto."
+    },
+    "quietmint": {
+        "name": "Quiet Mint",
+        "effect": "Changes the Pok\u00e9mon's stats to match the Quiet nature."
+    },
+    "qwilfishspines": {
+        "name": "Qwilfish Spines",
+        "effect": "Material obtained after defeating/catching Qwilfish, used in TM crafting."
+    },
+    "rabutaberry": {
+        "name": "Rabuta Berry",
+        "effect": "A Berry which is very rare in the Unova region. A maniac will buy it for a high price."
+    },
+    "ragecandybar": {
+        "name": "Rage Candy Bar",
+        "effect": "Heals all major status conditions."
+    },
+    "rainbowslate": {
+        "name": "Rainbow Slate",
+        "effect": "A slate overflowing with enigmatic energy. You can feel a strong connection between it and the Rainbow Room at Ramanas Park."
+    },
+    "raltsdust": {
+        "name": "Ralts Dust",
+        "effect": "Material obtained after defeating/catching Ralts, used in TM crafting."
+    },
+    "rarebone": {
+        "name": "Rare Bone",
+        "effect": "A bone that is extremely valuable for Pok\u00e9mon archeology. It can be sold for a high price to shops."
+    },
+    "rarecandy": {
+        "name": "Rare Candy",
+        "effect": "Raises a Pok\u00e9mon's level by 1."
+    },
+    "rashmint": {
+        "name": "Rash Mint",
+        "effect": "Changes the Pok\u00e9mon's stats to match the Rash nature."
+    },
+    "rawstberry": {
+        "name": "Rawst Berry",
+        "effect": "If held by a Pok\u00e9mon, it recovers from a burn."
+    },
+    "razorclaw": {
+        "name": "Razor Claw",
+        "effect": "Increases critical-hit ratio. Evolves Sneasel when held at night."
+    },
+    "razorfang": {
+        "name": "Razor Fang",
+        "effect": "May cause opponent to flinch. Evolves Gligar when held at night."
+    },
+    "razzberry": {
+        "name": "Razz Berry",
+        "effect": "A Berry which is very rare in the Unova region. A maniac will buy it for a high price."
+    },
+    "reapercloth": {
+        "name": "Reaper Cloth",
+        "effect": "Evolves Dusclops when traded holding the item."
+    },
+    "redapricorn": {
+        "name": "Red Apricorn",
+        "effect": "A red Apricorn. It assails your nostrils."
+    },
+    "redbellpepper": {
+        "name": "Red Bell Pepper",
+        "effect": "An ingredient with some bitterness\u2014but its bitter notes and overall flavor are pleasantly mild compared to its green cousin."
+    },
+    "redcard": {
+        "name": "Red Card",
+        "effect": "A card with a mysterious power. When the holder is struck by a foe, the attacker is removed from battle."
+    },
+    "reddish": {
+        "name": "Red Dish",
+        "effect": "A dish for picnics. Comes in plenty of colors to choose from based on the food or the mood. The red variety never fails to sell well."
+    },
+    "redflute": {
+        "name": "Red Flute",
+        "effect": "A toy flute made from red glass. A maniac will buy it for a high price."
+    },
+    "rednectar": {
+        "name": "Red Nectar",
+        "effect": "A flower nectar obtained at Ula'ula Meadow. It changes the form of certain species of Pok\u00e9mon."
+    },
+    "redonion": {
+        "name": "Red Onion",
+        "effect": "An ingredient with some sweetness to it. Its spiciness and fragrance are milder than those of other onions, making it a pleasant bite."
+    },
+    "redpok\u00e9ballpick": {
+        "name": "Red Pok\u00e9 Ball Pick",
+        "effect": "A sandwich pick with a simple red Pok\u00e9 Ball design. Often used by Trainers who picked a Fire-type Pok\u00e9mon for their first partner."
+    },
+    "redscarf": {
+        "name": "Red Scarf",
+        "effect": "Raises holder's Cool aspect in a Contest."
+    },
+    "redshard": {
+        "name": "Red Shard",
+        "effect": "A small red shard. It appears to be from some sort of implement made long ago."
+    },
+    "red-flagpick": {
+        "name": "Red-Flag Pick",
+        "effect": "This pick flies a red flag that lends an air of adventure. The flag itself is made of card stock, so it\u2019ll fly proudly even with no wind."
+    },
+    "relaxedmint": {
+        "name": "Relaxed Mint",
+        "effect": "Changes the Pok\u00e9mon's stats to match the Relaxed nature."
+    },
+    "relicband": {
+        "name": "Relic Band",
+        "effect": "A bracelet made in a civilization about 3,000 years ago. A maniac will buy it for a high price."
+    },
+    "reliccopper": {
+        "name": "Relic Copper",
+        "effect": "A copper coin used in a civilization about 3,000 years ago. A maniac will buy it for a high price."
+    },
+    "reliccrown": {
+        "name": "Relic Crown",
+        "effect": "A crown made in a civilization about 3,000 years ago. A maniac will buy it for a high price."
+    },
+    "relicgold": {
+        "name": "Relic Gold",
+        "effect": "A gold coin used in a civilization about 3,000 years ago. A maniac will buy it for a high price."
+    },
+    "relicsilver": {
+        "name": "Relic Silver",
+        "effect": "A silver coin used in a civilization about 3,000 years ago. A maniac will buy it for a high price."
+    },
+    "relicstatue": {
+        "name": "Relic Statue",
+        "effect": "A stone figure made in a civilization about 3,000 years ago. A maniac will buy it for a high price."
+    },
+    "relicvase": {
+        "name": "Relic Vase",
+        "effect": "A vase made in a civilization about 3,000 years ago. A maniac will buy it for a high price."
+    },
+    "rellormud": {
+        "name": "Rellor Mud",
+        "effect": "Material obtained after defeating/catching Rellor, used in TM crafting."
+    },
+    "repeatball": {
+        "name": "Repeat Ball",
+        "effect": "Catches Pok\u00e9mon already registered in the Pok\u00e9dex with 3.5x the rate of a standard Pok\u00e9 Ball."
+    },
+    "repel": {
+        "name": "Repel",
+        "effect": "An item that prevents weak wild Pok\u00e9mon from appearing for 100 steps after its use."
+    },
+    "reseturge": {
+        "name": "Reset Urge",
+        "effect": "When used, it restores any stat changes of an ally Pok\u00e9mon."
+    },
+    "resistfeather": {
+        "name": "Resist Feather",
+        "effect": "Increases Defense EVs by 1."
+    },
+    "resistmochi": {
+        "name": "Resist Mochi",
+        "effect": "Increases Defense EVs."
+    },
+    "revealglass": {
+        "name": "Reveal Glass",
+        "effect": "A looking glass that reveals the truth. It's a mysterious glass that returns a Pok\u00e9mon to its original shape."
+    },
+    "revivalherb": {
+        "name": "Revival Herb",
+        "effect": "Revives a Pok\u00e9mon to max HP, but lowers Friendship."
+    },
+    "revive": {
+        "name": "Revive",
+        "effect": "Revives a fainted Pok\u00e9mon, restoring half its HP."
+    },
+    "ribbonsweet": {
+        "name": "Ribbon Sweet",
+        "effect": "Evolves Milcery into Ribbon Flavor Alcremie."
+    },
+    "rice": {
+        "name": "Rice",
+        "effect": "An ingredient with a touch of sweetness. It\u2019s unclear how well this cooked rice will serve as a sandwich filling."
+    },
+    "rindoberry": {
+        "name": "Rindo Berry",
+        "effect": "Weakens a supereffective Grass-type attack against the holding Pok\u00e9mon."
+    },
+    "ringtarget": {
+        "name": "Ring Target",
+        "effect": "Moves that would otherwise have no effect will land on the Pok\u00e9mon that holds it."
+    },
+    "riolufur": {
+        "name": "Riolu Fur",
+        "effect": "Material obtained after defeating/catching Riolu, used in TM crafting."
+    },
+    "rockgem": {
+        "name": "Rock Gem",
+        "effect": "Increases the power of a Rock-type move only once."
+    },
+    "rockincense": {
+        "name": "Rock Incense",
+        "effect": "Increases the power of Rock-type moves. Breeding Sudowoodo produces Bonsly when held."
+    },
+    "rockmemory": {
+        "name": "Rock Memory",
+        "effect": "Changes Silvally and its move Multi-Attack to Rock type."
+    },
+    "rockterashard": {
+        "name": "Rock Tera Shard",
+        "effect": "Changes a Pok\u00e9mon's Tera Type to Rock."
+    },
+    "rockiumz": {
+        "name": "Rockium Z",
+        "effect": "Allows the use of Continental Crush, the Rock type Z-Move."
+    },
+    "rockruffrock": {
+        "name": "Rockruff Rock",
+        "effect": "Material obtained after defeating/catching Rockruff, used in TM crafting."
+    },
+    "rockyhelmet": {
+        "name": "Rocky Helmet",
+        "effect": "If the holder of this item takes damage, the attacker will also be damaged upon contact."
+    },
+    "rollerskates": {
+        "name": "Roller Skates",
+        "effect": "Attaches roller skates to the bottom of your shoes, allowing you to glide quickly around and perform tricks."
+    },
+    "rolycolycoal": {
+        "name": "Rolycoly Coal",
+        "effect": "Material obtained after defeating/catching Rolycoly, used in TM crafting."
+    },
+    "rookideefeather": {
+        "name": "Rookidee Feather",
+        "effect": "Material obtained after defeating/catching Rookidee, used in TM crafting."
+    },
+    "roomservice": {
+        "name": "Room Service",
+        "effect": "Lowers the Pok\u00e9mon's speed during Trick Room."
+    },
+    "rootfossil": {
+        "name": "Root Fossil",
+        "effect": "A fossil of an ancient Pok\u00e9mon that lived in the sea. It appears to be part of a plant root."
+    },
+    "roseincense": {
+        "name": "Rose Incense",
+        "effect": "Increases the power of Grass-type moves. Breeding Roselia or Roserade produces Budew when held."
+    },
+    "roseliberry": {
+        "name": "Roseli Berry",
+        "effect": "If held by a Pok\u00e9mon, this Berry will lessen the damage taken from one supereffective Fairy-type attack."
+    },
+    "rotobargain": {
+        "name": "Roto Bargain",
+        "effect": "Reduces the prices of products at Pok\u00e9 Marts by half."
+    },
+    "rotoboost": {
+        "name": "Roto Boost",
+        "effect": "Raises all stats of your battling Pok\u00e9mon."
+    },
+    "rotocatch": {
+        "name": "Roto Catch",
+        "effect": "Increases the chance to catch Pok\u00e9mon a lot."
+    },
+    "rotoencounter": {
+        "name": "Roto Encounter",
+        "effect": "Increases the chance of encountering high-level wild Pok\u00e9mon a lot for a certain period of time."
+    },
+    "rotoexp.points": {
+        "name": "Roto Exp. Points",
+        "effect": "Increases the Exp. Points your Pok\u00e9mon receive after battle a little."
+    },
+    "rotofriendship": {
+        "name": "Roto Friendship",
+        "effect": "Helps Pok\u00e9mon in your party grow friendly faster."
+    },
+    "rotohatch": {
+        "name": "Roto Hatch",
+        "effect": "Helps Eggs hatch faster."
+    },
+    "rotohprestore": {
+        "name": "Roto HP Restore",
+        "effect": "Fully restores the HP of your battling Pok\u00e9mon."
+    },
+    "rotopprestore": {
+        "name": "Roto PP Restore",
+        "effect": "Fully restores the PP of your battling Pok\u00e9mon."
+    },
+    "rotoprizemoney": {
+        "name": "Roto Prize Money",
+        "effect": "Triples the prize money you receive after battle."
+    },
+    "rotostealth": {
+        "name": "Roto Stealth",
+        "effect": "Prevents you from encountering wild Pok\u00e9mon for a certain period of time."
+    },
+    "rotomphone": {
+        "name": "Rotom Phone",
+        "effect": "The latest model of smartphone. A Pok\u00e9mon called Rotom lives within it, and it can be used to run all sorts of handy apps."
+    },
+    "rotomsparks": {
+        "name": "Rotom Sparks",
+        "effect": "Material obtained after defeating/catching Rotom, used in TM crafting."
+    },
+    "rowapberry": {
+        "name": "Rowap Berry",
+        "effect": "If held by a Pok\u00e9mon and a special attack lands, the attacker also takes damage."
+    },
+    "ruffletfeather": {
+        "name": "Rufflet Feather",
+        "effect": "Material obtained after defeating/catching Rufflet, used in TM crafting."
+    },
+    "sablenite": {
+        "name": "Sablenite",
+        "effect": "Enables Sableye to Mega Evolve during battle."
+    },
+    "sableyegem": {
+        "name": "Sableye Gem",
+        "effect": "Material obtained after defeating/catching Sableye, used in TM crafting."
+    },
+    "sachet": {
+        "name": "Sachet",
+        "effect": "Evolves Spritzee when traded holding the item."
+    },
+    "sacredash": {
+        "name": "Sacred Ash",
+        "effect": "Revives all fainted Pok\u00e9mon and fully restores their HP."
+    },
+    "safariball": {
+        "name": "Safari Ball",
+        "effect": "Catches Pok\u00e9mon in the Safari Zone or Great Marsh."
+    },
+    "safetygoggles": {
+        "name": "Safety Goggles",
+        "effect": "Prevents damage from weather and powder."
+    },
+    "salacberry": {
+        "name": "Salac Berry",
+        "effect": "Raises Speed when HP is low."
+    },
+    "saladmix": {
+        "name": "Salad Mix",
+        "effect": "One of the many ingredients that can be used for cooking at your camp. The assortment of vegetables looks quite appealing and healthy."
+    },
+    "salamencite": {
+        "name": "Salamencite",
+        "effect": "Enables Salamence to Mega Evolve during battle."
+    },
+    "salanditgas": {
+        "name": "Salandit Gas",
+        "effect": "Material obtained after defeating/catching Salandit, used in TM crafting."
+    },
+    "salt": {
+        "name": "Salt",
+        "effect": "A very salty seasoning, unsurprisingly. People quite like the grains of salt that can be gathered from the footprints of particularly jagged Naclstack."
+    },
+    "saltyherbamystica": {
+        "name": "Salty Herba Mystica",
+        "effect": "One of the condiments spoken of as legends. Its mellow saltiness is said to be tremendously effective when it comes to promoting health."
+    },
+    "sandileclaw": {
+        "name": "Sandile Claw",
+        "effect": "Material obtained after defeating/catching Sandile, used in TM crafting."
+    },
+    "sandwich": {
+        "name": "Sandwich",
+        "effect": "A dish made by sandwiching vegetables, meat, or other ingredients between two pieces of bread. It makes a fantastic meal when out on a picnic."
+    },
+    "sandygastsand": {
+        "name": "Sandygast Sand",
+        "effect": "Material obtained after defeating/catching Sandygast, used in TM crafting."
+    },
+    "sassymint": {
+        "name": "Sassy Mint",
+        "effect": "Changes the Pok\u00e9mon's stats to match the Sassy nature."
+    },
+    "sausages": {
+        "name": "Sausages",
+        "effect": "One of the many ingredients that can be used for cooking at your camp. These sausages should be boiled before eating."
+    },
+    "scarletbook": {
+        "name": "Scarlet Book",
+        "effect": "A record of the expedition that the author, Heath, went on within the Great Crater of Paldea. The book has the name \u201cSada\u201d written on it in clumsy handwriting."
+    },
+    "scatterbugpowder": {
+        "name": "Scatterbug Powder",
+        "effect": "Material obtained after defeating/catching Scatterbug, used in TM crafting."
+    },
+    "sceptilite": {
+        "name": "Sceptilite",
+        "effect": "Enables Sceptile to Mega Evolve during battle."
+    },
+    "scizorite": {
+        "name": "Scizorite",
+        "effect": "Enables Scizor to Mega Evolve during battle."
+    },
+    "scopelens": {
+        "name": "Scope Lens",
+        "effect": "Increases critical-hit ratio."
+    },
+    "scrollofdarkness": {
+        "name": "Scroll of Darkness",
+        "effect": "A peculiar scroll that can make a certain species of Pok\u00e9mon evolve. Written upon it are the true secrets of the path of darkness."
+    },
+    "scrollofwaters": {
+        "name": "Scroll of Waters",
+        "effect": "A peculiar scroll that can make a certain species of Pok\u00e9mon evolve. Written upon it are the true secrets of the path of water."
+    },
+    "scytherclaw": {
+        "name": "Scyther Claw",
+        "effect": "Material obtained after defeating/catching Scyther, used in TM crafting."
+    },
+    "seaincense": {
+        "name": "Sea Incense",
+        "effect": "Increases the power of Water-type moves. Breeding Marill or Azumarill produces Azurill when held."
+    },
+    "seriousmint": {
+        "name": "Serious Mint",
+        "effect": "Changes the Pok\u00e9mon's stats to match a neutral nature."
+    },
+    "seviperfang": {
+        "name": "Seviper Fang",
+        "effect": "Material obtained after defeating/catching Seviper, used in TM crafting."
+    },
+    "shaderootcarrot": {
+        "name": "Shaderoot Carrot",
+        "effect": "Produce that the King of Bountiful Harvests\u2019 beloved steed likes to eat. It grew in a gloomy field."
+    },
+    "shaloursable": {
+        "name": "Shalour Sable",
+        "effect": "Heals all major status conditions."
+    },
+    "sharpbeak": {
+        "name": "Sharp Beak",
+        "effect": "Increases the power of Flying-type moves."
+    },
+    "sharpedonite": {
+        "name": "Sharpedonite",
+        "effect": "Enables Sharpedo to Mega Evolve during battle."
+    },
+    "shedshell": {
+        "name": "Shed Shell",
+        "effect": "A tough, discarded carapace to be held by a Pok\u00e9mon. It enables the holder to switch with a waiting Pok\u00e9mon in battle."
+    },
+    "shellbell": {
+        "name": "Shell Bell",
+        "effect": "An item to be held by a Pok\u00e9mon. The holder's HP is restored a little every time it inflicts damage."
+    },
+    "shellderpearl": {
+        "name": "Shellder Pearl",
+        "effect": "Material obtained after defeating/catching Shellder, used in TM crafting."
+    },
+    "shellosmucus": {
+        "name": "Shellos Mucus",
+        "effect": "Material obtained after defeating/catching Shellos, used in TM crafting."
+    },
+    "shinxfang": {
+        "name": "Shinx Fang",
+        "effect": "Material obtained after defeating/catching Shinx, used in TM crafting."
+    },
+    "shinycharm": {
+        "name": "Shiny Charm",
+        "effect": "A shiny charm said to increase the chance of finding a Shiny Pok\u00e9mon in the wild."
+    },
+    "shinystone": {
+        "name": "Shiny Stone",
+        "effect": "Evolves certain species of Pok\u00e9mon."
+    },
+    "shoalsalt": {
+        "name": "Shoal Salt",
+        "effect": "Pure salt that can be discovered deep inside the Shoal Cave. A maniac will buy it for a high price."
+    },
+    "shoalshell": {
+        "name": "Shoal Shell",
+        "effect": "A pretty seashell that can be found deep inside the Shoal Cave. A maniac will buy it for a high price."
+    },
+    "shockdrive": {
+        "name": "Shock Drive",
+        "effect": "Changes Techno Blast to an Electric-type move when held by Genesect."
+    },
+    "shroodleink": {
+        "name": "Shroodle Ink",
+        "effect": "Material obtained after defeating/catching Shroodle, used in TM crafting."
+    },
+    "shroomishspores": {
+        "name": "Shroomish Spores",
+        "effect": "Material obtained after defeating/catching Shroomish, used in TM crafting."
+    },
+    "shucaberry": {
+        "name": "Shuca Berry",
+        "effect": "Weakens a supereffective Ground-type attack against the holding Pok\u00e9mon."
+    },
+    "shuppetscrap": {
+        "name": "Shuppet Scrap",
+        "effect": "Material obtained after defeating/catching Shuppet, used in TM crafting."
+    },
+    "silicobrasand": {
+        "name": "Silicobra Sand",
+        "effect": "Material obtained after defeating/catching Silicobra, used in TM crafting."
+    },
+    "silkscarf": {
+        "name": "Silk Scarf",
+        "effect": "Increases the power of Normal-type moves."
+    },
+    "silverbottle": {
+        "name": "Silver Bottle",
+        "effect": "A popular option among hikers. It\u2019s made with titanium, so it doesn\u2019t rust even if it\u2019s used to hold drinks with high sodium content."
+    },
+    "silvercup": {
+        "name": "Silver Cup",
+        "effect": "A popular option among hikers. It\u2019s made with titanium, so it doesn\u2019t rust even if it\u2019s used to hold drinks with high sodium content."
+    },
+    "silvernanabberry": {
+        "name": "Silver Nanab Berry",
+        "effect": "Greatly calms a Pok\u00e9mon in battle, in Let's Go Pikachu/Eevee."
+    },
+    "silverpick": {
+        "name": "Silver Pick",
+        "effect": "A silver pick that oozes class. Using it on a sandwich lends an extravagant air that\u2019ll make you want to eat up, even if you don\u2019t love the fillings."
+    },
+    "silverpinapberry": {
+        "name": "Silver Pinap Berry",
+        "effect": "Greatly increases chance of getting items when a Pok\u00e9mon is caught, in Pok\u00e9mon Let's Go."
+    },
+    "silverpowder": {
+        "name": "Silver Powder",
+        "effect": "Increases the power of Bug-type moves."
+    },
+    "silverrazzberry": {
+        "name": "Silver Razz Berry",
+        "effect": "Makes a Pok\u00e9mon easier to catch in Pok\u00e9mon Let's Go."
+    },
+    "sinisteachip": {
+        "name": "Sinistea Chip",
+        "effect": "Material obtained after defeating/catching Sinistea, used in TM crafting."
+    },
+    "sitrusberry": {
+        "name": "Sitrus Berry",
+        "effect": "If held by a Pok\u00e9mon, it heals the user's HP a little."
+    },
+    "skiddoleaf": {
+        "name": "Skiddo Leaf",
+        "effect": "Material obtained after defeating/catching Skiddo, used in TM crafting."
+    },
+    "skrelpkelp": {
+        "name": "Skrelp Kelp",
+        "effect": "Material obtained after defeating/catching Skrelp, used in TM crafting."
+    },
+    "skullfossil": {
+        "name": "Skull Fossil",
+        "effect": "A fossil from a prehistoric Pok\u00e9mon that lived on the land. It appears to be part of a head."
+    },
+    "skwovetfur": {
+        "name": "Skwovet Fur",
+        "effect": "Material obtained after defeating/catching Skwovet, used in TM crafting."
+    },
+    "skyplate": {
+        "name": "Sky Plate",
+        "effect": "Increases power of Flying-type moves. Changes Arceus' type to Flying."
+    },
+    "slakothfur": {
+        "name": "Slakoth Fur",
+        "effect": "Material obtained after defeating/catching Slakoth, used in TM crafting."
+    },
+    "slowbronite": {
+        "name": "Slowbronite",
+        "effect": "Enables Slowbro to Mega Evolve during battle."
+    },
+    "slowpokeclaw": {
+        "name": "Slowpoke Claw",
+        "effect": "Material obtained after defeating/catching Slowpoke, used in TM crafting."
+    },
+    "slowpokecup": {
+        "name": "Slowpoke Cup",
+        "effect": "A cup for big-time Pok\u00e9mon fans. Kids will happily drink out of it, making it a boon to parents."
+    },
+    "smartcandy": {
+        "name": "Smart Candy",
+        "effect": "Increases a Pok\u00e9mon's Special Attack stat by 1."
+    },
+    "smartcandyl": {
+        "name": "Smart Candy L",
+        "effect": "Increases a Pok\u00e9mon's Special Attack stat."
+    },
+    "smartcandyxl": {
+        "name": "Smart Candy XL",
+        "effect": "Increases a Pok\u00e9mon's Special Attack stat."
+    },
+    "smilingveepick": {
+        "name": "Smiling Vee Pick",
+        "effect": "A pick designed after Eevee, sporting the Pok\u00e9mon\u2019s smiling face. It\u2019s easy to grab by the ears, which is part of why it\u2019s so popular."
+    },
+    "smokeball": {
+        "name": "Smoke Ball",
+        "effect": "An item to be held by a Pok\u00e9mon. It enables the holder to flee from any wild Pok\u00e9mon without fail."
+    },
+    "smoke-poketail": {
+        "name": "Smoke-Poke Tail",
+        "effect": "One of the many ingredients that can be used for cooking at your camp. When a Slowpoke\u2019s tail falls off, it grows back quickly."
+    },
+    "smokedfillet": {
+        "name": "Smoked Fillet",
+        "effect": "A very salty and bitter ingredient with that unmistakable smoky flavor. It pairs exceptionally well with veggies."
+    },
+    "smolivoil": {
+        "name": "Smoliv Oil",
+        "effect": "Material obtained after defeating/catching Smoliv, used in TM crafting."
+    },
+    "smoothrock": {
+        "name": "Smooth Rock",
+        "effect": "A Pok\u00e9mon held item that extends the duration of the move Sandstorm used by the holder."
+    },
+    "sneaselclaw": {
+        "name": "Sneasel Claw",
+        "effect": "Material obtained after defeating/catching Sneasel, used in TM crafting."
+    },
+    "snomthread": {
+        "name": "Snom Thread",
+        "effect": "Material obtained after defeating/catching Snom, used in TM crafting."
+    },
+    "snorliumz": {
+        "name": "Snorlium Z",
+        "effect": "Allows Snorlax to upgrade Giga Impact to a Z-Move, Pulverizing Pancake."
+    },
+    "snoruntfur": {
+        "name": "Snorunt Fur",
+        "effect": "Material obtained after defeating/catching Snorunt, used in TM crafting."
+    },
+    "snoverberries": {
+        "name": "Snover Berries",
+        "effect": "Material obtained after defeating/catching Snover, used in TM crafting."
+    },
+    "snowball": {
+        "name": "Snowball",
+        "effect": "Raises Attack if hit by an Ice-type move."
+    },
+    "sodapop": {
+        "name": "Soda Pop",
+        "effect": "Restores 50 HP."
+    },
+    "softsand": {
+        "name": "Soft Sand",
+        "effect": "Increases the power of Ground-type moves."
+    },
+    "solganiumz": {
+        "name": "Solganium Z",
+        "effect": "Allows Solgaleo to upgrade Sunsteel Strike to a Z-Move, Searing Sunraze Smash."
+    },
+    "soothebell": {
+        "name": "Soothe Bell",
+        "effect": "An item to be held by a Pok\u00e9mon. It is a bell with a comforting chime that calms the holder and makes it friendly."
+    },
+    "souldew": {
+        "name": "Soul Dew",
+        "effect": "Increases the power of Psychic- and Dragon-type moves when held by Latios or Latias. Increases Sp.Atk/Sp.Def prior to Gen 7."
+    },
+    "soulslate": {
+        "name": "Soul Slate",
+        "effect": "A slate overflowing with enigmatic energy. You can feel a strong connection between it and the Soul Room at Ramanas Park."
+    },
+    "sourherbamystica": {
+        "name": "Sour Herba Mystica",
+        "effect": "This surpassingly sour condiment is said to be super effective in helping the eater recover from exhaustion. Only a scant few people know it exists."
+    },
+    "spelltag": {
+        "name": "Spell Tag",
+        "effect": "Increases the power of Ghost-type moves."
+    },
+    "spelonberry": {
+        "name": "Spelon Berry",
+        "effect": "A Berry which is very rare in the Unova region. A maniac will buy it for a high price."
+    },
+    "spicemix": {
+        "name": "Spice Mix",
+        "effect": "One of the many ingredients that can be used for cooking at your camp. There are over fifty spices contained within this ingredient\u2019s hot flavor."
+    },
+    "spicyherbamystica": {
+        "name": "Spicy Herba Mystica",
+        "effect": "The legendary condiment said to have the mightiest of all spicy flavors. It\u2019s said that a single bite will kick the metabolism into high gear immediately."
+    },
+    "spiritombfragment": {
+        "name": "Spiritomb Fragment",
+        "effect": "Material obtained after defeating/catching Spiritomb, used in TM crafting."
+    },
+    "splashplate": {
+        "name": "Splash Plate",
+        "effect": "Increases power of Water-type moves. Changes Arceus' type to Water."
+    },
+    "spoinkpearl": {
+        "name": "Spoink Pearl",
+        "effect": "Material obtained after defeating/catching Spoink, used in TM crafting."
+    },
+    "spookyplate": {
+        "name": "Spooky Plate",
+        "effect": "Increases power of Ghost-type moves. Changes Arceus' type to Ghost."
+    },
+    "spookytablecloth": {
+        "name": "Spooky Tablecloth",
+        "effect": "A pop-art-style tablecloth with Pok\u00e9mon faces floating up from the deep nighttime blue. This is a must-have for fans of Ghost types."
+    },
+    "sportball": {
+        "name": "Sport Ball",
+        "effect": "A special Pok\u00e9 Ball for the Bug-Catching Contest."
+    },
+    "sprinklotad": {
+        "name": "Sprinklotad",
+        "effect": "A watering can shaped like a Lotad. It helps promote the healthy growth of any Berries planted in good, soft soil."
+    },
+    "squallslate": {
+        "name": "Squall Slate",
+        "effect": "A slate overflowing with enigmatic energy. You can feel a strong connection between it and the Squall Room at Ramanas Park."
+    },
+    "squawkabillyfeather": {
+        "name": "Squawkabilly Feather",
+        "effect": "Material obtained after defeating/catching Squawkabilly, used in TM crafting."
+    },
+    "stablemulch": {
+        "name": "Stable Mulch",
+        "effect": "A fertilizer to be spread on soft soil in regions where Berries are grown. A maniac will buy it for a high price."
+    },
+    "stantlerhair": {
+        "name": "Stantler Hair",
+        "effect": "Material obtained after defeating/catching Stantler, used in TM crafting."
+    },
+    "starpiece": {
+        "name": "Star Piece",
+        "effect": "A shard of a pretty gem that sparkles in a red color. It can be sold at a high price to shops."
+    },
+    "starsweet": {
+        "name": "Star Sweet",
+        "effect": "Evolves Milcery into Star Flavor Alcremie."
+    },
+    "stardust": {
+        "name": "Stardust",
+        "effect": "Lovely, red-colored sand with a loose, silky feel. It can be sold at a high price to shops."
+    },
+    "starfberry": {
+        "name": "Starf Berry",
+        "effect": "Sharply raises a random stat when HP is low."
+    },
+    "starlyfeather": {
+        "name": "Starly Feather",
+        "effect": "Material obtained after defeating/catching Starly, used in TM crafting."
+    },
+    "steelbottle(b)": {
+        "name": "Steel Bottle (B)",
+        "effect": "A go-to bottle sometimes used while camping. The stainless steel keeps the temperature inside steady, making it great for keeping drinks hot or cold."
+    },
+    "steelbottle(r)": {
+        "name": "Steel Bottle (R)",
+        "effect": "A go-to bottle sometimes used while camping. The stainless steel keeps the temperature inside steady, making it great for keeping drinks hot or cold."
+    },
+    "steelbottle(y)": {
+        "name": "Steel Bottle (Y)",
+        "effect": "A go-to bottle sometimes used while camping. The stainless steel keeps the temperature inside steady, making it great for keeping drinks hot or cold."
+    },
+    "steelgem": {
+        "name": "Steel Gem",
+        "effect": "Increases the power of a Steel-type move only once."
+    },
+    "steelmemory": {
+        "name": "Steel Memory",
+        "effect": "Changes Silvally and its move Multi-Attack to Steel type."
+    },
+    "steelterashard": {
+        "name": "Steel Tera Shard",
+        "effect": "Changes a Pok\u00e9mon's Tera Type to Steel."
+    },
+    "steeliumz": {
+        "name": "Steelium Z",
+        "effect": "Allows the use of Corkscrew Crash, the Steel type Z-Move."
+    },
+    "steelixite": {
+        "name": "Steelixite",
+        "effect": "Enables Steelix to Mega Evolve during battle."
+    },
+    "stickybarb": {
+        "name": "Sticky Barb",
+        "effect": "A held item that damages the holder on every turn. It may latch on to foes and allies that touch the holder."
+    },
+    "stoneplate": {
+        "name": "Stone Plate",
+        "effect": "Increases power of Rock-type moves. Changes Arceus' type to Rock."
+    },
+    "stonjournerstone": {
+        "name": "Stonjourner Stone",
+        "effect": "Material obtained after defeating/catching Stonjourner, used in TM crafting."
+    },
+    "strangesouvenir": {
+        "name": "Strange Souvenir",
+        "effect": "An ornament depicting a Pok\u00e9mon that is venerated as a protector in some region far from Kalos."
+    },
+    "stratosphericslate": {
+        "name": "Stratospheric Slate",
+        "effect": "A slate overflowing with enigmatic energy. You can feel a strong connection between it and the Stratospheric Room at Ramanas Park."
+    },
+    "strawberry": {
+        "name": "Strawberry",
+        "effect": "A very tart and sweet ingredient, popular for its ability to make a sandwich visually striking."
+    },
+    "strawberrysweet": {
+        "name": "Strawberry Sweet",
+        "effect": "Evolves Milcery into Strawberry Flavor Alcremie."
+    },
+    "stripedbottle": {
+        "name": "Striped Bottle",
+        "effect": "A striped bottle that\u2019s small, light, and even comes with a cup. The detachable strap makes it handy for walking around with."
+    },
+    "stripedcup": {
+        "name": "Striped Cup",
+        "effect": "A cup for kids to use at picnics. It\u2019s made of light but strong material. It\u2019s stackable, which makes it handy for carrying around."
+    },
+    "stripedtablecloth": {
+        "name": "Striped Tablecloth",
+        "effect": "A tablecloth with a fashionable striped pattern. It\u2019s great at repelling water and mold, and stains and smudges wipe right off."
+    },
+    "stunkyfur": {
+        "name": "Stunky Fur",
+        "effect": "Material obtained after defeating/catching Stunky, used in TM crafting."
+    },
+    "sunstone": {
+        "name": "Sun Stone",
+        "effect": "Evolves certain species of Pok\u00e9mon."
+    },
+    "sunkernleaf": {
+        "name": "Sunkern Leaf",
+        "effect": "Material obtained after defeating/catching Sunkern, used in TM crafting."
+    },
+    "sunriseflowerpick": {
+        "name": "Sunrise Flower Pick",
+        "effect": "A flower pick designed to evoke a glorious sunrise. It\u2019s part of a line of \u201csky-flower\u201d picks. Using a few is guaranteed to boost that special picnic spirit."
+    },
+    "sunsetflowerpick": {
+        "name": "Sunset Flower Pick",
+        "effect": "A flower pick designed to evoke a blazing sunset. It\u2019s part of a line of \u201csky-flower\u201d picks. Using a few is guaranteed to boost that special picnic spirit."
+    },
+    "superlure": {
+        "name": "Super Lure",
+        "effect": "Attracts Pok\u00e9mon in the wild."
+    },
+    "superpotion": {
+        "name": "Super Potion",
+        "effect": "Restores 60 HP."
+    },
+    "superrepel": {
+        "name": "Super Repel",
+        "effect": "An item that prevents weak wild Pok\u00e9mon from appearing for 200 steps after its use."
+    },
+    "surskitsyrup": {
+        "name": "Surskit Syrup",
+        "effect": "Material obtained after defeating/catching Surskit, used in TM crafting."
+    },
+    "swablufluff": {
+        "name": "Swablu Fluff",
+        "effect": "Material obtained after defeating/catching Swablu, used in TM crafting."
+    },
+    "swampertite": {
+        "name": "Swampertite",
+        "effect": "Enables Swampert to Mega Evolve during battle."
+    },
+    "sweetapple": {
+        "name": "Sweet Apple",
+        "effect": "Evolves Applin into Appletun."
+    },
+    "sweetheart": {
+        "name": "Sweet Heart",
+        "effect": "Very sweet chocolate. It restores the HP of one Pok\u00e9mon by only 20 points."
+    },
+    "sweetherbamystica": {
+        "name": "Sweet Herba Mystica",
+        "effect": "A legendary condiment told of only in books. Word has it that one taste of its sweet flavor stimulates the digestive system and cures a lack of appetite."
+    },
+    "swiftfeather": {
+        "name": "Swift Feather",
+        "effect": "Increases Speed EVs by 1."
+    },
+    "swiftmochi": {
+        "name": "Swift Mochi",
+        "effect": "Increases Speed EVs."
+    },
+    "syrupyapple": {
+        "name": "Syrupy Apple",
+        "effect": "Evolves Applin into Dipplin."
+    },
+    "tadbulbmucus": {
+        "name": "Tadbulb Mucus",
+        "effect": "Material obtained after defeating/catching Tadbulb, used in TM crafting."
+    },
+    "tamatoberry": {
+        "name": "Tamato Berry",
+        "effect": "Increases Friendship but lowers Speed EVs."
+    },
+    "tandemausfur": {
+        "name": "Tandemaus Fur",
+        "effect": "Material obtained after defeating/catching Tandemaus, used in TM crafting."
+    },
+    "tangaberry": {
+        "name": "Tanga Berry",
+        "effect": "Weakens a supereffective Bug-type attack against the holding Pok\u00e9mon."
+    },
+    "tapuniumz": {
+        "name": "Tapunium Z",
+        "effect": "Allows the Tapus to upgrade Nature's Madness to a Z-Move, Guardian of Alola."
+    },
+    "tarountulathread": {
+        "name": "Tarountula Thread",
+        "effect": "Material obtained after defeating/catching Tarountula, used in TM crafting."
+    },
+    "tartapple": {
+        "name": "Tart Apple",
+        "effect": "Evolves Applin into Flapple."
+    },
+    "tatsugiriscales": {
+        "name": "Tatsugiri Scales",
+        "effect": "Material obtained after defeating/catching Tatsugiri, used in TM crafting."
+    },
+    "tauroshair": {
+        "name": "Tauros Hair",
+        "effect": "Material obtained after defeating/catching Tauros, used in TM crafting."
+    },
+    "tectonicslate": {
+        "name": "Tectonic Slate",
+        "effect": "A slate overflowing with enigmatic energy. You can feel a strong connection between it and the Tectonic Room at Ramanas Park."
+    },
+    "teddiursaclaw": {
+        "name": "Teddiursa Claw",
+        "effect": "Material obtained after defeating/catching Teddiursa, used in TM crafting."
+    },
+    "teraorb": {
+        "name": "Tera Orb",
+        "effect": "An orb that holds within it the power to crystallize. When it is charged with energy, it can be used to cause Pok\u00e9mon to Terastallize."
+    },
+    "terrainextender": {
+        "name": "Terrain Extender",
+        "effect": "An item to be held by a Pok\u00e9mon. It extends the duration of the terrain caused by the holder's move or Ability."
+    },
+    "thickclub": {
+        "name": "Thick Club",
+        "effect": "Increases Attack when held by Cubone or Marowak."
+    },
+    "throatspray": {
+        "name": "Throat Spray",
+        "effect": "Raises Sp. Atk when a sound-based move is used."
+    },
+    "thunderstone": {
+        "name": "Thunder Stone",
+        "effect": "Evolves certain species of Pok\u00e9mon."
+    },
+    "timerball": {
+        "name": "Timer Ball",
+        "effect": "Catches Pok\u00e9mon with a higher rate the more turns have occurred (up to 4x)."
+    },
+    "timidmint": {
+        "name": "Timid Mint",
+        "effect": "Changes the Pok\u00e9mon's stats to match the Timid nature."
+    },
+    "tinofbeans": {
+        "name": "Tin of Beans",
+        "effect": "One of the many ingredients that can be used for cooking at your camp. When simmered, the beans suffuse a dish with their mild flavor."
+    },
+    "tinkatinkhair": {
+        "name": "Tinkatink Hair",
+        "effect": "Material obtained after defeating/catching Tinkatink, used in TM crafting."
+    },
+    "tinybambooshoot": {
+        "name": "Tiny Bamboo Shoot",
+        "effect": "A small and rare bamboo shoot. It\u2019s quite popular with a certain class of gourmands."
+    },
+    "heavydutyboots": {
+        "name": "Heavy-Duty Boots",
+        "effect":"Heavy-Duty Boots protect the user from the effects of traps set on the battlefield, such as Spikes or Stealth Rock."
+    },
+    "toxicorb": {
+        "name": "Toxic Orb",
+        "effect": "It's a bizarre orb that exudes toxins when touched and will badly poison the holder during battle."
+    },
+    "watermemory": {
+        "name": "Water Memory",
+        "effect": "An item that changes the types of Silvally and its Multi-Attack to Water-type."
+    },
+    "weaknesspolicy": {
+        "name": "Weakness Policy",
+        "effect": "A held item that increases your attack each time you receive damage."
+    },
+    "whiteherb": {
+        "name": "White Herb",
+        "effect": "An item that restores any lowered stat in battle. It can be used only once."
+    },
+    "widelens": {
+        "name": "Wide Lens",
+        "effect": "It's a magnifying lens that slightly boosts the accuracy of the holder's moves."
+    }
+}

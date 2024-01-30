@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<!-- version 1 -->
+<title>battle-gen8randombattle-87160</title>
+<style>
+    html,
+    body {
+        font-family: Verdana, sans-serif;
+        font-size: 10pt;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        padding: 12px 0;
+    }
+
+    .battle-log {
+        font-family: Verdana, sans-serif;
+        font-size: 10pt;
+    }
+
+    .battle-log-inline {
+        border: 1px solid #AAAAAA;
+        background: #EEF2F5;
+        color: black;
+        max-width: 640px;
+        margin: 0 auto 80px;
+        padding-bottom: 5px;
+    }
+
+    .battle-log .inner {
+        padding: 4px 8px 0px 8px;
+    }
+
+    .battle-log .inner-preempt {
+        padding: 0 8px 4px 8px;
+    }
+
+    .battle-log .inner-after {
+        margin-top: 0.5em;
+    }
+
+    .battle-log h2 {
+        margin: 0.5em -8px;
+        padding: 4px 8px;
+        border: 1px solid #AAAAAA;
+        background: #E0E7EA;
+        border-left: 0;
+        border-right: 0;
+        font-family: Verdana, sans-serif;
+        font-size: 13pt;
+    }
+
+    .backprop {
+        top: 0;
+    }
+
+    .battle-log .chat {
+        vertical-align: middle;
+        padding: 3px 0 3px 0;
+        font-size: 8pt;
+    }
+
+    .battle-log .chat strong {
+        color: #40576A;
+    }
+
+    .battle-log .chat em {
+        padding: 1px 4px 1px 3px;
+        color: #000000;
+        font-style: normal;
+    }
+
+    .chat.mine {
+        background: rgba(0, 0, 0, 0.05);
+        margin-left: -8px;
+        margin-right: -8px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .spoiler {
+        color: #BBBBBB;
+        background: #BBBBBB;
+        padding: 0px 3px;
+    }
+
+    .spoiler:hover,
+    .spoiler:active,
+    .spoiler-shown {
+        color: #000000;
+        background: #E2E2E2;
+        padding: 0px 3px;
+    }
+
+    .spoiler a {
+        color: #BBBBBB;
+    }
+
+    .spoiler:hover a,
+    .spoiler:active a,
+    .spoiler-shown a {
+        color: #2288CC;
+    }
+
+    .chat code,
+    .chat .spoiler:hover code,
+    .chat .spoiler:active code,
+    .chat .spoiler-shown code {
+        border: 1px solid #C0C0C0;
+        background: #EEEEEE;
+        color: black;
+        padding: 0 2px;
+    }
+
+    .chat .spoiler code {
+        border: 1px solid #CCCCCC;
+        background: #CCCCCC;
+        color: #CCCCCC;
+    }
+
+    .battle-log .rated {
+        padding: 3px 4px;
+    }
+
+    .battle-log .rated strong {
+        color: white;
+        background: #89A;
+        padding: 1px 4px;
+        border-radius: 4px;
+    }
+
+    .spacer {
+        margin-top: 0.5em;
+    }
+
+    .message-announce {
+        background: #6688AA;
+        color: white;
+        padding: 1px 4px 2px;
+    }
+
+    .message-announce a,
+    .broadcast-green a,
+    .broadcast-blue a,
+    .broadcast-red a {
+        color: #DDEEFF;
+    }
+
+    .broadcast-green {
+        background-color: #559955;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .broadcast-blue {
+        background-color: #6688AA;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .infobox {
+        border: 1px solid #6688AA;
+        padding: 2px 4px;
+    }
+
+    .infobox-limited {
+        max-height: 200px;
+        overflow: auto;
+        overflow-x: hidden;
+    }
+
+    .broadcast-red {
+        background-color: #AA5544;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .message-learn-canlearn {
+        font-weight: bold;
+        color: #228822;
+        text-decoration: underline;
+    }
+
+    .message-learn-cannotlearn {
+        font-weight: bold;
+        color: #CC2222;
+        text-decoration: underline;
+    }
+
+    .message-effect-weak {
+        font-weight: bold;
+        color: #CC2222;
+    }
+
+    .message-effect-resist {
+        font-weight: bold;
+        color: #6688AA;
+    }
+
+    .message-effect-immune {
+        font-weight: bold;
+        color: #666666;
+    }
+
+    .message-learn-list {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .message-throttle-notice,
+    .message-error {
+        color: #992222;
+    }
+
+    .message-overflow,
+    .chat small.message-overflow {
+        font-size: 0pt;
+    }
+
+    .message-overflow::before {
+        font-size: 9pt;
+        content: '...';
+    }
+
+    .subtle {
+        color: #3A4A66;
+    }
+</style>
+<div class="wrapper replay-wrapper" style="max-width:1180px;margin:0 auto">
+    <input type="hidden" name="replayid" value="unregisteredserver-gen8randombattle-320064" />
+    <div class="battle"></div>
+    <div class="battle-log"></div>
+    <div class="replay-controls"></div>
+    <div class="replay-controls-2"></div>
+    <h1 style="font-weight:normal;text-align:center"><strong>poke-env battle replay</strong><br />battle-gen8randombattle-87160<br /><a
+            href="http://pokemonshowdown.com/users/randomplayer1" class="subtle" target="_blank">PokeLLM</a>
+        vs. <a href="http://pokemonshowdown.com/users/randomplayer2" class="subtle"
+            target="_blank">BayiHu</a></h1>
+    <script type="text/plain" class="battle-log-data">
+    >battle-gen8randombattle-87160|init|battle
+|title|PokeLLM vs. BayiHu
+|j|☆PokeLLM
+|j|☆BayiHu
+|gametype|singles
+|player|p1|PokeLLM|169|1316
+|player|p2|BayiHu|101|1213
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Illusion Level Mod: Illusion disguises the Pokémon's true level
+|start
+|switch|p1a: Lapras|Lapras, L86, F|364/364
+|switch|p2a: Palossand|Palossand, L86, F|100/100
+|turn|1
+|-start|p1a: Lapras|Dynamax|Gmax
+|-heal|p1a: Lapras|728/728|[silent]
+|move|p1a: Lapras|G-Max Resonance|p2a: Palossand
+|-supereffective|p2a: Palossand
+|-damage|p2a: Palossand|0 fnt
+|-sidestart|p1: PokeLLM|move: Aurora Veil
+|faint|p2a: Palossand
+|upkeep
+|switch|p2a: Weavile|Weavile, L79, F|100/100
+|turn|2
+|-end|p1a: Lapras|Dynamax
+|-heal|p1a: Lapras|364/364|[silent]
+|switch|p1a: Pheromosa|Pheromosa, L74|227/227
+|-start|p2a: Weavile|Dynamax|
+|-heal|p2a: Weavile|100/100|[silent]
+|move|p2a: Weavile|Max Knuckle|p1a: Pheromosa
+|-resisted|p1a: Pheromosa
+|-damage|p1a: Pheromosa|192/227
+|-boost|p2a: Weavile|atk|1
+|upkeep
+|turn|3
+|move|p1a: Pheromosa|Close Combat|p2a: Weavile
+|-supereffective|p2a: Weavile
+|-damage|p2a: Weavile|0 fnt
+|-unboost|p1a: Pheromosa|def|1
+|-unboost|p1a: Pheromosa|spd|1
+|faint|p2a: Weavile
+|-ability|p1a: Pheromosa|Beast Boost|boost
+|-boost|p1a: Pheromosa|spe|1
+|upkeep
+|switch|p2a: Kommo-o|Kommo-o, L80, F|100/100
+|turn|4
+|switch|p1a: Hatterene|Hatterene, L86, F|238/238
+|move|p2a: Kommo-o|Clangorous Soul|p2a: Kommo-o
+|-boost|p2a: Kommo-o|atk|1
+|-boost|p2a: Kommo-o|def|1
+|-boost|p2a: Kommo-o|spa|1
+|-boost|p2a: Kommo-o|spd|1
+|-boost|p2a: Kommo-o|spe|1
+|-damage|p2a: Kommo-o|68/100
+|-enditem|p2a: Kommo-o|Throat Spray
+|-boost|p2a: Kommo-o|spa|1|[from] item: Throat Spray
+|upkeep
+|turn|5
+|move|p2a: Kommo-o|Poison Jab|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|162/238
+|move|p1a: Hatterene|Dazzling Gleam|p2a: Kommo-o
+|-supereffective|p2a: Kommo-o
+|-damage|p2a: Kommo-o|0 fnt
+|faint|p2a: Kommo-o
+|-damage|p1a: Hatterene|139/238|[from] item: Life Orb
+|-sideend|p1: PokeLLM|move: Aurora Veil
+|upkeep
+|switch|p2a: Whiscash|Whiscash, L88, F|100/100
+|turn|6
+|switch|p1a: Lurantis|Lurantis, L86, M|261/261
+|move|p2a: Whiscash|Stone Edge|p1a: Lurantis|[miss]
+|-miss|p2a: Whiscash|p1a: Lurantis
+|upkeep
+|turn|7
+|move|p2a: Whiscash|Earthquake|p1a: Lurantis
+|-resisted|p1a: Lurantis
+|-damage|p1a: Lurantis|200/261
+|-damage|p2a: Whiscash|91/100|[from] item: Life Orb
+|move|p1a: Lurantis|Leaf Storm|p2a: Whiscash
+|-supereffective|p2a: Whiscash
+|-damage|p2a: Whiscash|0 fnt
+|-boost|p1a: Lurantis|spa|2
+|faint|p2a: Whiscash
+|-heal|p1a: Lurantis|216/261|[from] item: Leftovers
+|upkeep
+|switch|p2a: Scyther|Scyther, L81, F|100/100
+|turn|8
+|switch|p1a: Nihilego|Nihilego, L78|298/298
+|move|p2a: Scyther|Dual Wingbeat|p1a: Nihilego
+|-resisted|p1a: Nihilego
+|-damage|p1a: Nihilego|241/298
+|-resisted|p1a: Nihilego
+|-damage|p1a: Nihilego|186/298
+|-hitcount|p1a: Nihilego|2
+|-heal|p1a: Nihilego|204/298|[from] item: Black Sludge
+|upkeep
+|turn|9
+|switch|p2a: Boltund|Boltund, L84, M|100/100
+|move|p1a: Nihilego|Power Gem|p2a: Boltund
+|-damage|p2a: Boltund|57/100
+|-heal|p1a: Nihilego|222/298|[from] item: Black Sludge
+|upkeep
+|turn|10
+|move|p2a: Boltund|Psychic Fangs|p1a: Nihilego
+|-supereffective|p1a: Nihilego
+|-damage|p1a: Nihilego|0 fnt
+|faint|p1a: Nihilego
+|-damage|p2a: Boltund|47/100|[from] item: Life Orb
+|upkeep
+|switch|p1a: Pheromosa|Pheromosa, L74|192/227
+|turn|11
+|move|p1a: Pheromosa|Close Combat|p2a: Boltund
+|-damage|p2a: Boltund|0 fnt
+|-unboost|p1a: Pheromosa|def|1
+|-unboost|p1a: Pheromosa|spd|1
+|faint|p2a: Boltund
+|-ability|p1a: Pheromosa|Beast Boost|boost
+|-boost|p1a: Pheromosa|spe|1
+|upkeep
+|switch|p2a: Scyther|Scyther, L81, F|100/100
+|turn|12
+|move|p1a: Pheromosa|Ice Beam|p2a: Scyther
+|-supereffective|p2a: Scyther
+|-damage|p2a: Scyther|23/100
+|move|p2a: Scyther|Dual Wingbeat|p1a: Pheromosa
+|-supereffective|p1a: Pheromosa
+|-damage|p1a: Pheromosa|0 fnt
+|faint|p1a: Pheromosa
+|-hitcount|p1: Pheromosa|1
+|upkeep
+|switch|p1a: Lapras|Lapras, L86, F|364/364
+|turn|13
+|move|p2a: Scyther|Dual Wingbeat|p1a: Lapras
+|-damage|p1a: Lapras|295/364
+|-damage|p1a: Lapras|222/364
+|-hitcount|p1a: Lapras|2
+|move|p1a: Lapras|Ice Beam|p2a: Scyther
+|-supereffective|p2a: Scyther
+|-damage|p2a: Scyther|0 fnt
+|faint|p2a: Scyther
+    </script>
+</div>
+
+<div class="battle-log battle-log-inline" style="display:none"></div>
+
+<script>
+    let daily = Math.floor(Date.now() / 1000 / 60 / 60 / 24); document.write('<script src="https://play.pokemonshowdown.com/js/replay-embed.js?version' + daily + '"></' + 'script>');
+</script>
+
+<p style="text-align:center"> Replay created by <a href="https://github.com/hsahovic/poke-env">poke-env</a>, with code from <a
+        href="https://github.com/smogon/pokemon-showdown"> pokemon-showdown</a>. If something goes wrong, don't hesitate
+    to open an <a href="https://github.com/hsahovic/poke-env/issues">issue!</a></p>

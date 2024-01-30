@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<!-- version 1 -->
+<title>battle-gen8randombattle-2044320954</title>
+<style>
+    html,
+    body {
+        font-family: Verdana, sans-serif;
+        font-size: 10pt;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        padding: 12px 0;
+    }
+
+    .battle-log {
+        font-family: Verdana, sans-serif;
+        font-size: 10pt;
+    }
+
+    .battle-log-inline {
+        border: 1px solid #AAAAAA;
+        background: #EEF2F5;
+        color: black;
+        max-width: 640px;
+        margin: 0 auto 80px;
+        padding-bottom: 5px;
+    }
+
+    .battle-log .inner {
+        padding: 4px 8px 0px 8px;
+    }
+
+    .battle-log .inner-preempt {
+        padding: 0 8px 4px 8px;
+    }
+
+    .battle-log .inner-after {
+        margin-top: 0.5em;
+    }
+
+    .battle-log h2 {
+        margin: 0.5em -8px;
+        padding: 4px 8px;
+        border: 1px solid #AAAAAA;
+        background: #E0E7EA;
+        border-left: 0;
+        border-right: 0;
+        font-family: Verdana, sans-serif;
+        font-size: 13pt;
+    }
+
+    .backprop {
+        top: 0;
+    }
+
+    .battle-log .chat {
+        vertical-align: middle;
+        padding: 3px 0 3px 0;
+        font-size: 8pt;
+    }
+
+    .battle-log .chat strong {
+        color: #40576A;
+    }
+
+    .battle-log .chat em {
+        padding: 1px 4px 1px 3px;
+        color: #000000;
+        font-style: normal;
+    }
+
+    .chat.mine {
+        background: rgba(0, 0, 0, 0.05);
+        margin-left: -8px;
+        margin-right: -8px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .spoiler {
+        color: #BBBBBB;
+        background: #BBBBBB;
+        padding: 0px 3px;
+    }
+
+    .spoiler:hover,
+    .spoiler:active,
+    .spoiler-shown {
+        color: #000000;
+        background: #E2E2E2;
+        padding: 0px 3px;
+    }
+
+    .spoiler a {
+        color: #BBBBBB;
+    }
+
+    .spoiler:hover a,
+    .spoiler:active a,
+    .spoiler-shown a {
+        color: #2288CC;
+    }
+
+    .chat code,
+    .chat .spoiler:hover code,
+    .chat .spoiler:active code,
+    .chat .spoiler-shown code {
+        border: 1px solid #C0C0C0;
+        background: #EEEEEE;
+        color: black;
+        padding: 0 2px;
+    }
+
+    .chat .spoiler code {
+        border: 1px solid #CCCCCC;
+        background: #CCCCCC;
+        color: #CCCCCC;
+    }
+
+    .battle-log .rated {
+        padding: 3px 4px;
+    }
+
+    .battle-log .rated strong {
+        color: white;
+        background: #89A;
+        padding: 1px 4px;
+        border-radius: 4px;
+    }
+
+    .spacer {
+        margin-top: 0.5em;
+    }
+
+    .message-announce {
+        background: #6688AA;
+        color: white;
+        padding: 1px 4px 2px;
+    }
+
+    .message-announce a,
+    .broadcast-green a,
+    .broadcast-blue a,
+    .broadcast-red a {
+        color: #DDEEFF;
+    }
+
+    .broadcast-green {
+        background-color: #559955;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .broadcast-blue {
+        background-color: #6688AA;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .infobox {
+        border: 1px solid #6688AA;
+        padding: 2px 4px;
+    }
+
+    .infobox-limited {
+        max-height: 200px;
+        overflow: auto;
+        overflow-x: hidden;
+    }
+
+    .broadcast-red {
+        background-color: #AA5544;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .message-learn-canlearn {
+        font-weight: bold;
+        color: #228822;
+        text-decoration: underline;
+    }
+
+    .message-learn-cannotlearn {
+        font-weight: bold;
+        color: #CC2222;
+        text-decoration: underline;
+    }
+
+    .message-effect-weak {
+        font-weight: bold;
+        color: #CC2222;
+    }
+
+    .message-effect-resist {
+        font-weight: bold;
+        color: #6688AA;
+    }
+
+    .message-effect-immune {
+        font-weight: bold;
+        color: #666666;
+    }
+
+    .message-learn-list {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .message-throttle-notice,
+    .message-error {
+        color: #992222;
+    }
+
+    .message-overflow,
+    .chat small.message-overflow {
+        font-size: 0pt;
+    }
+
+    .message-overflow::before {
+        font-size: 9pt;
+        content: '...';
+    }
+
+    .subtle {
+        color: #3A4A66;
+    }
+</style>
+<div class="wrapper replay-wrapper" style="max-width:1180px;margin:0 auto">
+    <input type="hidden" name="replayid" value="unregisteredserver-gen8randombattle-320064" />
+    <div class="battle"></div>
+    <div class="battle-log"></div>
+    <div class="replay-controls"></div>
+    <div class="replay-controls-2"></div>
+    <h1 style="font-weight:normal;text-align:center"><strong>poke-env battle replay</strong><br />battle-gen8randombattle-2044320954<br /><a
+            href="http://pokemonshowdown.com/users/randomplayer1" class="subtle" target="_blank">PokeLLM</a>
+        vs. <a href="http://pokemonshowdown.com/users/randomplayer2" class="subtle"
+            target="_blank">Gojo_Arom</a></h1>
+    <script type="text/plain" class="battle-log-data">
+    >battle-gen8randombattle-2044320954|init|battle
+|title|PokeLLM vs. Gojo_Arom
+|j|☆PokeLLM
+|j|☆Gojo_Arom
+|gametype|singles
+|player|p1|PokeLLM|supernerd|1076
+|player|p2|Gojo_Arom|bruno|1105
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Illusion Level Mod: Illusion disguises the Pokémon's true level
+|start
+|switch|p1a: Golduck|Golduck, L86, F|278/278
+|switch|p2a: Diancie|Diancie, L82|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Gojo_Arom)
+|inactive|Time left: 150 sec this turn | 150 sec total | 60 sec grace
+|switch|p2a: Giratina|Giratina, L74|100/100
+|-ability|p2a: Giratina|Pressure
+|-start|p1a: Golduck|Dynamax|
+|-heal|p1a: Golduck|556/556|[silent]
+|move|p1a: Golduck|Max Geyser|p2a: Giratina
+|-resisted|p2a: Giratina
+|-damage|p2a: Giratina|79/100
+|-weather|RainDance
+|-damage|p1a: Golduck|529/556|[from] item: Life Orb
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|inactive|Time left: 150 sec this turn | 150 sec total
+|-end|p1a: Golduck|Dynamax
+|-heal|p1a: Golduck|265/278|[silent]
+|switch|p1a: Haxorus|Haxorus, L77, M|244/244
+|-ability|p1a: Haxorus|Mold Breaker
+|move|p2a: Giratina|Toxic|p1a: Haxorus
+|-status|p1a: Haxorus|tox
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Haxorus|229/244 tox|[from] psn
+|upkeep
+|turn|3
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p2a: Diancie|Diancie, L82|100/100
+|move|p1a: Haxorus|Outrage|p2a: Diancie
+|-immune|p2a: Diancie
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Haxorus|199/244 tox|[from] psn
+|upkeep
+|turn|4
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p1a: Genesect|Genesect-Douse, L74|227/227
+|-ability|p1a: Genesect|Download|boost
+|-boost|p1a: Genesect|spa|1
+|move|p2a: Diancie|Moonblast|p1a: Genesect
+|-resisted|p1a: Genesect
+|-damage|p1a: Genesect|173/227
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p2a: Mudsdale|Mudsdale, L82, M|100/100
+|move|p1a: Genesect|Iron Head|p2a: Mudsdale
+|-damage|p2a: Mudsdale|76/100
+|-ability|p2a: Mudsdale|Stamina|boost
+|-boost|p2a: Mudsdale|def|1
+|-weather|none
+|-heal|p2a: Mudsdale|82/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p1a: Genesect|Techno Blast|p2a: Mudsdale
+|-supereffective|p2a: Mudsdale
+|-damage|p2a: Mudsdale|4/100
+|-ability|p2a: Mudsdale|Stamina|boost
+|-boost|p2a: Mudsdale|def|1
+|move|p2a: Mudsdale|Stealth Rock|p1a: Genesect
+|-sidestart|p1: PokeLLM|move: Stealth Rock
+|-heal|p2a: Mudsdale|10/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p1a: Genesect|Extreme Speed|p2a: Mudsdale
+|-damage|p2a: Mudsdale|2/100
+|-ability|p2a: Mudsdale|Stamina|boost
+|-boost|p2a: Mudsdale|def|1
+|move|p2a: Mudsdale|Rock Slide|p1a: Genesect
+|-damage|p1a: Genesect|108/227
+|-heal|p2a: Mudsdale|8/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p1a: Genesect|Extreme Speed|p2a: Mudsdale
+|-damage|p2a: Mudsdale|1/100
+|-ability|p2a: Mudsdale|Stamina|boost
+|-boost|p2a: Mudsdale|def|1
+|move|p2a: Mudsdale|Body Press|p1a: Genesect
+|-damage|p1a: Genesect|0 fnt
+|faint|p1a: Genesect
+|-heal|p2a: Mudsdale|7/100|[from] item: Leftovers
+|upkeep
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p1a: Golduck|Golduck, L86, F|265/278
+|-damage|p1a: Golduck|231/278|[from] Stealth Rock
+|turn|9
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p1a: Golduck|Scald|p2a: Mudsdale
+|-supereffective|p2a: Mudsdale
+|-damage|p2a: Mudsdale|0 fnt
+|faint|p2a: Mudsdale
+|-damage|p1a: Golduck|204/278|[from] item: Life Orb
+|upkeep
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p2a: Pincurchin|Pincurchin, L89, F|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Pincurchin
+|turn|10
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p1a: Golduck|Psyshock|p2a: Pincurchin
+|-damage|p2a: Pincurchin|72/100
+|-damage|p1a: Golduck|177/278|[from] item: Life Orb
+|move|p2a: Pincurchin|Toxic Spikes|p1a: Golduck
+|-sidestart|p1: PokeLLM|move: Toxic Spikes
+|upkeep
+|turn|11
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p1a: Golduck|Scald|p2a: Pincurchin
+|-damage|p2a: Pincurchin|27/100
+|-status|p2a: Pincurchin|brn
+|-damage|p1a: Golduck|150/278|[from] item: Life Orb
+|move|p2a: Pincurchin|Rising Voltage|p1a: Golduck
+|-hint|Rising Voltage's BP doubled on grounded target.
+|-supereffective|p1a: Golduck
+|-damage|p1a: Golduck|0 fnt
+|faint|p1a: Golduck
+|-damage|p2a: Pincurchin|21/100 brn|[from] brn
+|upkeep
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p1a: Urshifu|Urshifu, L74, F|270/270
+|-damage|p1a: Urshifu|254/270|[from] Stealth Rock
+|-status|p1a: Urshifu|psn
+|turn|12
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p1a: Urshifu|Close Combat|p2a: Pincurchin
+|-damage|p2a: Pincurchin|0 fnt
+|-unboost|p1a: Urshifu|def|1
+|-unboost|p1a: Urshifu|spd|1
+|faint|p2a: Pincurchin
+|-damage|p1a: Urshifu|221/270 psn|[from] psn
+|upkeep
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p2a: Diancie|Diancie, L82|100/100
+|turn|13
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p1a: Azelf|Azelf, L81|254/254
+|-damage|p1a: Azelf|223/254|[from] Stealth Rock
+|move|p2a: Diancie|Moonblast|p1a: Azelf
+|-damage|p1a: Azelf|93/254
+|upkeep
+|turn|14
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p2a: Giratina|Giratina, L74|79/100
+|-ability|p2a: Giratina|Pressure
+|move|p1a: Azelf|Psychic|p2a: Giratina
+|-damage|p2a: Giratina|41/100
+|-damage|p1a: Azelf|68/254|[from] item: Life Orb
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|15
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p1a: Azelf|Dazzling Gleam|p2a: Giratina
+|-supereffective|p2a: Giratina
+|-damage|p2a: Giratina|1/100
+|-damage|p1a: Azelf|43/254|[from] item: Life Orb
+|move|p2a: Giratina|Toxic|p1a: Azelf
+|-status|p1a: Azelf|tox
+|-damage|p1a: Azelf|28/254 tox|[from] psn
+|upkeep
+|turn|16
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p1a: Azelf|Dazzling Gleam|p2a: Giratina
+|-supereffective|p2a: Giratina
+|-damage|p2a: Giratina|0 fnt
+|faint|p2a: Giratina
+|-damage|p1a: Azelf|3/254 tox|[from] item: Life Orb
+|-damage|p1a: Azelf|0 fnt|[from] psn
+|faint|p1a: Azelf
+|upkeep
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p1a: Haxorus|Haxorus, L77, M|199/244 tox
+|switch|p2a: Diancie|Diancie, L82|100/100
+|-damage|p1a: Haxorus|169/244 tox|[from] Stealth Rock
+|-ability|p1a: Haxorus|Mold Breaker
+|turn|17
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p1a: Urshifu|Urshifu, L74, F|221/270 psn
+|-damage|p1a: Urshifu|205/270 psn|[from] Stealth Rock
+|-start|p2a: Diancie|Dynamax|
+|-heal|p2a: Diancie|100/100|[silent]
+|move|p2a: Diancie|Max Starfall|p1a: Urshifu
+|-supereffective|p1a: Urshifu
+|-damage|p1a: Urshifu|0 fnt
+|-fieldstart|move: Misty Terrain
+|faint|p1a: Urshifu
+|upkeep
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p1a: Diancie|Diancie, L82|216/216
+|-damage|p1a: Diancie|189/216|[from] Stealth Rock
+|turn|18
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p1a: Diancie|Diamond Storm|p2a: Diancie
+|-damage|p2a: Diancie|84/100
+|move|p2a: Diancie|Max Rockfall|p1a: Diancie
+|-damage|p1a: Diancie|104/216
+|-weather|Sandstorm
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Diancie|117/216|[from] item: Leftovers
+|upkeep
+|turn|19
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p1a: Diancie|Moonblast|p2a: Diancie
+|-damage|p2a: Diancie|76/100
+|move|p2a: Diancie|Max Quake|p1a: Diancie
+|-supereffective|p1a: Diancie
+|-damage|p1a: Diancie|37/216
+|-boost|p2a: Diancie|spd|1
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Diancie|50/216|[from] item: Leftovers
+|upkeep
+|-end|p2a: Diancie|Dynamax
+|-heal|p2a: Diancie|76/100|[silent]
+|turn|20
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p2a: Diancie|Earth Power|p1a: Diancie
+|-supereffective|p1a: Diancie
+|-damage|p1a: Diancie|0 fnt
+|faint|p1a: Diancie
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p1a: Haxorus|Haxorus, L77, M|169/244 tox
+|-damage|p1a: Haxorus|139/244 tox|[from] Stealth Rock
+|-ability|p1a: Haxorus|Mold Breaker
+|turn|21
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p1a: Haxorus|Close Combat|p2a: Diancie
+|-damage|p2a: Diancie|34/100
+|-unboost|p1a: Haxorus|def|1
+|-unboost|p1a: Haxorus|spd|1
+|-damage|p1a: Haxorus|115/244 tox|[from] item: Life Orb
+|move|p2a: Diancie|Moonblast|p1a: Haxorus
+|-supereffective|p1a: Haxorus
+|-damage|p1a: Haxorus|0 fnt
+|faint|p1a: Haxorus
+    </script>
+</div>
+
+<div class="battle-log battle-log-inline" style="display:none"></div>
+
+<script>
+    let daily = Math.floor(Date.now() / 1000 / 60 / 60 / 24); document.write('<script src="https://play.pokemonshowdown.com/js/replay-embed.js?version' + daily + '"></' + 'script>');
+</script>
+
+<p style="text-align:center"> Replay created by <a href="https://github.com/hsahovic/poke-env">poke-env</a>, with code from <a
+        href="https://github.com/smogon/pokemon-showdown"> pokemon-showdown</a>. If something goes wrong, don't hesitate
+    to open an <a href="https://github.com/hsahovic/poke-env/issues">issue!</a></p>

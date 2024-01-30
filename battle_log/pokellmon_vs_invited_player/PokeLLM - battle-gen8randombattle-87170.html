@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<!-- version 1 -->
+<title>battle-gen8randombattle-87170</title>
+<style>
+    html,
+    body {
+        font-family: Verdana, sans-serif;
+        font-size: 10pt;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        padding: 12px 0;
+    }
+
+    .battle-log {
+        font-family: Verdana, sans-serif;
+        font-size: 10pt;
+    }
+
+    .battle-log-inline {
+        border: 1px solid #AAAAAA;
+        background: #EEF2F5;
+        color: black;
+        max-width: 640px;
+        margin: 0 auto 80px;
+        padding-bottom: 5px;
+    }
+
+    .battle-log .inner {
+        padding: 4px 8px 0px 8px;
+    }
+
+    .battle-log .inner-preempt {
+        padding: 0 8px 4px 8px;
+    }
+
+    .battle-log .inner-after {
+        margin-top: 0.5em;
+    }
+
+    .battle-log h2 {
+        margin: 0.5em -8px;
+        padding: 4px 8px;
+        border: 1px solid #AAAAAA;
+        background: #E0E7EA;
+        border-left: 0;
+        border-right: 0;
+        font-family: Verdana, sans-serif;
+        font-size: 13pt;
+    }
+
+    .backprop {
+        top: 0;
+    }
+
+    .battle-log .chat {
+        vertical-align: middle;
+        padding: 3px 0 3px 0;
+        font-size: 8pt;
+    }
+
+    .battle-log .chat strong {
+        color: #40576A;
+    }
+
+    .battle-log .chat em {
+        padding: 1px 4px 1px 3px;
+        color: #000000;
+        font-style: normal;
+    }
+
+    .chat.mine {
+        background: rgba(0, 0, 0, 0.05);
+        margin-left: -8px;
+        margin-right: -8px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .spoiler {
+        color: #BBBBBB;
+        background: #BBBBBB;
+        padding: 0px 3px;
+    }
+
+    .spoiler:hover,
+    .spoiler:active,
+    .spoiler-shown {
+        color: #000000;
+        background: #E2E2E2;
+        padding: 0px 3px;
+    }
+
+    .spoiler a {
+        color: #BBBBBB;
+    }
+
+    .spoiler:hover a,
+    .spoiler:active a,
+    .spoiler-shown a {
+        color: #2288CC;
+    }
+
+    .chat code,
+    .chat .spoiler:hover code,
+    .chat .spoiler:active code,
+    .chat .spoiler-shown code {
+        border: 1px solid #C0C0C0;
+        background: #EEEEEE;
+        color: black;
+        padding: 0 2px;
+    }
+
+    .chat .spoiler code {
+        border: 1px solid #CCCCCC;
+        background: #CCCCCC;
+        color: #CCCCCC;
+    }
+
+    .battle-log .rated {
+        padding: 3px 4px;
+    }
+
+    .battle-log .rated strong {
+        color: white;
+        background: #89A;
+        padding: 1px 4px;
+        border-radius: 4px;
+    }
+
+    .spacer {
+        margin-top: 0.5em;
+    }
+
+    .message-announce {
+        background: #6688AA;
+        color: white;
+        padding: 1px 4px 2px;
+    }
+
+    .message-announce a,
+    .broadcast-green a,
+    .broadcast-blue a,
+    .broadcast-red a {
+        color: #DDEEFF;
+    }
+
+    .broadcast-green {
+        background-color: #559955;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .broadcast-blue {
+        background-color: #6688AA;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .infobox {
+        border: 1px solid #6688AA;
+        padding: 2px 4px;
+    }
+
+    .infobox-limited {
+        max-height: 200px;
+        overflow: auto;
+        overflow-x: hidden;
+    }
+
+    .broadcast-red {
+        background-color: #AA5544;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .message-learn-canlearn {
+        font-weight: bold;
+        color: #228822;
+        text-decoration: underline;
+    }
+
+    .message-learn-cannotlearn {
+        font-weight: bold;
+        color: #CC2222;
+        text-decoration: underline;
+    }
+
+    .message-effect-weak {
+        font-weight: bold;
+        color: #CC2222;
+    }
+
+    .message-effect-resist {
+        font-weight: bold;
+        color: #6688AA;
+    }
+
+    .message-effect-immune {
+        font-weight: bold;
+        color: #666666;
+    }
+
+    .message-learn-list {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .message-throttle-notice,
+    .message-error {
+        color: #992222;
+    }
+
+    .message-overflow,
+    .chat small.message-overflow {
+        font-size: 0pt;
+    }
+
+    .message-overflow::before {
+        font-size: 9pt;
+        content: '...';
+    }
+
+    .subtle {
+        color: #3A4A66;
+    }
+</style>
+<div class="wrapper replay-wrapper" style="max-width:1180px;margin:0 auto">
+    <input type="hidden" name="replayid" value="unregisteredserver-gen8randombattle-320064" />
+    <div class="battle"></div>
+    <div class="battle-log"></div>
+    <div class="replay-controls"></div>
+    <div class="replay-controls-2"></div>
+    <h1 style="font-weight:normal;text-align:center"><strong>poke-env battle replay</strong><br />battle-gen8randombattle-87170<br /><a
+            href="http://pokemonshowdown.com/users/randomplayer1" class="subtle" target="_blank">PokeLLM</a>
+        vs. <a href="http://pokemonshowdown.com/users/randomplayer2" class="subtle"
+            target="_blank">BayiHu</a></h1>
+    <script type="text/plain" class="battle-log-data">
+    >battle-gen8randombattle-87170|init|battle
+|title|BayiHu vs. PokeLLM
+|j|☆BayiHu
+|j|☆PokeLLM
+|gametype|singles
+|player|p1|BayiHu|101|1207
+|player|p2|PokeLLM|169|1335
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Illusion Level Mod: Illusion disguises the Pokémon's true level
+|start
+|switch|p1a: Pinsir|Pinsir, L84, F|100/100
+|switch|p2a: Froslass|Froslass, L84, F|255/255
+|-ability|p1a: Pinsir|Mold Breaker
+|turn|1
+|-start|p2a: Froslass|Dynamax|
+|-heal|p2a: Froslass|510/510|[silent]
+|-start|p1a: Pinsir|Dynamax|
+|-heal|p1a: Pinsir|100/100|[silent]
+|move|p2a: Froslass|Max Hailstorm|p1a: Pinsir
+|-damage|p1a: Pinsir|76/100
+|-weather|Hail
+|move|p1a: Pinsir|Max Darkness|p2a: Froslass
+|-supereffective|p2a: Froslass
+|-damage|p2a: Froslass|260/510
+|-unboost|p2a: Froslass|spd|1
+|-weather|Hail|[upkeep]
+|-damage|p1a: Pinsir|73/100|[from] Hail
+|upkeep
+|turn|2
+|-end|p2a: Froslass|Dynamax
+|-heal|p2a: Froslass|130/255|[silent]
+|switch|p2a: Manectric|Manectric, L87, F|264/264
+|move|p1a: Pinsir|Max Darkness|p2a: Manectric
+|-damage|p2a: Manectric|124/264
+|-unboost|p2a: Manectric|spd|1
+|-weather|Hail|[upkeep]
+|-damage|p2a: Manectric|108/264|[from] Hail
+|-damage|p1a: Pinsir|70/100|[from] Hail
+|upkeep
+|turn|3
+|move|p2a: Manectric|Overheat|p1a: Pinsir
+|-supereffective|p1a: Pinsir
+|-damage|p1a: Pinsir|24/100
+|-unboost|p2a: Manectric|spa|2
+|move|p1a: Pinsir|Max Quake|p2a: Manectric
+|-supereffective|p2a: Manectric
+|-damage|p2a: Manectric|0 fnt
+|-boost|p1a: Pinsir|spd|1
+|faint|p2a: Manectric
+|-weather|Hail|[upkeep]
+|-damage|p1a: Pinsir|21/100|[from] Hail
+|upkeep
+|switch|p2a: Skuntank|Skuntank, L85, M|314/314
+|-end|p1a: Pinsir|Dynamax
+|-heal|p1a: Pinsir|21/100|[silent]
+|turn|4
+|switch|p1a: Drapion|Drapion, L82, M|100/100
+|move|p2a: Skuntank|Fire Blast|p1a: Drapion
+|-damage|p1a: Drapion|63/100
+|-damage|p2a: Skuntank|283/314|[from] item: Life Orb
+|-weather|Hail|[upkeep]
+|-damage|p1a: Drapion|57/100|[from] Hail
+|-damage|p2a: Skuntank|264/314|[from] Hail
+|upkeep
+|turn|5
+|move|p1a: Drapion|Earthquake|p2a: Skuntank
+|-supereffective|p2a: Skuntank
+|-damage|p2a: Skuntank|48/314
+|-damage|p1a: Drapion|47/100|[from] item: Life Orb
+|move|p2a: Skuntank|Fire Blast|p1a: Drapion
+|-damage|p1a: Drapion|9/100
+|-status|p1a: Drapion|brn
+|-damage|p2a: Skuntank|17/314|[from] item: Life Orb
+|-weather|none
+|-damage|p1a: Drapion|3/100 brn|[from] brn
+|upkeep
+|turn|6
+|move|p1a: Drapion|Earthquake|p2a: Skuntank
+|-supereffective|p2a: Skuntank
+|-damage|p2a: Skuntank|0 fnt
+|faint|p2a: Skuntank
+|-damage|p1a: Drapion|0 fnt|[from] item: Life Orb
+|faint|p1a: Drapion
+|upkeep
+|switch|p1a: Maractus|Maractus, L96, M|100/100
+|switch|p2a: Linoone|Linoone, L84, F|268/268
+|turn|7
+|move|p2a: Linoone|Throat Chop|p1a: Maractus
+|-damage|p1a: Maractus|84/100
+|-start|p1a: Maractus|Throat Chop|[silent]
+|move|p1a: Maractus|Energy Ball|p2a: Linoone
+|-damage|p2a: Linoone|102/268
+|-enditem|p2a: Linoone|Wiki Berry|[eat]
+|-heal|p2a: Linoone|191/268|[from] item: Wiki Berry
+|-heal|p1a: Maractus|90/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|move|p2a: Linoone|Extreme Speed|p1a: Maractus
+|-damage|p1a: Maractus|64/100
+|move|p1a: Maractus|Spikes|p2a: Linoone
+|-sidestart|p2: PokeLLM|Spikes
+|-heal|p1a: Maractus|70/100|[from] item: Leftovers
+|-end|p1a: Maractus|Throat Chop|[silent]
+|upkeep
+|turn|9
+|move|p2a: Linoone|Extreme Speed|p1a: Maractus
+|-damage|p1a: Maractus|46/100
+|move|p1a: Maractus|Energy Ball|p2a: Linoone
+|-damage|p2a: Linoone|8/268
+|-heal|p1a: Maractus|52/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|move|p2a: Linoone|Extreme Speed|p1a: Maractus
+|-damage|p1a: Maractus|30/100
+|move|p1a: Maractus|Energy Ball|p2a: Linoone
+|-damage|p2a: Linoone|0 fnt
+|faint|p2a: Linoone
+|-heal|p1a: Maractus|36/100|[from] item: Leftovers
+|upkeep
+|switch|p2a: Froslass|Froslass, L84, F|130/255
+|-damage|p2a: Froslass|99/255|[from] Spikes
+|turn|11
+|move|p2a: Froslass|Triple Axel|p1a: Maractus
+|-supereffective|p1a: Maractus
+|-damage|p1a: Maractus|21/100
+|-supereffective|p1a: Maractus
+|-damage|p1a: Maractus|0 fnt
+|faint|p1a: Maractus
+|-hitcount|p1: Maractus|2
+|upkeep
+|switch|p1a: Chansey|Chansey, L84, F|100/100
+|turn|12
+|switch|p2a: Cloyster|Cloyster, L80, F|211/211
+|-damage|p2a: Cloyster|185/211|[from] Spikes
+|move|p1a: Chansey|Toxic|p2a: Cloyster
+|-status|p2a: Cloyster|tox
+|-damage|p2a: Cloyster|172/211 tox|[from] psn
+|upkeep
+|turn|13
+|move|p2a: Cloyster|Icicle Spear|p1a: Chansey
+|-damage|p1a: Chansey|91/100
+|-damage|p1a: Chansey|81/100
+|-damage|p1a: Chansey|71/100
+|-damage|p1a: Chansey|62/100
+|-damage|p1a: Chansey|51/100
+|-hitcount|p1a: Chansey|5
+|move|p1a: Chansey|Aromatherapy||[still]
+|-activate|p1a: Chansey|move: Aromatherapy
+|-fail|p1a: Chansey
+|-damage|p2a: Cloyster|146/211 tox|[from] psn
+|upkeep
+|turn|14
+|move|p2a: Cloyster|Icicle Spear|p1a: Chansey
+|-damage|p1a: Chansey|42/100
+|-damage|p1a: Chansey|32/100
+|-damage|p1a: Chansey|21/100
+|-damage|p1a: Chansey|10/100
+|-damage|p1a: Chansey|1/100
+|-hitcount|p1a: Chansey|5
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|51/100
+|-damage|p2a: Cloyster|107/211 tox|[from] psn
+|upkeep
+|turn|15
+|move|p2a: Cloyster|Icicle Spear|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|35/100
+|-damage|p1a: Chansey|25/100
+|-damage|p1a: Chansey|15/100
+|-damage|p1a: Chansey|5/100
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|-hitcount|p1: Chansey|5
+|-damage|p2a: Cloyster|55/211 tox|[from] psn
+|upkeep
+|switch|p1a: Cloyster|Cloyster, L80, F|100/100
+|turn|16
+|switch|p2a: Lilligant|Lilligant, L84, F|255/255
+|-damage|p2a: Lilligant|224/255|[from] Spikes
+|move|p1a: Cloyster|Hydro Pump|p2a: Lilligant
+|-resisted|p2a: Lilligant
+|-damage|p2a: Lilligant|170/255
+|-heal|p2a: Lilligant|185/255|[from] item: Leftovers
+|upkeep
+|turn|17
+|switch|p1a: Heracross|Heracross, L81, F|100/100
+|move|p2a: Lilligant|Giga Drain|p1a: Heracross
+|-resisted|p1a: Heracross
+|-damage|p1a: Heracross|85/100
+|-heal|p2a: Lilligant|206/255|[from] drain|[of] p1a: Heracross
+|-heal|p2a: Lilligant|221/255|[from] item: Leftovers
+|-status|p1a: Heracross|brn|[from] item: Flame Orb
+|upkeep
+|turn|18
+|move|p2a: Lilligant|Sleep Powder|p1a: Heracross|[miss]
+|-miss|p2a: Lilligant|p1a: Heracross
+|move|p1a: Heracross|Megahorn|p2a: Lilligant
+|-supereffective|p2a: Lilligant
+|-damage|p2a: Lilligant|0 fnt
+|faint|p2a: Lilligant
+|-damage|p1a: Heracross|79/100 brn|[from] brn
+|upkeep
+|switch|p2a: Froslass|Froslass, L84, F|99/255
+|-damage|p2a: Froslass|68/255|[from] Spikes
+|turn|19
+|move|p2a: Froslass|Poltergeist|p1a: Heracross
+|-activate|p1a: Heracross|move: Poltergeist|Flame Orb
+|-damage|p1a: Heracross|34/100 brn
+|move|p1a: Heracross|Knock Off|p2a: Froslass
+|-supereffective|p2a: Froslass
+|-damage|p2a: Froslass|0 fnt
+|-start|p1a: Heracross|Disable|Knock Off|[from] ability: Cursed Body|[of] p2a: Froslass
+|-enditem|p2a: Froslass|Wide Lens|[from] move: Knock Off|[of] p1a: Heracross
+|faint|p2a: Froslass
+|-damage|p1a: Heracross|28/100 brn|[from] brn
+|upkeep
+|switch|p2a: Cloyster|Cloyster, L80, F|55/211 tox
+|-damage|p2a: Cloyster|29/211 tox|[from] Spikes
+|turn|20
+|move|p1a: Heracross|Facade|p2a: Cloyster
+|-damage|p2a: Cloyster|0 fnt
+|faint|p2a: Cloyster
+    </script>
+</div>
+
+<div class="battle-log battle-log-inline" style="display:none"></div>
+
+<script>
+    let daily = Math.floor(Date.now() / 1000 / 60 / 60 / 24); document.write('<script src="https://play.pokemonshowdown.com/js/replay-embed.js?version' + daily + '"></' + 'script>');
+</script>
+
+<p style="text-align:center"> Replay created by <a href="https://github.com/hsahovic/poke-env">poke-env</a>, with code from <a
+        href="https://github.com/smogon/pokemon-showdown"> pokemon-showdown</a>. If something goes wrong, don't hesitate
+    to open an <a href="https://github.com/hsahovic/poke-env/issues">issue!</a></p>

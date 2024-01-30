@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<!-- version 1 -->
+<title>battle-gen8randombattle-87194</title>
+<style>
+    html,
+    body {
+        font-family: Verdana, sans-serif;
+        font-size: 10pt;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        padding: 12px 0;
+    }
+
+    .battle-log {
+        font-family: Verdana, sans-serif;
+        font-size: 10pt;
+    }
+
+    .battle-log-inline {
+        border: 1px solid #AAAAAA;
+        background: #EEF2F5;
+        color: black;
+        max-width: 640px;
+        margin: 0 auto 80px;
+        padding-bottom: 5px;
+    }
+
+    .battle-log .inner {
+        padding: 4px 8px 0px 8px;
+    }
+
+    .battle-log .inner-preempt {
+        padding: 0 8px 4px 8px;
+    }
+
+    .battle-log .inner-after {
+        margin-top: 0.5em;
+    }
+
+    .battle-log h2 {
+        margin: 0.5em -8px;
+        padding: 4px 8px;
+        border: 1px solid #AAAAAA;
+        background: #E0E7EA;
+        border-left: 0;
+        border-right: 0;
+        font-family: Verdana, sans-serif;
+        font-size: 13pt;
+    }
+
+    .backprop {
+        top: 0;
+    }
+
+    .battle-log .chat {
+        vertical-align: middle;
+        padding: 3px 0 3px 0;
+        font-size: 8pt;
+    }
+
+    .battle-log .chat strong {
+        color: #40576A;
+    }
+
+    .battle-log .chat em {
+        padding: 1px 4px 1px 3px;
+        color: #000000;
+        font-style: normal;
+    }
+
+    .chat.mine {
+        background: rgba(0, 0, 0, 0.05);
+        margin-left: -8px;
+        margin-right: -8px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .spoiler {
+        color: #BBBBBB;
+        background: #BBBBBB;
+        padding: 0px 3px;
+    }
+
+    .spoiler:hover,
+    .spoiler:active,
+    .spoiler-shown {
+        color: #000000;
+        background: #E2E2E2;
+        padding: 0px 3px;
+    }
+
+    .spoiler a {
+        color: #BBBBBB;
+    }
+
+    .spoiler:hover a,
+    .spoiler:active a,
+    .spoiler-shown a {
+        color: #2288CC;
+    }
+
+    .chat code,
+    .chat .spoiler:hover code,
+    .chat .spoiler:active code,
+    .chat .spoiler-shown code {
+        border: 1px solid #C0C0C0;
+        background: #EEEEEE;
+        color: black;
+        padding: 0 2px;
+    }
+
+    .chat .spoiler code {
+        border: 1px solid #CCCCCC;
+        background: #CCCCCC;
+        color: #CCCCCC;
+    }
+
+    .battle-log .rated {
+        padding: 3px 4px;
+    }
+
+    .battle-log .rated strong {
+        color: white;
+        background: #89A;
+        padding: 1px 4px;
+        border-radius: 4px;
+    }
+
+    .spacer {
+        margin-top: 0.5em;
+    }
+
+    .message-announce {
+        background: #6688AA;
+        color: white;
+        padding: 1px 4px 2px;
+    }
+
+    .message-announce a,
+    .broadcast-green a,
+    .broadcast-blue a,
+    .broadcast-red a {
+        color: #DDEEFF;
+    }
+
+    .broadcast-green {
+        background-color: #559955;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .broadcast-blue {
+        background-color: #6688AA;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .infobox {
+        border: 1px solid #6688AA;
+        padding: 2px 4px;
+    }
+
+    .infobox-limited {
+        max-height: 200px;
+        overflow: auto;
+        overflow-x: hidden;
+    }
+
+    .broadcast-red {
+        background-color: #AA5544;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .message-learn-canlearn {
+        font-weight: bold;
+        color: #228822;
+        text-decoration: underline;
+    }
+
+    .message-learn-cannotlearn {
+        font-weight: bold;
+        color: #CC2222;
+        text-decoration: underline;
+    }
+
+    .message-effect-weak {
+        font-weight: bold;
+        color: #CC2222;
+    }
+
+    .message-effect-resist {
+        font-weight: bold;
+        color: #6688AA;
+    }
+
+    .message-effect-immune {
+        font-weight: bold;
+        color: #666666;
+    }
+
+    .message-learn-list {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .message-throttle-notice,
+    .message-error {
+        color: #992222;
+    }
+
+    .message-overflow,
+    .chat small.message-overflow {
+        font-size: 0pt;
+    }
+
+    .message-overflow::before {
+        font-size: 9pt;
+        content: '...';
+    }
+
+    .subtle {
+        color: #3A4A66;
+    }
+</style>
+<div class="wrapper replay-wrapper" style="max-width:1180px;margin:0 auto">
+    <input type="hidden" name="replayid" value="unregisteredserver-gen8randombattle-320064" />
+    <div class="battle"></div>
+    <div class="battle-log"></div>
+    <div class="replay-controls"></div>
+    <div class="replay-controls-2"></div>
+    <h1 style="font-weight:normal;text-align:center"><strong>poke-env battle replay</strong><br />battle-gen8randombattle-87194<br /><a
+            href="http://pokemonshowdown.com/users/randomplayer1" class="subtle" target="_blank">PokeLLM</a>
+        vs. <a href="http://pokemonshowdown.com/users/randomplayer2" class="subtle"
+            target="_blank">BayiHu</a></h1>
+    <script type="text/plain" class="battle-log-data">
+    >battle-gen8randombattle-87194|init|battle
+|title|BayiHu vs. PokeLLM
+|j|☆BayiHu
+|j|☆PokeLLM
+|gametype|singles
+|player|p1|BayiHu|101|1217
+|player|p2|PokeLLM|169|1325
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Illusion Level Mod: Illusion disguises the Pokémon's true level
+|start
+|switch|p1a: Salamence|Salamence, L74, M|100/100
+|switch|p2a: Pyukumuku|Pyukumuku, L84, F|230/230
+|turn|1
+|switch|p2a: Trevenant|Trevenant, L87, F|290/290
+|move|p1a: Salamence|Earthquake|p2a: Trevenant
+|-resisted|p2a: Trevenant
+|-crit|p2a: Trevenant
+|-damage|p2a: Trevenant|230/290
+|upkeep
+|turn|2
+|switch|p1a: Miltank|Miltank, L83, F|100/100
+|move|p2a: Trevenant|Rock Slide|p1a: Miltank
+|-damage|p1a: Miltank|77/100
+|-damage|p2a: Trevenant|201/290|[from] item: Life Orb
+|-heal|p1a: Miltank|83/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|switch|p2a: Gallade|Gallade, L82, M|246/246
+|move|p1a: Miltank|Toxic|p2a: Gallade
+|-status|p2a: Gallade|tox
+|-heal|p1a: Miltank|90/100|[from] item: Leftovers
+|-damage|p2a: Gallade|231/246 tox|[from] psn
+|upkeep
+|turn|4
+|move|p2a: Gallade|Close Combat|p1a: Miltank
+|-supereffective|p1a: Miltank
+|-damage|p1a: Miltank|9/100
+|-unboost|p2a: Gallade|def|1
+|-unboost|p2a: Gallade|spd|1
+|move|p1a: Miltank|Milk Drink|p1a: Miltank
+|-heal|p1a: Miltank|59/100
+|-heal|p1a: Miltank|65/100|[from] item: Leftovers
+|-damage|p2a: Gallade|201/246 tox|[from] psn
+|upkeep
+|turn|5
+|switch|p1a: Salamence|Salamence, L74, M|100/100
+|move|p2a: Gallade|Close Combat|p1a: Salamence
+|-resisted|p1a: Salamence
+|-damage|p1a: Salamence|69/100
+|-unboost|p2a: Gallade|def|1
+|-unboost|p2a: Gallade|spd|1
+|-damage|p2a: Gallade|156/246 tox|[from] psn
+|upkeep
+|turn|6
+|switch|p2a: Starmie|Starmie, L84|238/238
+|move|p1a: Salamence|Outrage|p2a: Starmie
+|-damage|p2a: Starmie|97/238
+|-heal|p2a: Starmie|111/238|[from] item: Leftovers
+|upkeep
+|turn|7
+|move|p2a: Starmie|Thunderbolt|p1a: Salamence
+|-damage|p1a: Salamence|40/100
+|move|p1a: Salamence|Outrage|p2a: Starmie|[from]lockedmove
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|-ability|p1a: Salamence|Moxie|boost
+|-boost|p1a: Salamence|atk|1
+|upkeep
+|switch|p2a: Trevenant|Trevenant, L87, F|201/290
+|turn|8
+|move|p1a: Salamence|Outrage|p2a: Trevenant|[from]lockedmove
+|-damage|p2a: Trevenant|11/290
+|-start|p1a: Salamence|confusion|[fatigue]
+|move|p2a: Trevenant|Rock Slide|p1a: Salamence|[miss]
+|-miss|p2a: Trevenant|p1a: Salamence
+|upkeep
+|turn|9
+|switch|p1a: Vikavolt|Vikavolt, L82, M|100/100
+|move|p2a: Trevenant|Rock Slide|p1a: Vikavolt
+|-supereffective|p1a: Vikavolt
+|-damage|p1a: Vikavolt|42/100
+|-damage|p2a: Trevenant|0 fnt|[from] item: Life Orb
+|faint|p2a: Trevenant
+|upkeep
+|switch|p2a: Crustle|Crustle, L83, M|252/252
+|turn|10
+|move|p2a: Crustle|Stone Edge|p1a: Vikavolt
+|-supereffective|p1a: Vikavolt
+|-damage|p1a: Vikavolt|0 fnt
+|faint|p1a: Vikavolt
+|upkeep
+|switch|p1a: Miltank|Miltank, L83, F|65/100
+|turn|11
+|move|p1a: Miltank|Toxic|p2a: Crustle
+|-status|p2a: Crustle|tox
+|move|p2a: Crustle|Shell Smash|p2a: Crustle
+|-unboost|p2a: Crustle|def|1
+|-unboost|p2a: Crustle|spd|1
+|-boost|p2a: Crustle|atk|2
+|-boost|p2a: Crustle|spa|2
+|-boost|p2a: Crustle|spe|2
+|-heal|p1a: Miltank|71/100|[from] item: Leftovers
+|-damage|p2a: Crustle|237/252 tox|[from] psn
+|upkeep
+|turn|12
+|move|p2a: Crustle|Earthquake|p1a: Miltank
+|-damage|p1a: Miltank|26/100
+|move|p1a: Miltank|Milk Drink|p1a: Miltank
+|-heal|p1a: Miltank|76/100
+|-heal|p1a: Miltank|82/100|[from] item: Leftovers
+|-damage|p2a: Crustle|207/252 tox|[from] psn
+|upkeep
+|turn|13
+|move|p2a: Crustle|X-Scissor|p1a: Miltank
+|-damage|p1a: Miltank|33/100
+|move|p1a: Miltank|Milk Drink|p1a: Miltank
+|-heal|p1a: Miltank|83/100
+|-heal|p1a: Miltank|89/100|[from] item: Leftovers
+|-damage|p2a: Crustle|162/252 tox|[from] psn
+|upkeep
+|turn|14
+|move|p2a: Crustle|X-Scissor|p1a: Miltank
+|-damage|p1a: Miltank|39/100
+|move|p1a: Miltank|Milk Drink|p1a: Miltank
+|-heal|p1a: Miltank|89/100
+|-heal|p1a: Miltank|95/100|[from] item: Leftovers
+|-damage|p2a: Crustle|102/252 tox|[from] psn
+|upkeep
+|turn|15
+|switch|p2a: Gallade|Gallade, L82, M|156/246 tox
+|move|p1a: Miltank|Milk Drink|p1a: Miltank
+|-heal|p1a: Miltank|100/100
+|-damage|p2a: Gallade|141/246 tox|[from] psn
+|upkeep
+|turn|16
+|move|p2a: Gallade|Close Combat|p1a: Miltank
+|-supereffective|p1a: Miltank
+|-damage|p1a: Miltank|8/100
+|-unboost|p2a: Gallade|def|1
+|-unboost|p2a: Gallade|spd|1
+|move|p1a: Miltank|Stealth Rock|p2a: Gallade
+|-sidestart|p2: PokeLLM|move: Stealth Rock
+|-heal|p1a: Miltank|14/100|[from] item: Leftovers
+|-damage|p2a: Gallade|111/246 tox|[from] psn
+|upkeep
+|turn|17
+|switch|p1a: Braviary|Braviary, L81, M|100/100
+|move|p2a: Gallade|Close Combat|p1a: Braviary
+|-damage|p1a: Braviary|39/100
+|-unboost|p2a: Gallade|def|1
+|-unboost|p2a: Gallade|spd|1
+|-damage|p2a: Gallade|66/246 tox|[from] psn
+|upkeep
+|turn|18
+|switch|p2a: Genesect|Genesect, L74|227/227
+|-damage|p2a: Genesect|199/227|[from] Stealth Rock
+|-ability|p2a: Genesect|Download|boost
+|-boost|p2a: Genesect|spa|1
+|move|p1a: Braviary|Roost|p1a: Braviary
+|-heal|p1a: Braviary|90/100
+|-singleturn|p1a: Braviary|move: Roost
+|upkeep
+|turn|19
+|move|p2a: Genesect|Iron Head|p1a: Braviary
+|-damage|p1a: Braviary|46/100
+|-damage|p2a: Genesect|177/227|[from] item: Life Orb
+|move|p1a: Braviary|Brave Bird|p2a: Genesect
+|-damage|p2a: Genesect|11/227
+|-damage|p1a: Braviary|27/100|[from] Recoil
+|upkeep
+|turn|20
+|move|p2a: Genesect|Extreme Speed|p1a: Braviary
+|-damage|p1a: Braviary|0 fnt
+|faint|p1a: Braviary
+|-damage|p2a: Genesect|0 fnt|[from] item: Life Orb
+|faint|p2a: Genesect
+|upkeep
+|switch|p2a: Crustle|Crustle, L83, M|102/252 tox
+|switch|p1a: Miltank|Miltank, L83, F|14/100
+|turn|21
+|move|p1a: Miltank|Milk Drink|p1a: Miltank
+|-heal|p1a: Miltank|65/100
+|move|p2a: Crustle|X-Scissor|p1a: Miltank
+|-damage|p1a: Miltank|36/100
+|-heal|p1a: Miltank|42/100|[from] item: Leftovers
+|-damage|p2a: Crustle|87/252 tox|[from] psn
+|upkeep
+|turn|22
+|move|p1a: Miltank|Milk Drink|p1a: Miltank
+|-heal|p1a: Miltank|92/100
+|move|p2a: Crustle|Earthquake|p1a: Miltank
+|-damage|p1a: Miltank|71/100
+|-heal|p1a: Miltank|78/100|[from] item: Leftovers
+|-damage|p2a: Crustle|57/252 tox|[from] psn
+|upkeep
+|turn|23
+|switch|p2a: Gallade|Gallade, L82, M|66/246 tox
+|-damage|p2a: Gallade|51/246 tox|[from] Stealth Rock
+|move|p1a: Miltank|Milk Drink|p1a: Miltank
+|-heal|p1a: Miltank|100/100
+|-damage|p2a: Gallade|36/246 tox|[from] psn
+|upkeep
+|turn|24
+|move|p2a: Gallade|Close Combat|p1a: Miltank
+|-supereffective|p1a: Miltank
+|-crit|p1a: Miltank
+|-damage|p1a: Miltank|0 fnt
+|-unboost|p2a: Gallade|def|1
+|-unboost|p2a: Gallade|spd|1
+|faint|p1a: Miltank
+|-damage|p2a: Gallade|6/246 tox|[from] psn
+|upkeep
+|switch|p1a: Umbreon|Umbreon, L82, F|100/100
+|turn|25
+|move|p2a: Gallade|Close Combat|p1a: Umbreon
+|-supereffective|p1a: Umbreon
+|-damage|p1a: Umbreon|19/100
+|-unboost|p2a: Gallade|def|1
+|-unboost|p2a: Gallade|spd|1
+|move|p1a: Umbreon|Wish|p1a: Umbreon
+|-heal|p1a: Umbreon|25/100|[from] item: Leftovers
+|-damage|p2a: Gallade|0 fnt|[from] psn
+|faint|p2a: Gallade
+|upkeep
+|switch|p2a: Crustle|Crustle, L83, M|57/252 tox
+|turn|26
+|move|p1a: Umbreon|Protect|p1a: Umbreon
+|-singleturn|p1a: Umbreon|Protect
+|move|p2a: Crustle|X-Scissor|p1a: Umbreon
+|-activate|p1a: Umbreon|move: Protect
+|-heal|p1a: Umbreon|75/100|[from] move: Wish|[wisher] Umbreon
+|-heal|p1a: Umbreon|82/100|[from] item: Leftovers
+|-damage|p2a: Crustle|42/252 tox|[from] psn
+|upkeep
+|turn|27
+|move|p1a: Umbreon|Foul Play|p2a: Crustle
+|-damage|p2a: Crustle|0 fnt
+|faint|p2a: Crustle
+|-heal|p1a: Umbreon|88/100|[from] item: Leftovers
+|upkeep
+|switch|p2a: Pyukumuku|Pyukumuku, L84, F|230/230
+|-damage|p2a: Pyukumuku|202/230|[from] Stealth Rock
+|turn|28
+|-start|p2a: Pyukumuku|Dynamax|
+|-heal|p2a: Pyukumuku|404/460|[silent]
+|move|p2a: Pyukumuku|Max Guard|p2a: Pyukumuku
+|-singleturn|p2a: Pyukumuku|Max Guard
+|move|p1a: Umbreon|Toxic|p2a: Pyukumuku
+|-activate|p2a: Pyukumuku|move: Max Guard
+|-heal|p1a: Umbreon|94/100|[from] item: Leftovers
+|-heal|p2a: Pyukumuku|418/460|[from] item: Leftovers
+|upkeep
+|turn|29
+|move|p2a: Pyukumuku|Max Guard||[still]
+|-fail|p2a: Pyukumuku
+|move|p1a: Umbreon|Toxic|p2a: Pyukumuku|[miss]
+|-miss|p1a: Umbreon|p2a: Pyukumuku
+|-heal|p1a: Umbreon|99/100|[from] item: Leftovers
+|-heal|p2a: Pyukumuku|432/460|[from] item: Leftovers
+|upkeep
+|turn|30
+|move|p2a: Pyukumuku|Max Guard|p2a: Pyukumuku
+|-singleturn|p2a: Pyukumuku|Max Guard
+|move|p1a: Umbreon|Toxic|p2a: Pyukumuku
+|-activate|p2a: Pyukumuku|move: Max Guard
+|-heal|p1a: Umbreon|100/100|[from] item: Leftovers
+|-heal|p2a: Pyukumuku|446/460|[from] item: Leftovers
+|upkeep
+|-end|p2a: Pyukumuku|Dynamax
+|-heal|p2a: Pyukumuku|223/230|[silent]
+|turn|31
+|move|p1a: Umbreon|Toxic|p2a: Pyukumuku
+|-status|p2a: Pyukumuku|tox
+|move|p2a: Pyukumuku|Toxic|p1a: Umbreon
+|-status|p1a: Umbreon|tox
+|-activate|p1a: Umbreon|ability: Synchronize
+|-fail|p2a: Pyukumuku|tox
+|-heal|p2a: Pyukumuku|230/230 tox|[from] item: Leftovers
+|-damage|p1a: Umbreon|94/100 tox|[from] psn
+|-damage|p2a: Pyukumuku|216/230 tox|[from] psn
+|upkeep
+|turn|32
+|move|p1a: Umbreon|Protect|p1a: Umbreon
+|-singleturn|p1a: Umbreon|Protect
+|move|p2a: Pyukumuku|Toxic|p1a: Umbreon
+|-activate|p1a: Umbreon|move: Protect
+|-heal|p1a: Umbreon|100/100 tox|[from] item: Leftovers
+|-heal|p2a: Pyukumuku|230/230 tox|[from] item: Leftovers
+|-damage|p1a: Umbreon|88/100 tox|[from] psn
+|-damage|p2a: Pyukumuku|202/230 tox|[from] psn
+|upkeep
+|turn|33
+|move|p1a: Umbreon|Wish|p1a: Umbreon
+|move|p2a: Pyukumuku|Recover|p2a: Pyukumuku
+|-heal|p2a: Pyukumuku|230/230 tox
+|-heal|p1a: Umbreon|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Umbreon|76/100 tox|[from] psn
+|-damage|p2a: Pyukumuku|188/230 tox|[from] psn
+|upkeep
+|turn|34
+|move|p1a: Umbreon|Foul Play|p2a: Pyukumuku
+|-damage|p2a: Pyukumuku|154/230 tox
+|move|p2a: Pyukumuku|Toxic|p1a: Umbreon
+|-fail|p1a: Umbreon|tox
+|-heal|p1a: Umbreon|100/100 tox|[from] move: Wish|[wisher] Umbreon
+|-heal|p2a: Pyukumuku|168/230 tox|[from] item: Leftovers
+|-damage|p1a: Umbreon|76/100 tox|[from] psn
+|-damage|p2a: Pyukumuku|112/230 tox|[from] psn
+|upkeep
+|turn|35
+|move|p1a: Umbreon|Protect|p1a: Umbreon
+|-singleturn|p1a: Umbreon|Protect
+|move|p2a: Pyukumuku|Recover|p2a: Pyukumuku
+|-heal|p2a: Pyukumuku|227/230 tox
+|-heal|p1a: Umbreon|82/100 tox|[from] item: Leftovers
+|-heal|p2a: Pyukumuku|230/230 tox|[from] item: Leftovers
+|-damage|p1a: Umbreon|51/100 tox|[from] psn
+|-damage|p2a: Pyukumuku|160/230 tox|[from] psn
+|upkeep
+|turn|36
+|move|p1a: Umbreon|Wish|p1a: Umbreon
+|move|p2a: Pyukumuku|Recover|p2a: Pyukumuku
+|-heal|p2a: Pyukumuku|230/230 tox
+|-heal|p1a: Umbreon|57/100 tox|[from] item: Leftovers
+|-damage|p1a: Umbreon|20/100 tox|[from] psn
+|-damage|p2a: Pyukumuku|146/230 tox|[from] psn
+|upkeep
+|turn|37
+|move|p1a: Umbreon|Protect|p1a: Umbreon
+|-singleturn|p1a: Umbreon|Protect
+|move|p2a: Pyukumuku|Mirror Coat||[still]
+|-fail|p2a: Pyukumuku
+|-heal|p1a: Umbreon|70/100 tox|[from] move: Wish|[wisher] Umbreon
+|-heal|p1a: Umbreon|76/100 tox|[from] item: Leftovers
+|-heal|p2a: Pyukumuku|160/230 tox|[from] item: Leftovers
+|-damage|p1a: Umbreon|33/100 tox|[from] psn
+|-damage|p2a: Pyukumuku|62/230 tox|[from] psn
+|upkeep
+|turn|38
+|move|p1a: Umbreon|Wish|p1a: Umbreon
+|move|p2a: Pyukumuku|Toxic|p1a: Umbreon|[miss]
+|-miss|p2a: Pyukumuku|p1a: Umbreon
+|-heal|p1a: Umbreon|39/100 tox|[from] item: Leftovers
+|-heal|p2a: Pyukumuku|76/230 tox|[from] item: Leftovers
+|-damage|p1a: Umbreon|0 fnt|[from] psn
+|faint|p1a: Umbreon
+|-damage|p2a: Pyukumuku|0 fnt|[from] psn
+|faint|p2a: Pyukumuku
+    </script>
+</div>
+
+<div class="battle-log battle-log-inline" style="display:none"></div>
+
+<script>
+    let daily = Math.floor(Date.now() / 1000 / 60 / 60 / 24); document.write('<script src="https://play.pokemonshowdown.com/js/replay-embed.js?version' + daily + '"></' + 'script>');
+</script>
+
+<p style="text-align:center"> Replay created by <a href="https://github.com/hsahovic/poke-env">poke-env</a>, with code from <a
+        href="https://github.com/smogon/pokemon-showdown"> pokemon-showdown</a>. If something goes wrong, don't hesitate
+    to open an <a href="https://github.com/hsahovic/poke-env/issues">issue!</a></p>

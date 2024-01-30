@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<!-- version 1 -->
+<title>battle-gen8randombattle-2044264128</title>
+<style>
+    html,
+    body {
+        font-family: Verdana, sans-serif;
+        font-size: 10pt;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        padding: 12px 0;
+    }
+
+    .battle-log {
+        font-family: Verdana, sans-serif;
+        font-size: 10pt;
+    }
+
+    .battle-log-inline {
+        border: 1px solid #AAAAAA;
+        background: #EEF2F5;
+        color: black;
+        max-width: 640px;
+        margin: 0 auto 80px;
+        padding-bottom: 5px;
+    }
+
+    .battle-log .inner {
+        padding: 4px 8px 0px 8px;
+    }
+
+    .battle-log .inner-preempt {
+        padding: 0 8px 4px 8px;
+    }
+
+    .battle-log .inner-after {
+        margin-top: 0.5em;
+    }
+
+    .battle-log h2 {
+        margin: 0.5em -8px;
+        padding: 4px 8px;
+        border: 1px solid #AAAAAA;
+        background: #E0E7EA;
+        border-left: 0;
+        border-right: 0;
+        font-family: Verdana, sans-serif;
+        font-size: 13pt;
+    }
+
+    .backprop {
+        top: 0;
+    }
+
+    .battle-log .chat {
+        vertical-align: middle;
+        padding: 3px 0 3px 0;
+        font-size: 8pt;
+    }
+
+    .battle-log .chat strong {
+        color: #40576A;
+    }
+
+    .battle-log .chat em {
+        padding: 1px 4px 1px 3px;
+        color: #000000;
+        font-style: normal;
+    }
+
+    .chat.mine {
+        background: rgba(0, 0, 0, 0.05);
+        margin-left: -8px;
+        margin-right: -8px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .spoiler {
+        color: #BBBBBB;
+        background: #BBBBBB;
+        padding: 0px 3px;
+    }
+
+    .spoiler:hover,
+    .spoiler:active,
+    .spoiler-shown {
+        color: #000000;
+        background: #E2E2E2;
+        padding: 0px 3px;
+    }
+
+    .spoiler a {
+        color: #BBBBBB;
+    }
+
+    .spoiler:hover a,
+    .spoiler:active a,
+    .spoiler-shown a {
+        color: #2288CC;
+    }
+
+    .chat code,
+    .chat .spoiler:hover code,
+    .chat .spoiler:active code,
+    .chat .spoiler-shown code {
+        border: 1px solid #C0C0C0;
+        background: #EEEEEE;
+        color: black;
+        padding: 0 2px;
+    }
+
+    .chat .spoiler code {
+        border: 1px solid #CCCCCC;
+        background: #CCCCCC;
+        color: #CCCCCC;
+    }
+
+    .battle-log .rated {
+        padding: 3px 4px;
+    }
+
+    .battle-log .rated strong {
+        color: white;
+        background: #89A;
+        padding: 1px 4px;
+        border-radius: 4px;
+    }
+
+    .spacer {
+        margin-top: 0.5em;
+    }
+
+    .message-announce {
+        background: #6688AA;
+        color: white;
+        padding: 1px 4px 2px;
+    }
+
+    .message-announce a,
+    .broadcast-green a,
+    .broadcast-blue a,
+    .broadcast-red a {
+        color: #DDEEFF;
+    }
+
+    .broadcast-green {
+        background-color: #559955;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .broadcast-blue {
+        background-color: #6688AA;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .infobox {
+        border: 1px solid #6688AA;
+        padding: 2px 4px;
+    }
+
+    .infobox-limited {
+        max-height: 200px;
+        overflow: auto;
+        overflow-x: hidden;
+    }
+
+    .broadcast-red {
+        background-color: #AA5544;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .message-learn-canlearn {
+        font-weight: bold;
+        color: #228822;
+        text-decoration: underline;
+    }
+
+    .message-learn-cannotlearn {
+        font-weight: bold;
+        color: #CC2222;
+        text-decoration: underline;
+    }
+
+    .message-effect-weak {
+        font-weight: bold;
+        color: #CC2222;
+    }
+
+    .message-effect-resist {
+        font-weight: bold;
+        color: #6688AA;
+    }
+
+    .message-effect-immune {
+        font-weight: bold;
+        color: #666666;
+    }
+
+    .message-learn-list {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .message-throttle-notice,
+    .message-error {
+        color: #992222;
+    }
+
+    .message-overflow,
+    .chat small.message-overflow {
+        font-size: 0pt;
+    }
+
+    .message-overflow::before {
+        font-size: 9pt;
+        content: '...';
+    }
+
+    .subtle {
+        color: #3A4A66;
+    }
+</style>
+<div class="wrapper replay-wrapper" style="max-width:1180px;margin:0 auto">
+    <input type="hidden" name="replayid" value="unregisteredserver-gen8randombattle-320064" />
+    <div class="battle"></div>
+    <div class="battle-log"></div>
+    <div class="replay-controls"></div>
+    <div class="replay-controls-2"></div>
+    <h1 style="font-weight:normal;text-align:center"><strong>poke-env battle replay</strong><br />battle-gen8randombattle-2044264128<br /><a
+            href="http://pokemonshowdown.com/users/randomplayer1" class="subtle" target="_blank">PokeLLM</a>
+        vs. <a href="http://pokemonshowdown.com/users/randomplayer2" class="subtle"
+            target="_blank">Kxxjdj</a></h1>
+    <script type="text/plain" class="battle-log-data">
+    >battle-gen8randombattle-2044264128|init|battle
+|title|PokeLLM vs. Kxxjdj
+|j|☆PokeLLM
+|j|☆Kxxjdj
+|gametype|singles
+|player|p1|PokeLLM|supernerd|1040
+|player|p2|Kxxjdj|170|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Illusion Level Mod: Illusion disguises the Pokémon's true level
+|start
+|switch|p1a: Electivire|Electivire, L82, F|257/257
+|switch|p2a: Linoone|Linoone, L84, M|100/100
+|turn|1
+|switch|p2a: Gourgeist|Gourgeist-Large, L84, F|100/100
+|-item|p1a: Electivire|Life Orb|[from] ability: Frisk|[of] p2a: Gourgeist|[identify]
+|move|p1a: Electivire|Ice Punch|p2a: Gourgeist
+|-supereffective|p2a: Gourgeist
+|-damage|p2a: Gourgeist|52/100
+|-damage|p1a: Electivire|232/257|[from] item: Life Orb
+|-heal|p2a: Gourgeist|58/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|move|p1a: Electivire|Flamethrower|p2a: Gourgeist
+|-supereffective|p2a: Gourgeist
+|-damage|p2a: Gourgeist|0 fnt
+|faint|p2a: Gourgeist
+|-damage|p1a: Electivire|207/257|[from] item: Life Orb
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by PokeLLM)
+|inactive|Time left: 150 sec this turn | 150 sec total | 60 sec grace
+|switch|p2a: Cursola|Cursola, L87, M|100/100
+|turn|3
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p1a: Electivire|Wild Charge|p2a: Cursola
+|-damage|p2a: Cursola|11/100
+|-ability|p2a: Cursola|Weak Armor|boost
+|-unboost|p2a: Cursola|def|1
+|-boost|p2a: Cursola|spe|2
+|-damage|p1a: Electivire|152/257|[from] Recoil
+|-damage|p1a: Electivire|127/257|[from] item: Life Orb
+|move|p2a: Cursola|Strength Sap|p1a: Electivire
+|-unboost|p1a: Electivire|atk|1
+|-heal|p2a: Cursola|100/100
+|upkeep
+|turn|4
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p1a: Mamoswine|Mamoswine, L80, M|307/307
+|move|p2a: Cursola|Earth Power|p1a: Mamoswine
+|-damage|p1a: Mamoswine|189/307
+|upkeep
+|turn|5
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p2a: Cursola|Shadow Ball|p1a: Mamoswine
+|-damage|p1a: Mamoswine|15/307
+|move|p1a: Mamoswine|Knock Off|p2a: Cursola
+|-supereffective|p2a: Cursola
+|-damage|p2a: Cursola|0 fnt
+|-enditem|p2a: Cursola|Leftovers|[from] move: Knock Off|[of] p1a: Mamoswine
+|faint|p2a: Cursola
+|-damage|p1a: Mamoswine|0 fnt|[from] item: Life Orb
+|faint|p1a: Mamoswine
+|upkeep
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p1a: Heliolisk|Heliolisk, L82, F|236/236
+|switch|p2a: Zamazenta|Zamazenta-Crowned, L71|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|6
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p1a: Heliolisk|Surf|p2a: Zamazenta
+|-damage|p2a: Zamazenta|72/100
+|-damage|p1a: Heliolisk|213/236|[from] item: Life Orb
+|move|p2a: Zamazenta|Howl|p2a: Zamazenta
+|-boost|p2a: Zamazenta|atk|1
+|upkeep
+|turn|7
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p1a: Heliolisk|Surf|p2a: Zamazenta
+|-damage|p2a: Zamazenta|47/100
+|-damage|p1a: Heliolisk|190/236|[from] item: Life Orb
+|move|p2a: Zamazenta|Close Combat|p1a: Heliolisk
+|-supereffective|p1a: Heliolisk
+|-damage|p1a: Heliolisk|0 fnt
+|-unboost|p2a: Zamazenta|def|1
+|-unboost|p2a: Zamazenta|spd|1
+|faint|p1a: Heliolisk
+|upkeep
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p1a: Reshiram|Reshiram, L73|266/266
+|-ability|p1a: Reshiram|Turboblaze
+|turn|8
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p2a: Seaking|Seaking, L88, M|100/100
+|move|p1a: Reshiram|Blue Flare|p2a: Seaking
+|-resisted|p2a: Seaking
+|-damage|p2a: Seaking|71/100
+|upkeep
+|turn|9
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p1a: Reshiram|Draco Meteor|p2a: Seaking|[miss]
+|-miss|p1a: Reshiram|p2a: Seaking
+|move|p2a: Seaking|Swords Dance|p2a: Seaking
+|-boost|p2a: Seaking|atk|2
+|upkeep
+|turn|10
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p1a: Reshiram|Toxic|p2a: Seaking
+|-status|p2a: Seaking|tox
+|move|p2a: Seaking|Drill Run|p1a: Reshiram
+|-supereffective|p1a: Reshiram
+|-damage|p1a: Reshiram|0 fnt
+|faint|p1a: Reshiram
+|-damage|p2a: Seaking|61/100 tox|[from] item: Life Orb
+|-damage|p2a: Seaking|55/100 tox|[from] psn
+|upkeep
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p1a: Electivire|Electivire, L82, F|127/257
+|turn|11
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p1a: Electivire|Volt Switch|p2a: Seaking
+|-supereffective|p2a: Seaking
+|-crit|p2a: Seaking
+|-damage|p2a: Seaking|0 fnt
+|faint|p2a: Seaking
+|-damage|p1a: Electivire|102/257|[from] item: Life Orb
+|inactive|Time left: 150 sec this turn | 150 sec total
+|inactive|PokeLLM has 120 seconds left.
+|switch|p1a: Armaldo|Armaldo, L87, F|272/272|[from] Volt Switch
+|upkeep
+|inactive|Time left: 115 sec this turn | 115 sec total
+|switch|p2a: Linoone|Linoone, L84, M|100/100
+|turn|12
+|inactive|Time left: 125 sec this turn | 125 sec total
+|inactive|PokeLLM has 120 seconds left.
+|-start|p1a: Armaldo|Dynamax|
+|-heal|p1a: Armaldo|544/544|[silent]
+|move|p1a: Armaldo|Max Guard|p1a: Armaldo
+|-singleturn|p1a: Armaldo|Max Guard
+|move|p2a: Linoone|Belly Drum|p2a: Linoone
+|-damage|p2a: Linoone|50/100
+|-setboost|p2a: Linoone|atk|6|[from] move: Belly Drum
+|-enditem|p2a: Linoone|Aguav Berry|[eat]
+|-heal|p2a: Linoone|84/100|[from] item: Aguav Berry
+|upkeep
+|turn|13
+|inactive|Time left: 130 sec this turn | 130 sec total
+|inactive|PokeLLM has 120 seconds left.
+|inactive|Kxxjdj has 120 seconds left.
+|-start|p2a: Linoone|Dynamax|
+|-heal|p2a: Linoone|84/100|[silent]
+|move|p2a: Linoone|Max Guard|p2a: Linoone
+|-singleturn|p2a: Linoone|Max Guard
+|move|p1a: Armaldo|Max Rockfall|p2a: Linoone
+|-activate|p2a: Linoone|move: Max Guard
+|upkeep
+|turn|14
+|inactive|Time left: 125 sec this turn | 125 sec total
+|inactive|PokeLLM has 120 seconds left.
+|inactive|Kxxjdj has 120 seconds left.
+|move|p2a: Linoone|Max Strike|p1a: Armaldo
+|-resisted|p1a: Armaldo
+|-damage|p1a: Armaldo|372/544
+|-unboost|p1a: Armaldo|spe|1
+|move|p1a: Armaldo|Max Rockfall|p2a: Linoone
+|-damage|p2a: Linoone|44/100
+|-weather|Sandstorm
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Linoone|41/100|[from] Sandstorm
+|upkeep
+|-end|p1a: Armaldo|Dynamax
+|-heal|p1a: Armaldo|186/272|[silent]
+|turn|15
+|inactive|Time left: 125 sec this turn | 125 sec total
+|inactive|PokeLLM has 120 seconds left.
+|inactive|Kxxjdj has 120 seconds left.
+|move|p2a: Linoone|Max Strike|p1a: Armaldo
+|-resisted|p1a: Armaldo
+|-damage|p1a: Armaldo|0 fnt
+|faint|p1a: Armaldo
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Linoone|38/100|[from] Sandstorm
+|upkeep
+|inactive|Time left: 125 sec this turn | 125 sec total
+|switch|p1a: Frosmoth|Frosmoth, L82, F|249/249
+|-end|p2a: Linoone|Dynamax
+|-heal|p2a: Linoone|39/100|[silent]
+|turn|16
+|inactive|Time left: 135 sec this turn | 135 sec total
+|move|p2a: Linoone|Extreme Speed|p1a: Frosmoth
+|-damage|p1a: Frosmoth|0 fnt
+|faint|p1a: Frosmoth
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Linoone|33/100|[from] Sandstorm
+|upkeep
+|inactive|Time left: 135 sec this turn | 135 sec total
+|switch|p1a: Electivire|Electivire, L82, F|102/257
+|turn|17
+|inactive|Time left: 145 sec this turn | 145 sec total
+|move|p2a: Linoone|Extreme Speed|p1a: Electivire
+|-damage|p1a: Electivire|0 fnt
+|faint|p1a: Electivire
+    </script>
+</div>
+
+<div class="battle-log battle-log-inline" style="display:none"></div>
+
+<script>
+    let daily = Math.floor(Date.now() / 1000 / 60 / 60 / 24); document.write('<script src="https://play.pokemonshowdown.com/js/replay-embed.js?version' + daily + '"></' + 'script>');
+</script>
+
+<p style="text-align:center"> Replay created by <a href="https://github.com/hsahovic/poke-env">poke-env</a>, with code from <a
+        href="https://github.com/smogon/pokemon-showdown"> pokemon-showdown</a>. If something goes wrong, don't hesitate
+    to open an <a href="https://github.com/hsahovic/poke-env/issues">issue!</a></p>

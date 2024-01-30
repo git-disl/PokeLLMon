@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<!-- version 1 -->
+<title>battle-gen8randombattle-2044660697-7osl56eotno4fxae0ta1rtf2cp8hiuspw</title>
+<style>
+    html,
+    body {
+        font-family: Verdana, sans-serif;
+        font-size: 10pt;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        padding: 12px 0;
+    }
+
+    .battle-log {
+        font-family: Verdana, sans-serif;
+        font-size: 10pt;
+    }
+
+    .battle-log-inline {
+        border: 1px solid #AAAAAA;
+        background: #EEF2F5;
+        color: black;
+        max-width: 640px;
+        margin: 0 auto 80px;
+        padding-bottom: 5px;
+    }
+
+    .battle-log .inner {
+        padding: 4px 8px 0px 8px;
+    }
+
+    .battle-log .inner-preempt {
+        padding: 0 8px 4px 8px;
+    }
+
+    .battle-log .inner-after {
+        margin-top: 0.5em;
+    }
+
+    .battle-log h2 {
+        margin: 0.5em -8px;
+        padding: 4px 8px;
+        border: 1px solid #AAAAAA;
+        background: #E0E7EA;
+        border-left: 0;
+        border-right: 0;
+        font-family: Verdana, sans-serif;
+        font-size: 13pt;
+    }
+
+    .backprop {
+        top: 0;
+    }
+
+    .battle-log .chat {
+        vertical-align: middle;
+        padding: 3px 0 3px 0;
+        font-size: 8pt;
+    }
+
+    .battle-log .chat strong {
+        color: #40576A;
+    }
+
+    .battle-log .chat em {
+        padding: 1px 4px 1px 3px;
+        color: #000000;
+        font-style: normal;
+    }
+
+    .chat.mine {
+        background: rgba(0, 0, 0, 0.05);
+        margin-left: -8px;
+        margin-right: -8px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .spoiler {
+        color: #BBBBBB;
+        background: #BBBBBB;
+        padding: 0px 3px;
+    }
+
+    .spoiler:hover,
+    .spoiler:active,
+    .spoiler-shown {
+        color: #000000;
+        background: #E2E2E2;
+        padding: 0px 3px;
+    }
+
+    .spoiler a {
+        color: #BBBBBB;
+    }
+
+    .spoiler:hover a,
+    .spoiler:active a,
+    .spoiler-shown a {
+        color: #2288CC;
+    }
+
+    .chat code,
+    .chat .spoiler:hover code,
+    .chat .spoiler:active code,
+    .chat .spoiler-shown code {
+        border: 1px solid #C0C0C0;
+        background: #EEEEEE;
+        color: black;
+        padding: 0 2px;
+    }
+
+    .chat .spoiler code {
+        border: 1px solid #CCCCCC;
+        background: #CCCCCC;
+        color: #CCCCCC;
+    }
+
+    .battle-log .rated {
+        padding: 3px 4px;
+    }
+
+    .battle-log .rated strong {
+        color: white;
+        background: #89A;
+        padding: 1px 4px;
+        border-radius: 4px;
+    }
+
+    .spacer {
+        margin-top: 0.5em;
+    }
+
+    .message-announce {
+        background: #6688AA;
+        color: white;
+        padding: 1px 4px 2px;
+    }
+
+    .message-announce a,
+    .broadcast-green a,
+    .broadcast-blue a,
+    .broadcast-red a {
+        color: #DDEEFF;
+    }
+
+    .broadcast-green {
+        background-color: #559955;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .broadcast-blue {
+        background-color: #6688AA;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .infobox {
+        border: 1px solid #6688AA;
+        padding: 2px 4px;
+    }
+
+    .infobox-limited {
+        max-height: 200px;
+        overflow: auto;
+        overflow-x: hidden;
+    }
+
+    .broadcast-red {
+        background-color: #AA5544;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .message-learn-canlearn {
+        font-weight: bold;
+        color: #228822;
+        text-decoration: underline;
+    }
+
+    .message-learn-cannotlearn {
+        font-weight: bold;
+        color: #CC2222;
+        text-decoration: underline;
+    }
+
+    .message-effect-weak {
+        font-weight: bold;
+        color: #CC2222;
+    }
+
+    .message-effect-resist {
+        font-weight: bold;
+        color: #6688AA;
+    }
+
+    .message-effect-immune {
+        font-weight: bold;
+        color: #666666;
+    }
+
+    .message-learn-list {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .message-throttle-notice,
+    .message-error {
+        color: #992222;
+    }
+
+    .message-overflow,
+    .chat small.message-overflow {
+        font-size: 0pt;
+    }
+
+    .message-overflow::before {
+        font-size: 9pt;
+        content: '...';
+    }
+
+    .subtle {
+        color: #3A4A66;
+    }
+</style>
+<div class="wrapper replay-wrapper" style="max-width:1180px;margin:0 auto">
+    <input type="hidden" name="replayid" value="unregisteredserver-gen8randombattle-320064" />
+    <div class="battle"></div>
+    <div class="battle-log"></div>
+    <div class="replay-controls"></div>
+    <div class="replay-controls-2"></div>
+    <h1 style="font-weight:normal;text-align:center"><strong>poke-env battle replay</strong><br />battle-gen8randombattle-2044660697-7osl56eotno4fxae0ta1rtf2cp8hiuspw<br /><a
+            href="http://pokemonshowdown.com/users/randomplayer1" class="subtle" target="_blank">PokeLLM</a>
+        vs. <a href="http://pokemonshowdown.com/users/randomplayer2" class="subtle"
+            target="_blank">Pablo Linares</a></h1>
+    <script type="text/plain" class="battle-log-data">
+    >battle-gen8randombattle-2044660697-7osl56eotno4fxae0ta1rtf2cp8hiuspw|init|battle
+|title|PokeLLM vs. Pablo Linares
+|j|☆PokeLLM
+|j|☆Pablo Linares
+|gametype|singles
+|player|p1|PokeLLM|supernerd|1072
+|player|p2|Pablo Linares|lucas|1281
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Illusion Level Mod: Illusion disguises the Pokémon's true level
+|start
+|switch|p1a: Lucario|Lucario, L81, F|246/246
+|switch|p2a: Manectric|Manectric, L87, F|100/100
+|turn|1
+|switch|p1a: Groudon|Groudon, L71|259/259
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Groudon
+|move|p2a: Manectric|Overheat|p1a: Groudon
+|-damage|p1a: Groudon|82/259
+|-unboost|p2a: Manectric|spa|2
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Groudon|98/259|[from] item: Leftovers
+|upkeep
+|turn|2
+|move|p2a: Manectric|Overheat|p1a: Groudon
+|-damage|p1a: Groudon|6/259
+|-unboost|p2a: Manectric|spa|2
+|move|p1a: Groudon|Precipice Blades|p2a: Manectric
+|-supereffective|p2a: Manectric
+|-damage|p2a: Manectric|0 fnt
+|faint|p2a: Manectric
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Groudon|22/259|[from] item: Leftovers
+|upkeep
+|switch|p2a: Cryogonal|Cryogonal, L86|100/100
+|turn|3
+|move|p2a: Cryogonal|Rapid Spin|p1a: Groudon
+|-damage|p1a: Groudon|2/259
+|-boost|p2a: Cryogonal|spe|1
+|move|p1a: Groudon|Stealth Rock|p2a: Cryogonal
+|-sidestart|p2: Pablo Linares|move: Stealth Rock
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Groudon|18/259|[from] item: Leftovers
+|upkeep
+|turn|4
+|switch|p1a: Lucario|Lucario, L81, F|246/246
+|move|p2a: Cryogonal|Rapid Spin|p1a: Lucario
+|-resisted|p1a: Lucario
+|-damage|p1a: Lucario|232/246
+|-boost|p2a: Cryogonal|spe|1
+|-sideend|p2: Pablo Linares|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Cryogonal
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|switch|p2a: Nidoking|Nidoking, L82, M|100/100
+|move|p1a: Lucario|Close Combat|p2a: Nidoking
+|-resisted|p2a: Nidoking
+|-damage|p2a: Nidoking|72/100
+|-unboost|p1a: Lucario|def|1
+|-unboost|p1a: Lucario|spd|1
+|-weather|none
+|upkeep
+|turn|6
+|move|p1a: Lucario|Extreme Speed|p2a: Nidoking
+|-damage|p2a: Nidoking|47/100
+|move|p2a: Nidoking|Earth Power|p1a: Lucario
+|-supereffective|p1a: Lucario
+|-damage|p1a: Lucario|0 fnt
+|faint|p1a: Lucario
+|upkeep
+|switch|p1a: Alakazam|Alakazam, L78, M|214/214
+|turn|7
+|switch|p2a: Sharpedo|Sharpedo, L81, M|100/100
+|move|p1a: Alakazam|Psychic|p2a: Sharpedo
+|-immune|p2a: Sharpedo
+|upkeep
+|turn|8
+|move|p1a: Alakazam|Focus Blast|p2a: Sharpedo|[miss]
+|-miss|p1a: Alakazam|p2a: Sharpedo
+|move|p2a: Sharpedo|Crunch|p1a: Alakazam
+|-supereffective|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|-damage|p2a: Sharpedo|91/100|[from] item: Life Orb
+|-ability|p2a: Sharpedo|Speed Boost|boost
+|-boost|p2a: Sharpedo|spe|1
+|upkeep
+|switch|p1a: Crobat|Crobat, L82, F|274/274
+|turn|9
+|move|p2a: Sharpedo|Hydro Pump|p1a: Crobat
+|-damage|p1a: Crobat|118/274
+|-damage|p2a: Sharpedo|81/100|[from] item: Life Orb
+|move|p1a: Crobat|Brave Bird|p2a: Sharpedo
+|-damage|p2a: Sharpedo|6/100
+|-damage|p1a: Crobat|57/274|[from] Recoil
+|-ability|p2a: Sharpedo|Speed Boost|boost
+|-boost|p2a: Sharpedo|spe|1
+|upkeep
+|turn|10
+|move|p2a: Sharpedo|Crunch|p1a: Crobat
+|-damage|p1a: Crobat|0 fnt
+|faint|p1a: Crobat
+|-damage|p2a: Sharpedo|0 fnt|[from] item: Life Orb
+|faint|p2a: Sharpedo
+|upkeep
+|switch|p1a: Duraludon|Duraludon, L84, M|255/255
+|switch|p2a: Cryogonal|Cryogonal, L86|100/100
+|turn|11
+|-start|p1a: Duraludon|Dynamax|
+|-heal|p1a: Duraludon|510/510|[silent]
+|move|p2a: Cryogonal|Freeze-Dry|p1a: Duraludon
+|-damage|p1a: Duraludon|438/510
+|move|p1a: Duraludon|Max Steelspike|p2a: Cryogonal
+|-supereffective|p2a: Cryogonal
+|-damage|p2a: Cryogonal|21/100
+|-boost|p1a: Duraludon|def|1
+|upkeep
+|turn|12
+|move|p2a: Cryogonal|Recover|p2a: Cryogonal
+|-heal|p2a: Cryogonal|71/100
+|move|p1a: Duraludon|Max Steelspike|p2a: Cryogonal
+|-supereffective|p2a: Cryogonal
+|-damage|p2a: Cryogonal|0 fnt
+|-boost|p1a: Duraludon|def|1
+|faint|p2a: Cryogonal
+|upkeep
+|switch|p2a: Nidoking|Nidoking, L82, M|47/100
+|turn|13
+|move|p1a: Duraludon|Max Wyrmwind|p2a: Nidoking
+|-damage|p2a: Nidoking|0 fnt
+|faint|p2a: Nidoking
+|upkeep
+|switch|p2a: Dhelmise|Dhelmise, L86|100/100
+|-end|p1a: Duraludon|Dynamax
+|-heal|p1a: Duraludon|219/255|[silent]
+|turn|14
+|move|p1a: Duraludon|Flash Cannon|p2a: Dhelmise
+|-damage|p2a: Dhelmise|63/100
+|-unboost|p2a: Dhelmise|spd|1
+|move|p2a: Dhelmise|Poltergeist|p1a: Duraludon
+|-activate|p1a: Duraludon|move: Poltergeist|Assault Vest
+|-damage|p1a: Duraludon|156/255
+|upkeep
+|turn|15
+|-message|Pablo Linares forfeited.
+    </script>
+</div>
+
+<div class="battle-log battle-log-inline" style="display:none"></div>
+
+<script>
+    let daily = Math.floor(Date.now() / 1000 / 60 / 60 / 24); document.write('<script src="https://play.pokemonshowdown.com/js/replay-embed.js?version' + daily + '"></' + 'script>');
+</script>
+
+<p style="text-align:center"> Replay created by <a href="https://github.com/hsahovic/poke-env">poke-env</a>, with code from <a
+        href="https://github.com/smogon/pokemon-showdown"> pokemon-showdown</a>. If something goes wrong, don't hesitate
+    to open an <a href="https://github.com/hsahovic/poke-env/issues">issue!</a></p>

@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<!-- version 1 -->
+<title>battle-gen8randombattle-2044752856</title>
+<style>
+    html,
+    body {
+        font-family: Verdana, sans-serif;
+        font-size: 10pt;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        padding: 12px 0;
+    }
+
+    .battle-log {
+        font-family: Verdana, sans-serif;
+        font-size: 10pt;
+    }
+
+    .battle-log-inline {
+        border: 1px solid #AAAAAA;
+        background: #EEF2F5;
+        color: black;
+        max-width: 640px;
+        margin: 0 auto 80px;
+        padding-bottom: 5px;
+    }
+
+    .battle-log .inner {
+        padding: 4px 8px 0px 8px;
+    }
+
+    .battle-log .inner-preempt {
+        padding: 0 8px 4px 8px;
+    }
+
+    .battle-log .inner-after {
+        margin-top: 0.5em;
+    }
+
+    .battle-log h2 {
+        margin: 0.5em -8px;
+        padding: 4px 8px;
+        border: 1px solid #AAAAAA;
+        background: #E0E7EA;
+        border-left: 0;
+        border-right: 0;
+        font-family: Verdana, sans-serif;
+        font-size: 13pt;
+    }
+
+    .backprop {
+        top: 0;
+    }
+
+    .battle-log .chat {
+        vertical-align: middle;
+        padding: 3px 0 3px 0;
+        font-size: 8pt;
+    }
+
+    .battle-log .chat strong {
+        color: #40576A;
+    }
+
+    .battle-log .chat em {
+        padding: 1px 4px 1px 3px;
+        color: #000000;
+        font-style: normal;
+    }
+
+    .chat.mine {
+        background: rgba(0, 0, 0, 0.05);
+        margin-left: -8px;
+        margin-right: -8px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .spoiler {
+        color: #BBBBBB;
+        background: #BBBBBB;
+        padding: 0px 3px;
+    }
+
+    .spoiler:hover,
+    .spoiler:active,
+    .spoiler-shown {
+        color: #000000;
+        background: #E2E2E2;
+        padding: 0px 3px;
+    }
+
+    .spoiler a {
+        color: #BBBBBB;
+    }
+
+    .spoiler:hover a,
+    .spoiler:active a,
+    .spoiler-shown a {
+        color: #2288CC;
+    }
+
+    .chat code,
+    .chat .spoiler:hover code,
+    .chat .spoiler:active code,
+    .chat .spoiler-shown code {
+        border: 1px solid #C0C0C0;
+        background: #EEEEEE;
+        color: black;
+        padding: 0 2px;
+    }
+
+    .chat .spoiler code {
+        border: 1px solid #CCCCCC;
+        background: #CCCCCC;
+        color: #CCCCCC;
+    }
+
+    .battle-log .rated {
+        padding: 3px 4px;
+    }
+
+    .battle-log .rated strong {
+        color: white;
+        background: #89A;
+        padding: 1px 4px;
+        border-radius: 4px;
+    }
+
+    .spacer {
+        margin-top: 0.5em;
+    }
+
+    .message-announce {
+        background: #6688AA;
+        color: white;
+        padding: 1px 4px 2px;
+    }
+
+    .message-announce a,
+    .broadcast-green a,
+    .broadcast-blue a,
+    .broadcast-red a {
+        color: #DDEEFF;
+    }
+
+    .broadcast-green {
+        background-color: #559955;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .broadcast-blue {
+        background-color: #6688AA;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .infobox {
+        border: 1px solid #6688AA;
+        padding: 2px 4px;
+    }
+
+    .infobox-limited {
+        max-height: 200px;
+        overflow: auto;
+        overflow-x: hidden;
+    }
+
+    .broadcast-red {
+        background-color: #AA5544;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .message-learn-canlearn {
+        font-weight: bold;
+        color: #228822;
+        text-decoration: underline;
+    }
+
+    .message-learn-cannotlearn {
+        font-weight: bold;
+        color: #CC2222;
+        text-decoration: underline;
+    }
+
+    .message-effect-weak {
+        font-weight: bold;
+        color: #CC2222;
+    }
+
+    .message-effect-resist {
+        font-weight: bold;
+        color: #6688AA;
+    }
+
+    .message-effect-immune {
+        font-weight: bold;
+        color: #666666;
+    }
+
+    .message-learn-list {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .message-throttle-notice,
+    .message-error {
+        color: #992222;
+    }
+
+    .message-overflow,
+    .chat small.message-overflow {
+        font-size: 0pt;
+    }
+
+    .message-overflow::before {
+        font-size: 9pt;
+        content: '...';
+    }
+
+    .subtle {
+        color: #3A4A66;
+    }
+</style>
+<div class="wrapper replay-wrapper" style="max-width:1180px;margin:0 auto">
+    <input type="hidden" name="replayid" value="unregisteredserver-gen8randombattle-320064" />
+    <div class="battle"></div>
+    <div class="battle-log"></div>
+    <div class="replay-controls"></div>
+    <div class="replay-controls-2"></div>
+    <h1 style="font-weight:normal;text-align:center"><strong>poke-env battle replay</strong><br />battle-gen8randombattle-2044752856<br /><a
+            href="http://pokemonshowdown.com/users/randomplayer1" class="subtle" target="_blank">PokeLLM</a>
+        vs. <a href="http://pokemonshowdown.com/users/randomplayer2" class="subtle"
+            target="_blank">hayakimmy</a></h1>
+    <script type="text/plain" class="battle-log-data">
+    >battle-gen8randombattle-2044752856|init|battle
+|title|hayakimmy vs. PokeLLM
+|j|☆hayakimmy
+|j|☆PokeLLM
+|gametype|singles
+|player|p1|hayakimmy|169|1000
+|player|p2|PokeLLM|supernerd|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Illusion Level Mod: Illusion disguises the Pokémon's true level
+|start
+|switch|p1a: Kingdra|Kingdra, L83, M|100/100
+|switch|p2a: Altaria|Altaria, L91, F|284/284
+|turn|1
+|move|p2a: Altaria|Draco Meteor|p1a: Kingdra
+|-supereffective|p1a: Kingdra
+|-crit|p1a: Kingdra
+|-damage|p1a: Kingdra|0 fnt
+|-unboost|p2a: Altaria|spa|2
+|faint|p1a: Kingdra
+|upkeep
+|switch|p1a: Politoed|Politoed, L86, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|2
+|-start|p2a: Altaria|Dynamax|
+|-heal|p2a: Altaria|568/568|[silent]
+|move|p2a: Altaria|Max Guard|p2a: Altaria
+|-singleturn|p2a: Altaria|Max Guard
+|move|p1a: Politoed|Ice Beam|p2a: Altaria
+|-activate|p2a: Altaria|move: Max Guard
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|move|p2a: Altaria|Max Wyrmwind|p1a: Politoed
+|-damage|p1a: Politoed|78/100
+|-unboost|p1a: Politoed|atk|1
+|move|p1a: Politoed|Encore||[still]
+|-fail|p1a: Politoed
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|move|p2a: Altaria|Max Guard|p2a: Altaria
+|-singleturn|p2a: Altaria|Max Guard
+|move|p1a: Politoed|Ice Beam|p2a: Altaria
+|-activate|p2a: Altaria|move: Max Guard
+|-weather|RainDance|[upkeep]
+|upkeep
+|-end|p2a: Altaria|Dynamax
+|-heal|p2a: Altaria|284/284|[silent]
+|turn|5
+|move|p2a: Altaria|Roost||[still]
+|-fail|p2a: Altaria|heal
+|move|p1a: Politoed|Scald|p2a: Altaria
+|-resisted|p2a: Altaria
+|-damage|p2a: Altaria|231/284
+|-status|p2a: Altaria|brn
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Altaria|214/284 brn|[from] brn
+|upkeep
+|turn|6
+|move|p2a: Altaria|Toxic|p1a: Politoed
+|-status|p1a: Politoed|tox
+|move|p1a: Politoed|Ice Beam|p2a: Altaria
+|-supereffective|p2a: Altaria
+|-damage|p2a: Altaria|0 fnt
+|faint|p2a: Altaria
+|-weather|none
+|-damage|p1a: Politoed|72/100 tox|[from] psn
+|upkeep
+|switch|p2a: Swoobat|Swoobat, L86, F|255/255
+|turn|7
+|move|p2a: Swoobat|Calm Mind|p2a: Swoobat
+|-boost|p2a: Swoobat|spa|2
+|-boost|p2a: Swoobat|spd|2
+|move|p1a: Politoed|Ice Beam|p2a: Swoobat
+|-supereffective|p2a: Swoobat
+|-damage|p2a: Swoobat|175/255
+|-damage|p1a: Politoed|60/100 tox|[from] psn
+|upkeep
+|turn|8
+|move|p2a: Swoobat|Stored Power|p1a: Politoed
+|-damage|p1a: Politoed|7/100 tox
+|move|p1a: Politoed|Ice Beam|p2a: Swoobat
+|-supereffective|p2a: Swoobat
+|-damage|p2a: Swoobat|95/255
+|-damage|p1a: Politoed|0 fnt|[from] psn
+|faint|p1a: Politoed
+|upkeep
+|switch|p1a: Morpeko|Morpeko, L86, F|100/100
+|turn|9
+|move|p2a: Swoobat|Heat Wave|p1a: Morpeko
+|-damage|p1a: Morpeko|39/100
+|move|p1a: Morpeko|Aura Wheel|p2a: Swoobat
+|-supereffective|p2a: Swoobat
+|-damage|p2a: Swoobat|0 fnt
+|-boost|p1a: Morpeko|spe|1
+|faint|p2a: Swoobat
+|-heal|p1a: Morpeko|45/100|[from] item: Leftovers
+|-formechange|p1a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|switch|p2a: Carbink|Carbink, L86|226/226
+|turn|10
+|move|p1a: Morpeko|Protect|p1a: Morpeko
+|-singleturn|p1a: Morpeko|Protect
+|move|p2a: Carbink|Moonblast|p1a: Morpeko
+|-activate|p1a: Morpeko|move: Protect
+|-heal|p1a: Morpeko|51/100|[from] item: Leftovers
+|-formechange|p1a: Morpeko|Morpeko||[from] ability: Hunger Switch
+|upkeep
+|turn|11
+|move|p1a: Morpeko|Psychic Fangs|p2a: Carbink
+|-damage|p2a: Carbink|182/226
+|move|p2a: Carbink|Moonblast|p1a: Morpeko
+|-supereffective|p1a: Morpeko
+|-damage|p1a: Morpeko|0 fnt
+|faint|p1a: Morpeko
+|upkeep
+|switch|p1a: Sceptile|Sceptile, L86, F|100/100
+|turn|12
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by PokeLLM)
+|inactive|Time left: 150 sec this turn | 150 sec total | 60 sec grace
+|switch|p2a: Torkoal|Torkoal, L86, F|261/261
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Sceptile|Leech Seed|p2a: Torkoal
+|-start|p2a: Torkoal|move: Leech Seed
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Torkoal|229/261|[from] Leech Seed|[of] p1a: Sceptile
+|upkeep
+|turn|13
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p1a: Sceptile|Substitute|p1a: Sceptile
+|-start|p1a: Sceptile|Substitute
+|-damage|p1a: Sceptile|76/100
+|move|p2a: Torkoal|Lava Plume|p1a: Sceptile
+|-supereffective|p1a: Sceptile
+|-end|p1a: Sceptile|Substitute
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Sceptile|82/100|[from] item: Leftovers
+|-damage|p2a: Torkoal|197/261|[from] Leech Seed|[of] p1a: Sceptile
+|-heal|p1a: Sceptile|94/100|[silent]
+|upkeep
+|turn|14
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p1a: Sceptile|Substitute|p1a: Sceptile
+|-start|p1a: Sceptile|Substitute
+|-damage|p1a: Sceptile|69/100
+|move|p2a: Torkoal|Lava Plume|p1a: Sceptile
+|-supereffective|p1a: Sceptile
+|-end|p1a: Sceptile|Substitute
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Sceptile|75/100|[from] item: Leftovers
+|-damage|p2a: Torkoal|165/261|[from] Leech Seed|[of] p1a: Sceptile
+|-heal|p1a: Sceptile|87/100|[silent]
+|upkeep
+|turn|15
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p1a: Sceptile|Substitute|p1a: Sceptile
+|-start|p1a: Sceptile|Substitute
+|-damage|p1a: Sceptile|63/100
+|move|p2a: Torkoal|Lava Plume|p1a: Sceptile
+|-supereffective|p1a: Sceptile
+|-end|p1a: Sceptile|Substitute
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Sceptile|69/100|[from] item: Leftovers
+|-damage|p2a: Torkoal|133/261|[from] Leech Seed|[of] p1a: Sceptile
+|-heal|p1a: Sceptile|81/100|[silent]
+|upkeep
+|turn|16
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p1a: Sceptile|Earthquake|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|47/261
+|move|p2a: Torkoal|Lava Plume|p1a: Sceptile
+|-supereffective|p1a: Sceptile
+|-damage|p1a: Sceptile|0 fnt
+|faint|p1a: Sceptile
+|-weather|none
+|upkeep
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p1a: Manectric|Manectric, L87, F|100/100
+|turn|17
+|inactive|Time left: 150 sec this turn | 150 sec total
+|-start|p1a: Manectric|Dynamax|
+|-heal|p1a: Manectric|100/100|[silent]
+|move|p1a: Manectric|Max Lightning|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|-fieldstart|move: Electric Terrain
+|faint|p2a: Torkoal
+|upkeep
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p2a: Carbink|Carbink, L86|182/226
+|turn|18
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p1a: Manectric|Max Lightning|p2a: Carbink
+|-damage|p2a: Carbink|64/226
+|move|p2a: Carbink|Light Screen|p2a: Carbink
+|-sidestart|p2: PokeLLM|move: Light Screen
+|upkeep
+|turn|19
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p1a: Manectric|Max Lightning|p2a: Carbink
+|-damage|p2a: Carbink|1/226
+|move|p2a: Carbink|Moonblast|p1a: Manectric
+|-damage|p1a: Manectric|86/100
+|-unboost|p1a: Manectric|spa|1
+|upkeep
+|-end|p1a: Manectric|Dynamax
+|-heal|p1a: Manectric|86/100|[silent]
+|turn|20
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p2a: Hatterene|Hatterene, L86, F|238/238
+|move|p1a: Manectric|Volt Switch|p2a: Hatterene
+|-damage|p2a: Hatterene|208/238
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p1a: Dhelmise|Dhelmise, L86|100/100|[from] Volt Switch
+|upkeep
+|turn|21
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p1a: Dhelmise|Poltergeist|p2a: Hatterene
+|-activate|p2a: Hatterene|move: Poltergeist|Life Orb
+|-supereffective|p2a: Hatterene
+|-crit|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|-fieldend|move: Electric Terrain
+|upkeep
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p2a: Sudowoodo|Sudowoodo, L88, F|266/266
+|turn|22
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p2a: Sudowoodo|Sucker Punch||[still]
+|-fail|p2a: Sudowoodo
+|move|p1a: Dhelmise|Swords Dance|p1a: Dhelmise
+|-boost|p1a: Dhelmise|atk|2
+|upkeep
+|turn|23
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p2a: Sudowoodo|Sucker Punch||[still]
+|-fail|p2a: Sudowoodo
+|move|p1a: Dhelmise|Swords Dance|p1a: Dhelmise
+|-boost|p1a: Dhelmise|atk|2
+|upkeep
+|turn|24
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p2a: Sudowoodo|Sucker Punch||[still]
+|-fail|p2a: Sudowoodo
+|move|p1a: Dhelmise|Swords Dance|p1a: Dhelmise
+|-boost|p1a: Dhelmise|atk|2
+|upkeep
+|turn|25
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p2a: Sudowoodo|Sucker Punch|p1a: Dhelmise
+|-supereffective|p1a: Dhelmise
+|-damage|p1a: Dhelmise|61/100
+|move|p1a: Dhelmise|Power Whip|p2a: Sudowoodo
+|-supereffective|p2a: Sudowoodo
+|-damage|p2a: Sudowoodo|0 fnt
+|faint|p2a: Sudowoodo
+|-sideend|p2: PokeLLM|move: Light Screen
+|upkeep
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p2a: Carbink|Carbink, L86|1/226
+|turn|26
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p2a: Carbink|Moonblast|p1a: Dhelmise
+|-damage|p1a: Dhelmise|38/100
+|move|p1a: Dhelmise|Power Whip|p2a: Carbink|[miss]
+|-miss|p1a: Dhelmise|p2a: Carbink
+|upkeep
+|turn|27
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p2a: Carbink|Moonblast|p1a: Dhelmise
+|-damage|p1a: Dhelmise|14/100
+|move|p1a: Dhelmise|Anchor Shot|p2a: Carbink
+|-supereffective|p2a: Carbink
+|-damage|p2a: Carbink|0 fnt
+|faint|p2a: Carbink
+    </script>
+</div>
+
+<div class="battle-log battle-log-inline" style="display:none"></div>
+
+<script>
+    let daily = Math.floor(Date.now() / 1000 / 60 / 60 / 24); document.write('<script src="https://play.pokemonshowdown.com/js/replay-embed.js?version' + daily + '"></' + 'script>');
+</script>
+
+<p style="text-align:center"> Replay created by <a href="https://github.com/hsahovic/poke-env">poke-env</a>, with code from <a
+        href="https://github.com/smogon/pokemon-showdown"> pokemon-showdown</a>. If something goes wrong, don't hesitate
+    to open an <a href="https://github.com/hsahovic/poke-env/issues">issue!</a></p>

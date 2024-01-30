@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<!-- version 1 -->
+<title>battle-gen8randombattle-2044120663</title>
+<style>
+    html,
+    body {
+        font-family: Verdana, sans-serif;
+        font-size: 10pt;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        padding: 12px 0;
+    }
+
+    .battle-log {
+        font-family: Verdana, sans-serif;
+        font-size: 10pt;
+    }
+
+    .battle-log-inline {
+        border: 1px solid #AAAAAA;
+        background: #EEF2F5;
+        color: black;
+        max-width: 640px;
+        margin: 0 auto 80px;
+        padding-bottom: 5px;
+    }
+
+    .battle-log .inner {
+        padding: 4px 8px 0px 8px;
+    }
+
+    .battle-log .inner-preempt {
+        padding: 0 8px 4px 8px;
+    }
+
+    .battle-log .inner-after {
+        margin-top: 0.5em;
+    }
+
+    .battle-log h2 {
+        margin: 0.5em -8px;
+        padding: 4px 8px;
+        border: 1px solid #AAAAAA;
+        background: #E0E7EA;
+        border-left: 0;
+        border-right: 0;
+        font-family: Verdana, sans-serif;
+        font-size: 13pt;
+    }
+
+    .backprop {
+        top: 0;
+    }
+
+    .battle-log .chat {
+        vertical-align: middle;
+        padding: 3px 0 3px 0;
+        font-size: 8pt;
+    }
+
+    .battle-log .chat strong {
+        color: #40576A;
+    }
+
+    .battle-log .chat em {
+        padding: 1px 4px 1px 3px;
+        color: #000000;
+        font-style: normal;
+    }
+
+    .chat.mine {
+        background: rgba(0, 0, 0, 0.05);
+        margin-left: -8px;
+        margin-right: -8px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .spoiler {
+        color: #BBBBBB;
+        background: #BBBBBB;
+        padding: 0px 3px;
+    }
+
+    .spoiler:hover,
+    .spoiler:active,
+    .spoiler-shown {
+        color: #000000;
+        background: #E2E2E2;
+        padding: 0px 3px;
+    }
+
+    .spoiler a {
+        color: #BBBBBB;
+    }
+
+    .spoiler:hover a,
+    .spoiler:active a,
+    .spoiler-shown a {
+        color: #2288CC;
+    }
+
+    .chat code,
+    .chat .spoiler:hover code,
+    .chat .spoiler:active code,
+    .chat .spoiler-shown code {
+        border: 1px solid #C0C0C0;
+        background: #EEEEEE;
+        color: black;
+        padding: 0 2px;
+    }
+
+    .chat .spoiler code {
+        border: 1px solid #CCCCCC;
+        background: #CCCCCC;
+        color: #CCCCCC;
+    }
+
+    .battle-log .rated {
+        padding: 3px 4px;
+    }
+
+    .battle-log .rated strong {
+        color: white;
+        background: #89A;
+        padding: 1px 4px;
+        border-radius: 4px;
+    }
+
+    .spacer {
+        margin-top: 0.5em;
+    }
+
+    .message-announce {
+        background: #6688AA;
+        color: white;
+        padding: 1px 4px 2px;
+    }
+
+    .message-announce a,
+    .broadcast-green a,
+    .broadcast-blue a,
+    .broadcast-red a {
+        color: #DDEEFF;
+    }
+
+    .broadcast-green {
+        background-color: #559955;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .broadcast-blue {
+        background-color: #6688AA;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .infobox {
+        border: 1px solid #6688AA;
+        padding: 2px 4px;
+    }
+
+    .infobox-limited {
+        max-height: 200px;
+        overflow: auto;
+        overflow-x: hidden;
+    }
+
+    .broadcast-red {
+        background-color: #AA5544;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .message-learn-canlearn {
+        font-weight: bold;
+        color: #228822;
+        text-decoration: underline;
+    }
+
+    .message-learn-cannotlearn {
+        font-weight: bold;
+        color: #CC2222;
+        text-decoration: underline;
+    }
+
+    .message-effect-weak {
+        font-weight: bold;
+        color: #CC2222;
+    }
+
+    .message-effect-resist {
+        font-weight: bold;
+        color: #6688AA;
+    }
+
+    .message-effect-immune {
+        font-weight: bold;
+        color: #666666;
+    }
+
+    .message-learn-list {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .message-throttle-notice,
+    .message-error {
+        color: #992222;
+    }
+
+    .message-overflow,
+    .chat small.message-overflow {
+        font-size: 0pt;
+    }
+
+    .message-overflow::before {
+        font-size: 9pt;
+        content: '...';
+    }
+
+    .subtle {
+        color: #3A4A66;
+    }
+</style>
+<div class="wrapper replay-wrapper" style="max-width:1180px;margin:0 auto">
+    <input type="hidden" name="replayid" value="unregisteredserver-gen8randombattle-320064" />
+    <div class="battle"></div>
+    <div class="battle-log"></div>
+    <div class="replay-controls"></div>
+    <div class="replay-controls-2"></div>
+    <h1 style="font-weight:normal;text-align:center"><strong>poke-env battle replay</strong><br />battle-gen8randombattle-2044120663<br /><a
+            href="http://pokemonshowdown.com/users/randomplayer1" class="subtle" target="_blank">PokeLLM</a>
+        vs. <a href="http://pokemonshowdown.com/users/randomplayer2" class="subtle"
+            target="_blank">Agnwndas</a></h1>
+    <script type="text/plain" class="battle-log-data">
+    >battle-gen8randombattle-2044120663|init|battle
+|title|Agnwndas vs. PokeLLM
+|j|☆Agnwndas
+|j|☆PokeLLM
+|gametype|singles
+|player|p1|Agnwndas|medium|1160
+|player|p2|PokeLLM|supernerd|1095
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Illusion Level Mod: Illusion disguises the Pokémon's true level
+|start
+|switch|p1a: Sandslash|Sandslash-Alola, L86, F|100/100
+|switch|p2a: Rillaboom|Rillaboom, L76, M|277/277
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|1
+|move|p2a: Rillaboom|High Horsepower|p1a: Sandslash
+|-supereffective|p1a: Sandslash
+|-damage|p1a: Sandslash|45/100
+|-damage|p2a: Rillaboom|250/277|[from] item: Life Orb
+|move|p1a: Sandslash|Rapid Spin|p2a: Rillaboom
+|-damage|p2a: Rillaboom|209/277
+|-boost|p1a: Sandslash|spe|1
+|-heal|p1a: Sandslash|51/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|226/277|[from] Grassy Terrain
+|upkeep
+|turn|2
+|move|p1a: Sandslash|Triple Axel|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|176/277
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|74/277
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|faint|p2a: Rillaboom
+|-hitcount|p2: Rillaboom|3
+|-heal|p1a: Sandslash|57/100|[from] Grassy Terrain
+|upkeep
+|switch|p2a: Silvally|Silvally-Grass, L83|293/293
+|turn|3
+|move|p1a: Sandslash|Triple Axel|p2a: Silvally
+|-supereffective|p2a: Silvally
+|-damage|p2a: Silvally|245/293
+|-supereffective|p2a: Silvally
+|-damage|p2a: Silvally|159/293
+|-supereffective|p2a: Silvally
+|-damage|p2a: Silvally|33/293
+|-hitcount|p2a: Silvally|3
+|move|p2a: Silvally|Flamethrower|p1a: Sandslash
+|-supereffective|p1a: Sandslash
+|-damage|p1a: Sandslash|0 fnt
+|faint|p1a: Sandslash
+|-heal|p2a: Silvally|51/293|[from] Grassy Terrain
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by PokeLLM)
+|inactive|Time left: 150 sec this turn | 150 sec total | 60 sec grace
+|switch|p1a: Accelgor|Accelgor, L87, F|100/100
+|turn|4
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p1a: Accelgor|Sludge Bomb|p2a: Silvally
+|-supereffective|p2a: Silvally
+|-damage|p2a: Silvally|0 fnt
+|faint|p2a: Silvally
+|upkeep
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p2a: Clefable|Clefable, L82, F|290/290
+|turn|5
+|inactive|Time left: 150 sec this turn | 150 sec total
+|-start|p2a: Clefable|Dynamax|
+|-heal|p2a: Clefable|580/580|[silent]
+|move|p1a: Accelgor|Sludge Bomb|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|440/580
+|move|p2a: Clefable|Max Starfall|p1a: Accelgor
+|-damage|p1a: Accelgor|20/100
+|-fieldstart|move: Misty Terrain
+|upkeep
+|turn|6
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p1a: Mudsdale|Mudsdale, L82, F|100/100
+|move|p2a: Clefable|Max Starfall|p1a: Mudsdale
+|-damage|p1a: Mudsdale|45/100
+|-ability|p1a: Mudsdale|Stamina|boost
+|-boost|p1a: Mudsdale|def|1
+|-heal|p1a: Mudsdale|51/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p2a: Clefable|Max Starfall|p1a: Mudsdale
+|-damage|p1a: Mudsdale|0 fnt
+|faint|p1a: Mudsdale
+|upkeep
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p1a: Accelgor|Accelgor, L87, F|20/100
+|-end|p2a: Clefable|Dynamax
+|-heal|p2a: Clefable|220/290|[silent]
+|turn|8
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p1a: Accelgor|Sludge Bomb|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|88/290
+|move|p2a: Clefable|Fire Blast|p1a: Accelgor
+|-supereffective|p1a: Accelgor
+|-damage|p1a: Accelgor|0 fnt
+|faint|p1a: Accelgor
+|upkeep
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p1a: Espeon|Espeon, L82, F|100/100
+|turn|9
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p1a: Espeon|Calm Mind|p1a: Espeon
+|-boost|p1a: Espeon|spa|1
+|-boost|p1a: Espeon|spd|1
+|move|p2a: Clefable|Moonblast|p1a: Espeon
+|-damage|p1a: Espeon|70/100
+|-heal|p1a: Espeon|76/100|[from] item: Leftovers
+|-fieldend|Misty Terrain
+|upkeep
+|turn|10
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p1a: Espeon|Psychic|p2a: Clefable
+|-crit|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|-heal|p1a: Espeon|82/100|[from] item: Leftovers
+|upkeep
+|inactive|Time left: 145 sec this turn | 145 sec total
+|switch|p2a: Luxray|Luxray, L84, M|272/272
+|turn|11
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p1a: Espeon|Psychic|p2a: Luxray
+|-damage|p2a: Luxray|101/272
+|-unboost|p2a: Luxray|spd|1
+|move|p2a: Luxray|Facade|p1a: Espeon
+|-damage|p1a: Espeon|51/100
+|-heal|p1a: Espeon|57/100|[from] item: Leftovers
+|-status|p2a: Luxray|brn|[from] item: Flame Orb
+|upkeep
+|turn|12
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p1a: Espeon|Psychic|p2a: Luxray
+|-damage|p2a: Luxray|0 fnt
+|faint|p2a: Luxray
+|-heal|p1a: Espeon|63/100|[from] item: Leftovers
+|upkeep
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p2a: Quagsire|Quagsire, L83, F|293/293
+|turn|13
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p1a: Espeon|Calm Mind|p1a: Espeon
+|-boost|p1a: Espeon|spa|1
+|-boost|p1a: Espeon|spd|1
+|move|p2a: Quagsire|Earthquake|p1a: Espeon
+|-damage|p1a: Espeon|12/100
+|-heal|p1a: Espeon|18/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|inactive|Time left: 150 sec this turn | 150 sec total
+|inactive|Agnwndas has 120 seconds left.
+|move|p1a: Espeon|Morning Sun|p1a: Espeon
+|-heal|p1a: Espeon|68/100
+|move|p2a: Quagsire|Earthquake|p1a: Espeon
+|-damage|p1a: Espeon|18/100
+|-heal|p1a: Espeon|25/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|inactive|Time left: 150 sec this turn | 150 sec total
+|inactive|Agnwndas has 120 seconds left.
+|move|p1a: Espeon|Morning Sun|p1a: Espeon
+|-heal|p1a: Espeon|74/100
+|move|p2a: Quagsire|Earthquake|p1a: Espeon
+|-damage|p1a: Espeon|25/100
+|-heal|p1a: Espeon|31/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|inactive|Time left: 145 sec this turn | 145 sec total
+|inactive|Agnwndas has 120 seconds left.
+|-start|p1a: Espeon|Dynamax|
+|-heal|p1a: Espeon|31/100|[silent]
+|move|p1a: Espeon|Max Mindstorm|p2a: Quagsire
+|-damage|p2a: Quagsire|86/293
+|-fieldstart|move: Psychic Terrain
+|move|p2a: Quagsire|Earthquake|p1a: Espeon
+|-damage|p1a: Espeon|5/100
+|-heal|p1a: Espeon|8/100|[from] item: Leftovers
+|-heal|p2a: Quagsire|104/293|[from] item: Leftovers
+|upkeep
+|turn|17
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p1a: Espeon|Max Mindstorm|p2a: Quagsire
+|-damage|p2a: Quagsire|0 fnt
+|faint|p2a: Quagsire
+|-heal|p1a: Espeon|11/100|[from] item: Leftovers
+|upkeep
+|inactive|Time left: 145 sec this turn | 145 sec total
+|switch|p2a: Rayquaza|Rayquaza, L74|277/277
+|-ability|p2a: Rayquaza|Air Lock
+|turn|18
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p2a: Rayquaza|Extreme Speed|p1a: Espeon
+|-activate|p1a: Espeon|move: Psychic Terrain
+|move|p1a: Espeon|Max Mindstorm|p2a: Rayquaza
+|-damage|p2a: Rayquaza|0 fnt
+|faint|p2a: Rayquaza
+    </script>
+</div>
+
+<div class="battle-log battle-log-inline" style="display:none"></div>
+
+<script>
+    let daily = Math.floor(Date.now() / 1000 / 60 / 60 / 24); document.write('<script src="https://play.pokemonshowdown.com/js/replay-embed.js?version' + daily + '"></' + 'script>');
+</script>
+
+<p style="text-align:center"> Replay created by <a href="https://github.com/hsahovic/poke-env">poke-env</a>, with code from <a
+        href="https://github.com/smogon/pokemon-showdown"> pokemon-showdown</a>. If something goes wrong, don't hesitate
+    to open an <a href="https://github.com/hsahovic/poke-env/issues">issue!</a></p>

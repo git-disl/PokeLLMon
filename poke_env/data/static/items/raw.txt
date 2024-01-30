@@ -1,0 +1,1038 @@
+Name	Category	Effect
+Ability Capsule icon Ability Capsule	Hold items	A capsule that allows a Pokémon with two Abilities to switch between these Abilities when it is used.
+Ability Patch icon Ability Patch	General items	Changes a Pokémon's ability to its Hidden Ability.
+Ability Shield icon Ability Shield		An item to be held by a Pokémon. This cute and rather unique-looking shield protects the holder from having its Ability changed by others.
+Ability Urge icon Ability Urge	Battle items	When used, it activates the Ability of an ally Pokémon.
+Abomasite icon Abomasite	Hold items	Enables Abomasnow to Mega Evolve during battle.
+Absolite icon Absolite	Hold items	Enables Absol to Mega Evolve during battle.
+Absorb Bulb icon Absorb Bulb	Hold items	A consumable bulb. If the holder is hit by a Water-type move, its Sp. Atk will rise.
+Academy Ball icon Academy Ball		The academy’s standard-issue ball in a regulation size. Lots of students believe that if you kick it right on the academy emblem, it’ll fly in a straight line.
+Academy Bottle icon Academy Bottle		A bottle emblazoned with the academy’s emblem. It’s light, sturdy, and vacuum insulated, so it’ll keep your hots hot and your colds cold.
+Academy Cup icon Academy Cup		The academy’s standard-issue cup for picnicking. The careful design of its mouth makes it popular both inside and outside the academy.
+Academy Tablecloth icon Academy Tablecloth		The academy’s standard-issue tablecloth. It’s made with the latest fiber-processing technology and is so tough that not even a Razor Claw can tear it.
+Adamant Crystal icon Adamant Crystal	Hold items
+Adamant Mint icon Adamant Mint	Battle items	Changes the Pokémon's stats to match the Adamant nature.
+Adamant Orb icon Adamant Orb	Hold items	Increases the power of Dragon- and Steel-type moves when held by Dialga.
+Adrenaline Orb icon Adrenaline Orb	Hold items	Using it makes wild Pokémon more likely to call for help. If held by a Pokémon, it boosts Speed when intimidated. It can be used only once.
+Aerodactylite icon Aerodactylite	Hold items	Enables Aerodactyl to Mega Evolve during battle.
+Aggronite icon Aggronite	Hold items	Enables Aggron to Mega Evolve during battle.
+Aguav Berry icon Aguav Berry	Berries	Restores HP if it's low, but may cause confusion.
+Air Balloon icon Air Balloon	Hold items	When held by a Pokémon, the Pokémon will float into the air. When the holder is attacked, this item will burst.
+Alakazite icon Alakazite	Hold items	Enables Alakazam to Mega Evolve during battle.
+Alomomola Mucus icon Alomomola Mucus	General items	Material obtained after defeating/catching Alomomola, used in TM crafting.
+Aloraichium Z icon Aloraichium Z	Hold items	Allows Alolan Raichu to upgrade Thunderbolt to a Z-Move, Stoked Sparksurfer.
+Altarianite icon Altarianite	Hold items	Enables Altaria to Mega Evolve during battle.
+Ampharosite icon Ampharosite	Hold items	Enables Ampharos to Mega Evolve during battle.
+Amulet Coin icon Amulet Coin	Hold items	Doubles prize money if held.
+Antidote icon Antidote	Medicine	Cures a Pokémon of poisoning.
+Apicot Berry icon Apicot Berry	Berries	Raises Special Defense when HP is low.
+Apple icon Apple		This very sweet ingredient is sliced thin to make it easy to add into a sandwich.
+Applin Juice icon Applin Juice	General items	Material obtained after defeating/catching Applin, used in TM crafting.
+Apricorn icon Apricorn	General items	A fruit whose shell can be used to form the capsules of all manner of Poké Balls when crafting them from scratch.
+Armor Fossil icon Armor Fossil	General items	A fossil from a prehistoric Pokémon that lived on the land. It appears to be part of a collar.
+Armorite Ore icon Armorite Ore	General items
+Arrokuda Scales icon Arrokuda Scales	General items	Material obtained after defeating/catching Arrokuda, used in TM crafting.
+Aspear Berry icon Aspear Berry	Berries	If held by a Pokémon, it defrosts it.
+Assault Vest icon Assault Vest	Hold items	Raises Special Defense but prevents the use of status moves.
+Audinite icon Audinite	Hold items	Enables Audino to Mega Evolve during battle.
+Auspicious Armor icon Auspicious Armor	General items	Evolves Charcadet into Armarouge.
+Aux Evasion icon Aux Evasion	Battle items	Makes moves less likely to strike a Pokémon during a battle.
+Aux Guard icon Aux Guard	Battle items	Sharply boosts the defensive stats of a Pokémon during a battle.
+Aux Power icon Aux Power	Battle items	Sharply boosts the offensive stats of a Pokémon during a battle.
+Aux Powerguard icon Aux Powerguard	Battle items	Sharply boosts the offensive and defensive stats of a Pokémon during a battle.
+Avocado icon Avocado		An ingredient with sweet notes—though its flavor is very mild. The avocado’s richness, however, makes it satisfying to eat.
+Awakening icon Awakening	Medicine	Wakes up a sleeping Pokémon.
+Axew Scales icon Axew Scales	General items	Material obtained after defeating/catching Axew, used in TM crafting.
+Azurill Fur icon Azurill Fur	General items	Material obtained after defeating/catching Azurill, used in TM crafting.
+B&W Grass Tablecloth icon B&W Grass Tablecloth		A tablecloth with a fun, trendy black-and-white design featuring Pokémon that seem poised to leap from the tall grass at any moment.
+Babiri Berry icon Babiri Berry	Berries	Weakens a supereffective Steel-type attack against the holding Pokémon.
+Bach's Food Tin icon Bach's Food Tin	General items	One of the many ingredients that can be used for cooking at your camp. The tinned food that Bach sells is curiously popular in Galar.
+Bacon icon Bacon		This very salty ingredient has been cooked just shy of charred, making it burst with fragrance and tasty flavor.
+Bagon Scales icon Bagon Scales	General items	Material obtained after defeating/catching Bagon, used in TM crafting.
+Baguette icon Baguette		A long loaf sliced into top and bottom halves. Its aroma of wheat and its straightforward, salty flavor make it pair well with all kinds of sandwich ingredients.
+Ball of Mud icon Ball of Mud	General items
+Balm Mushroom icon Balm Mushroom	General items	A rare mushroom which gives off a nice fragrance. A maniac will buy it for a high price.
+Banana icon Banana		A very sweet ingredient. This go-to fruit is sweet and rich, and it’s beloved by many Pokémon.
+Banettite icon Banettite	Hold items	Enables Banette to Mega Evolve during battle.
+Barboach Slime icon Barboach Slime	General items	Material obtained after defeating/catching Barboach, used in TM crafting.
+Barred Cup icon Barred Cup		A cup that’s as good for using at home as on a picnic. It’s light, sturdy, and stacks well, so it’s a cinch to pack up and carry around.
+Basculin Fang icon Basculin Fang	General items	Material obtained after defeating/catching Basculin, used in TM crafting.
+Basil icon Basil		A very bitter ingredient that’s quite versatile, as herbs go. It’s fragrant and goes well with tomatoes.
+Battle Tablecloth icon Battle Tablecloth		A garish, eye-catching tablecloth. Putting this on your picnic table will inspire any person or Pokémon who eats there to do their best.
+Beach Glass icon Beach Glass	General items	A piece of colored glass. Waves have rounded its edges. It's slightly rough to the touch.
+Bean Cake icon Bean Cake	General items
+Beast Ball icon Beast Ball	Pokeballs	A special Poké Ball designed to catch Ultra Beasts. It has a low success rate for catching others.
+Beedrillite icon Beedrillite	Hold items	Enables Beedrill to Mega Evolve during battle.
+Belue Berry icon Belue Berry	Berries	A Berry which is very rare in the Unova region. A maniac will buy it for a high price.
+Bergmite Ice icon Bergmite Ice	General items	Material obtained after defeating/catching Bergmite, used in TM crafting.
+Berry Juice icon Berry Juice	Medicine	Restores 20 HP.
+Berry Sweet icon Berry Sweet	Hold items	Evolves Milcery into Blueberry Flavor Alcremie.
+Big Bamboo Shoot icon Big Bamboo Shoot		A large and rare bamboo shoot. It’s extremely popular with a certain class of gourmands.
+Big Malasada icon Big Malasada	Medicine	Heals all major status conditions.
+Big Mushroom icon Big Mushroom	General items	A large and rare mushroom. It is sought after by collectors.
+Big Nugget icon Big Nugget	General items	A big nugget of pure gold that gives off a lustrous gleam. A maniac will buy it for a high price.
+Big Pearl icon Big Pearl	General items	A quite-large pearl that sparkles in a pretty silver color. It can be sold at a high price to shops.
+Big Root icon Big Root	Hold items	Recovers more HP from HP-stealing moves.
+Binding Band icon Binding Band	Hold items	A band that increases the power of binding moves when held.
+Bitter Herba Mystica icon Bitter Herba Mystica		A legendary condiment with a deeply bitter taste. It’s said to dramatically bolster a body’s immune defenses, though that hasn’t been proven.
+Black Apricorn icon Black Apricorn	General items	A black Apricorn It has an indescribable scent.
+Black Augurite icon Black Augurite	General items	A glassy black stone that produces a sharp cutting edge when split. It’s loved by a certain Pokémon.
+Black Belt icon Black Belt	Hold items	Increases the power of Fighting-type moves.
+Black Flute icon Black Flute	General items	A toy flute made from black glass. A maniac will buy it for a high price.
+Black Glasses icon Black Glasses	Hold items	Increases the power of Dark-type moves.
+Black Sludge icon Black Sludge	Hold items	A held item that gradually restores the HP of Poison-type Pokémon. It inflicts damage on all other types.
+Black Tumblestone icon Black Tumblestone	General items
+Blank Plate icon Blank Plate	Hold items
+Blastoisinite icon Blastoisinite	Hold items	Enables Blastoise to Mega Evolve during battle.
+Blazikenite icon Blazikenite	Hold items	Enables Blaziken to Mega Evolve during battle.
+Blue Apricorn icon Blue Apricorn	General items	A blue Apricorn. It smells a bit like grass.
+Blue Bottle icon Blue Bottle		A go-to bottle widely used for drinks at picnics. Its simple design and portability make it popular among all sorts of people.
+Blue Cup icon Blue Cup		A cup sold with the Blue Bottle. The two don’t stack, so they’re tough to pack—but they look good, so they’re popular with those who like to post picnic photos.
+Blue Dish icon Blue Dish		A dish for picnics. Comes in plenty of colors to choose from based on the food or the mood. The blue variety is a consistent strong seller.
+Blue Flute icon Blue Flute	General items	A toy flute made from blue glass. A maniac will buy it for a high price.
+Blue Poké Ball Pick icon Blue Poké Ball Pick		A sandwich pick with a simple blue Poké Ball design. Often used by Trainers who picked a Water-type Pokémon for their first partner.
+Blue Scarf icon Blue Scarf	General items	Raises holder's Beauty aspect in a Contest.
+Blue Shard icon Blue Shard	General items	A small blue shard. It appears to be from some sort of implement made long ago.
+Blue Tablecloth icon Blue Tablecloth		A simple blue tablecloth. It’s smooth and pleasant to the touch, and dishes can be placed on it with hardly a sound.
+Blue-Flag Pick icon Blue-Flag Pick		This pick flies a blue flag that lends an air of adventure. The flag itself is made of card stock, so it’ll fly proudly even with no wind.
+Blue-Sky Flower Pick icon Blue-Sky Flower Pick		A flower pick designed to evoke a blue sky. It’s part of a line of “sky-flower” picks. Using a few is guaranteed to boost that special picnic spirit.
+Bluk Berry icon Bluk Berry	Berries	A Berry which is very rare in the Unova region. A maniac will buy it for a high price.
+Blunder Policy icon Blunder Policy	Hold items	Raises Speed sharply if its attack misses.
+Bob's Food Tin icon Bob's Food Tin	General items	One of the many ingredients that can be used for cooking at your camp. The tinned food that Bob sells is curiously popular in Galar.
+Boiled Egg icon Boiled Egg	General items	One of the many ingredients that can be used for cooking at your camp. Even just one boiled egg can really enhance a dish.
+Bold Mint icon Bold Mint	Battle items	Changes the Pokémon's stats to match the Bold nature.
+Bombirdier Feather icon Bombirdier Feather	General items	Material obtained after defeating/catching Bombirdier, used in TM crafting.
+Bonsly Tears icon Bonsly Tears	General items	Material obtained after defeating/catching Bonsly, used in TM crafting.
+Booster Energy icon Booster Energy		An item to be held by Pokémon with certain Abilities. The energy that fills this capsule boosts the strength of the Pokémon.
+Bottle Cap icon Bottle Cap	General items	Maximizes one IV stat in Hyper Training.
+Bounsweet Sweat icon Bounsweet Sweat	General items	Material obtained after defeating/catching Bounsweet, used in TM crafting.
+Bramblin Twig icon Bramblin Twig	General items	Material obtained after defeating/catching Bramblin, used in TM crafting.
+Brave Mint icon Brave Mint	Battle items	Changes the Pokémon's stats to match the Brave nature.
+Bread icon Bread	General items	One of the many ingredients that can be used for cooking at your camp. An indispensable tool for mopping up that extra curry left on your plate.
+Bright Powder icon Bright Powder	Hold items	Lowers the opponent's accuracy.
+Brittle Bones icon Brittle Bones	General items	One of the many ingredients that can be used for cooking at your camp. The taste boiled off from the bones is sure to give a dish a light umami taste.
+Bronze Bottle icon Bronze Bottle		A popular option among hikers. It’s made with titanium, so it doesn’t rust even if it’s used to hold drinks with high sodium content.
+Bronze Cup icon Bronze Cup		A popular option among hikers. It’s made with titanium, so it doesn’t rust even if it’s used to hold drinks with high sodium content.
+Bronzor Fragment icon Bronzor Fragment	General items	Material obtained after defeating/catching Bronzor, used in TM crafting.
+Bruxish Tooth icon Bruxish Tooth	General items	Material obtained after defeating/catching Bruxish, used in TM crafting.
+Bug Gem icon Bug Gem	Hold items	Increases the power of a Bug-type move only once.
+Bug Memory icon Bug Memory	Hold items	Changes Silvally and its move Multi-Attack to Bug type.
+Bug Tera Shard icon Bug Tera Shard		Changes a Pokémon's Tera Type to Bug.
+Buginium Z icon Buginium Z	Hold items	Allows the use of Savage Spin-Out, the Bug type Z-Move.
+Bugwort icon Bugwort	General items
+Buizel Fur icon Buizel Fur	General items	Material obtained after defeating/catching Buizel, used in TM crafting.
+Burn Drive icon Burn Drive	Hold items	Changes Techno Blast to a Fire-type move when held by Genesect.
+Burn Heal icon Burn Heal	Medicine	Cures a Pokémon of a burn.
+Butter icon Butter		A condiment that unites salty and sweet and also packs a richness that makes bread a delight to eat. The finest butter products are made of 100 percent Moomoo Milk.
+Cacnea Needle icon Cacnea Needle	General items	Material obtained after defeating/catching Cacnea, used in TM crafting.
+Cake-Lure Base icon Cake-Lure Base	General items
+Calcium icon Calcium	Medicine	Increases Special Attack EVs by 10.
+Calm Mint icon Calm Mint	Battle items	Changes the Pokémon's stats to match the Calm nature.
+Cameruptite icon Cameruptite	Hold items	Enables Camerupt to Mega Evolve during battle.
+Candy Truffle icon Candy Truffle	General items
+Capsakid Seed icon Capsakid Seed	General items	Material obtained after defeating/catching Capsakid, used in TM crafting.
+Carbos icon Carbos	Medicine	Increases Speed EVs by 10.
+Careful Mint icon Careful Mint	Battle items	Changes the Pokémon's stats to match the Careful nature.
+Carrot Seeds icon Carrot Seeds	General items	Seeds to plant in a field. The kind of carrot you’ll get is determined by which field you plant the seeds in.
+Casteliacone icon Casteliacone	Medicine	Heals all major status conditions.
+Caster Fern icon Caster Fern	General items
+Cell Battery icon Cell Battery	Hold items	A consumable battery. If the holder is hit by an Electric-type move, its Attack will rise.
+Cetoddle Grease icon Cetoddle Grease	General items	Material obtained after defeating/catching Cetoddle, used in TM crafting.
+Chalky Stone icon Chalky Stone	General items	A small whitish stone picked up at the edge of the road.
+Charcadet Soot icon Charcadet Soot	General items	Material obtained after defeating/catching Charcadet, used in TM crafting.
+Charcoal icon Charcoal	Hold items	Increases the power of Fire-type moves.
+Charizardite X icon Charizardite X	Hold items	Enables Charizard to Mega Evolve during battle.
+Charizardite Y icon Charizardite Y	Hold items	Enables Charizard to Mega Evolve during battle.
+Charti Berry icon Charti Berry	Berries	Weakens a supereffective Rock-type attack against the holding Pokémon.
+Cheese icon Cheese		A very salty ingredient. This thinly sliced cheese is perfect for adding to a sandwich.
+Cheri Berry icon Cheri Berry	Berries	If held by a Pokémon, it recovers from paralysis.
+Cherish Ball icon Cherish Ball	Pokeballs	Rre Poké Ball used for event Pokémon.
+Cherry Tomatoes icon Cherry Tomatoes		A very tart ingredient. Some varieties are also very sweet, and these are prized above all others by the people of Paldea.
+Chesto Berry icon Chesto Berry	Berries	If held by a Pokémon, it recovers from sleep.
+Chewtle Claw icon Chewtle Claw	General items	Material obtained after defeating/catching Chewtle, used in TM crafting.
+Chilan Berry icon Chilan Berry	Berries	Weakens a Normal-type attack against the Pokémon holding this berry.
+Chili Sauce icon Chili Sauce		A condiment with a very spicy kick. It’s thanks to Scovillain that this sauce gets its signature mouth-tingling burn.
+Chill Drive icon Chill Drive	Hold items	Changes Techno Blast to an Ice-type move when held by Genesect.
+Chipped Pot icon Chipped Pot	Hold items	Evolves Sinistea into Polteageist.
+Choice Band icon Choice Band	Hold items	Raises Attack, but only one move can be used.
+Choice Dumpling icon Choice Dumpling	General items
+Choice Scarf icon Choice Scarf	Hold items	Raises Speed, but only one move can be used.
+Choice Specs icon Choice Specs	Hold items	Raises Special Attack, but only one move can be used.
+Chople Berry icon Chople Berry	Berries	Weakens a supereffective Fighting-type attack against the holding Pokémon.
+Chorizo icon Chorizo		A very salty and spicy ingredient. This type of sausage has particularly robust salty flavor, and the spicier varieties are extra popular.
+Clauncher Claw icon Clauncher Claw	General items	Material obtained after defeating/catching Clauncher, used in TM crafting.
+Claw Fossil icon Claw Fossil	General items	A fossil of an ancient Pokémon that lived in the sea. It appears to be part of a claw.
+Cleanse Tag icon Cleanse Tag	Hold items	An item to be held by a Pokémon. It helps keep wild Pokémon away if the holder is the first one in the party.
+Clear Amulet icon Clear Amulet		An item to be held by a Pokémon. This clear, sparkling amulet protects the holder from having its stats lowered by moves used against it or by other Pokémon’s Abilities.
+Clever Feather icon Clever Feather	Medicine	Increases Special Defense EVs by 1.
+Clever Mochi icon Clever Mochi	Medicine	Increases Special Defense EVs.
+Clover Sweet icon Clover Sweet	Hold items	Evolves Milcery into Clover Flavor Alcremie.
+Coba Berry icon Coba Berry	Berries	Weakens a supereffective Flying-type attack against the holding Pokémon.
+Coconut Milk icon Coconut Milk	General items	One of the many ingredients that can be used for cooking at your camp. The refined sweetness of this coconut milk makes it quite popular.
+Colbur Berry icon Colbur Berry	Berries	Weakens a supereffective Dark-type attack against the holding Pokémon.
+Combee Honey icon Combee Honey	General items	Material obtained after defeating/catching Combee, used in TM crafting.
+Comet Shard icon Comet Shard	General items	A shard which fell to the ground when a comet approached. A maniac will buy it for a high price.
+Cornn Berry icon Cornn Berry	Berries	A Berry which is very rare in the Unova region. A maniac will buy it for a high price.
+Courage Candy icon Courage Candy	Medicine	Increases a Pokémon's Special Defense stat by 1.
+Courage Candy L icon Courage Candy L	Medicine	Increases a Pokémon's Special Defense stat.
+Courage Candy XL icon Courage Candy XL	Medicine	Increases a Pokémon's Special Defense stat.
+Cover Fossil icon Cover Fossil	General items	A fossil of an ancient Pokémon that lived in the sea in ancient times. It appears to be part of its back.
+Covert Cloak icon Covert Cloak	Hold items	Conceals the holder, protecting it from the additional effects of moves.
+Crabrawler Shell icon Crabrawler Shell	General items	Material obtained after defeating/catching Crabrawler, used in TM crafting.
+Cracked Pot icon Cracked Pot	Hold items	Evolves Sinistea into Polteageist.
+Crafting Kit icon Crafting Kit	General items
+Cream Cheese icon Cream Cheese		A condiment offering very sweet and very tart flavor. It goes well with more ingredients than you’d expect, making it a convenient go-to.
+Croagunk Poison icon Croagunk Poison	General items	Material obtained after defeating/catching Croagunk, used in TM crafting.
+Crunchy Salt icon Crunchy Salt	General items
+Cryogonal Ice icon Cryogonal Ice	General items	Material obtained after defeating/catching Cryogonal, used in TM crafting.
+Cubchoo Fur icon Cubchoo Fur	General items	Material obtained after defeating/catching Cubchoo, used in TM crafting.
+Cucumber icon Cucumber		A tart and bitter ingredient. Using it together with rich-tasting ingredients in a sandwich will really make the most of a cucumber’s fresh-veggie aroma.
+Cufant Tarnish icon Cufant Tarnish	General items	Material obtained after defeating/catching Cufant, used in TM crafting.
+Curry Powder icon Curry Powder		A very spicy condiment. Just watch out—use too much of this potent seasoning, and it’ll cancel out the other flavors.
+Custap Berry icon Custap Berry	Berries	Holder can move first when HP is low.
+Cyber Ball icon Cyber Ball		A ball themed after hardcore gaming PCs. It may not light up like its inspiration, but it still stands out.
+Cyclizar Scales icon Cyclizar Scales	General items	Material obtained after defeating/catching Cyclizar, used in TM crafting.
+Damp Mulch icon Damp Mulch	General items	A fertilizer to be spread on soft soil in regions where Berries are grown. A maniac will buy it for a high price.
+Damp Rock icon Damp Rock	Hold items	A Pokémon held item that extends the duration of the move Rain Dance used by the holder.
+Dark Gem icon Dark Gem	Hold items	Increases the power of a Dark-type move only once.
+Dark Memory icon Dark Memory	Hold items	Changes Silvally and its move Multi-Attack to Dark type.
+Dark Tera Shard icon Dark Tera Shard		Changes a Pokémon's Tera Type to Dark.
+Darkinium Z icon Darkinium Z	Hold items	Allows the use of Black Hole Eclipse, the Dark type Z-Move.
+Dawn Stone icon Dawn Stone	General items	Evolves certain species of Pokémon.
+Dazzling Honey icon Dazzling Honey	General items
+Decidium Z icon Decidium Z	Hold items	Allows Decidueye to upgrade Spirit Shackle to a Z-Move, Sinister Arrow Raid.
+Dedenne Fur icon Dedenne Fur	General items	Material obtained after defeating/catching Dedenne, used in TM crafting.
+Deep Sea Scale icon Deep Sea Scale	Hold items	Increases Special Defense when held by Clamperl. Evolves Clamperl when traded holding the item.
+Deep Sea Tooth icon Deep Sea Tooth	Hold items	Increases Special Attack when held by Clamperl. Evolves Clamperl when traded holding the item.
+Deerling Hair icon Deerling Hair	General items	Material obtained after defeating/catching Deerling, used in TM crafting.
+Deino Scales icon Deino Scales	General items	Material obtained after defeating/catching Deino, used in TM crafting.
+Delibird Parcel icon Delibird Parcel	General items	Material obtained after defeating/catching Delibird, used in TM crafting.
+Destiny Knot icon Destiny Knot	Hold items	A long, thin, bright-red string to be held by a Pokémon. If the holder becomes infatuated, the foe does too.
+Diamond Bottle icon Diamond Bottle		A diamond-patterned bottle that’s small, light, and even comes with a cup. The detachable strap makes it handy for walking around with.
+Diamond Pattern Cup icon Diamond Pattern Cup		A cup that’s as good for using at home as on a picnic. It’s light, sturdy, and stacks well, so it’s a cinch to pack up and carry around.
+Diamond Tablecloth icon Diamond Tablecloth		A tablecloth with a fashionable diamond pattern. It’s great at repelling water and mold, and stains and smudges wipe right off.
+Diancite icon Diancite	Hold items	Enables Diancie to Mega Evolve during battle.
+Digger Drill icon Digger Drill		A single-use drill to bore a hole in the wall for your Secret Base.
+Diglett Dirt icon Diglett Dirt	General items	Material obtained after defeating/catching Diglett, used in TM crafting.
+Dire Hit icon Dire Hit	Battle items	Raises critical-hit ratio of a Pokémon in battle.
+Dire Hit 2 icon Dire Hit 2	Battle items	Raises a Pokémon's critical-hit ratio in battle.
+Dire Hit 3 icon Dire Hit 3	Battle items	Greatly raises a Pokémon's critical-hit ratio in battle.
+Direshroom icon Direshroom	General items
+Discount Coupon icon Discount Coupon	General items	This special coupon allows you to buy items at a discount when you are shopping at a boutique.
+Discovery Slate icon Discovery Slate		A slate overflowing with enigmatic energy. You can feel a strong connection between it and the Discovery Room at Ramanas Park.
+Distortion Slate icon Distortion Slate		A slate overflowing with enigmatic energy. You can feel a strong connection between it and the Distortion Room at Ramanas Park.
+Ditto Goo icon Ditto Goo	General items	Material obtained after defeating/catching Ditto, used in TM crafting.
+Dive Ball icon Dive Ball	Pokeballs	Catches Pokémon that live in water with 3.5x the rate of a standard Poké Ball.
+DNA Splicers icon DNA Splicers	General items	A splicer that fuses Kyurem and a certain Pokémon. They are said to have been one in the beginning.
+Dome Fossil icon Dome Fossil	General items	A fossil of an ancient Pokémon that lived in the sea. It appears to be part of a shell.
+Dondozo Whisker icon Dondozo Whisker	General items	Material obtained after defeating/catching Dondozo, used in TM crafting.
+Doppel Bonnets icon Doppel Bonnets	General items
+Douse Drive icon Douse Drive	Hold items	Changes Techno Blast to a Water-type move when held by Genesect.
+Draco Plate icon Draco Plate	Hold items	Increases power of Dragon-type moves. Changes Arceus' type to Dragon.
+Dragon Fang icon Dragon Fang	Hold items	Increases the power of Dragon-type moves.
+Dragon Gem icon Dragon Gem	Hold items	Increases the power of a Dragon-type move only once.
+Dragon Memory icon Dragon Memory	Hold items	Changes Silvally and its move Multi-Attack to Dragon type.
+Dragon Scale icon Dragon Scale	General items	Evolves Seadra when traded holding the item.
+Dragon Tera Shard icon Dragon Tera Shard		Changes a Pokémon's Tera Type to .
+Dragonium Z icon Dragonium Z	Hold items	Allows the use of Devastating Drake, the Dragon type Z-Move.
+Dratini Scales icon Dratini Scales	General items	Material obtained after defeating/catching Dratini, used in TM crafting.
+Dread Plate icon Dread Plate	Hold items	Increases power of Dark-type moves. Changes Arceus' type to Dark.
+Dream Ball icon Dream Ball	Pokeballs	A special Poké Ball that appears out of nowhere in a bag at the Entree Forest. It can catch any Pokémon.
+Dreepy Powder icon Dreepy Powder	General items	Material obtained after defeating/catching Dreepy, used in TM crafting.
+Drifloon Gas icon Drifloon Gas	General items	Material obtained after defeating/catching Drifloon, used in TM crafting.
+Dropped Item icon Dropped Item	Hold items	The Xtransceiver found at the Nimbasa City amusement park. It seems it belongs to a boy.
+Drowzee Fur icon Drowzee Fur	General items	Material obtained after defeating/catching Drowzee, used in TM crafting.
+Dubious Disc icon Dubious Disc	General items	Evolves Porygon2 when traded holding the item.
+Dunsparce Scales icon Dunsparce Scales	General items	Material obtained after defeating/catching Dunsparce, used in TM crafting.
+Durin Berry icon Durin Berry	Berries	A Berry which is very rare in the Unova region. A maniac will buy it for a high price.
+Dusk Ball icon Dusk Ball	Pokeballs	Catches Pokémon at night or in caves with 3x the rate of a standard Poké Ball.
+Dusk Stone icon Dusk Stone	General items	Evolves certain species of Pokémon.
+Dynamax Candy icon Dynamax Candy	Medicine	Raises Dynamax Level.
+Dynite Ore icon Dynite Ore	General items	Mysterious ore that can be obtained in the Max Lair. Something good will happen if you give it to a collector in the Crown Tundra.
+Earth Plate icon Earth Plate	Hold items	Increases power of Ground-type moves. Changes Arceus' type to Ground.
+Eevee Cup icon Eevee Cup		A cup for big-time Pokémon fans. Kids will happily drink out of it, making it a boon to parents.
+Eevee Fur icon Eevee Fur	General items	Material obtained after defeating/catching Eevee, used in TM crafting.
+Eevium Z icon Eevium Z	Hold items	Allows Eevee to upgrade Last Resort to a Z-Move, Extreme Evoboost.
+Egg icon Egg		An ingredient with a touch of saltiness. It’s full of nutrients and can be enjoyed with all sorts of seasonings.
+Eiscue Down icon Eiscue Down	General items	Material obtained after defeating/catching Eiscue, used in TM crafting.
+Eject Button icon Eject Button	Hold items	If the holder is hit by an attack, it will switch with another Pokémon in your party.
+Eject Pack icon Eject Pack	Hold items	The Pokémon switches out if its stats are lowered.
+Electirizer icon Electirizer	General items	Evolves Electabuzz when traded holding the item.
+Electric Gem icon Electric Gem	Hold items	Increases the power of an Electric-type move only once.
+Electric Memory icon Electric Memory	Hold items	Changes Silvally and its move Multi-Attack to Electric type.
+Electric Seed icon Electric Seed	Hold items	An item to be held by a Pokémon. It boosts Defense on Electric Terrain. It can only be used once.
+Electric Tera Shard icon Electric Tera Shard		Changes a Pokémon's Tera Type to Electric.
+Electrium Z icon Electrium Z	Hold items	Allows the use of Gigavolt Havoc, the Electric type Z-Move.
+Elevator Key icon Elevator Key	Hold items	A card key that activates the elevator in Lysandre Labs. It is emblazoned with Team Flare's logo.
+Elixir icon Elixir	Medicine	Restores 10 PP to all moves of a Pokémon.
+Energy Powder icon Energy Powder	Medicine	Restores 60 HP but lowers Friendship.
+Energy Root icon Energy Root	Medicine	Restores 120 HP but lowers Friendship.
+Enigma Berry icon Enigma Berry	Berries	If held by a Pokémon, it restores its HP if it is hit by any supereffective attack.
+Escape Rope icon Escape Rope	General items	A long, durable rope. Use it to escape instantly from a cave or a dungeon.
+Ether icon Ether	Medicine	Restores 10 PP to one move of a Pokémon.
+Everstone icon Everstone	Hold items	An item to be held by a Pokémon. The Pokémon holding this peculiar stone is prevented from evolving.
+Eviolite icon Eviolite	Hold items	A mysterious evolutionary lump. When held, it raises the Defense and Sp. Def of a Pokémon that can still evolve.
+Exercise Ball icon Exercise Ball		A big ball designed for exercising. It can work as a seat if you get tired, too.
+Exp. Candy L icon Exp. Candy L	Medicine	Increases the Pokémon's Exp points by 10,000.
+Exp. Candy M icon Exp. Candy M	Medicine	Increases the Pokémon's Exp points by 3,000.
+Exp. Candy S icon Exp. Candy S	Medicine	Increases the Pokémon's Exp points by 800.
+Exp. Candy XL icon Exp. Candy XL	Medicine	Increases the Pokémon's Exp. Points by 30,000.
+Exp. Candy XS icon Exp. Candy XS	Medicine	Increases the Pokémon's Exp points by 100.
+Exp. Share icon Exp. Share	Hold items	An item to be held by a Pokémon. The holder gets a share of a battle's Exp. Points without battling.
+Expert Belt icon Expert Belt	Hold items	Increases the power of super-effective moves.
+Fairium Z icon Fairium Z	Hold items	Allows the use of Twinkle Tackle, the Fairy type Z-Move.
+Fairy Gem icon Fairy Gem	General items	Increases the power of a Fairy-type move only once.
+Fairy Memory icon Fairy Memory	Hold items	Changes Silvally and its move Multi-Attack to Fairy type.
+Fairy Tera Shard icon Fairy Tera Shard		Changes a Pokémon's Tera Type to Fairy.
+Falinks Sweat icon Falinks Sweat	General items	Material obtained after defeating/catching Falinks, used in TM crafting.
+Fancy Apple icon Fancy Apple	General items	One of the many ingredients that can be used for cooking at your camp. An apple chosen above others. It has spectacular form and a brilliant sheen.
+Fast Ball icon Fast Ball	Pokeballs	A Poké Ball that makes it easier to catch Pokémon which are quick to run away.
+Feather Ball icon Feather Ball	Pokeballs
+Festival Ticket icon Festival Ticket	General items	A ticket that allows you to host a mission in Festival Plaza.
+Fidough Fur icon Fidough Fur	General items	Material obtained after defeating/catching Fidough, used in TM crafting.
+Fighting Gem icon Fighting Gem	Hold items	Increases the power of a Fighting-type move only once.
+Fighting Memory icon Fighting Memory	Hold items	Changes Silvally and its move Multi-Attack to Fighting type.
+Fighting Tera Shard icon Fighting Tera Shard		Changes a Pokémon's Tera Type to Fighting.
+Fightinium Z icon Fightinium Z	Hold items	Allows the use of All-Out Pummeling, the Fighting type Z-Move.
+Figy Berry icon Figy Berry	Berries	Restores HP if it's low, but may cause confusion.
+Fine Remedy icon Fine Remedy	Medicine
+Finizen Mucus icon Finizen Mucus	General items	Material obtained after defeating/catching Finizen, used in TM crafting.
+Finneon Scales icon Finneon Scales	General items	Material obtained after defeating/catching Finneon, used in TM crafting.
+Fire Gem icon Fire Gem	Hold items	Increases the power of a Fire-type move only once.
+Fire Memory icon Fire Memory	Hold items	Changes Silvally and its move Multi-Attack to Fire type.
+Fire Pattern Cup icon Fire Pattern Cup		A cup that’s as good for using at home as on a picnic. It’s light, sturdy, and stacks well, so it’s a cinch to pack up and carry around.
+Fire Stone icon Fire Stone	General items	Evolves certain species of Pokémon.
+Fire Tera Shard icon Fire Tera Shard		Changes a Pokémon's Tera Type to Fire.
+Firium Z icon Firium Z	Hold items	Allows the use of Inferno Overdrive, the Fire type Z-Move.
+Fist Plate icon Fist Plate	Hold items	Increases power of Fighting-type moves. Changes Arceus' type to Fighting.
+Flabébé Pollen icon Flabébé Pollen	General items	Material obtained after defeating/catching Flabébé, used in TM crafting.
+Flame Orb icon Flame Orb	Hold items	An item to be held by a Pokémon. It is a bizarre orb that inflicts a burn on the holder in battle.
+Flame Plate icon Flame Plate	Hold items	Increases power of Fire-type moves. Changes Arceus' type to Fire.
+Flamigo Down icon Flamigo Down	General items	Material obtained after defeating/catching Flamigo, used in TM crafting.
+Fletchling Feather icon Fletchling Feather	General items	Material obtained after defeating/catching Fletchling, used in TM crafting.
+Flittle Down icon Flittle Down	General items	Material obtained after defeating/catching Flittle, used in TM crafting.
+Float Stone icon Float Stone	Hold items	A very light stone. It reduces the weight of a Pokémon when held.
+Flower Pattern Cup icon Flower Pattern Cup		A cup for kids to use at picnics. It’s made of light but strong material. It’s stackable, which makes it handy for carrying around.
+Flower Sweet icon Flower Sweet	Hold items	Evolves Milcery into Flower Flavor Alcremie.
+Fluffy Tail icon Fluffy Tail	General items	An item that attracts Pokémon. Use it to flee from any battle with a wild Pokémon.
+Flying Gem icon Flying Gem	Hold items	Increases the power of a Flying-type move only once.
+Flying Memory icon Flying Memory	Hold items	Changes Silvally and its move Multi-Attack to Flying type.
+Flying Tera Shard icon Flying Tera Shard		Changes a Pokémon's Tera Type to Flying.
+Flyinium Z icon Flyinium Z	Hold items	Allows the use of Supersonic Skystrike, the Flying type Z-Move.
+Focus Band icon Focus Band	Hold items	An item to be held by a Pokémon. The holder may endure a potential KO attack, leaving it with just 1 HP.
+Focus Sash icon Focus Sash	Hold items	An item to be held by a Pokémon. If it has full HP, the holder will endure one potential KO attack, leaving 1 HP.
+Fomantis Leaf icon Fomantis Leaf	General items	Material obtained after defeating/catching Fomantis, used in TM crafting.
+Foongus Spores icon Foongus Spores	General items	Material obtained after defeating/catching Foongus, used in TM crafting.
+Fossilized Bird icon Fossilized Bird	General items	The fossil of an ancient Pokémon that once soared through the sky. What it looked like is a mystery.
+Fossilized Dino icon Fossilized Dino	General items	The fossil of an ancient Pokémon that once lived in the sea. What it looked like is a mystery.
+Fossilized Drake icon Fossilized Drake	General items	The fossil of an ancient Pokémon that once roamed the land. What it looked like is a mystery.
+Fossilized Fish icon Fossilized Fish	General items	The fossil of an ancient Pokémon that once lived in the sea. What it looked like is a mystery.
+Fresh Cream icon Fresh Cream	General items	One of the many ingredients that can be used for cooking at your camp. Add some whipped cream to a spicy curry to give it some sweetness.
+Fresh Water icon Fresh Water	Medicine	Restores 30 HP.
+Fresh-Start Mochi icon Fresh-Start Mochi	Medicine	Resets a Pokémon's EVs.
+Fried Fillet icon Fried Fillet		When used in a sandwich, this very salty and bitter ingredient is at its best paired with sour seasonings.
+Fried Food icon Fried Food	General items	One of the many ingredients that can be used for cooking at your camp. It’s been a while since it was fried, so it’s gotten greasy.
+Friend Ball icon Friend Ball	Pokeballs	A Poké Ball that makes caught Pokémon more friendly.
+Frigibax Scales icon Frigibax Scales	General items	Material obtained after defeating/catching Frigibax, used in TM crafting.
+Fruit Bunch icon Fruit Bunch	General items	One of the many ingredients that can be used for cooking at your camp. The syrupy fruits give off a strong tropical feel.
+Full Heal icon Full Heal	Medicine	Cures a Pokémon of any status condition.
+Full Incense icon Full Incense	Hold items	Holder always attacks last. Breeding Snorlax produces Munchlax when held.
+Full Restore icon Full Restore	Medicine	Fully restores HP and cures any status condition of a Pokémon.
+Galarica Cuff icon Galarica Cuff	General items	Evolves Galarian Slowpoke into Galarian Slowbro.
+Galarica Twig icon Galarica Twig	General items	Used to create Galarica Cuff/Wreath, to evolve Galarian Slowpoke.
+Galarica Wreath icon Galarica Wreath	General items	Evolves Galarian Slowpoke into Galarian Slowking.
+Galladite icon Galladite	Hold items	Enables Gallade to Mega Evolve during battle.
+Ganlon Berry icon Ganlon Berry	Berries	Raises Defense when HP is low.
+Garchompite icon Garchompite	Hold items	Enables Garchomp to Mega Evolve during battle.
+Gardevoirite icon Gardevoirite	Hold items	Enables Gardevoir to Mega Evolve during battle.
+Gastly Gas icon Gastly Gas	General items	Material obtained after defeating/catching Gastly, used in TM crafting.
+Gengarite icon Gengarite	Hold items	Enables Gengar to Mega Evolve during battle.
+Genius Feather icon Genius Feather	Medicine	Increases Special Attack EVs by 1.
+Genius Mochi icon Genius Mochi	Medicine	Increases Special Attack EVs.
+Genome Slate icon Genome Slate		A slate overflowing with enigmatic energy. You can feel a strong connection between it and the Genome Room at Ramanas Park.
+Gentle Mint icon Gentle Mint	Battle items	Changes the Pokémon's stats to match the Gentle nature.
+Ghost Gem icon Ghost Gem	Hold items	Increases the power of a Ghost-type move only once.
+Ghost Memory icon Ghost Memory	Hold items	Changes Silvally and its move Multi-Attack to Ghost type.
+Ghost Tera Shard icon Ghost Tera Shard		Changes a Pokémon's Tera Type to Ghost.
+Ghostium Z icon Ghostium Z	Hold items	Allows the use of Never-Ending Nightmare, the Ghost type Z-Move.
+Gible Scales icon Gible Scales	General items	Material obtained after defeating/catching Gible, used in TM crafting.
+Gigantamix icon Gigantamix	General items	One of the many ingredients that can be used for cooking at your camp. A mysterious spice. Even a tiny sprinkle is sure to make a curry gigantic.
+Gigaton Ball icon Gigaton Ball	Pokeballs
+Gimmighoul Coin icon Gimmighoul Coin	General items	Material obtained after defeating/catching Gimmighoul. Allows evolution into Gholdengo.
+Girafarig Fur icon Girafarig Fur	General items	Material obtained after defeating/catching Girafarig, used in TM crafting.
+Glalitite icon Glalitite	Hold items	Enables Glalie to Mega Evolve during battle.
+Glimmet Crystal icon Glimmet Crystal	General items	Material obtained after defeating/catching Glimmet, used in TM crafting.
+Gold Bottle icon Gold Bottle		A popular option among hikers. It’s made with titanium, so it doesn’t rust even if it’s used to hold drinks with high sodium content.
+Gold Bottle Cap icon Gold Bottle Cap	General items	Maximizes all of a Pokémon's IV stats in Hyper Training.
+Gold Cup icon Gold Cup		A popular option among hikers. It’s made with titanium, so it doesn’t rust even if it’s used to hold drinks with high sodium content.
+Gold Leaf icon Gold Leaf	General items
+Gold Pick icon Gold Pick		A golden pick that oozes class. Using it on a sandwich lends an extravagant air that’ll make you want to eat up, even if you don’t love the fillings.
+Golden Nanab Berry icon Golden Nanab Berry	Berries	Drastically calms a Pokémon in battle, in Let's Go Pikachu/Eevee.
+Golden Pinap Berry icon Golden Pinap Berry	Berries	Drastically increases chance of getting items when a Pokémon is caught, in Pokémon Let's Go.
+Golden Razz Berry icon Golden Razz Berry	Berries	Makes a Pokémon easier to catch in Pokémon Let's Go.
+Gooey Mulch icon Gooey Mulch	General items	A fertilizer to be spread on soft soil in regions where Berries are grown. A maniac will buy it for a high price.
+Goomy Goo icon Goomy Goo	General items	Material obtained after defeating/catching Goomy, used in TM crafting.
+Gothita Eyelash icon Gothita Eyelash	General items	Material obtained after defeating/catching Gothita, used in TM crafting.
+Grain Cake icon Grain Cake	General items
+Grass Gem icon Grass Gem	Hold items	Increases the power of a Grass-type move only once.
+Grass Memory icon Grass Memory	Hold items	Changes Silvally and its move Multi-Attack to Grass type.
+Grass Tera Shard icon Grass Tera Shard		Changes a Pokémon's Tera Type to Grass.
+Grassium Z icon Grassium Z	Hold items	Allows the use of Bloom Doom, the Grass type Z-Move.
+Grassy Seed icon Grassy Seed	Hold items	An item to be held by a Pokémon. It boosts Defense on Grassy Terrain. It can only be used once.
+Great Ball icon Great Ball	Pokeballs	Catches wild Pokémon with 1.5x the rate of a Poké Ball.
+Greavard Wax icon Greavard Wax	General items	Material obtained after defeating/catching Greavard, used in TM crafting.
+Green Apricorn icon Green Apricorn	General items	A green Apricorn. It has a mysterious, aromatic scent.
+Green Bell Pepper icon Green Bell Pepper		An ingredient with some bitterness. When sliced, it adds a nice accent to a sandwich.
+Green Dish icon Green Dish		A dish for picnics. Comes in plenty of colors to choose from based on the food or the mood. The green variety is quite popular.
+Green Poké Ball Pick icon Green Poké Ball Pick		A sandwich pick with a simple green Poké Ball design. Often used by Trainers who picked a Grass-type Pokémon for their first partner.
+Green Scarf icon Green Scarf	General items	Raises holder's Smart aspect in a Contest.
+Green Shard icon Green Shard	General items	A small green shard. It appears to be from some sort of implement made long ago.
+Grepa Berry icon Grepa Berry	Berries	Increases Friendship but lowers Special Defense EVs.
+Grimer Toxin icon Grimer Toxin	General items	Material obtained after defeating/catching Grimer, used in TM crafting.
+Grip Claw icon Grip Claw	Hold items	A Pokémon held item that extends the duration of multiturn attacks like Bind and Wrap.
+Griseous Core icon Griseous Core	Hold items
+Griseous Orb icon Griseous Orb	Hold items	Increases the power of Dragon- and Ghost-type moves when held by Giratina, and changes it to Origin Forme.
+Grit Dust icon Grit Dust	Hold items	Raises EVs by 1 in Legends: Arceus, when current EVs are between 0-2.
+Grit Gravel icon Grit Gravel	Hold items	Raises EVs by 1 in Legends: Arceus, when current EVs are between 3-5.
+Grit Pebble icon Grit Pebble	Hold items	Raises EVs by 1 in Legends: Arceus, when current EVs are between 6-8.
+Grit Rock icon Grit Rock	Hold items	Raises EVs by 1 in Legends: Arceus, when current EVs are between 8-9.
+Ground Gem icon Ground Gem	Hold items	Increases the power of a Ground-type move only once.
+Ground Memory icon Ground Memory	Hold items	Changes Silvally and its move Multi-Attack to Ground type.
+Ground Tera Shard icon Ground Tera Shard		Changes a Pokémon's Tera Type to Ground.
+Groundium Z icon Groundium Z	Hold items	Allows the use of Tectonic Rage, the Ground type Z-Move.
+Growlithe Fur icon Growlithe Fur	General items	Material obtained after defeating/catching Growlithe, used in TM crafting.
+Growth Mulch icon Growth Mulch	General items	A fertilizer to be spread on soft soil in regions where Berries are grown. A maniac will buy it for a high price.
+Grubby Hanky icon Grubby Hanky	Hold items	A handkerchief dropped by a regular at Café Warehouse. It smells faintly like a Pokémon.
+Guard Spec. icon Guard Spec.	Battle items	Prevents stat reduction for five turns.
+Gulpin Mucus icon Gulpin Mucus	General items	Material obtained after defeating/catching Gulpin, used in TM crafting.
+Gyaradosite icon Gyaradosite	Hold items	Enables Gyarados to Mega Evolve during battle.
+Haban Berry icon Haban Berry	Berries	Weakens a supereffective Dragon-type attack against the holding Pokémon.
+Ham icon Ham		A very salty ingredient—and that very saltiness is what makes it such a nice companion to veggies.
+Hamburger icon Hamburger		This very salty ingredient is the thing to add if you want to make your sandwich truly filling.
+Happiny Dust icon Happiny Dust	General items	Material obtained after defeating/catching Happiny, used in TM crafting.
+Hard Stone icon Hard Stone	Hold items	Increases the power of Rock-type moves.
+Hasty Mint icon Hasty Mint	Battle items	Changes the Pokémon's stats to match the Hasty nature.
+Hatenna Dust icon Hatenna Dust	General items	Material obtained after defeating/catching Hatenna, used in TM crafting.
+Hawlucha Down icon Hawlucha Down	General items	Material obtained after defeating/catching Hawlucha, used in TM crafting.
+Heal Ball icon Heal Ball	Pokeballs	Catches wild Pokémon and fully heals them.
+Heal Powder icon Heal Powder	Medicine	Heals all status problems, but lowers Friendship.
+Health Candy icon Health Candy	Medicine	Increases a Pokémon's HP stat by 1.
+Health Candy L icon Health Candy L	Medicine	Increases a Pokémon's HP stat.
+Health Candy XL icon Health Candy XL	Medicine	Increases a Pokémon's HP stat.
+Health Feather icon Health Feather	Medicine	Increases HP EVs by 1.
+Health Mochi icon Health Mochi	Medicine	Increases HP EVs.
+Heart Scale icon Heart Scale	General items	A pretty, heart-shaped scale that is extremely rare. It glows faintly in the colors of the rainbow.
+Hearty Grains icon Hearty Grains	General items
+Heat Rock icon Heat Rock	Hold items	A Pokémon held item that extends the duration of the move Sunny Day used by the holder.
+Heavy Ball icon Heavy Ball	Pokeballs	A Poké Ball for catching very heavy Pokémon.
+Heavy-Duty Boots icon Heavy-Duty Boots	Hold items	Protects the holder from traps set on the battlefield.
+Helix Fossil icon Helix Fossil	General items	A fossil of an ancient Pokémon that lived in the sea. It appears to be part of a seashell.
+Heracronite icon Heracronite	Hold items	Enables Heracross to Mega Evolve during battle.
+Heracross Claw icon Heracross Claw	General items	Material obtained after defeating/catching Heracross, used in TM crafting.
+Herbed Sausage icon Herbed Sausage		A very salty and bitter ingredient. The balance between the potent saltiness and the herbs’ bitterness make this sausage a pleasure.
+Heroic Sword Pick icon Heroic Sword Pick		A pick made to be the coolest. Once you’ve eaten, you can pretend you’re a hero of legend. Souvenir shops at tourist spots sell these for some reason.
+Hi-tech Earbuds icon Hi-tech Earbuds	Hold items	Strange earbuds that allow you to freely control the volume of various sounds.
+Hippopotas Sand icon Hippopotas Sand	General items	Material obtained after defeating/catching Hippopotas, used in TM crafting.
+HM01 icon HM01	Machines	Teaches the move Cut.
+HM02 icon HM02	Machines	Teaches the move Fly.
+HM03 icon HM03	Machines	Teaches the move Surf.
+HM04 icon HM04	Machines	Teaches the move Strength.
+HM05 icon HM05	Machines	Teaches the move Flash/Defog/Whirlpool/Waterfall.
+HM06 icon HM06	Machines	Teaches the move Whirlpool/Rock Smash/Dive.
+HM07 icon HM07	Machines	Teaches the move Waterfall.
+HM08 icon HM08	Machines	Teaches the move Dive/Rock Climb.
+Hometown Muffin icon Hometown Muffin	General items
+Hondew Berry icon Hondew Berry	Berries	Increases Friendship but lowers Special Attack EVs.
+Honey icon Honey	General items	A sweet honey with a lush aroma that attracts wild Pokémon when it is used in grass, caves, or on special trees.
+Honey Cake icon Honey Cake	General items
+Honor Of Kalos icon Honor Of Kalos	Hold items	A precious symbol that is awarded only to an individual who has done great things for the Kalos region.
+Hopo Berry icon Hopo Berry	General items	A Berry that can be fed to a Pokémon to restore its PP. If a wild Pokémon eats one of these Berries, that Pokémon’s reactions will be dulled.
+Hoppip Leaf icon Hoppip Leaf	General items	Material obtained after defeating/catching Hoppip, used in TM crafting.
+Horseradish icon Horseradish		A very spicy condiment. Its distinctive sharp sizzle in your sinuses makes it a good match for rich fillings.
+Houndoominite icon Houndoominite	Hold items	Enables Houndoom to Mega Evolve during battle.
+Houndour Fang icon Houndour Fang	General items	Material obtained after defeating/catching Houndour, used in TM crafting.
+HP Up icon HP Up	Medicine	Increases HP EVs by 10.
+Hyper Potion icon Hyper Potion	Medicine	Restores 120 HP.
+Iapapa Berry icon Iapapa Berry	Berries	Restores HP if it's low, but may cause confusion.
+Ice Gem icon Ice Gem	Hold items	Increases the power of an Ice-type move only once.
+Ice Heal icon Ice Heal	Medicine	Cures a Pokémon of freezing.
+Ice Memory icon Ice Memory	Hold items	Changes Silvally and its move Multi-Attack to Ice type.
+Ice Stone icon Ice Stone	General items	Evolves certain species of Pokémon.
+Ice Tera Shard icon Ice Tera Shard		Changes a Pokémon's Tera Type to Ice.
+Iceroot Carrot icon Iceroot Carrot	General items	Produce that the King of Bountiful Harvests’ beloved steed likes to eat. It grew in a field covered in snow.
+Icicle Plate icon Icicle Plate	Hold items	Increases power of Ice-type moves. Changes Arceus' type to Ice.
+Icium Z icon Icium Z	Hold items	Allows the use of Subzero Slammer, the Ice type Z-Move.
+Icy Rock icon Icy Rock	Hold items	A Pokémon held item that extends the duration of the move Hail used by the holder.
+Igglybuff Fluff icon Igglybuff Fluff	General items	Material obtained after defeating/catching Igglybuff, used in TM crafting.
+Impidimp Hair icon Impidimp Hair	General items	Material obtained after defeating/catching Impidimp, used in TM crafting.
+Impish Mint icon Impish Mint	Battle items	Changes the Pokémon's stats to match the Impish nature.
+Incinium Z icon Incinium Z	Hold items	Allows Incineroar to upgrade Darkest Lariat to a Z-Move, Malicious Moonsault.
+Indeedee Fur icon Indeedee Fur	General items	Material obtained after defeating/catching Indeedee, used in TM crafting.
+Insect Plate icon Insect Plate	Hold items	Increases power of Bug-type moves. Changes Arceus' type to Bug.
+Instant Noodles icon Instant Noodles	General items	One of the many ingredients that can be used for cooking at your camp. It has a junk-food sort of taste, but it goes well with curry.
+Intriguing Stone icon Intriguing Stone	Hold items	A rather curious stone that might appear to be valuable to some. It's all in the eye of the beholder.
+Iron icon Iron	Medicine	Increases Defense EVs by 10.
+Iron Ball icon Iron Ball	Hold items	A Pokémon held item that cuts Speed. It makes Flying-type and levitating holders susceptible to Ground moves.
+Iron Barktongue icon Iron Barktongue	General items
+Iron Chunk icon Iron Chunk	General items
+Iron Plate icon Iron Plate	Hold items	Increases power of Steel-type moves. Changes Arceus' type to Steel.
+Item Drop icon Item Drop	Battle items	When used, it causes an ally Pokémon to drop a held item.
+Item Urge icon Item Urge	Battle items	When used, it causes an ally Pokémon to use its held item.
+Jaboca Berry icon Jaboca Berry	Berries	If held by a Pokémon and a physical attack lands, the attacker also takes damage.
+Jalapeño icon Jalapeño		A very spicy ingredient—so spicy as to leave no room for ambivalence about it. You either like it or you don’t.
+Jam icon Jam		A condiment that’s very sweet and likewise very sour. Take care when adding it to sandwiches, as the sweet side can overwhelm.
+Jet Ball icon Jet Ball	Pokeballs
+Johto Slate icon Johto Slate		A slate overflowing with enigmatic energy. You can feel a strong connection between it and the Johto Room at Ramanas Park.
+Jolly Mint icon Jolly Mint	Battle items	Changes the Pokémon's stats to match the Jolly nature.
+Jubilife Muffin icon Jubilife Muffin	General items
+Kangaskhanite icon Kangaskhanite	Hold items	Enables Kangaskhan to Mega Evolve during battle.
+Kanto Slate icon Kanto Slate		A slate overflowing with enigmatic energy. You can feel a strong connection between it and the Kanto Room at Ramanas Park.
+Kasib Berry icon Kasib Berry	Berries	Weakens a supereffective Ghost-type attack against the holding Pokémon.
+Kebia Berry icon Kebia Berry	Berries	Weakens a supereffective Poison-type attack against the holding Pokémon.
+Kee Berry icon Kee Berry	Berries	If held by a Pokémon, this Berry will increase the holder's Defense if it's hit with a physical move.
+Kelpsy Berry icon Kelpsy Berry	Berries	Increases Friendship but lowers Attack EVs.
+Ketchup icon Ketchup		A condiment with very salty and tart flavor. While a number of other ingredients go into its signature flavor, the noble tomato is its heart and soul.
+King's Leaf icon King's Leaf	General items
+King's Rock icon King's Rock	Hold items	May cause opponent to flinch. Evolves Poliwhirl and Slowpoke when traded holding the item.
+Kiwi icon Kiwi		A very tart ingredient that has a light touch of sweetness as well. It goes well with rich ingredients.
+Klawf Claw icon Klawf Claw	General items	Material obtained after defeating/catching Klawf, used in TM crafting.
+Klawf Stick icon Klawf Stick		A very sweet and salty ingredient. It’s a nutritious processed food made with a concentrate derived from shed Klawf shells.
+Klefki Key icon Klefki Key	General items	Material obtained after defeating/catching Klefki, used in TM crafting.
+Kofu's Wallet icon Kofu's Wallet		A wallet that was left behind by Kofu, the Gym Leader at the Cascarrafa Gym. You’re to deliver it to him at the market in Porto Marinada.
+Komala Claw icon Komala Claw	General items	Material obtained after defeating/catching Komala, used in TM crafting.
+Kommonium Z icon Kommonium Z	Hold items	Allows Kommo-o to upgrade Clanging Scales to a Z-Move, Clangorous Soulblaze.
+Koraidon's Poké Ball icon Koraidon's Poké Ball		A Poké Ball that can hold the mysterious Pokémon known as Koraidon. A boy named Arven gave it to you.
+Kricketot Shell icon Kricketot Shell	General items	Material obtained after defeating/catching Kricketot, used in TM crafting.
+Lagging Tail icon Lagging Tail	Hold items	Holder always attacks last.
+Lansat Berry icon Lansat Berry	Berries	Increases critical-hit ratio when HP is low.
+Large Leek icon Large Leek	General items	One of the many ingredients that can be used for cooking at your camp. Whether this is the kind of vegetable stalk that Farfetch’d like is unknown.
+Larvesta Fuzz icon Larvesta Fuzz	General items	Material obtained after defeating/catching Larvesta, used in TM crafting.
+Larvitar Claw icon Larvitar Claw	General items	Material obtained after defeating/catching Larvitar, used in TM crafting.
+Latiasite icon Latiasite	Hold items	Enables Latias to Mega Evolve during battle.
+Latiosite icon Latiosite	Hold items	Enables Latios to Mega Evolve during battle.
+Lava Cookie icon Lava Cookie	Medicine	Heals all major status conditions.
+Lax Incense icon Lax Incense	Hold items	Lowers the opponent's accuracy. Breeding Wobbuffet produces Wynaut when held.
+Lax Mint icon Lax Mint	Battle items	Changes the Pokémon's stats to match the Lax nature.
+Leaden Ball icon Leaden Ball	Pokeballs
+Leader's Crest icon Leader's Crest		A shard of what appears to be an old blade of some sort. It is held only by Bisharp that head up a group of Pawniard.
+Leaf Letter icon Leaf Letter	General items	A letter written on a leaf. Something is written using Eevee's footprints.
+Leaf Stone icon Leaf Stone	General items	Evolves certain species of Pokémon.
+Leafy Tablecloth icon Leafy Tablecloth		A botanically themed tablecloth featuring Grass-type Pokémon. Can you find the Pokémon that doesn’t quite fit in?
+Lechonk Hair icon Lechonk Hair	General items	Material obtained after defeating/catching Lechonk, used in TM crafting.
+Leek icon Leek	Hold items	Increases critical-hit ratio when held by Farfetch'd.
+Leftovers icon Leftovers	Hold items	An item to be held by a Pokémon. The holder's HP is gradually restored during battle.
+Legend Plate icon Legend Plate	Hold items
+Lemonade icon Lemonade	Medicine	Restores 70 HP.
+Leppa Berry icon Leppa Berry	Berries	If held by a Pokémon, it restores a move's PP by 10.
+Lettuce icon Lettuce		This bitter-tasting ingredient is simple and straightforward—just add it to all kinds of other ingredients for a delightfully crunchy time.
+Level Ball icon Level Ball	Pokeballs	A Poké Ball for catching Pokémon that are a lower level than your own.
+Liechi Berry icon Liechi Berry	Berries	Raises Attack when HP is low.
+Life Orb icon Life Orb	Hold items	Increases the power of moves, but loses HP each turn.
+Light Ball icon Light Ball	Hold items	An item to be held by PIKACHU. It is a puzzling orb that raises the Attack and Sp. Atk stat.
+Light Clay icon Light Clay	Hold items	A Pokémon held item that extends the duration of barrier moves like Light Screen and Reflect used by the holder.
+Lilac Tablecloth icon Lilac Tablecloth		A light purple tablecloth. It’s smooth and pleasant to the touch, and dishes can be placed on it with hardly a sound.
+Linking Cord icon Linking Cord	General items	A string exuding a mysterious energy that makes you feel a strange sense of connection. It’s loved by certain Pokémon.
+Litleo Tuft icon Litleo Tuft	General items	Material obtained after defeating/catching Litleo, used in TM crafting.
+Loaded Dice icon Loaded Dice	Hold items	Makes multi-strike moves more likely to hit more times.
+Lone Earring icon Lone Earring	General items
+Lonely Mint icon Lonely Mint	Battle items	Changes the Pokémon's stats to match the Lonely nature.
+Looker Ticket icon Looker Ticket	Hold items	A ticket that was handmade by Looker. It's decorated with a liberal amount of glittery paint.
+Lopunnite icon Lopunnite	Hold items	Enables Lopunny to Mega Evolve during battle.
+Lost Satchel icon Lost Satchel	General items
+Love Ball icon Love Ball	Pokeballs	Poké Ball for catching Pokémon that are the opposite gender of your Pokémon.
+Love Sweet icon Love Sweet	Hold items	Evolves Milcery into Heart Flavor Alcremie.
+Lucarionite icon Lucarionite	Hold items	Enables Lucario to Mega Evolve during battle.
+Luck Incense icon Luck Incense	Hold items	Doubles prize money if held. Breeding Chansey or Blissey produces Happiny when held.
+Lucky Egg icon Lucky Egg	Hold items	An item to be held by a Pokémon. It is an egg filled with happiness that earns extra Exp. Points in battle.
+Lucky Punch icon Lucky Punch	Hold items	Increases critical-hit ratio when held by Chansey.
+Lum Berry icon Lum Berry	Berries	If held by a Pokémon, it recovers from any status problem.
+Luminous Moss icon Luminous Moss	Hold items	Raises Special Defense if hit by a Water-type move.
+Lumiose Galette icon Lumiose Galette	Medicine	Heals all major status conditions.
+Lunalium Z icon Lunalium Z	Hold items	Allows Lunala to upgrade Moongeist Beam to a Z-Move, Menacing Moonraze Maelstrom.
+Lure icon Lure	General items	Attracts Pokémon in the wild.
+Lure Ball icon Lure Ball	Pokeballs	A Poké Ball for catching Pokémon hooked by a Rod when fishing.
+Lustrous Globe icon Lustrous Globe	Hold items
+Lustrous Orb icon Lustrous Orb	Hold items	Increases the power of Dragon- and Water-type moves when held by Palkia.
+Luvdisc Scales icon Luvdisc Scales	General items	Material obtained after defeating/catching Luvdisc, used in TM crafting.
+Luxury Ball icon Luxury Ball	Pokeballs	Catches wild Pokémon and increases their friendship more quickly.
+Lycanium Z icon Lycanium Z	Hold items	Allows Lycanroc to upgrade Stone Edge to a Z-Move, Splintered Stormshards.
+Macho Brace icon Macho Brace	Hold items	An item to be held by a Pokémon. It is a stiff and heavy brace that promotes strong growth but lowers Speed.
+Magical Heart Pick icon Magical Heart Pick		A pick shaped after a magic wand. Perhaps the real magic is the food maker’s wish for a delicious dish.
+Magical Star Pick icon Magical Star Pick		A pick shaped after a magic wand. Perhaps the real magic is the food maker’s wish for a delicious dish.
+Magikarp Scales icon Magikarp Scales	General items	Material obtained after defeating/catching Magikarp, used in TM crafting.
+Magmarizer icon Magmarizer	General items	Evolves Magmar when traded holding the item.
+Magnemite Screw icon Magnemite Screw	General items	Material obtained after defeating/catching Magnemite, used in TM crafting.
+Magnet icon Magnet	Hold items	Increases the power of Electric-type moves.
+Mago Berry icon Mago Berry	Berries	Restores HP if it's low, but may cause confusion.
+Magost Berry icon Magost Berry	Berries	A Berry which is very rare in the Unova region. A maniac will buy it for a high price.
+Makuhita Sweat icon Makuhita Sweat	General items	Material obtained after defeating/catching Makuhita, used in TM crafting.
+Malicious Armor icon Malicious Armor	General items	Evolves Charcadet into Ceruledge.
+Manectite icon Manectite	Hold items	Enables Manectric to Mega Evolve during battle.
+Mankey Fur icon Mankey Fur	General items	Material obtained after defeating/catching Mankey, used in TM crafting.
+Maranga Berry icon Maranga Berry	Berries	If held by a Pokémon, this Berry will increase the holder's Sp. Def if it's hit with a special move.
+Marble icon Marble	General items
+Mareanie Spike icon Mareanie Spike	General items	Material obtained after defeating/catching Mareanie, used in TM crafting.
+Mareep Wool icon Mareep Wool	General items	Material obtained after defeating/catching Mareep, used in TM crafting.
+Marill Ball icon Marill Ball		A Marill-themed ball. It’s soft and springy. Make sure you haven’t mistaken a real Marill for this ball before throwing.
+Marmalade icon Marmalade		A condiment with sour and bitter notes. It’s surprisingly useful, as it makes a nice counterpoint to oilier foods.
+Marsh Balm icon Marsh Balm	General items
+Marshadium Z icon Marshadium Z	Hold items	Allows Marshadow to upgrade Spectral Thief to a Z-Move, Soul-Stealing 7-Star Strike.
+Maschiff Fang icon Maschiff Fang	General items	Material obtained after defeating/catching Maschiff, used in TM crafting.
+Master Ball icon Master Ball	Pokeballs	Catches any wild Pokémon without fail.
+Masterpiece Teacup icon Masterpiece Teacup	General items	Evolves Poltchageist (Masterpiece) into Sinistcha (Masterpiece).
+Mawilite icon Mawilite	Hold items	Enables Mawile to Mega Evolve during battle.
+Max Elixir icon Max Elixir	Medicine	Fully restores PP to all moves of a Pokémon.
+Max Ether icon Max Ether	Medicine	Fully restores PP to one move of a Pokémon.
+Max Honey icon Max Honey	General items
+Max Lure icon Max Lure	General items	Attracts Pokémon in the wild.
+Max Mushrooms icon Max Mushrooms	General items
+Max Potion icon Max Potion	Medicine	Fully restores HP.
+Max Repel icon Max Repel	General items	An item that prevents weak wild Pokémon from appearing for 250 steps after its use.
+Max Revive icon Max Revive	Medicine	Revives a fainted Pokémon, fully restoring its HP.
+Mayonnaise icon Mayonnaise		A condiment that packs a very tart punch yet pairs well with various ingredients.
+Meadow Plate icon Meadow Plate	Hold items	Increases power of Grass-type moves. Changes Arceus' type to Grass.
+Medichamite icon Medichamite	Hold items	Enables Medicham to Mega Evolve during battle.
+Medicinal Leek icon Medicinal Leek	General items
+Meditite Sweat icon Meditite Sweat	General items	Material obtained after defeating/catching Meditite, used in TM crafting.
+Mental Herb icon Mental Herb	Hold items	An item to be held by a Pokémon. It snaps the holder out of infatuation. It can be used only once.
+Meowth Fur icon Meowth Fur	General items	Material obtained after defeating/catching Meowth, used in TM crafting.
+Metagrossite icon Metagrossite	Hold items	Enables Metagross to Mega Evolve during battle.
+Metal Alloy icon Metal Alloy	General items	Evolves Duraludon into Archaludon.
+Metal Coat icon Metal Coat	Hold items	Increases the power of Steel-type moves. Evolves Onix and Scyther when traded holding the item.
+Metal Powder icon Metal Powder	Hold items	Increases Defense when held by Ditto.
+Metronome icon Metronome	Hold items	Increases the power of moves used consecutively.
+Mewnium Z icon Mewnium Z	Hold items	Allows Mew to upgrade Psychic to a Z-Move, Genesis Supernova.
+Mewtwonite X icon Mewtwonite X	Hold items	Enables Mewtwo to Mega Evolve during battle.
+Mewtwonite Y icon Mewtwonite Y	Hold items	Enables Mewtwo to Mega Evolve during battle.
+Micle Berry icon Micle Berry	Berries	Increases a move's accuracy when HP is low.
+Mighty Candy icon Mighty Candy	Medicine	Increases a Pokémon's Attack stat by 1.
+Mighty Candy L icon Mighty Candy L	Medicine	Increases a Pokémon's Attack stat.
+Mighty Candy XL icon Mighty Candy XL	Medicine	Increases a Pokémon's Attack stat.
+Mild Mint icon Mild Mint	Battle items	Changes the Pokémon's stats to match the Mild nature.
+Mimikium Z icon Mimikium Z	Hold items	Allows Mimikyu to upgrade Play Rough to a Z-Move, Let's Snuggle Forever.
+Mimikyu Scrap icon Mimikyu Scrap	General items	Material obtained after defeating/catching Mimikyu, used in TM crafting.
+Mind Plate icon Mind Plate	Hold items	Increases power of Psychic-type moves. Changes Arceus' type to Psychic.
+Mint Tablecloth icon Mint Tablecloth		A light mint-colored tablecloth. It’s smooth and pleasant to the touch, and dishes can be placed on it with hardly a sound.
+Miracle Seed icon Miracle Seed	Hold items	Increases the power of Grass-type moves.
+Miraidon's Poké Ball icon Miraidon's Poké Ball		A Poké Ball that can hold the mysterious Pokémon known as Miraidon. A boy named Arven gave it to you.
+Mirror Herb icon Mirror Herb	Hold items	Copies an opponent's stat increases when consumed.
+Misdreavus Tears icon Misdreavus Tears	General items	Material obtained after defeating/catching Misdreavus, used in TM crafting.
+Misty Seed icon Misty Seed	Hold items	An item to be held by a Pokémon. It boosts Sp. Def on Misty Terrain. It can only be used once.
+Mixed Mushrooms icon Mixed Mushrooms	General items	One of the many ingredients that can be used for cooking at your camp. The chewy texture of the mushrooms transforms any dish they’re added to.
+Modest Mint icon Modest Mint	Battle items	Changes the Pokémon's stats to match the Modest nature.
+Monstrous Tablecloth icon Monstrous Tablecloth		A tablecloth designed by the Pewter Museum of Science. The academic air of the pattern is a big hit with kids and adults alike.
+Moomoo Cheese icon Moomoo Cheese	General items	One of the many ingredients that can be used for cooking at your camp. Melted cheese can really give a curry some richness.
+Moomoo Milk icon Moomoo Milk	Medicine	Restores 100 HP.
+Moon Ball icon Moon Ball	Pokeballs	A Poké Ball for catching Pokémon that evolve using the Moon Stone.
+Moon Stone icon Moon Stone	General items	Evolves certain species of Pokémon.
+Mudbray Mud icon Mudbray Mud	General items	Material obtained after defeating/catching Mudbray, used in TM crafting.
+Murkrow Bauble icon Murkrow Bauble	General items	Material obtained after defeating/catching Murkrow, used in TM crafting.
+Muscle Band icon Muscle Band	Hold items	Increases the power of Physical-category moves.
+Muscle Feather icon Muscle Feather	Medicine	Increases Attack EVs by 1.
+Muscle Mochi icon Muscle Mochi	Medicine	Increases Attack EVs.
+Mushroom Cake icon Mushroom Cake	General items
+Mustard icon Mustard		A very spicy condiment that’s indispensable when bread is on the table. It pairs tremendously with ketchup.
+Mysterious Shard L icon Mysterious Shard L		A large shard that emanates an enigmatic power. Inside the shard, you can see a pattern that looks like Ramanas roses.
+Mysterious Shard S icon Mysterious Shard S		A small shard that emanates an enigmatic power. Inside the shard, you can see a pattern that looks like Ramanas roses.
+Mystic Water icon Mystic Water	Hold items	Increases the power of Water-type moves.
+Nacli Salt icon Nacli Salt	General items	Material obtained after defeating/catching Nacli, used in TM crafting.
+Naive Mint icon Naive Mint	Battle items	Changes the Pokémon's stats to match the Naive nature.
+Nanab Berry icon Nanab Berry	Berries	A Berry to be used in cooking. Calms a Pokémon in battle, in Let's Go Pikachu/Eevee.
+Naughty Mint icon Naughty Mint	Battle items	Changes the Pokémon's stats to match the Naughty nature.
+Nest Ball icon Nest Ball	Pokeballs	Catches lower level wild Pokémon with a higher rate (up to 4x for level 1).
+Net Ball icon Net Ball	Pokeballs	Catches Water- and Bug-type Pokémon with 3.5x the rate of a standard Poké Ball.
+Never-Melt Ice icon Never-Melt Ice	Hold items	Increases the power of Ice-type moves.
+Noibat Fur icon Noibat Fur	General items	Material obtained after defeating/catching Noibat, used in TM crafting.
+Nomel Berry icon Nomel Berry	Berries	A Berry which is very rare in the Unova region. A maniac will buy it for a high price.
+Noodles icon Noodles		A nice salty ingredient. It’s unclear how well these boiled noodles will serve as a sandwich filling.
+Normal Gem icon Normal Gem	Hold items	Increases the power of a Normal-type move only once.
+Normal Tera Shard icon Normal Tera Shard		Changes a Pokémon's Tera Type to Normal.
+Normalium Z icon Normalium Z	Hold items	Allows the use of Breakneck Blitz, the Normal type Z-Move.
+Nugget icon Nugget	General items	A nugget of pure gold that gives off a lustrous gleam. It can be sold at a high price to shops.
+Numel Lava icon Numel Lava	General items	Material obtained after defeating/catching Numel, used in TM crafting.
+Nymble Claw icon Nymble Claw	General items	Material obtained after defeating/catching Nymble, used in TM crafting.
+Occa Berry icon Occa Berry	Berries	Weakens a supereffective Fire-type attack against the holding Pokémon.
+Oceanic Slate icon Oceanic Slate		A slate overflowing with enigmatic energy. You can feel a strong connection between it and the Oceanic Room at Ramanas Park.
+Odd Incense icon Odd Incense	Hold items	Increases the power of Psychic-type moves. Breeding Mr. Mime produces Mime Jr. when held.
+Odd Keystone icon Odd Keystone	General items	A vital item that is needed to keep a stone tower from collapsing. Voices can be heard from it occasionally.
+Old Amber icon Old Amber	General items	A piece of amber that contains the genetic material of an ancient Pokémon. It is clear with a reddish tint.
+Old Gateau icon Old Gateau	Medicine	Heals all major status conditions.
+Olive Oil icon Olive Oil		A condiment offering faint notes of sour and bitter flavors. The most prized varieties are the ones Smoliv love the smell of—such oils’ quality is assured.
+Onion icon Onion		This spicy veggie is indispensable to many sandwiches. It goes well with rich ingredients.
+Oran Berry icon Oran Berry	Berries	If held by a Pokémon, it heals the user by just 10 HP.
+Orange Dish icon Orange Dish		A dish for picnics. Comes in plenty of colors to choose from based on the food or the mood. The orange variety is the most popular of all.
+Oranguru Fur icon Oranguru Fur	General items	Material obtained after defeating/catching Oranguru, used in TM crafting.
+Oricorio Feather icon Oricorio Feather	General items	Material obtained after defeating/catching Oricorio, used in TM crafting.
+Origin Ball icon Origin Ball	Pokeballs
+Origin Ore icon Origin Ore	General items
+Orthworm Tarnish icon Orthworm Tarnish	General items	Material obtained after defeating/catching Orthworm, used in TM crafting.
+Oval Charm icon Oval Charm	General items	An oval charm said to increase the chance of Pokémon Eggs being found at the Day Care.
+Oval Stone icon Oval Stone	General items	Evolves Happiny when held.
+Pachirisu Fur icon Pachirisu Fur	General items	Material obtained after defeating/catching Pachirisu, used in TM crafting.
+Pack of Potatoes icon Pack of Potatoes	General items	One of the many ingredients that can be used for cooking at your camp. Potatoes help mellow out a spicy taste, to make a dish more mild.
+Packaged Curry icon Packaged Curry	General items	One of the many ingredients that can be used for cooking at your camp. Using packaged curry helps make sure there are no slipups when cooking.
+Pamtre Berry icon Pamtre Berry	Berries	A Berry which is very rare in the Unova region. A maniac will buy it for a high price.
+Paralyze Heal icon Paralyze Heal	Medicine	Cures a Pokémon of paralysis.
+Parasol Pick icon Parasol Pick		Some complain that the parasol part of this pick is hard to hold on to, so your fingers get messy. Still, it’s fun to twirl this all around after you’ve eaten.
+Park Ball icon Park Ball	Pokeballs	A special Poké Ball for the Pal Park.
+Party Sparkler Pick icon Party Sparkler Pick		This pick features a small sparkler that goes off automatically. It’s used at parties or for guests of honor. It leaves an oddly appealing aroma once it’s burned out.
+Pass Orb icon Pass Orb	Hold items	A mysterious orb containing the power of the Unova region, to be used when generating Pass Power.
+Passho Berry icon Passho Berry	Berries	Weakens a supereffective Water-type attack against the holding Pokémon.
+Passimian Fur icon Passimian Fur	General items	Material obtained after defeating/catching Passimian, used in TM crafting.
+Pasta icon Pasta	General items	One of the many ingredients that can be used for cooking at your camp. These flour noodles make for a surprisingly good match with curry.
+Pawmi Fur icon Pawmi Fur	General items	Material obtained after defeating/catching Pawmi, used in TM crafting.
+Pawniard Blade icon Pawniard Blade	General items	Material obtained after defeating/catching Pawniard, used in TM crafting.
+Payapa Berry icon Payapa Berry	Berries	Weakens a supereffective Psychic-type attack against the holding Pokémon.
+Peach Tablecloth icon Peach Tablecloth		A light peach-colored tablecloth. It’s smooth and pleasant to the touch, and dishes can be placed on it with hardly a sound.
+Peanut Butter icon Peanut Butter		A very sweet condiment. People in Paldea seem to favor the sweet varieties over the unsweetened.
+Pearl icon Pearl	General items	A somewhat-small pearl that sparkles in a pretty silver color. It can be sold cheaply to shops.
+Pearl String icon Pearl String	General items	Very large pearls that sparkle in a pretty silver color. A maniac will buy them for a high price.
+Peat Block icon Peat Block	General items	A block of muddy material that can be used as fuel for burning when it is dried. It’s loved by a certain Pokémon.
+Pecha Berry icon Pecha Berry	Berries	If held by a Pokémon, it recovers from poison.
+Pep-Up Plant icon Pep-Up Plant	General items
+Pepper icon Pepper		A seasoning packing very spicy flavor. It goes nicely with oilier foods and works especially well when you add just a pinch for a hint of flavor.
+Permit icon Permit	General items	A permit that is needed to enter the Nature Preserve. Not many know about it.
+Persim Berry icon Persim Berry	Berries	If held by a Pokémon, it recovers from confusion.
+Petaya Berry icon Petaya Berry	Berries	Raises Special Attack when HP is low.
+Petilil Leaf icon Petilil Leaf	General items	Material obtained after defeating/catching Petilil, used in TM crafting.
+Pewter Crunchies icon Pewter Crunchies	Medicine	Heals all major status conditions.
+Phanpy Nail icon Phanpy Nail	General items	Material obtained after defeating/catching Phanpy, used in TM crafting.
+Pichu Fur icon Pichu Fur	General items	Material obtained after defeating/catching Pichu, used in TM crafting.
+Pickle icon Pickle		This very sour ingredient is made by pickling veggies in a flavorful brine made from spices and vinegar.
+Picnic Set icon Picnic Set		A roomy basket packed with all sorts of things for use when enjoying picnicking with your Pokémon.
+Pidgeotite icon Pidgeotite	Hold items	Enables Pidgeot to Mega Evolve during battle.
+Pika-Pika Pick icon Pika-Pika Pick		A Pick-achu, as it were, sporting Pikachu’s usual expression. It’s easy to grab by the ears, which is part of why it’s so popular.
+Pikachu Cup icon Pikachu Cup		A cup for big-time Pokémon fans. Kids will happily drink out of it, making it a boon to parents.
+Pikanium Z icon Pikanium Z	Hold items	Allows Pikachu to upgrade Volt Tackle to a Z-Move, Catastropika.
+Pikashunium Z icon Pikashunium Z	Hold items	Allows Pikachu in a cap to upgrade Thunderbolt to a Z-Move, 10,000,000 Volt Thunderbolt.
+Pinap Berry icon Pinap Berry	Berries	A Berry to be used in cooking. Increases chances of getting items when a Pokémon is caught, in Pokémon Let's Go.
+Pincurchin Spines icon Pincurchin Spines	General items	Material obtained after defeating/catching Pincurchin, used in TM crafting.
+Pineapple icon Pineapple		This very tart ingredient is a fruit of southern lands, and its color and texture are a thrill. It’s been cut into chunks to be easily manageable.
+Pineco Husk icon Pineco Husk	General items	Material obtained after defeating/catching Pineco, used in TM crafting.
+Pink Apricorn icon Pink Apricorn	General items	A pink Apricorn. It has a nice, sweet scent.
+Pink Bottle icon Pink Bottle		A go-to bottle widely used for drinks at picnics. Its simple design and portability make it popular among all sorts of people.
+Pink Cup icon Pink Cup		A cup sold with the Pink Bottle. The two don’t stack, so they’re tough to pack—but they look good, so they’re popular with those who like to post picnic photos.
+Pink Nectar icon Pink Nectar	Hold items	The flower nectar obtained at the flowering shrubs on Royal Avenue. It changes the form of certain species of Pokémon.
+Pink Scarf icon Pink Scarf	General items	Raises holder's Cute aspect in a Contest.
+Pink Tablecloth icon Pink Tablecloth		A simple pink tablecloth. It’s smooth and pleasant to the touch, and dishes can be placed on it with hardly a sound.
+Pinsirite icon Pinsirite	Hold items	Enables Pinsir to Mega Evolve during battle.
+Pixie Plate icon Pixie Plate	Hold items	Increases power of Fairy-type moves. Changes Arceus' type to Fairy.
+Plaid Tablecloth (B) icon Plaid Tablecloth (B)		A sturdy tablecloth made of thick fabric. The gentle blue plaid gives a table a crisp look.
+Plaid Tablecloth (R) icon Plaid Tablecloth (R)		A sturdy tablecloth made of thick fabric. The quietly composed red plaid gives the table some flair.
+Plaid Tablecloth (Y) icon Plaid Tablecloth (Y)		A sturdy tablecloth made of thick fabric. The cheery yellow plaid brightens up a table.
+Plasma Card icon Plasma Card	Hold items	A card key needed to enter the password inside the Plasma Frigate.
+Plume Fossil icon Plume Fossil	General items	A fossil of an ancient Pokémon that flew in the sky in ancient times. It appears to be part of its wing.
+Plump Beans icon Plump Beans	General items
+Poison Barb icon Poison Barb	Hold items	Increases the power of Poison-type moves.
+Poison Gem icon Poison Gem	Hold items	Increases the power of a Poison-type move only once.
+Poison Memory icon Poison Memory	Hold items	Changes Silvally and its move Multi-Attack to Poison type.
+Poison Tera Shard icon Poison Tera Shard		Changes a Pokémon's Tera Type to Poison.
+Poisonium Z icon Poisonium Z	Hold items	Allows the use of Acid Downpour, the Poison type Z-Move.
+Poké Ball icon Poké Ball	Pokeballs	Catches wild Pokémon.
+Poké Doll icon Poké Doll	General items	A doll that attracts Pokémon. Use it to flee from any battle with a wild Pokémon.
+Poké Toy icon Poké Toy	General items	An item that attracts Pokémon. Use it to flee from any battle with a wild Pokémon.
+Polished Mud Ball icon Polished Mud Ball	General items
+Polka-Dot Bottle icon Polka-Dot Bottle		A polka-dot-patterned bottle that’s small, light, and even comes with a cup. The detachable strap makes it handy for walking around with.
+Polka-Dot Cup icon Polka-Dot Cup		A cup for kids to use at picnics. It’s made of light but strong material. It’s stackable, which makes it handy for carrying around.
+Polka-Dot Tablecloth icon Polka-Dot Tablecloth		A tablecloth with a fashionable polka-dot pattern. It’s great at repelling water and mold, and stains and smudges wipe right off.
+Pomeg Berry icon Pomeg Berry	Berries	Increases Friendship but lowers HP EVs.
+Pop Pod icon Pop Pod	General items
+Potato Salad icon Potato Salad		This very tart ingredient—a soft salad that’s all about potatoes—pairs tremendously well with bread.
+Potato Tortilla icon Potato Tortilla		A very salty ingredient and a popular dish in Paldea. It’s undeniably filling.
+Potion icon Potion	Medicine	Restores 20 HP.
+Power Anklet icon Power Anklet	Hold items	A Pokémon held item that promotes Speed gain on leveling, but reduces the Speed stat.
+Power Band icon Power Band	Hold items	A Pokémon held item that promotes Sp. Def gain on leveling, but reduces the Speed stat.
+Power Belt icon Power Belt	Hold items	A Pokémon held item that promotes Defense gain on leveling, but reduces the Speed stat.
+Power Bracer icon Power Bracer	Hold items	A Pokémon held item that promotes Attack gain on leveling, but reduces the Speed stat.
+Power Herb icon Power Herb	Hold items	A single-use item to be held by a Pokémon. It allows the immediate use of a move that charges on the first turn.
+Power Lens icon Power Lens	Hold items	A Pokémon held item that promotes Sp. Atk gain on leveling, but reduces the Speed stat.
+Power Plant Pass icon Power Plant Pass	Hold items	This pass serves as an ID card for gaining access to the power plant that lies along Route 13.
+Power Weight icon Power Weight	Hold items	A Pokémon held item that promotes HP gain on leveling, but reduces the Speed stat.
+PP Max icon PP Max	Medicine	Raises the maximum PP of a move to its maximum.
+PP Up icon PP Up	Medicine	Raises the maximum PP of a move.
+Precooked Burger icon Precooked Burger	General items	One of the many ingredients that can be used for cooking at your camp. If you’re unsure about what to cook, you can’t go wrong with some burger.
+Premier Ball icon Premier Ball	Pokeballs	Catches wild Pokémon; received after buying 10 Poké Balls.
+Pretty Feather icon Pretty Feather	General items	Can be sold for a high price.
+Primarium Z icon Primarium Z	Hold items	Allows Primarina to upgrade Sparkling Aria to a Z-Move, Oceanic Operetta.
+Prism Scale icon Prism Scale	General items	Evolves Feebas when traded holding the item.
+Prison Bottle icon Prison Bottle	Hold items	Transforms Hoopa Confined to Hoopa Unbound.
+Prof's Letter icon Prof's Letter	Hold items	A letter that Professor Sycamore wrote to your mother. A faint but pleasant perfume seems to cling to the paper.
+Prosciutto icon Prosciutto		This ingredient is very salty like regular ham, but the difference is prosciutto is not cooked after it is cured, giving it a fun freshness.
+Protective Pads icon Protective Pads	Hold items	An item to be held by a Pokémon. These pads protect the holder from effects caused by making direct contact with the target.
+Protector icon Protector	General items	Evolves Rhydon when traded holding the item.
+Protein icon Protein	Medicine	Increases Attack EVs by 10.
+Psychic Gem icon Psychic Gem	Hold items	Increases the power of a Psychic-type move only once.
+Psychic Memory icon Psychic Memory	Hold items	Changes Silvally and its move Multi-Attack to Psychic type.
+Psychic Seed icon Psychic Seed	Hold items	An item to be held by a Pokémon. It boosts Sp. Def on Psychic Terrain. It can only be used once.
+Psychic Tera Shard icon Psychic Tera Shard		Changes a Pokémon's Tera Type to Psychic.
+Psychium Z icon Psychium Z	Hold items	Allows the use of Shattered Psyche, the Psychic type Z-Move.
+Psyduck Down icon Psyduck Down	General items	Material obtained after defeating/catching Psyduck, used in TM crafting.
+Punching Glove icon Punching Glove		An item to be held by a Pokémon. This protective glove boosts the power of the holder’s punching moves and prevents direct contact with targets.
+Pungent Root icon Pungent Root	General items	One of the many ingredients that can be used for cooking at your camp. Though carelessly picked, these herbs can add a fragrant accent to a dish.
+Pure Incense icon Pure Incense	Hold items	Descreases the likelihood of meeting wild Pokémon. Breeding Chimecho produces Chingling when held.
+Purple Nectar icon Purple Nectar	Hold items	A flower nectar obtained at Poni Meadow. It changes the form of certain species of Pokémon.
+Qualot Berry icon Qualot Berry	Berries	Increases Friendship but lowers Defense EVs.
+Quick Ball icon Quick Ball	Pokeballs	Catches wild Pokémon with a higher rate (5x) on the first turn of a battle.
+Quick Candy icon Quick Candy	Medicine	Increases a Pokémon's Speed stat by 1.
+Quick Candy L icon Quick Candy L	Medicine	Increases a Pokémon's Speed stat.
+Quick Candy XL icon Quick Candy XL	Medicine	Increases a Pokémon's Speed stat.
+Quick Claw icon Quick Claw	Hold items	An item to be held by a Pokémon. A light, sharp claw that lets the bearer move first occasionally.
+Quick Powder icon Quick Powder	Hold items	Increases Speed when held by Ditto.
+Quiet Mint icon Quiet Mint	Battle items	Changes the Pokémon's stats to match the Quiet nature.
+Qwilfish Spines icon Qwilfish Spines	General items	Material obtained after defeating/catching Qwilfish, used in TM crafting.
+Rabuta Berry icon Rabuta Berry	Berries	A Berry which is very rare in the Unova region. A maniac will buy it for a high price.
+Rage Candy Bar icon Rage Candy Bar	Medicine	Heals all major status conditions.
+Rainbow Slate icon Rainbow Slate		A slate overflowing with enigmatic energy. You can feel a strong connection between it and the Rainbow Room at Ramanas Park.
+Ralts Dust icon Ralts Dust	General items	Material obtained after defeating/catching Ralts, used in TM crafting.
+Rare Bone icon Rare Bone	General items	A bone that is extremely valuable for Pokémon archeology. It can be sold for a high price to shops.
+Rare Candy icon Rare Candy	Medicine	Raises a Pokémon's level by 1.
+Rash Mint icon Rash Mint	Battle items	Changes the Pokémon's stats to match the Rash nature.
+Rawst Berry icon Rawst Berry	Berries	If held by a Pokémon, it recovers from a burn.
+Razor Claw icon Razor Claw	Hold items	Increases critical-hit ratio. Evolves Sneasel when held at night.
+Razor Fang icon Razor Fang	Hold items	May cause opponent to flinch. Evolves Gligar when held at night.
+Razz Berry icon Razz Berry	Berries	A Berry which is very rare in the Unova region. A maniac will buy it for a high price.
+Reaper Cloth icon Reaper Cloth	General items	Evolves Dusclops when traded holding the item.
+Red Apricorn icon Red Apricorn	General items	A red Apricorn. It assails your nostrils.
+Red Bell Pepper icon Red Bell Pepper		An ingredient with some bitterness—but its bitter notes and overall flavor are pleasantly mild compared to its green cousin.
+Red Card icon Red Card	Hold items	A card with a mysterious power. When the holder is struck by a foe, the attacker is removed from battle.
+Red Dish icon Red Dish		A dish for picnics. Comes in plenty of colors to choose from based on the food or the mood. The red variety never fails to sell well.
+Red Flute icon Red Flute	General items	A toy flute made from red glass. A maniac will buy it for a high price.
+Red Nectar icon Red Nectar	Hold items	A flower nectar obtained at Ula'ula Meadow. It changes the form of certain species of Pokémon.
+Red Onion icon Red Onion		An ingredient with some sweetness to it. Its spiciness and fragrance are milder than those of other onions, making it a pleasant bite.
+Red Poké Ball Pick icon Red Poké Ball Pick		A sandwich pick with a simple red Poké Ball design. Often used by Trainers who picked a Fire-type Pokémon for their first partner.
+Red Scarf icon Red Scarf	General items	Raises holder's Cool aspect in a Contest.
+Red Shard icon Red Shard	General items	A small red shard. It appears to be from some sort of implement made long ago.
+Red-Flag Pick icon Red-Flag Pick		This pick flies a red flag that lends an air of adventure. The flag itself is made of card stock, so it’ll fly proudly even with no wind.
+Relaxed Mint icon Relaxed Mint	Battle items	Changes the Pokémon's stats to match the Relaxed nature.
+Relic Band icon Relic Band	General items	A bracelet made in a civilization about 3,000 years ago. A maniac will buy it for a high price.
+Relic Copper icon Relic Copper	General items	A copper coin used in a civilization about 3,000 years ago. A maniac will buy it for a high price.
+Relic Crown icon Relic Crown	General items	A crown made in a civilization about 3,000 years ago. A maniac will buy it for a high price.
+Relic Gold icon Relic Gold	General items	A gold coin used in a civilization about 3,000 years ago. A maniac will buy it for a high price.
+Relic Silver icon Relic Silver	General items	A silver coin used in a civilization about 3,000 years ago. A maniac will buy it for a high price.
+Relic Statue icon Relic Statue	General items	A stone figure made in a civilization about 3,000 years ago. A maniac will buy it for a high price.
+Relic Vase icon Relic Vase	General items	A vase made in a civilization about 3,000 years ago. A maniac will buy it for a high price.
+Rellor Mud icon Rellor Mud	General items	Material obtained after defeating/catching Rellor, used in TM crafting.
+Remedy icon Remedy	Medicine
+Repeat Ball icon Repeat Ball	Pokeballs	Catches Pokémon already registered in the Pokédex with 3.5x the rate of a standard Poké Ball.
+Repel icon Repel	General items	An item that prevents weak wild Pokémon from appearing for 100 steps after its use.
+Reset Urge icon Reset Urge	Battle items	When used, it restores any stat changes of an ally Pokémon.
+Resist Feather icon Resist Feather	Medicine	Increases Defense EVs by 1.
+Resist Mochi icon Resist Mochi	Medicine	Increases Defense EVs.
+Reveal Glass icon Reveal Glass	General items	A looking glass that reveals the truth. It's a mysterious glass that returns a Pokémon to its original shape.
+Revival Herb icon Revival Herb	Medicine	Revives a Pokémon to max HP, but lowers Friendship.
+Revive icon Revive	Medicine	Revives a fainted Pokémon, restoring half its HP.
+Ribbon Sweet icon Ribbon Sweet	Hold items	Evolves Milcery into Ribbon Flavor Alcremie.
+Rice icon Rice		An ingredient with a touch of sweetness. It’s unclear how well this cooked rice will serve as a sandwich filling.
+Rindo Berry icon Rindo Berry	Berries	Weakens a supereffective Grass-type attack against the holding Pokémon.
+Ring Target icon Ring Target	Hold items	Moves that would otherwise have no effect will land on the Pokémon that holds it.
+Riolu Fur icon Riolu Fur	General items	Material obtained after defeating/catching Riolu, used in TM crafting.
+Rock Gem icon Rock Gem	Hold items	Increases the power of a Rock-type move only once.
+Rock Incense icon Rock Incense	Hold items	Increases the power of Rock-type moves. Breeding Sudowoodo produces Bonsly when held.
+Rock Memory icon Rock Memory	Hold items	Changes Silvally and its move Multi-Attack to Rock type.
+Rock Tera Shard icon Rock Tera Shard		Changes a Pokémon's Tera Type to Rock.
+Rockium Z icon Rockium Z	Hold items	Allows the use of Continental Crush, the Rock type Z-Move.
+Rockruff Rock icon Rockruff Rock	General items	Material obtained after defeating/catching Rockruff, used in TM crafting.
+Rocky Helmet icon Rocky Helmet	Hold items	If the holder of this item takes damage, the attacker will also be damaged upon contact.
+Roller Skates icon Roller Skates	General items	Attaches roller skates to the bottom of your shoes, allowing you to glide quickly around and perform tricks.
+Rolycoly Coal icon Rolycoly Coal	General items	Material obtained after defeating/catching Rolycoly, used in TM crafting.
+Rookidee Feather icon Rookidee Feather	General items	Material obtained after defeating/catching Rookidee, used in TM crafting.
+Room Service icon Room Service	Hold items	Lowers the Pokémon's speed during Trick Room.
+Root Fossil icon Root Fossil	General items	A fossil of an ancient Pokémon that lived in the sea. It appears to be part of a plant root.
+Rose Incense icon Rose Incense	Hold items	Increases the power of Grass-type moves. Breeding Roselia or Roserade produces Budew when held.
+Roseli Berry icon Roseli Berry	Berries	If held by a Pokémon, this Berry will lessen the damage taken from one supereffective Fairy-type attack.
+Roto Bargain icon Roto Bargain	Battle items	Reduces the prices of products at Poké Marts by half.
+Roto Boost icon Roto Boost	Battle items	Raises all stats of your battling Pokémon.
+Roto Catch icon Roto Catch	Battle items	Increases the chance to catch Pokémon a lot.
+Roto Encounter icon Roto Encounter	Battle items	Increases the chance of encountering high-level wild Pokémon a lot for a certain period of time.
+Roto Exp. Points icon Roto Exp. Points	Battle items	Increases the Exp. Points your Pokémon receive after battle a little.
+Roto Friendship icon Roto Friendship	Battle items	Helps Pokémon in your party grow friendly faster.
+Roto Hatch icon Roto Hatch	Battle items	Helps Eggs hatch faster.
+Roto HP Restore icon Roto HP Restore	Battle items	Fully restores the HP of your battling Pokémon.
+Roto PP Restore icon Roto PP Restore	Battle items	Fully restores the PP of your battling Pokémon.
+Roto Prize Money icon Roto Prize Money	Battle items	Triples the prize money you receive after battle.
+Roto Stealth icon Roto Stealth	Battle items	Prevents you from encountering wild Pokémon for a certain period of time.
+Rotom Phone icon Rotom Phone		The latest model of smartphone. A Pokémon called Rotom lives within it, and it can be used to run all sorts of handy apps.
+Rotom Sparks icon Rotom Sparks	General items	Material obtained after defeating/catching Rotom, used in TM crafting.
+Rowap Berry icon Rowap Berry	Berries	If held by a Pokémon and a special attack lands, the attacker also takes damage.
+Rufflet Feather icon Rufflet Feather	General items	Material obtained after defeating/catching Rufflet, used in TM crafting.
+Sablenite icon Sablenite	Hold items	Enables Sableye to Mega Evolve during battle.
+Sableye Gem icon Sableye Gem	General items	Material obtained after defeating/catching Sableye, used in TM crafting.
+Sachet icon Sachet	General items	Evolves Spritzee when traded holding the item.
+Sacred Ash icon Sacred Ash	Medicine	Revives all fainted Pokémon and fully restores their HP.
+Safari Ball icon Safari Ball	Pokeballs	Catches Pokémon in the Safari Zone or Great Marsh.
+Safety Goggles icon Safety Goggles	Hold items	Prevents damage from weather and powder.
+Salac Berry icon Salac Berry	Berries	Raises Speed when HP is low.
+Salad Mix icon Salad Mix	General items	One of the many ingredients that can be used for cooking at your camp. The assortment of vegetables looks quite appealing and healthy.
+Salamencite icon Salamencite	Hold items	Enables Salamence to Mega Evolve during battle.
+Salandit Gas icon Salandit Gas	General items	Material obtained after defeating/catching Salandit, used in TM crafting.
+Salt icon Salt		A very salty seasoning, unsurprisingly. People quite like the grains of salt that can be gathered from the footprints of particularly jagged Naclstack.
+Salt Cake icon Salt Cake	General items
+Salty Herba Mystica icon Salty Herba Mystica		One of the condiments spoken of as legends. Its mellow saltiness is said to be tremendously effective when it comes to promoting health.
+Sand Radish icon Sand Radish	General items
+Sandile Claw icon Sandile Claw	General items	Material obtained after defeating/catching Sandile, used in TM crafting.
+Sandwich icon Sandwich		A dish made by sandwiching vegetables, meat, or other ingredients between two pieces of bread. It makes a fantastic meal when out on a picnic.
+Sandygast Sand icon Sandygast Sand	General items	Material obtained after defeating/catching Sandygast, used in TM crafting.
+Sassy Mint icon Sassy Mint	Battle items	Changes the Pokémon's stats to match the Sassy nature.
+Sausages icon Sausages	General items	One of the many ingredients that can be used for cooking at your camp. These sausages should be boiled before eating.
+Scarlet Book icon Scarlet Book		A record of the expedition that the author, Heath, went on within the Great Crater of Paldea. The book has the name “Sada” written on it in clumsy handwriting.
+Scatter Bang icon Scatter Bang	General items
+Scatterbug Powder icon Scatterbug Powder	General items	Material obtained after defeating/catching Scatterbug, used in TM crafting.
+Sceptilite icon Sceptilite	Hold items	Enables Sceptile to Mega Evolve during battle.
+Scizorite icon Scizorite	Hold items	Enables Scizor to Mega Evolve during battle.
+Scope Lens icon Scope Lens	Hold items	Increases critical-hit ratio.
+Scroll of Darkness icon Scroll of Darkness		A peculiar scroll that can make a certain species of Pokémon evolve. Written upon it are the true secrets of the path of darkness.
+Scroll of Waters icon Scroll of Waters		A peculiar scroll that can make a certain species of Pokémon evolve. Written upon it are the true secrets of the path of water.
+Scyther Claw icon Scyther Claw	General items	Material obtained after defeating/catching Scyther, used in TM crafting.
+Sea Incense icon Sea Incense	Hold items	Increases the power of Water-type moves. Breeding Marill or Azumarill produces Azurill when held.
+Seed of Mastery icon Seed of Mastery	General items
+Serious Mint icon Serious Mint	Battle items	Changes the Pokémon's stats to match a neutral nature.
+Seviper Fang icon Seviper Fang	General items	Material obtained after defeating/catching Seviper, used in TM crafting.
+Shaderoot Carrot icon Shaderoot Carrot	General items	Produce that the King of Bountiful Harvests’ beloved steed likes to eat. It grew in a gloomy field.
+Shalour Sable icon Shalour Sable	Medicine	Heals all major status conditions.
+Sharp Beak icon Sharp Beak	Hold items	Increases the power of Flying-type moves.
+Sharpedonite icon Sharpedonite	Hold items	Enables Sharpedo to Mega Evolve during battle.
+Shed Shell icon Shed Shell	Hold items	A tough, discarded carapace to be held by a Pokémon. It enables the holder to switch with a waiting Pokémon in battle.
+Shell Bell icon Shell Bell	Hold items	An item to be held by a Pokémon. The holder's HP is restored a little every time it inflicts damage.
+Shellder Pearl icon Shellder Pearl	General items	Material obtained after defeating/catching Shellder, used in TM crafting.
+Shellos Mucus icon Shellos Mucus	General items	Material obtained after defeating/catching Shellos, used in TM crafting.
+Shinx Fang icon Shinx Fang	General items	Material obtained after defeating/catching Shinx, used in TM crafting.
+Shiny Charm icon Shiny Charm	General items	A shiny charm said to increase the chance of finding a Shiny Pokémon in the wild.
+Shiny Stone icon Shiny Stone	General items	Evolves certain species of Pokémon.
+Shoal Salt icon Shoal Salt	General items	Pure salt that can be discovered deep inside the Shoal Cave. A maniac will buy it for a high price.
+Shoal Shell icon Shoal Shell	General items	A pretty seashell that can be found deep inside the Shoal Cave. A maniac will buy it for a high price.
+Shock Drive icon Shock Drive	Hold items	Changes Techno Blast to an Electric-type move when held by Genesect.
+Shroodle Ink icon Shroodle Ink	General items	Material obtained after defeating/catching Shroodle, used in TM crafting.
+Shroomish Spores icon Shroomish Spores	General items	Material obtained after defeating/catching Shroomish, used in TM crafting.
+Shuca Berry icon Shuca Berry	Berries	Weakens a supereffective Ground-type attack against the holding Pokémon.
+Shuppet Scrap icon Shuppet Scrap	General items	Material obtained after defeating/catching Shuppet, used in TM crafting.
+Silicobra Sand icon Silicobra Sand	General items	Material obtained after defeating/catching Silicobra, used in TM crafting.
+Silk Scarf icon Silk Scarf	Hold items	Increases the power of Normal-type moves.
+Silver Bottle icon Silver Bottle		A popular option among hikers. It’s made with titanium, so it doesn’t rust even if it’s used to hold drinks with high sodium content.
+Silver Cup icon Silver Cup		A popular option among hikers. It’s made with titanium, so it doesn’t rust even if it’s used to hold drinks with high sodium content.
+Silver Leaf icon Silver Leaf	General items
+Silver Nanab Berry icon Silver Nanab Berry	Berries	Greatly calms a Pokémon in battle, in Let's Go Pikachu/Eevee.
+Silver Pick icon Silver Pick		A silver pick that oozes class. Using it on a sandwich lends an extravagant air that’ll make you want to eat up, even if you don’t love the fillings.
+Silver Pinap Berry icon Silver Pinap Berry	Berries	Greatly increases chance of getting items when a Pokémon is caught, in Pokémon Let's Go.
+Silver Powder icon Silver Powder	Hold items	Increases the power of Bug-type moves.
+Silver Razz Berry icon Silver Razz Berry	Berries	Makes a Pokémon easier to catch in Pokémon Let's Go.
+Sinistea Chip icon Sinistea Chip	General items	Material obtained after defeating/catching Sinistea, used in TM crafting.
+Sitrus Berry icon Sitrus Berry	Berries	If held by a Pokémon, it heals the user's HP a little.
+Skiddo Leaf icon Skiddo Leaf	General items	Material obtained after defeating/catching Skiddo, used in TM crafting.
+Skrelp Kelp icon Skrelp Kelp	General items	Material obtained after defeating/catching Skrelp, used in TM crafting.
+Skull Fossil icon Skull Fossil	General items	A fossil from a prehistoric Pokémon that lived on the land. It appears to be part of a head.
+Skwovet Fur icon Skwovet Fur	General items	Material obtained after defeating/catching Skwovet, used in TM crafting.
+Sky Plate icon Sky Plate	Hold items	Increases power of Flying-type moves. Changes Arceus' type to Flying.
+Sky Tumblestone icon Sky Tumblestone	General items
+Slakoth Fur icon Slakoth Fur	General items	Material obtained after defeating/catching Slakoth, used in TM crafting.
+Slowbronite icon Slowbronite	Hold items	Enables Slowbro to Mega Evolve during battle.
+Slowpoke Claw icon Slowpoke Claw	General items	Material obtained after defeating/catching Slowpoke, used in TM crafting.
+Slowpoke Cup icon Slowpoke Cup		A cup for big-time Pokémon fans. Kids will happily drink out of it, making it a boon to parents.
+Small Bouquet icon Small Bouquet	General items
+Smart Candy icon Smart Candy	Medicine	Increases a Pokémon's Special Attack stat by 1.
+Smart Candy L icon Smart Candy L	Medicine	Increases a Pokémon's Special Attack stat.
+Smart Candy XL icon Smart Candy XL	Medicine	Increases a Pokémon's Special Attack stat.
+Smiling Vee Pick icon Smiling Vee Pick		A pick designed after Eevee, sporting the Pokémon’s smiling face. It’s easy to grab by the ears, which is part of why it’s so popular.
+Smoke Ball icon Smoke Ball	Hold items	An item to be held by a Pokémon. It enables the holder to flee from any wild Pokémon without fail.
+Smoke Bomb icon Smoke Bomb	General items
+Smoke-Poke Tail icon Smoke-Poke Tail	General items	One of the many ingredients that can be used for cooking at your camp. When a Slowpoke’s tail falls off, it grows back quickly.
+Smoked Fillet icon Smoked Fillet		A very salty and bitter ingredient with that unmistakable smoky flavor. It pairs exceptionally well with veggies.
+Smoliv Oil icon Smoliv Oil	General items	Material obtained after defeating/catching Smoliv, used in TM crafting.
+Smooth Rock icon Smooth Rock	Hold items	A Pokémon held item that extends the duration of the move Sandstorm used by the holder.
+Sneasel Claw icon Sneasel Claw	General items	Material obtained after defeating/catching Sneasel, used in TM crafting.
+Snom Thread icon Snom Thread	General items	Material obtained after defeating/catching Snom, used in TM crafting.
+Snorlium Z icon Snorlium Z	Hold items	Allows Snorlax to upgrade Giga Impact to a Z-Move, Pulverizing Pancake.
+Snorunt Fur icon Snorunt Fur	General items	Material obtained after defeating/catching Snorunt, used in TM crafting.
+Snover Berries icon Snover Berries	General items	Material obtained after defeating/catching Snover, used in TM crafting.
+Snowball icon Snowball	Hold items	Raises Attack if hit by an Ice-type move.
+Soda Pop icon Soda Pop	Medicine	Restores 50 HP.
+Soft Sand icon Soft Sand	Hold items	Increases the power of Ground-type moves.
+Solganium Z icon Solganium Z	Hold items	Allows Solgaleo to upgrade Sunsteel Strike to a Z-Move, Searing Sunraze Smash.
+Sootfoot Root icon Sootfoot Root	General items
+Soothe Bell icon Soothe Bell	Hold items	An item to be held by a Pokémon. It is a bell with a comforting chime that calms the holder and makes it friendly.
+Soul Dew icon Soul Dew	Hold items	Increases the power of Psychic- and Dragon-type moves when held by Latios or Latias. Increases Sp.Atk/Sp.Def prior to Gen 7.
+Soul Slate icon Soul Slate		A slate overflowing with enigmatic energy. You can feel a strong connection between it and the Soul Room at Ramanas Park.
+Sour Herba Mystica icon Sour Herba Mystica		This surpassingly sour condiment is said to be super effective in helping the eater recover from exhaustion. Only a scant few people know it exists.
+Spell Tag icon Spell Tag	Hold items	Increases the power of Ghost-type moves.
+Spelon Berry icon Spelon Berry	Berries	A Berry which is very rare in the Unova region. A maniac will buy it for a high price.
+Spice Mix icon Spice Mix	General items	One of the many ingredients that can be used for cooking at your camp. There are over fifty spices contained within this ingredient’s hot flavor.
+Spicy Herba Mystica icon Spicy Herba Mystica		The legendary condiment said to have the mightiest of all spicy flavors. It’s said that a single bite will kick the metabolism into high gear immediately.
+Spiritomb Fragment icon Spiritomb Fragment	General items	Material obtained after defeating/catching Spiritomb, used in TM crafting.
+Splash Plate icon Splash Plate	Hold items	Increases power of Water-type moves. Changes Arceus' type to Water.
+Spoiled Apricorn icon Spoiled Apricorn	General items
+Spoink Pearl icon Spoink Pearl	General items	Material obtained after defeating/catching Spoink, used in TM crafting.
+Spooky Plate icon Spooky Plate	Hold items	Increases power of Ghost-type moves. Changes Arceus' type to Ghost.
+Spooky Tablecloth icon Spooky Tablecloth		A pop-art-style tablecloth with Pokémon faces floating up from the deep nighttime blue. This is a must-have for fans of Ghost types.
+Sport Ball icon Sport Ball	Pokeballs	A special Poké Ball for the Bug-Catching Contest.
+Springy Mushroom icon Springy Mushroom	General items
+Sprinklotad icon Sprinklotad	General items	A watering can shaped like a Lotad. It helps promote the healthy growth of any Berries planted in good, soft soil.
+Squall Slate icon Squall Slate		A slate overflowing with enigmatic energy. You can feel a strong connection between it and the Squall Room at Ramanas Park.
+Squawkabilly Feather icon Squawkabilly Feather	General items	Material obtained after defeating/catching Squawkabilly, used in TM crafting.
+Stable Mulch icon Stable Mulch	General items	A fertilizer to be spread on soft soil in regions where Berries are grown. A maniac will buy it for a high price.
+Stantler Hair icon Stantler Hair	General items	Material obtained after defeating/catching Stantler, used in TM crafting.
+Star Piece icon Star Piece	General items	A shard of a pretty gem that sparkles in a red color. It can be sold at a high price to shops.
+Star Sweet icon Star Sweet	Hold items	Evolves Milcery into Star Flavor Alcremie.
+Stardust icon Stardust	General items	Lovely, red-colored sand with a loose, silky feel. It can be sold at a high price to shops.
+Starf Berry icon Starf Berry	Berries	Sharply raises a random stat when HP is low.
+Starly Feather icon Starly Feather	General items	Material obtained after defeating/catching Starly, used in TM crafting.
+Stealth Spray icon Stealth Spray	General items
+Steel Bottle (B) icon Steel Bottle (B)		A go-to bottle sometimes used while camping. The stainless steel keeps the temperature inside steady, making it great for keeping drinks hot or cold.
+Steel Bottle (R) icon Steel Bottle (R)		A go-to bottle sometimes used while camping. The stainless steel keeps the temperature inside steady, making it great for keeping drinks hot or cold.
+Steel Bottle (Y) icon Steel Bottle (Y)		A go-to bottle sometimes used while camping. The stainless steel keeps the temperature inside steady, making it great for keeping drinks hot or cold.
+Steel Gem icon Steel Gem	Hold items	Increases the power of a Steel-type move only once.
+Steel Memory icon Steel Memory	Hold items	Changes Silvally and its move Multi-Attack to Steel type.
+Steel Tera Shard icon Steel Tera Shard		Changes a Pokémon's Tera Type to Steel.
+Steelium Z icon Steelium Z	Hold items	Allows the use of Corkscrew Crash, the Steel type Z-Move.
+Steelixite icon Steelixite	Hold items	Enables Steelix to Mega Evolve during battle.
+Sticky Barb icon Sticky Barb	Hold items	A held item that damages the holder on every turn. It may latch on to foes and allies that touch the holder.
+Sticky Glob icon Sticky Glob	General items
+Stone Plate icon Stone Plate	Hold items	Increases power of Rock-type moves. Changes Arceus' type to Rock.
+Stonjourner Stone icon Stonjourner Stone	General items	Material obtained after defeating/catching Stonjourner, used in TM crafting.
+Strange Ball icon Strange Ball	Pokeballs
+Strange Souvenir icon Strange Souvenir	General items	An ornament depicting a Pokémon that is venerated as a protector in some region far from Kalos.
+Stratospheric Slate icon Stratospheric Slate		A slate overflowing with enigmatic energy. You can feel a strong connection between it and the Stratospheric Room at Ramanas Park.
+Strawberry icon Strawberry		A very tart and sweet ingredient, popular for its ability to make a sandwich visually striking.
+Strawberry Sweet icon Strawberry Sweet	Hold items	Evolves Milcery into Strawberry Flavor Alcremie.
+Stretchy Spring icon Stretchy Spring	General items
+Striped Bottle icon Striped Bottle		A striped bottle that’s small, light, and even comes with a cup. The detachable strap makes it handy for walking around with.
+Striped Cup icon Striped Cup		A cup for kids to use at picnics. It’s made of light but strong material. It’s stackable, which makes it handy for carrying around.
+Striped Tablecloth icon Striped Tablecloth		A tablecloth with a fashionable striped pattern. It’s great at repelling water and mold, and stains and smudges wipe right off.
+Stunky Fur icon Stunky Fur	General items	Material obtained after defeating/catching Stunky, used in TM crafting.
+Sun Stone icon Sun Stone	General items	Evolves certain species of Pokémon.
+Sunkern Leaf icon Sunkern Leaf	General items	Material obtained after defeating/catching Sunkern, used in TM crafting.
+Sunrise Flower Pick icon Sunrise Flower Pick		A flower pick designed to evoke a glorious sunrise. It’s part of a line of “sky-flower” picks. Using a few is guaranteed to boost that special picnic spirit.
+Sunset Flower Pick icon Sunset Flower Pick		A flower pick designed to evoke a blazing sunset. It’s part of a line of “sky-flower” picks. Using a few is guaranteed to boost that special picnic spirit.
+Super Lure icon Super Lure	General items	Attracts Pokémon in the wild.
+Super Potion icon Super Potion	Medicine	Restores 60 HP.
+Super Repel icon Super Repel	General items	An item that prevents weak wild Pokémon from appearing for 200 steps after its use.
+Surskit Syrup icon Surskit Syrup	General items	Material obtained after defeating/catching Surskit, used in TM crafting.
+Swablu Fluff icon Swablu Fluff	General items	Material obtained after defeating/catching Swablu, used in TM crafting.
+Swampertite icon Swampertite	Hold items	Enables Swampert to Mega Evolve during battle.
+Swap Snack icon Swap Snack	General items
+Sweet Apple icon Sweet Apple	Hold items	Evolves Applin into Appletun.
+Sweet Heart icon Sweet Heart	Medicine	Very sweet chocolate. It restores the HP of one Pokémon by only 20 points.
+Sweet Herba Mystica icon Sweet Herba Mystica		A legendary condiment told of only in books. Word has it that one taste of its sweet flavor stimulates the digestive system and cures a lack of appetite.
+Swift Feather icon Swift Feather	Medicine	Increases Speed EVs by 1.
+Swift Mochi icon Swift Mochi	Medicine	Increases Speed EVs.
+Swordcap icon Swordcap	General items
+Syrupy Apple icon Syrupy Apple	Hold items	Evolves Applin into Dipplin.
+Tadbulb Mucus icon Tadbulb Mucus	General items	Material obtained after defeating/catching Tadbulb, used in TM crafting.
+Tamato Berry icon Tamato Berry	Berries	Increases Friendship but lowers Speed EVs.
+Tandemaus Fur icon Tandemaus Fur	General items	Material obtained after defeating/catching Tandemaus, used in TM crafting.
+Tanga Berry icon Tanga Berry	Berries	Weakens a supereffective Bug-type attack against the holding Pokémon.
+Tapunium Z icon Tapunium Z	Hold items	Allows the Tapus to upgrade Nature's Madness to a Z-Move, Guardian of Alola.
+Tarountula Thread icon Tarountula Thread	General items	Material obtained after defeating/catching Tarountula, used in TM crafting.
+Tart Apple icon Tart Apple	Hold items	Evolves Applin into Flapple.
+Tatsugiri Scales icon Tatsugiri Scales	General items	Material obtained after defeating/catching Tatsugiri, used in TM crafting.
+Tauros Hair icon Tauros Hair	General items	Material obtained after defeating/catching Tauros, used in TM crafting.
+Tectonic Slate icon Tectonic Slate		A slate overflowing with enigmatic energy. You can feel a strong connection between it and the Tectonic Room at Ramanas Park.
+Teddiursa Claw icon Teddiursa Claw	General items	Material obtained after defeating/catching Teddiursa, used in TM crafting.
+Tera Orb icon Tera Orb		An orb that holds within it the power to crystallize. When it is charged with energy, it can be used to cause Pokémon to Terastallize.
+Terrain Extender icon Terrain Extender	Hold items	An item to be held by a Pokémon. It extends the duration of the terrain caused by the holder's move or Ability.
+Thick Club icon Thick Club	Hold items	Increases Attack when held by Cubone or Marowak.
+Throat Spray icon Throat Spray	Hold items	Raises Sp. Atk when a sound-based move is used.
+Thunder Stone icon Thunder Stone	General items	Evolves certain species of Pokémon.
+Timer Ball icon Timer Ball	Pokeballs	Catches Pokémon with a higher rate the more turns have occurred (up to 4x).
+Timid Mint icon Timid Mint	Battle items	Changes the Pokémon's stats to match the Timid nature.
+Tin of Beans icon Tin of Beans	General items	One of the many ingredients that can be used for cooking at your camp. When simmered, the beans suffuse a dish with their mild flavor.
+Tinkatink Hair icon Tinkatink Hair	General items	Material obtained after defeating/catching Tinkatink, used in TM crafting.
+Tiny Bamboo Shoot icon Tiny Bamboo Shoot		A small and rare bamboo shoot. It’s quite popular with a certain class of gourmands.

@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<!-- version 1 -->
+<title>battle-gen8randombattle-87191</title>
+<style>
+    html,
+    body {
+        font-family: Verdana, sans-serif;
+        font-size: 10pt;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        padding: 12px 0;
+    }
+
+    .battle-log {
+        font-family: Verdana, sans-serif;
+        font-size: 10pt;
+    }
+
+    .battle-log-inline {
+        border: 1px solid #AAAAAA;
+        background: #EEF2F5;
+        color: black;
+        max-width: 640px;
+        margin: 0 auto 80px;
+        padding-bottom: 5px;
+    }
+
+    .battle-log .inner {
+        padding: 4px 8px 0px 8px;
+    }
+
+    .battle-log .inner-preempt {
+        padding: 0 8px 4px 8px;
+    }
+
+    .battle-log .inner-after {
+        margin-top: 0.5em;
+    }
+
+    .battle-log h2 {
+        margin: 0.5em -8px;
+        padding: 4px 8px;
+        border: 1px solid #AAAAAA;
+        background: #E0E7EA;
+        border-left: 0;
+        border-right: 0;
+        font-family: Verdana, sans-serif;
+        font-size: 13pt;
+    }
+
+    .backprop {
+        top: 0;
+    }
+
+    .battle-log .chat {
+        vertical-align: middle;
+        padding: 3px 0 3px 0;
+        font-size: 8pt;
+    }
+
+    .battle-log .chat strong {
+        color: #40576A;
+    }
+
+    .battle-log .chat em {
+        padding: 1px 4px 1px 3px;
+        color: #000000;
+        font-style: normal;
+    }
+
+    .chat.mine {
+        background: rgba(0, 0, 0, 0.05);
+        margin-left: -8px;
+        margin-right: -8px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .spoiler {
+        color: #BBBBBB;
+        background: #BBBBBB;
+        padding: 0px 3px;
+    }
+
+    .spoiler:hover,
+    .spoiler:active,
+    .spoiler-shown {
+        color: #000000;
+        background: #E2E2E2;
+        padding: 0px 3px;
+    }
+
+    .spoiler a {
+        color: #BBBBBB;
+    }
+
+    .spoiler:hover a,
+    .spoiler:active a,
+    .spoiler-shown a {
+        color: #2288CC;
+    }
+
+    .chat code,
+    .chat .spoiler:hover code,
+    .chat .spoiler:active code,
+    .chat .spoiler-shown code {
+        border: 1px solid #C0C0C0;
+        background: #EEEEEE;
+        color: black;
+        padding: 0 2px;
+    }
+
+    .chat .spoiler code {
+        border: 1px solid #CCCCCC;
+        background: #CCCCCC;
+        color: #CCCCCC;
+    }
+
+    .battle-log .rated {
+        padding: 3px 4px;
+    }
+
+    .battle-log .rated strong {
+        color: white;
+        background: #89A;
+        padding: 1px 4px;
+        border-radius: 4px;
+    }
+
+    .spacer {
+        margin-top: 0.5em;
+    }
+
+    .message-announce {
+        background: #6688AA;
+        color: white;
+        padding: 1px 4px 2px;
+    }
+
+    .message-announce a,
+    .broadcast-green a,
+    .broadcast-blue a,
+    .broadcast-red a {
+        color: #DDEEFF;
+    }
+
+    .broadcast-green {
+        background-color: #559955;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .broadcast-blue {
+        background-color: #6688AA;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .infobox {
+        border: 1px solid #6688AA;
+        padding: 2px 4px;
+    }
+
+    .infobox-limited {
+        max-height: 200px;
+        overflow: auto;
+        overflow-x: hidden;
+    }
+
+    .broadcast-red {
+        background-color: #AA5544;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .message-learn-canlearn {
+        font-weight: bold;
+        color: #228822;
+        text-decoration: underline;
+    }
+
+    .message-learn-cannotlearn {
+        font-weight: bold;
+        color: #CC2222;
+        text-decoration: underline;
+    }
+
+    .message-effect-weak {
+        font-weight: bold;
+        color: #CC2222;
+    }
+
+    .message-effect-resist {
+        font-weight: bold;
+        color: #6688AA;
+    }
+
+    .message-effect-immune {
+        font-weight: bold;
+        color: #666666;
+    }
+
+    .message-learn-list {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .message-throttle-notice,
+    .message-error {
+        color: #992222;
+    }
+
+    .message-overflow,
+    .chat small.message-overflow {
+        font-size: 0pt;
+    }
+
+    .message-overflow::before {
+        font-size: 9pt;
+        content: '...';
+    }
+
+    .subtle {
+        color: #3A4A66;
+    }
+</style>
+<div class="wrapper replay-wrapper" style="max-width:1180px;margin:0 auto">
+    <input type="hidden" name="replayid" value="unregisteredserver-gen8randombattle-320064" />
+    <div class="battle"></div>
+    <div class="battle-log"></div>
+    <div class="replay-controls"></div>
+    <div class="replay-controls-2"></div>
+    <h1 style="font-weight:normal;text-align:center"><strong>poke-env battle replay</strong><br />battle-gen8randombattle-87191<br /><a
+            href="http://pokemonshowdown.com/users/randomplayer1" class="subtle" target="_blank">PokeLLM</a>
+        vs. <a href="http://pokemonshowdown.com/users/randomplayer2" class="subtle"
+            target="_blank">BayiHu</a></h1>
+    <script type="text/plain" class="battle-log-data">
+    >battle-gen8randombattle-87191|init|battle
+|title|BayiHu vs. PokeLLM
+|j|☆BayiHu
+|j|☆PokeLLM
+|gametype|singles
+|player|p1|BayiHu|101|1258
+|player|p2|PokeLLM|169|1284
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Illusion Level Mod: Illusion disguises the Pokémon's true level
+|start
+|switch|p1a: Noctowl|Noctowl, L88, M|100/100
+|switch|p2a: Silvally|Silvally-Psychic, L83|293/293
+|turn|1
+|-start|p2a: Silvally|Dynamax|
+|-heal|p2a: Silvally|586/586|[silent]
+|move|p2a: Silvally|Max Guard|p2a: Silvally
+|-singleturn|p2a: Silvally|Max Guard
+|move|p1a: Noctowl|Heat Wave|p2a: Silvally
+|-activate|p2a: Silvally|move: Max Guard
+|upkeep
+|turn|2
+|-end|p2a: Silvally|Dynamax
+|-heal|p2a: Silvally|293/293|[silent]
+|switch|p2a: Electivire|Electivire, L82, F|257/257
+|move|p1a: Noctowl|Heat Wave|p2a: Electivire|[miss]
+|-miss|p1a: Noctowl|p2a: Electivire
+|upkeep
+|turn|3
+|move|p2a: Electivire|Wild Charge|p1a: Noctowl
+|-supereffective|p1a: Noctowl
+|-damage|p1a: Noctowl|0 fnt
+|faint|p1a: Noctowl
+|-damage|p2a: Electivire|177/257|[from] Recoil
+|-damage|p2a: Electivire|152/257|[from] item: Life Orb
+|upkeep
+|switch|p1a: Gastrodon|Gastrodon, L84, M|100/100
+|turn|4
+|move|p2a: Electivire|Earthquake|p1a: Gastrodon
+|-damage|p1a: Gastrodon|59/100
+|-damage|p2a: Electivire|127/257|[from] item: Life Orb
+|move|p1a: Gastrodon|Toxic|p2a: Electivire
+|-status|p2a: Electivire|tox
+|-heal|p1a: Gastrodon|65/100|[from] item: Leftovers
+|-damage|p2a: Electivire|111/257 tox|[from] psn
+|upkeep
+|turn|5
+|switch|p2a: Sylveon|Sylveon, L83, F|293/293
+|move|p1a: Gastrodon|Earthquake|p2a: Sylveon
+|-damage|p2a: Sylveon|166/293
+|-heal|p2a: Sylveon|184/293|[from] item: Leftovers
+|-heal|p1a: Gastrodon|71/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|move|p2a: Sylveon|Hyper Voice|p1a: Gastrodon
+|-damage|p1a: Gastrodon|31/100
+|move|p1a: Gastrodon|Earthquake|p2a: Sylveon
+|-damage|p2a: Sylveon|75/293
+|-heal|p2a: Sylveon|93/293|[from] item: Leftovers
+|-heal|p1a: Gastrodon|38/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|move|p2a: Sylveon|Hyper Voice|p1a: Gastrodon
+|-damage|p1a: Gastrodon|0 fnt
+|faint|p1a: Gastrodon
+|-heal|p2a: Sylveon|111/293|[from] item: Leftovers
+|upkeep
+|switch|p1a: Nihilego|Nihilego, L78|100/100
+|turn|8
+|switch|p2a: Zygarde|Zygarde-10%, L82|223/223
+|-ability|p2a: Zygarde|Aura Break
+|move|p1a: Nihilego|Toxic Spikes|p2a: Zygarde
+|-sidestart|p2: PokeLLM|move: Toxic Spikes
+|upkeep
+|turn|9
+|move|p2a: Zygarde|Thousand Arrows|p1a: Nihilego
+|-supereffective|p1a: Nihilego
+|-damage|p1a: Nihilego|0 fnt
+|faint|p1a: Nihilego
+|upkeep
+|switch|p1a: Cursola|Cursola, L87, M|100/100
+|turn|10
+|move|p2a: Zygarde|Thousand Arrows|p1a: Cursola
+|-damage|p1a: Cursola|16/100
+|-ability|p1a: Cursola|Weak Armor|boost
+|-unboost|p1a: Cursola|def|1
+|-boost|p1a: Cursola|spe|2
+|move|p1a: Cursola|Shadow Ball|p2a: Zygarde
+|-damage|p2a: Zygarde|100/223
+|-heal|p1a: Cursola|22/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|switch|p1a: Blissey|Blissey, L83, F|100/100
+|move|p2a: Zygarde|Thousand Arrows|p1a: Blissey
+|-damage|p1a: Blissey|26/100
+|-heal|p1a: Blissey|33/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|move|p2a: Zygarde|Thousand Arrows|p1a: Blissey
+|-damage|p1a: Blissey|0 fnt
+|faint|p1a: Blissey
+|upkeep
+|switch|p1a: Cursola|Cursola, L87, M|22/100
+|turn|13
+|move|p2a: Zygarde|Thousand Arrows|p1a: Cursola
+|-damage|p1a: Cursola|0 fnt
+|faint|p1a: Cursola
+|upkeep
+|switch|p1a: Hawlucha|Hawlucha, L78, M|100/100
+|turn|14
+|switch|p2a: Hatterene|Hatterene, L86, F|238/238
+|-status|p2a: Hatterene|psn
+|move|p1a: Hawlucha|Brave Bird|p2a: Hatterene
+|-damage|p2a: Hatterene|132/238 psn
+|-damage|p1a: Hawlucha|86/100|[from] Recoil
+|-heal|p2a: Hatterene|146/238 psn|[from] item: Leftovers
+|-damage|p2a: Hatterene|117/238 psn|[from] psn
+|upkeep
+|turn|15
+|move|p1a: Hawlucha|Stone Edge|p2a: Hatterene|[miss]
+|-miss|p1a: Hawlucha|p2a: Hatterene
+|move|p2a: Hatterene|Dazzling Gleam|p1a: Hawlucha
+|-supereffective|p1a: Hawlucha
+|-damage|p1a: Hawlucha|0 fnt
+|faint|p1a: Hawlucha
+    </script>
+</div>
+
+<div class="battle-log battle-log-inline" style="display:none"></div>
+
+<script>
+    let daily = Math.floor(Date.now() / 1000 / 60 / 60 / 24); document.write('<script src="https://play.pokemonshowdown.com/js/replay-embed.js?version' + daily + '"></' + 'script>');
+</script>
+
+<p style="text-align:center"> Replay created by <a href="https://github.com/hsahovic/poke-env">poke-env</a>, with code from <a
+        href="https://github.com/smogon/pokemon-showdown"> pokemon-showdown</a>. If something goes wrong, don't hesitate
+    to open an <a href="https://github.com/hsahovic/poke-env/issues">issue!</a></p>

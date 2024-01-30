@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<!-- version 1 -->
+<title>battle-gen8randombattle-87189</title>
+<style>
+    html,
+    body {
+        font-family: Verdana, sans-serif;
+        font-size: 10pt;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        padding: 12px 0;
+    }
+
+    .battle-log {
+        font-family: Verdana, sans-serif;
+        font-size: 10pt;
+    }
+
+    .battle-log-inline {
+        border: 1px solid #AAAAAA;
+        background: #EEF2F5;
+        color: black;
+        max-width: 640px;
+        margin: 0 auto 80px;
+        padding-bottom: 5px;
+    }
+
+    .battle-log .inner {
+        padding: 4px 8px 0px 8px;
+    }
+
+    .battle-log .inner-preempt {
+        padding: 0 8px 4px 8px;
+    }
+
+    .battle-log .inner-after {
+        margin-top: 0.5em;
+    }
+
+    .battle-log h2 {
+        margin: 0.5em -8px;
+        padding: 4px 8px;
+        border: 1px solid #AAAAAA;
+        background: #E0E7EA;
+        border-left: 0;
+        border-right: 0;
+        font-family: Verdana, sans-serif;
+        font-size: 13pt;
+    }
+
+    .backprop {
+        top: 0;
+    }
+
+    .battle-log .chat {
+        vertical-align: middle;
+        padding: 3px 0 3px 0;
+        font-size: 8pt;
+    }
+
+    .battle-log .chat strong {
+        color: #40576A;
+    }
+
+    .battle-log .chat em {
+        padding: 1px 4px 1px 3px;
+        color: #000000;
+        font-style: normal;
+    }
+
+    .chat.mine {
+        background: rgba(0, 0, 0, 0.05);
+        margin-left: -8px;
+        margin-right: -8px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .spoiler {
+        color: #BBBBBB;
+        background: #BBBBBB;
+        padding: 0px 3px;
+    }
+
+    .spoiler:hover,
+    .spoiler:active,
+    .spoiler-shown {
+        color: #000000;
+        background: #E2E2E2;
+        padding: 0px 3px;
+    }
+
+    .spoiler a {
+        color: #BBBBBB;
+    }
+
+    .spoiler:hover a,
+    .spoiler:active a,
+    .spoiler-shown a {
+        color: #2288CC;
+    }
+
+    .chat code,
+    .chat .spoiler:hover code,
+    .chat .spoiler:active code,
+    .chat .spoiler-shown code {
+        border: 1px solid #C0C0C0;
+        background: #EEEEEE;
+        color: black;
+        padding: 0 2px;
+    }
+
+    .chat .spoiler code {
+        border: 1px solid #CCCCCC;
+        background: #CCCCCC;
+        color: #CCCCCC;
+    }
+
+    .battle-log .rated {
+        padding: 3px 4px;
+    }
+
+    .battle-log .rated strong {
+        color: white;
+        background: #89A;
+        padding: 1px 4px;
+        border-radius: 4px;
+    }
+
+    .spacer {
+        margin-top: 0.5em;
+    }
+
+    .message-announce {
+        background: #6688AA;
+        color: white;
+        padding: 1px 4px 2px;
+    }
+
+    .message-announce a,
+    .broadcast-green a,
+    .broadcast-blue a,
+    .broadcast-red a {
+        color: #DDEEFF;
+    }
+
+    .broadcast-green {
+        background-color: #559955;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .broadcast-blue {
+        background-color: #6688AA;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .infobox {
+        border: 1px solid #6688AA;
+        padding: 2px 4px;
+    }
+
+    .infobox-limited {
+        max-height: 200px;
+        overflow: auto;
+        overflow-x: hidden;
+    }
+
+    .broadcast-red {
+        background-color: #AA5544;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .message-learn-canlearn {
+        font-weight: bold;
+        color: #228822;
+        text-decoration: underline;
+    }
+
+    .message-learn-cannotlearn {
+        font-weight: bold;
+        color: #CC2222;
+        text-decoration: underline;
+    }
+
+    .message-effect-weak {
+        font-weight: bold;
+        color: #CC2222;
+    }
+
+    .message-effect-resist {
+        font-weight: bold;
+        color: #6688AA;
+    }
+
+    .message-effect-immune {
+        font-weight: bold;
+        color: #666666;
+    }
+
+    .message-learn-list {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .message-throttle-notice,
+    .message-error {
+        color: #992222;
+    }
+
+    .message-overflow,
+    .chat small.message-overflow {
+        font-size: 0pt;
+    }
+
+    .message-overflow::before {
+        font-size: 9pt;
+        content: '...';
+    }
+
+    .subtle {
+        color: #3A4A66;
+    }
+</style>
+<div class="wrapper replay-wrapper" style="max-width:1180px;margin:0 auto">
+    <input type="hidden" name="replayid" value="unregisteredserver-gen8randombattle-320064" />
+    <div class="battle"></div>
+    <div class="battle-log"></div>
+    <div class="replay-controls"></div>
+    <div class="replay-controls-2"></div>
+    <h1 style="font-weight:normal;text-align:center"><strong>poke-env battle replay</strong><br />battle-gen8randombattle-87189<br /><a
+            href="http://pokemonshowdown.com/users/randomplayer1" class="subtle" target="_blank">PokeLLM</a>
+        vs. <a href="http://pokemonshowdown.com/users/randomplayer2" class="subtle"
+            target="_blank">BayiHu</a></h1>
+    <script type="text/plain" class="battle-log-data">
+    >battle-gen8randombattle-87189|init|battle
+|title|BayiHu vs. PokeLLM
+|j|☆BayiHu
+|j|☆PokeLLM
+|gametype|singles
+|player|p1|BayiHu|101|1218
+|player|p2|PokeLLM|169|1324
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Illusion Level Mod: Illusion disguises the Pokémon's true level
+|start
+|switch|p1a: Coalossal|Coalossal, L87, F|100/100
+|switch|p2a: Persian|Persian-Alola, L81, F|238/238
+|turn|1
+|-start|p2a: Persian|Dynamax|
+|-heal|p2a: Persian|476/476|[silent]
+|move|p2a: Persian|Max Guard|p2a: Persian
+|-singleturn|p2a: Persian|Max Guard
+|move|p1a: Coalossal|Spikes|p2a: Persian
+|-sidestart|p2: PokeLLM|Spikes
+|upkeep
+|turn|2
+|-start|p1a: Coalossal|Dynamax|Gmax
+|-heal|p1a: Coalossal|100/100|[silent]
+|move|p2a: Persian|Max Guard|p2a: Persian
+|-singleturn|p2a: Persian|Max Guard
+|move|p1a: Coalossal|Max Guard||[still]
+|-fail|p1a: Coalossal
+|upkeep
+|turn|3
+|move|p2a: Persian|Max Guard||[still]
+|-fail|p2a: Persian
+|move|p1a: Coalossal|G-Max Volcalith|p2a: Persian
+|-damage|p2a: Persian|383/476
+|-sidestart|p2: PokeLLM|G-Max Volcalith
+|-damage|p2a: Persian|344/476|[from] G-Max Volcalith
+|upkeep
+|-end|p2a: Persian|Dynamax
+|-heal|p2a: Persian|172/238|[silent]
+|turn|4
+|move|p2a: Persian|Nasty Plot|p2a: Persian
+|-boost|p2a: Persian|spa|2
+|move|p1a: Coalossal|Max Flare|p2a: Persian
+|-damage|p2a: Persian|7/238
+|-weather|SunnyDay
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Persian|0 fnt|[from] G-Max Volcalith
+|faint|p2a: Persian
+|upkeep
+|switch|p2a: Crawdaunt|Crawdaunt, L84, M|243/243
+|-damage|p2a: Crawdaunt|213/243|[from] Spikes
+|-end|p1a: Coalossal|Dynamax
+|-heal|p1a: Coalossal|100/100|[silent]
+|turn|5
+|move|p2a: Crawdaunt|Crabhammer|p1a: Coalossal
+|-supereffective|p1a: Coalossal
+|-damage|p1a: Coalossal|4/100
+|-damage|p2a: Crawdaunt|189/243|[from] item: Life Orb
+|move|p1a: Coalossal|Stone Edge|p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|89/243
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Crawdaunt|49/243|[from] G-Max Volcalith
+|upkeep
+|turn|6
+|switch|p1a: Durant|Durant, L78, F|100/100
+|move|p2a: Crawdaunt|Aqua Jet|p1a: Durant
+|-damage|p1a: Durant|83/100
+|-damage|p2a: Crawdaunt|25/243|[from] item: Life Orb
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Crawdaunt|0 fnt|[from] G-Max Volcalith
+|faint|p2a: Crawdaunt
+|-sideend|p2: PokeLLM|G-Max Volcalith
+|upkeep
+|switch|p2a: Stonjourner|Stonjourner, L88, F|319/319
+|-damage|p2a: Stonjourner|280/319|[from] Spikes
+|turn|7
+|move|p1a: Durant|Superpower|p2a: Stonjourner|[miss]
+|-miss|p1a: Durant|p2a: Stonjourner
+|move|p2a: Stonjourner|Heat Crash|p1a: Durant
+|-supereffective|p1a: Durant
+|-damage|p1a: Durant|0 fnt
+|faint|p1a: Durant
+|-damage|p2a: Stonjourner|249/319|[from] item: Life Orb
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|switch|p1a: Braviary|Braviary, L81, M|100/100
+|turn|8
+|move|p1a: Braviary|Close Combat|p2a: Stonjourner
+|-supereffective|p2a: Stonjourner
+|-damage|p2a: Stonjourner|109/319
+|-unboost|p1a: Braviary|def|1
+|-unboost|p1a: Braviary|spd|1
+|move|p2a: Stonjourner|Stone Edge|p1a: Braviary
+|-supereffective|p1a: Braviary
+|-damage|p1a: Braviary|0 fnt
+|faint|p1a: Braviary
+|-damage|p2a: Stonjourner|78/319|[from] item: Life Orb
+|-weather|none
+|upkeep
+|switch|p1a: Zeraora|Zeraora, L76|100/100
+|turn|9
+|move|p1a: Zeraora|Close Combat|p2a: Stonjourner
+|-supereffective|p2a: Stonjourner
+|-damage|p2a: Stonjourner|0 fnt
+|-unboost|p1a: Zeraora|def|1
+|-unboost|p1a: Zeraora|spd|1
+|faint|p2a: Stonjourner
+|-damage|p1a: Zeraora|91/100|[from] item: Life Orb
+|upkeep
+|switch|p2a: Nidoking|Nidoking, L82, M|267/267
+|-damage|p2a: Nidoking|234/267|[from] Spikes
+|turn|10
+|switch|p1a: Goodra|Goodra, L82, M|100/100
+|move|p2a: Nidoking|Earth Power|p1a: Goodra
+|-damage|p1a: Goodra|80/100
+|upkeep
+|turn|11
+|move|p2a: Nidoking|Ice Beam|p1a: Goodra
+|-supereffective|p1a: Goodra
+|-damage|p1a: Goodra|50/100
+|move|p1a: Goodra|Earthquake|p2a: Nidoking
+|-supereffective|p2a: Nidoking
+|-damage|p2a: Nidoking|82/267
+|upkeep
+|turn|12
+|move|p2a: Nidoking|Ice Beam|p1a: Goodra
+|-supereffective|p1a: Goodra
+|-damage|p1a: Goodra|20/100
+|move|p1a: Goodra|Earthquake|p2a: Nidoking
+|-supereffective|p2a: Nidoking
+|-damage|p2a: Nidoking|0 fnt
+|faint|p2a: Nidoking
+|upkeep
+|switch|p2a: Togekiss|Togekiss, L80, F|267/267
+|turn|13
+|move|p1a: Goodra|Sludge Bomb|p2a: Togekiss
+|-supereffective|p2a: Togekiss
+|-damage|p2a: Togekiss|149/267
+|move|p2a: Togekiss|Air Slash|p1a: Goodra
+|-damage|p1a: Goodra|6/100
+|upkeep
+|turn|14
+|move|p1a: Goodra|Power Whip|p2a: Togekiss
+|-resisted|p2a: Togekiss
+|-damage|p2a: Togekiss|105/267
+|move|p2a: Togekiss|Air Slash|p1a: Goodra
+|-damage|p1a: Goodra|0 fnt
+|faint|p1a: Goodra
+|upkeep
+|switch|p1a: Morpeko|Morpeko, L86, F|100/100
+|turn|15
+|move|p1a: Morpeko|Aura Wheel|p2a: Togekiss
+|-supereffective|p2a: Togekiss
+|-damage|p2a: Togekiss|0 fnt
+|-boost|p1a: Morpeko|spe|1
+|faint|p2a: Togekiss
+|-formechange|p1a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|switch|p2a: Octillery|Octillery, L90, F|281/281
+|-damage|p2a: Octillery|246/281|[from] Spikes
+|turn|16
+|move|p1a: Morpeko|Protect|p1a: Morpeko
+|-singleturn|p1a: Morpeko|Protect
+|move|p2a: Octillery|Hydro Pump|p1a: Morpeko
+|-activate|p1a: Morpeko|move: Protect
+|-formechange|p1a: Morpeko|Morpeko||[from] ability: Hunger Switch
+|upkeep
+|turn|17
+|move|p1a: Morpeko|Aura Wheel|p2a: Octillery
+|-supereffective|p2a: Octillery
+|-damage|p2a: Octillery|12/281
+|-boost|p1a: Morpeko|spe|1
+|move|p2a: Octillery|Hydro Pump|p1a: Morpeko
+|-damage|p1a: Morpeko|0 fnt
+|faint|p1a: Morpeko
+|upkeep
+|switch|p1a: Zeraora|Zeraora, L76|91/100
+|turn|18
+|move|p1a: Zeraora|Plasma Fists|p2a: Octillery
+|-supereffective|p2a: Octillery
+|-damage|p2a: Octillery|0 fnt
+|-fieldactivate|move: Ion Deluge
+|-hint|Normal-type moves become Electric-type after using Plasma Fists.
+|faint|p2a: Octillery
+|-damage|p1a: Zeraora|81/100|[from] item: Life Orb
+    </script>
+</div>
+
+<div class="battle-log battle-log-inline" style="display:none"></div>
+
+<script>
+    let daily = Math.floor(Date.now() / 1000 / 60 / 60 / 24); document.write('<script src="https://play.pokemonshowdown.com/js/replay-embed.js?version' + daily + '"></' + 'script>');
+</script>
+
+<p style="text-align:center"> Replay created by <a href="https://github.com/hsahovic/poke-env">poke-env</a>, with code from <a
+        href="https://github.com/smogon/pokemon-showdown"> pokemon-showdown</a>. If something goes wrong, don't hesitate
+    to open an <a href="https://github.com/hsahovic/poke-env/issues">issue!</a></p>

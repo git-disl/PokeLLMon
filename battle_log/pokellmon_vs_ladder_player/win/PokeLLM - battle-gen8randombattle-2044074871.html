@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<!-- version 1 -->
+<title>battle-gen8randombattle-2044074871</title>
+<style>
+    html,
+    body {
+        font-family: Verdana, sans-serif;
+        font-size: 10pt;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        padding: 12px 0;
+    }
+
+    .battle-log {
+        font-family: Verdana, sans-serif;
+        font-size: 10pt;
+    }
+
+    .battle-log-inline {
+        border: 1px solid #AAAAAA;
+        background: #EEF2F5;
+        color: black;
+        max-width: 640px;
+        margin: 0 auto 80px;
+        padding-bottom: 5px;
+    }
+
+    .battle-log .inner {
+        padding: 4px 8px 0px 8px;
+    }
+
+    .battle-log .inner-preempt {
+        padding: 0 8px 4px 8px;
+    }
+
+    .battle-log .inner-after {
+        margin-top: 0.5em;
+    }
+
+    .battle-log h2 {
+        margin: 0.5em -8px;
+        padding: 4px 8px;
+        border: 1px solid #AAAAAA;
+        background: #E0E7EA;
+        border-left: 0;
+        border-right: 0;
+        font-family: Verdana, sans-serif;
+        font-size: 13pt;
+    }
+
+    .backprop {
+        top: 0;
+    }
+
+    .battle-log .chat {
+        vertical-align: middle;
+        padding: 3px 0 3px 0;
+        font-size: 8pt;
+    }
+
+    .battle-log .chat strong {
+        color: #40576A;
+    }
+
+    .battle-log .chat em {
+        padding: 1px 4px 1px 3px;
+        color: #000000;
+        font-style: normal;
+    }
+
+    .chat.mine {
+        background: rgba(0, 0, 0, 0.05);
+        margin-left: -8px;
+        margin-right: -8px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .spoiler {
+        color: #BBBBBB;
+        background: #BBBBBB;
+        padding: 0px 3px;
+    }
+
+    .spoiler:hover,
+    .spoiler:active,
+    .spoiler-shown {
+        color: #000000;
+        background: #E2E2E2;
+        padding: 0px 3px;
+    }
+
+    .spoiler a {
+        color: #BBBBBB;
+    }
+
+    .spoiler:hover a,
+    .spoiler:active a,
+    .spoiler-shown a {
+        color: #2288CC;
+    }
+
+    .chat code,
+    .chat .spoiler:hover code,
+    .chat .spoiler:active code,
+    .chat .spoiler-shown code {
+        border: 1px solid #C0C0C0;
+        background: #EEEEEE;
+        color: black;
+        padding: 0 2px;
+    }
+
+    .chat .spoiler code {
+        border: 1px solid #CCCCCC;
+        background: #CCCCCC;
+        color: #CCCCCC;
+    }
+
+    .battle-log .rated {
+        padding: 3px 4px;
+    }
+
+    .battle-log .rated strong {
+        color: white;
+        background: #89A;
+        padding: 1px 4px;
+        border-radius: 4px;
+    }
+
+    .spacer {
+        margin-top: 0.5em;
+    }
+
+    .message-announce {
+        background: #6688AA;
+        color: white;
+        padding: 1px 4px 2px;
+    }
+
+    .message-announce a,
+    .broadcast-green a,
+    .broadcast-blue a,
+    .broadcast-red a {
+        color: #DDEEFF;
+    }
+
+    .broadcast-green {
+        background-color: #559955;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .broadcast-blue {
+        background-color: #6688AA;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .infobox {
+        border: 1px solid #6688AA;
+        padding: 2px 4px;
+    }
+
+    .infobox-limited {
+        max-height: 200px;
+        overflow: auto;
+        overflow-x: hidden;
+    }
+
+    .broadcast-red {
+        background-color: #AA5544;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .message-learn-canlearn {
+        font-weight: bold;
+        color: #228822;
+        text-decoration: underline;
+    }
+
+    .message-learn-cannotlearn {
+        font-weight: bold;
+        color: #CC2222;
+        text-decoration: underline;
+    }
+
+    .message-effect-weak {
+        font-weight: bold;
+        color: #CC2222;
+    }
+
+    .message-effect-resist {
+        font-weight: bold;
+        color: #6688AA;
+    }
+
+    .message-effect-immune {
+        font-weight: bold;
+        color: #666666;
+    }
+
+    .message-learn-list {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .message-throttle-notice,
+    .message-error {
+        color: #992222;
+    }
+
+    .message-overflow,
+    .chat small.message-overflow {
+        font-size: 0pt;
+    }
+
+    .message-overflow::before {
+        font-size: 9pt;
+        content: '...';
+    }
+
+    .subtle {
+        color: #3A4A66;
+    }
+</style>
+<div class="wrapper replay-wrapper" style="max-width:1180px;margin:0 auto">
+    <input type="hidden" name="replayid" value="unregisteredserver-gen8randombattle-320064" />
+    <div class="battle"></div>
+    <div class="battle-log"></div>
+    <div class="replay-controls"></div>
+    <div class="replay-controls-2"></div>
+    <h1 style="font-weight:normal;text-align:center"><strong>poke-env battle replay</strong><br />battle-gen8randombattle-2044074871<br /><a
+            href="http://pokemonshowdown.com/users/randomplayer1" class="subtle" target="_blank">PokeLLM</a>
+        vs. <a href="http://pokemonshowdown.com/users/randomplayer2" class="subtle"
+            target="_blank">hameowdi</a></h1>
+    <script type="text/plain" class="battle-log-data">
+    >battle-gen8randombattle-2044074871|init|battle
+|title|PokeLLM vs. hameowdi
+|j|☆PokeLLM
+|j|☆hameowdi
+|gametype|singles
+|player|p1|PokeLLM|supernerd|1068
+|player|p2|hameowdi|iris|1079
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Illusion Level Mod: Illusion disguises the Pokémon's true level
+|start
+|switch|p1a: Druddigon|Druddigon, L84, M|267/267
+|switch|p2a: Necrozma|Necrozma, L80|100/100
+|-ability|p1a: Druddigon|Mold Breaker
+|turn|1
+|move|p2a: Necrozma|Stealth Rock|p1a: Druddigon
+|-sidestart|p1: PokeLLM|move: Stealth Rock
+|move|p1a: Druddigon|Stealth Rock|p2a: Necrozma
+|-sidestart|p2: hameowdi|move: Stealth Rock
+|upkeep
+|turn|2
+|move|p2a: Necrozma|Photon Geyser|p1a: Druddigon
+|-damage|p1a: Druddigon|147/267
+|move|p1a: Druddigon|Outrage|p2a: Necrozma
+|-damage|p2a: Necrozma|35/100
+|-damage|p1a: Druddigon|121/267|[from] item: Life Orb
+|-heal|p2a: Necrozma|41/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|move|p2a: Necrozma|Photon Geyser|p1a: Druddigon
+|-damage|p1a: Druddigon|0 fnt
+|faint|p1a: Druddigon
+|-heal|p2a: Necrozma|47/100|[from] item: Leftovers
+|upkeep
+|switch|p1a: Reshiram|Reshiram, L73|266/266
+|-ability|p1a: Reshiram|Turboblaze
+|turn|4
+|move|p1a: Reshiram|Draco Meteor|p2a: Necrozma|[miss]
+|-miss|p1a: Reshiram|p2a: Necrozma
+|move|p2a: Necrozma|Moonlight|p2a: Necrozma
+|-heal|p2a: Necrozma|97/100
+|-heal|p2a: Necrozma|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|-start|p1a: Reshiram|Dynamax|
+|-heal|p1a: Reshiram|532/532|[silent]
+|move|p1a: Reshiram|Max Flare|p2a: Necrozma
+|-damage|p2a: Necrozma|42/100
+|-weather|SunnyDay
+|move|p2a: Necrozma|Photon Geyser|p1a: Reshiram
+|-damage|p1a: Reshiram|423/532
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Necrozma|48/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|move|p1a: Reshiram|Max Flare|p2a: Necrozma
+|-damage|p2a: Necrozma|0 fnt
+|faint|p2a: Necrozma
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|switch|p2a: Tauros|Tauros, L81, M|100/100
+|-damage|p2a: Tauros|88/100|[from] Stealth Rock
+|turn|7
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by PokeLLM)
+|inactive|Time left: 150 sec this turn | 150 sec total | 60 sec grace
+|move|p2a: Tauros|Rock Slide|p1a: Reshiram
+|-supereffective|p1a: Reshiram
+|-crit|p1a: Reshiram
+|-damage|p1a: Reshiram|127/532
+|move|p1a: Reshiram|Max Flare|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p2a: Mewtwo|Mewtwo, L71|100/100
+|-ability|p2a: Mewtwo|Unnerve
+|-damage|p2a: Mewtwo|88/100|[from] Stealth Rock
+|-end|p1a: Reshiram|Dynamax
+|-heal|p1a: Reshiram|64/266|[silent]
+|turn|8
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p2a: Mewtwo|Psystrike|p1a: Reshiram
+|-damage|p1a: Reshiram|0 fnt
+|faint|p1a: Reshiram
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Mewtwo|94/100|[from] item: Leftovers
+|upkeep
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p1a: Primarina|Primarina, L81, F|262/262
+|-damage|p1a: Primarina|230/262|[from] Stealth Rock
+|turn|9
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p2a: Mewtwo|Recover|p2a: Mewtwo
+|-heal|p2a: Mewtwo|100/100
+|move|p1a: Primarina|Moonblast|p2a: Mewtwo
+|-damage|p2a: Mewtwo|21/100
+|-weather|none
+|-heal|p2a: Mewtwo|27/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p2a: Mewtwo|Shadow Ball|p1a: Primarina
+|-damage|p1a: Primarina|178/262
+|move|p1a: Primarina|Moonblast|p2a: Mewtwo
+|-damage|p2a: Mewtwo|0 fnt
+|faint|p2a: Mewtwo
+|upkeep
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p2a: Cinderace|Cinderace, L74, F|100/100
+|-damage|p2a: Cinderace|76/100|[from] Stealth Rock
+|turn|11
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p1a: Relicanth|Relicanth, L88, M|319/319
+|-damage|p1a: Relicanth|280/319|[from] Stealth Rock
+|move|p2a: Cinderace|Gunk Shot|p1a: Relicanth
+|-start|p2a: Cinderace|typechange|Poison|[from] ability: Libero
+|-resisted|p1a: Relicanth
+|-damage|p1a: Relicanth|216/319
+|-status|p1a: Relicanth|psn
+|-heal|p1a: Relicanth|235/319 psn|[from] item: Leftovers
+|-damage|p1a: Relicanth|196/319 psn|[from] psn
+|upkeep
+|turn|12
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p2a: Scyther|Scyther, L81, F|100/100
+|move|p1a: Relicanth|Liquidation|p2a: Scyther
+|-damage|p2a: Scyther|55/100
+|-heal|p1a: Relicanth|215/319 psn|[from] item: Leftovers
+|-damage|p1a: Relicanth|176/319 psn|[from] psn
+|upkeep
+|turn|13
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p2a: Scyther|Knock Off|p1a: Relicanth
+|-damage|p1a: Relicanth|123/319 psn
+|-enditem|p1a: Relicanth|Leftovers|[from] move: Knock Off|[of] p2a: Scyther
+|move|p1a: Relicanth|Head Smash|p2a: Scyther
+|-supereffective|p2a: Scyther
+|-damage|p2a: Scyther|0 fnt
+|faint|p2a: Scyther
+|-damage|p1a: Relicanth|84/319 psn|[from] psn
+|upkeep
+|inactive|Time left: 150 sec this turn | 150 sec total
+|l|☆hameowdi
+|inactive|hameowdi disconnected and has a minute to reconnect!
+|player|p2|
+|c|☆PokeLLM|..
+|c|☆PokeLLM|wtf
+|inactive|hameowdi has 30 seconds to reconnect!
+|inactive|hameowdi has 20 seconds to reconnect!
+|inactive|hameowdi has 15 seconds to reconnect!
+|inactive|hameowdi has 10 seconds to reconnect!
+|inactive|hameowdi has 5 seconds to reconnect!
+|-message|hameowdi lost due to inactivity.
+    </script>
+</div>
+
+<div class="battle-log battle-log-inline" style="display:none"></div>
+
+<script>
+    let daily = Math.floor(Date.now() / 1000 / 60 / 60 / 24); document.write('<script src="https://play.pokemonshowdown.com/js/replay-embed.js?version' + daily + '"></' + 'script>');
+</script>
+
+<p style="text-align:center"> Replay created by <a href="https://github.com/hsahovic/poke-env">poke-env</a>, with code from <a
+        href="https://github.com/smogon/pokemon-showdown"> pokemon-showdown</a>. If something goes wrong, don't hesitate
+    to open an <a href="https://github.com/hsahovic/poke-env/issues">issue!</a></p>

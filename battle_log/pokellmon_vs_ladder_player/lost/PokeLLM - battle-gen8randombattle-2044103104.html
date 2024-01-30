@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<!-- version 1 -->
+<title>battle-gen8randombattle-2044103104</title>
+<style>
+    html,
+    body {
+        font-family: Verdana, sans-serif;
+        font-size: 10pt;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        padding: 12px 0;
+    }
+
+    .battle-log {
+        font-family: Verdana, sans-serif;
+        font-size: 10pt;
+    }
+
+    .battle-log-inline {
+        border: 1px solid #AAAAAA;
+        background: #EEF2F5;
+        color: black;
+        max-width: 640px;
+        margin: 0 auto 80px;
+        padding-bottom: 5px;
+    }
+
+    .battle-log .inner {
+        padding: 4px 8px 0px 8px;
+    }
+
+    .battle-log .inner-preempt {
+        padding: 0 8px 4px 8px;
+    }
+
+    .battle-log .inner-after {
+        margin-top: 0.5em;
+    }
+
+    .battle-log h2 {
+        margin: 0.5em -8px;
+        padding: 4px 8px;
+        border: 1px solid #AAAAAA;
+        background: #E0E7EA;
+        border-left: 0;
+        border-right: 0;
+        font-family: Verdana, sans-serif;
+        font-size: 13pt;
+    }
+
+    .backprop {
+        top: 0;
+    }
+
+    .battle-log .chat {
+        vertical-align: middle;
+        padding: 3px 0 3px 0;
+        font-size: 8pt;
+    }
+
+    .battle-log .chat strong {
+        color: #40576A;
+    }
+
+    .battle-log .chat em {
+        padding: 1px 4px 1px 3px;
+        color: #000000;
+        font-style: normal;
+    }
+
+    .chat.mine {
+        background: rgba(0, 0, 0, 0.05);
+        margin-left: -8px;
+        margin-right: -8px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .spoiler {
+        color: #BBBBBB;
+        background: #BBBBBB;
+        padding: 0px 3px;
+    }
+
+    .spoiler:hover,
+    .spoiler:active,
+    .spoiler-shown {
+        color: #000000;
+        background: #E2E2E2;
+        padding: 0px 3px;
+    }
+
+    .spoiler a {
+        color: #BBBBBB;
+    }
+
+    .spoiler:hover a,
+    .spoiler:active a,
+    .spoiler-shown a {
+        color: #2288CC;
+    }
+
+    .chat code,
+    .chat .spoiler:hover code,
+    .chat .spoiler:active code,
+    .chat .spoiler-shown code {
+        border: 1px solid #C0C0C0;
+        background: #EEEEEE;
+        color: black;
+        padding: 0 2px;
+    }
+
+    .chat .spoiler code {
+        border: 1px solid #CCCCCC;
+        background: #CCCCCC;
+        color: #CCCCCC;
+    }
+
+    .battle-log .rated {
+        padding: 3px 4px;
+    }
+
+    .battle-log .rated strong {
+        color: white;
+        background: #89A;
+        padding: 1px 4px;
+        border-radius: 4px;
+    }
+
+    .spacer {
+        margin-top: 0.5em;
+    }
+
+    .message-announce {
+        background: #6688AA;
+        color: white;
+        padding: 1px 4px 2px;
+    }
+
+    .message-announce a,
+    .broadcast-green a,
+    .broadcast-blue a,
+    .broadcast-red a {
+        color: #DDEEFF;
+    }
+
+    .broadcast-green {
+        background-color: #559955;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .broadcast-blue {
+        background-color: #6688AA;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .infobox {
+        border: 1px solid #6688AA;
+        padding: 2px 4px;
+    }
+
+    .infobox-limited {
+        max-height: 200px;
+        overflow: auto;
+        overflow-x: hidden;
+    }
+
+    .broadcast-red {
+        background-color: #AA5544;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .message-learn-canlearn {
+        font-weight: bold;
+        color: #228822;
+        text-decoration: underline;
+    }
+
+    .message-learn-cannotlearn {
+        font-weight: bold;
+        color: #CC2222;
+        text-decoration: underline;
+    }
+
+    .message-effect-weak {
+        font-weight: bold;
+        color: #CC2222;
+    }
+
+    .message-effect-resist {
+        font-weight: bold;
+        color: #6688AA;
+    }
+
+    .message-effect-immune {
+        font-weight: bold;
+        color: #666666;
+    }
+
+    .message-learn-list {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .message-throttle-notice,
+    .message-error {
+        color: #992222;
+    }
+
+    .message-overflow,
+    .chat small.message-overflow {
+        font-size: 0pt;
+    }
+
+    .message-overflow::before {
+        font-size: 9pt;
+        content: '...';
+    }
+
+    .subtle {
+        color: #3A4A66;
+    }
+</style>
+<div class="wrapper replay-wrapper" style="max-width:1180px;margin:0 auto">
+    <input type="hidden" name="replayid" value="unregisteredserver-gen8randombattle-320064" />
+    <div class="battle"></div>
+    <div class="battle-log"></div>
+    <div class="replay-controls"></div>
+    <div class="replay-controls-2"></div>
+    <h1 style="font-weight:normal;text-align:center"><strong>poke-env battle replay</strong><br />battle-gen8randombattle-2044103104<br /><a
+            href="http://pokemonshowdown.com/users/randomplayer1" class="subtle" target="_blank">PokeLLM</a>
+        vs. <a href="http://pokemonshowdown.com/users/randomplayer2" class="subtle"
+            target="_blank">redboiyss</a></h1>
+    <script type="text/plain" class="battle-log-data">
+    >battle-gen8randombattle-2044103104|init|battle
+|title|PokeLLM vs. redboiyss
+|j|☆PokeLLM
+|j|☆redboiyss
+|gametype|singles
+|player|p1|PokeLLM|supernerd|1198
+|player|p2|redboiyss|colress|1176
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Illusion Level Mod: Illusion disguises the Pokémon's true level
+|start
+|switch|p1a: Dugtrio|Dugtrio-Alola, L82, F|192/192
+|switch|p2a: Runerigus|Runerigus, L84, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by redboiyss)
+|inactive|Time left: 150 sec this turn | 150 sec total | 60 sec grace
+|move|p1a: Dugtrio|Sucker Punch||[still]
+|-fail|p1a: Dugtrio
+|move|p2a: Runerigus|Will-O-Wisp|p1a: Dugtrio
+|-status|p1a: Dugtrio|brn
+|-damage|p1a: Dugtrio|180/192 brn|[from] brn
+|upkeep
+|turn|2
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p1a: Dugtrio|Earthquake|p2a: Runerigus
+|-damage|p2a: Runerigus|86/100
+|move|p2a: Runerigus|Stealth Rock|p1a: Dugtrio
+|-sidestart|p1: PokeLLM|move: Stealth Rock
+|-heal|p2a: Runerigus|92/100|[from] item: Leftovers
+|-damage|p1a: Dugtrio|168/192 brn|[from] brn
+|upkeep
+|turn|3
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p1a: Dugtrio|Sucker Punch|p2a: Runerigus
+|-supereffective|p2a: Runerigus
+|-damage|p2a: Runerigus|78/100
+|-activate|p2a: Runerigus|ability: Wandering Spirit|Tangling Hair|Wandering Spirit|[of] p1a: Dugtrio
+|move|p2a: Runerigus|Earthquake|p1a: Dugtrio
+|-supereffective|p1a: Dugtrio
+|-damage|p1a: Dugtrio|0 fnt
+|faint|p1a: Dugtrio
+|-heal|p2a: Runerigus|84/100|[from] item: Leftovers
+|upkeep
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p1a: Nidoqueen|Nidoqueen, L83, F|285/285
+|-damage|p1a: Nidoqueen|268/285|[from] Stealth Rock
+|turn|4
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p1a: Nidoqueen|Ice Beam|p2a: Runerigus
+|-supereffective|p2a: Runerigus
+|-damage|p2a: Runerigus|22/100
+|move|p2a: Runerigus|Earthquake|p1a: Nidoqueen
+|-supereffective|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|52/285
+|-heal|p2a: Runerigus|28/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p1a: Nidoqueen|Ice Beam|p2a: Runerigus
+|-supereffective|p2a: Runerigus
+|-damage|p2a: Runerigus|0 fnt
+|faint|p2a: Runerigus
+|upkeep
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p2a: Basculin|Basculin, L85, F|100/100
+|turn|6
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p1a: Swoobat|Swoobat, L86, M|255/255
+|move|p2a: Basculin|Liquidation|p1a: Swoobat
+|-damage|p1a: Swoobat|19/255
+|-unboost|p1a: Swoobat|def|2
+|upkeep
+|turn|7
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p1a: Swoobat|Stored Power|p2a: Basculin
+|-damage|p2a: Basculin|90/100
+|move|p2a: Basculin|Liquidation|p1a: Swoobat
+|-damage|p1a: Swoobat|0 fnt
+|faint|p1a: Swoobat
+|upkeep
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p1a: Azelf|Azelf, L81|254/254
+|-damage|p1a: Azelf|223/254|[from] Stealth Rock
+|turn|8
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p1a: Azelf|Dazzling Gleam|p2a: Basculin
+|-damage|p2a: Basculin|43/100
+|-damage|p1a: Azelf|198/254|[from] item: Life Orb
+|move|p2a: Basculin|Liquidation|p1a: Azelf
+|-damage|p1a: Azelf|0 fnt
+|faint|p1a: Azelf
+|upkeep
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p1a: Maractus|Maractus, L96, F|299/299
+|-damage|p1a: Maractus|262/299|[from] Stealth Rock
+|turn|9
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p2a: Basculin|Liquidation|p1a: Maractus
+|-ability|p1a: Maractus|Storm Drain|boost
+|-boost|p1a: Maractus|spa|1
+|move|p1a: Maractus|Energy Ball|p2a: Basculin
+|-supereffective|p2a: Basculin
+|-damage|p2a: Basculin|0 fnt
+|faint|p2a: Basculin
+|-heal|p1a: Maractus|280/299|[from] item: Leftovers
+|upkeep
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p2a: Arctozolt|Arctozolt, L87|100/100
+|turn|10
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p1a: Maractus|Energy Ball|p2a: Arctozolt
+|-damage|p2a: Arctozolt|33/100
+|move|p2a: Arctozolt|Icicle Crash|p1a: Maractus
+|-supereffective|p1a: Maractus
+|-damage|p1a: Maractus|74/299
+|-heal|p1a: Maractus|92/299|[from] item: Leftovers
+|upkeep
+|turn|11
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p1a: Maractus|Energy Ball|p2a: Arctozolt
+|-damage|p2a: Arctozolt|0 fnt
+|faint|p2a: Arctozolt
+|-heal|p1a: Maractus|110/299|[from] item: Leftovers
+|upkeep
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p2a: Lickilicky|Lickilicky, L86, F|100/100
+|turn|12
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p1a: Maractus|Spiky Shield|p1a: Maractus
+|-singleturn|p1a: Maractus|move: Protect
+|move|p2a: Lickilicky|Knock Off|p1a: Maractus
+|-activate|p1a: Maractus|move: Protect
+|-damage|p2a: Lickilicky|88/100|[from] Spiky Shield|[of] p1a: Maractus
+|-heal|p1a: Maractus|128/299|[from] item: Leftovers
+|upkeep
+|turn|13
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p1a: Maractus|Energy Ball|p2a: Lickilicky
+|-damage|p2a: Lickilicky|30/100
+|move|p2a: Lickilicky|Knock Off|p1a: Maractus
+|-damage|p1a: Maractus|19/299
+|-enditem|p1a: Maractus|Leftovers|[from] move: Knock Off|[of] p2a: Lickilicky
+|upkeep
+|turn|14
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p1a: Maractus|Energy Ball|p2a: Lickilicky
+|-damage|p2a: Lickilicky|0 fnt
+|faint|p2a: Lickilicky
+|upkeep
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p2a: Claydol|Claydol, L86|100/100
+|turn|15
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p2a: Claydol|Toxic|p1a: Maractus
+|-status|p1a: Maractus|tox
+|move|p1a: Maractus|Energy Ball|p2a: Claydol
+|-supereffective|p2a: Claydol
+|-damage|p2a: Claydol|0 fnt
+|faint|p2a: Claydol
+|-damage|p1a: Maractus|1/299 tox|[from] psn
+|upkeep
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p2a: Throh|Throh, L86, M|100/100
+|turn|16
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p1a: Stoutland|Stoutland, L87, F|290/290
+|-damage|p1a: Stoutland|254/290|[from] Stealth Rock
+|-start|p2a: Throh|Dynamax|
+|-heal|p2a: Throh|100/100|[silent]
+|move|p2a: Throh|Max Hailstorm|p1a: Stoutland
+|-damage|p1a: Stoutland|156/290
+|-weather|Hail
+|-weather|Hail|[upkeep]
+|-damage|p1a: Stoutland|138/290|[from] Hail
+|-damage|p2a: Throh|97/100|[from] Hail
+|-status|p2a: Throh|brn|[from] item: Flame Orb
+|upkeep
+|turn|17
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p1a: Stoutland|Play Rough|p2a: Throh
+|-supereffective|p2a: Throh
+|-damage|p2a: Throh|76/100 brn
+|move|p2a: Throh|Max Knuckle|p1a: Stoutland
+|-supereffective|p1a: Stoutland
+|-damage|p1a: Stoutland|0 fnt
+|-boost|p2a: Throh|atk|1
+|faint|p1a: Stoutland
+|-weather|Hail|[upkeep]
+|-damage|p2a: Throh|73/100 brn|[from] Hail
+|-damage|p2a: Throh|70/100 brn|[from] brn
+|upkeep
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p1a: Nidoqueen|Nidoqueen, L83, F|52/285
+|-damage|p1a: Nidoqueen|35/285|[from] Stealth Rock
+|turn|18
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p1a: Nidoqueen|Ice Beam|p2a: Throh
+|-damage|p2a: Throh|58/100 brn
+|move|p2a: Throh|Max Darkness|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|0 fnt
+|faint|p1a: Nidoqueen
+|-weather|Hail|[upkeep]
+|-damage|p2a: Throh|55/100 brn|[from] Hail
+|-damage|p2a: Throh|52/100 brn|[from] brn
+|upkeep
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p1a: Maractus|Maractus, L96, F|1/299 tox
+|-damage|p1a: Maractus|0 fnt|[from] Stealth Rock
+|faint|p1a: Maractus
+    </script>
+</div>
+
+<div class="battle-log battle-log-inline" style="display:none"></div>
+
+<script>
+    let daily = Math.floor(Date.now() / 1000 / 60 / 60 / 24); document.write('<script src="https://play.pokemonshowdown.com/js/replay-embed.js?version' + daily + '"></' + 'script>');
+</script>
+
+<p style="text-align:center"> Replay created by <a href="https://github.com/hsahovic/poke-env">poke-env</a>, with code from <a
+        href="https://github.com/smogon/pokemon-showdown"> pokemon-showdown</a>. If something goes wrong, don't hesitate
+    to open an <a href="https://github.com/hsahovic/poke-env/issues">issue!</a></p>

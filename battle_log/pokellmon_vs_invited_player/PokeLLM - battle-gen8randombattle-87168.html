@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<!-- version 1 -->
+<title>battle-gen8randombattle-87168</title>
+<style>
+    html,
+    body {
+        font-family: Verdana, sans-serif;
+        font-size: 10pt;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        padding: 12px 0;
+    }
+
+    .battle-log {
+        font-family: Verdana, sans-serif;
+        font-size: 10pt;
+    }
+
+    .battle-log-inline {
+        border: 1px solid #AAAAAA;
+        background: #EEF2F5;
+        color: black;
+        max-width: 640px;
+        margin: 0 auto 80px;
+        padding-bottom: 5px;
+    }
+
+    .battle-log .inner {
+        padding: 4px 8px 0px 8px;
+    }
+
+    .battle-log .inner-preempt {
+        padding: 0 8px 4px 8px;
+    }
+
+    .battle-log .inner-after {
+        margin-top: 0.5em;
+    }
+
+    .battle-log h2 {
+        margin: 0.5em -8px;
+        padding: 4px 8px;
+        border: 1px solid #AAAAAA;
+        background: #E0E7EA;
+        border-left: 0;
+        border-right: 0;
+        font-family: Verdana, sans-serif;
+        font-size: 13pt;
+    }
+
+    .backprop {
+        top: 0;
+    }
+
+    .battle-log .chat {
+        vertical-align: middle;
+        padding: 3px 0 3px 0;
+        font-size: 8pt;
+    }
+
+    .battle-log .chat strong {
+        color: #40576A;
+    }
+
+    .battle-log .chat em {
+        padding: 1px 4px 1px 3px;
+        color: #000000;
+        font-style: normal;
+    }
+
+    .chat.mine {
+        background: rgba(0, 0, 0, 0.05);
+        margin-left: -8px;
+        margin-right: -8px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .spoiler {
+        color: #BBBBBB;
+        background: #BBBBBB;
+        padding: 0px 3px;
+    }
+
+    .spoiler:hover,
+    .spoiler:active,
+    .spoiler-shown {
+        color: #000000;
+        background: #E2E2E2;
+        padding: 0px 3px;
+    }
+
+    .spoiler a {
+        color: #BBBBBB;
+    }
+
+    .spoiler:hover a,
+    .spoiler:active a,
+    .spoiler-shown a {
+        color: #2288CC;
+    }
+
+    .chat code,
+    .chat .spoiler:hover code,
+    .chat .spoiler:active code,
+    .chat .spoiler-shown code {
+        border: 1px solid #C0C0C0;
+        background: #EEEEEE;
+        color: black;
+        padding: 0 2px;
+    }
+
+    .chat .spoiler code {
+        border: 1px solid #CCCCCC;
+        background: #CCCCCC;
+        color: #CCCCCC;
+    }
+
+    .battle-log .rated {
+        padding: 3px 4px;
+    }
+
+    .battle-log .rated strong {
+        color: white;
+        background: #89A;
+        padding: 1px 4px;
+        border-radius: 4px;
+    }
+
+    .spacer {
+        margin-top: 0.5em;
+    }
+
+    .message-announce {
+        background: #6688AA;
+        color: white;
+        padding: 1px 4px 2px;
+    }
+
+    .message-announce a,
+    .broadcast-green a,
+    .broadcast-blue a,
+    .broadcast-red a {
+        color: #DDEEFF;
+    }
+
+    .broadcast-green {
+        background-color: #559955;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .broadcast-blue {
+        background-color: #6688AA;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .infobox {
+        border: 1px solid #6688AA;
+        padding: 2px 4px;
+    }
+
+    .infobox-limited {
+        max-height: 200px;
+        overflow: auto;
+        overflow-x: hidden;
+    }
+
+    .broadcast-red {
+        background-color: #AA5544;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .message-learn-canlearn {
+        font-weight: bold;
+        color: #228822;
+        text-decoration: underline;
+    }
+
+    .message-learn-cannotlearn {
+        font-weight: bold;
+        color: #CC2222;
+        text-decoration: underline;
+    }
+
+    .message-effect-weak {
+        font-weight: bold;
+        color: #CC2222;
+    }
+
+    .message-effect-resist {
+        font-weight: bold;
+        color: #6688AA;
+    }
+
+    .message-effect-immune {
+        font-weight: bold;
+        color: #666666;
+    }
+
+    .message-learn-list {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .message-throttle-notice,
+    .message-error {
+        color: #992222;
+    }
+
+    .message-overflow,
+    .chat small.message-overflow {
+        font-size: 0pt;
+    }
+
+    .message-overflow::before {
+        font-size: 9pt;
+        content: '...';
+    }
+
+    .subtle {
+        color: #3A4A66;
+    }
+</style>
+<div class="wrapper replay-wrapper" style="max-width:1180px;margin:0 auto">
+    <input type="hidden" name="replayid" value="unregisteredserver-gen8randombattle-320064" />
+    <div class="battle"></div>
+    <div class="battle-log"></div>
+    <div class="replay-controls"></div>
+    <div class="replay-controls-2"></div>
+    <h1 style="font-weight:normal;text-align:center"><strong>poke-env battle replay</strong><br />battle-gen8randombattle-87168<br /><a
+            href="http://pokemonshowdown.com/users/randomplayer1" class="subtle" target="_blank">PokeLLM</a>
+        vs. <a href="http://pokemonshowdown.com/users/randomplayer2" class="subtle"
+            target="_blank">BayiHu</a></h1>
+    <script type="text/plain" class="battle-log-data">
+    >battle-gen8randombattle-87168|init|battle
+|title|BayiHu vs. PokeLLM
+|j|☆BayiHu
+|j|☆PokeLLM
+|gametype|singles
+|player|p1|BayiHu|101|1231
+|player|p2|PokeLLM|169|1311
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Illusion Level Mod: Illusion disguises the Pokémon's true level
+|start
+|switch|p1a: Magearna|Magearna-Original, L74|100/100
+|switch|p2a: Landorus|Landorus-Therian, L72, M|247/247
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Magearna|atk|1
+|turn|1
+|-start|p2a: Landorus|Dynamax|
+|-heal|p2a: Landorus|494/494|[silent]
+|move|p2a: Landorus|Max Quake|p1a: Magearna
+|-supereffective|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|-boost|p2a: Landorus|spd|1
+|faint|p1a: Magearna
+|-damage|p2a: Landorus|470/494|[from] item: Life Orb
+|upkeep
+|switch|p1a: Heatmor|Heatmor, L91, F|100/100
+|turn|2
+|move|p2a: Landorus|Max Quake|p1a: Heatmor
+|-supereffective|p1a: Heatmor
+|-damage|p1a: Heatmor|0 fnt
+|-boost|p2a: Landorus|spd|1
+|faint|p1a: Heatmor
+|-damage|p2a: Landorus|446/494|[from] item: Life Orb
+|upkeep
+|switch|p1a: Crobat|Crobat, L82, M|100/100
+|turn|3
+|-start|p1a: Crobat|Dynamax|
+|-heal|p1a: Crobat|100/100|[silent]
+|move|p1a: Crobat|Max Airstream|p2a: Landorus
+|-damage|p2a: Landorus|286/494
+|-boost|p1a: Crobat|spe|1
+|move|p2a: Landorus|Max Rockfall|p1a: Crobat
+|-supereffective|p1a: Crobat
+|-damage|p1a: Crobat|52/100
+|-weather|Sandstorm
+|-damage|p2a: Landorus|262/494|[from] item: Life Orb
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Crobat|49/100|[from] Sandstorm
+|upkeep
+|-end|p2a: Landorus|Dynamax
+|-heal|p2a: Landorus|131/247|[silent]
+|turn|4
+|move|p1a: Crobat|Max Airstream|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|-boost|p1a: Crobat|spe|1
+|faint|p2a: Landorus
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Crobat|46/100|[from] Sandstorm
+|upkeep
+|switch|p2a: Jolteon|Jolteon, L82, M|241/241
+|turn|5
+|move|p1a: Crobat|Max Airstream|p2a: Jolteon
+|-resisted|p2a: Jolteon
+|-damage|p2a: Jolteon|152/241
+|-boost|p1a: Crobat|spe|1
+|move|p2a: Jolteon|Thunderbolt|p1a: Crobat
+|-supereffective|p1a: Crobat
+|-damage|p1a: Crobat|0 fnt
+|faint|p1a: Crobat
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jolteon|137/241|[from] Sandstorm
+|upkeep
+|switch|p1a: Exeggutor|Exeggutor, L87, F|100/100
+|turn|6
+|switch|p2a: Marshadow|Marshadow, L69|239/239
+|move|p1a: Exeggutor|Psychic|p2a: Marshadow
+|-supereffective|p2a: Marshadow
+|-damage|p2a: Marshadow|0 fnt
+|faint|p2a: Marshadow
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Exeggutor|94/100|[from] Sandstorm
+|upkeep
+|switch|p2a: Linoone|Linoone, L84, F|268/268
+|turn|7
+|move|p2a: Linoone|Throat Chop|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|67/100
+|-start|p1a: Exeggutor|Throat Chop|[silent]
+|move|p1a: Exeggutor|Psychic|p2a: Linoone
+|-damage|p2a: Linoone|100/268
+|-enditem|p2a: Linoone|Iapapa Berry|[eat]
+|-heal|p2a: Linoone|189/268|[from] item: Iapapa Berry
+|-weather|none
+|upkeep
+|turn|8
+|move|p2a: Linoone|Throat Chop|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|41/100
+|-enditem|p1a: Exeggutor|Sitrus Berry|[eat]
+|-heal|p1a: Exeggutor|66/100|[from] item: Sitrus Berry
+|move|p1a: Exeggutor|Giga Drain|p2a: Linoone
+|-damage|p2a: Linoone|53/268
+|-heal|p1a: Exeggutor|88/100|[from] drain|[of] p2a: Linoone
+|-end|p1a: Exeggutor|Throat Chop|[silent]
+|-item|p1a: Exeggutor|Sitrus Berry|[from] ability: Harvest
+|upkeep
+|turn|9
+|move|p2a: Linoone|Throat Chop|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|61/100
+|-start|p1a: Exeggutor|Throat Chop|[silent]
+|move|p1a: Exeggutor|Giga Drain|p2a: Linoone
+|-damage|p2a: Linoone|0 fnt
+|-heal|p1a: Exeggutor|70/100|[from] drain|[of] p2a: Linoone
+|faint|p2a: Linoone
+|upkeep
+|switch|p2a: Jolteon|Jolteon, L82, M|137/241
+|turn|10
+|move|p2a: Jolteon|Shadow Ball|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|8/100
+|-enditem|p1a: Exeggutor|Sitrus Berry|[eat]
+|-heal|p1a: Exeggutor|33/100|[from] item: Sitrus Berry
+|move|p1a: Exeggutor|Giga Drain|p2a: Jolteon
+|-damage|p2a: Jolteon|44/241
+|-heal|p1a: Exeggutor|48/100|[from] drain|[of] p2a: Jolteon
+|-end|p1a: Exeggutor|Throat Chop|[silent]
+|-item|p1a: Exeggutor|Sitrus Berry|[from] ability: Harvest
+|upkeep
+|-enditem|p1a: Exeggutor|Sitrus Berry|[eat]
+|-heal|p1a: Exeggutor|73/100|[from] item: Sitrus Berry
+|turn|11
+|move|p2a: Jolteon|Shadow Ball|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|7/100
+|move|p1a: Exeggutor|Giga Drain|p2a: Jolteon
+|-damage|p2a: Jolteon|0 fnt
+|-heal|p1a: Exeggutor|15/100|[from] drain|[of] p2a: Jolteon
+|faint|p2a: Jolteon
+|upkeep
+|switch|p2a: Rhyperior|Rhyperior, L81, M|319/319
+|turn|12
+|move|p1a: Exeggutor|Giga Drain|p2a: Rhyperior
+|-supereffective|p2a: Rhyperior
+|-crit|p2a: Rhyperior
+|-damage|p2a: Rhyperior|0 fnt
+|-heal|p1a: Exeggutor|67/100|[from] drain|[of] p2a: Rhyperior
+|faint|p2a: Rhyperior
+|upkeep
+|switch|p2a: Celebi|Celebi, L83|302/302
+|turn|13
+|move|p2a: Celebi|Nasty Plot|p2a: Celebi
+|-boost|p2a: Celebi|spa|2
+|move|p1a: Exeggutor|Psychic|p2a: Celebi
+|-resisted|p2a: Celebi
+|-damage|p2a: Celebi|245/302
+|-heal|p2a: Celebi|263/302|[from] item: Leftovers
+|upkeep
+|turn|14
+|move|p2a: Celebi|Psychic|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-crit|p1a: Exeggutor
+|-damage|p1a: Exeggutor|19/100
+|move|p1a: Exeggutor|Leech Seed|p2a: Celebi
+|-immune|p2a: Celebi
+|-heal|p2a: Celebi|281/302|[from] item: Leftovers
+|-item|p1a: Exeggutor|Sitrus Berry|[from] ability: Harvest
+|upkeep
+|-enditem|p1a: Exeggutor|Sitrus Berry|[eat]
+|-heal|p1a: Exeggutor|44/100|[from] item: Sitrus Berry
+|turn|15
+|move|p2a: Celebi|Psychic|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|8/100
+|move|p1a: Exeggutor|Giga Drain|p2a: Celebi
+|-resisted|p2a: Celebi
+|-damage|p2a: Celebi|235/302
+|-heal|p1a: Exeggutor|16/100|[from] drain|[of] p2a: Celebi
+|-heal|p2a: Celebi|253/302|[from] item: Leftovers
+|-item|p1a: Exeggutor|Sitrus Berry|[from] ability: Harvest
+|upkeep
+|-enditem|p1a: Exeggutor|Sitrus Berry|[eat]
+|-heal|p1a: Exeggutor|41/100|[from] item: Sitrus Berry
+|turn|16
+|move|p2a: Celebi|Psychic|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|7/100
+|-unboost|p1a: Exeggutor|spd|1
+|move|p1a: Exeggutor|Giga Drain|p2a: Celebi
+|-resisted|p2a: Celebi
+|-damage|p2a: Celebi|203/302
+|-heal|p1a: Exeggutor|15/100|[from] drain|[of] p2a: Celebi
+|-heal|p2a: Celebi|221/302|[from] item: Leftovers
+|-item|p1a: Exeggutor|Sitrus Berry|[from] ability: Harvest
+|upkeep
+|-enditem|p1a: Exeggutor|Sitrus Berry|[eat]
+|-heal|p1a: Exeggutor|40/100|[from] item: Sitrus Berry
+|turn|17
+|move|p2a: Celebi|Psychic|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|-heal|p2a: Celebi|239/302|[from] item: Leftovers
+|upkeep
+|switch|p1a: Cofagrigus|Cofagrigus, L86, F|100/100
+|turn|18
+|move|p2a: Celebi|Leaf Storm|p1a: Cofagrigus
+|-damage|p1a: Cofagrigus|5/100
+|-unboost|p2a: Celebi|spa|2
+|move|p1a: Cofagrigus|Shadow Ball|p2a: Celebi
+|-supereffective|p2a: Celebi
+|-damage|p2a: Celebi|83/302
+|-heal|p2a: Celebi|101/302|[from] item: Leftovers
+|-heal|p1a: Cofagrigus|11/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|move|p2a: Celebi|Psychic|p1a: Cofagrigus
+|-damage|p1a: Cofagrigus|0 fnt
+|faint|p1a: Cofagrigus
+|-heal|p2a: Celebi|119/302|[from] item: Leftovers
+|upkeep
+|switch|p1a: Slurpuff|Slurpuff, L79, F|100/100
+|turn|20
+|move|p2a: Celebi|Psychic|p1a: Slurpuff
+|-damage|p1a: Slurpuff|57/100
+|move|p1a: Slurpuff|Drain Punch|p2a: Celebi
+|-resisted|p2a: Celebi
+|-damage|p2a: Celebi|99/302
+|-heal|p1a: Slurpuff|61/100|[from] drain|[of] p2a: Celebi
+|-heal|p2a: Celebi|117/302|[from] item: Leftovers
+|upkeep
+|turn|21
+|move|p2a: Celebi|Psychic|p1a: Slurpuff
+|-damage|p1a: Slurpuff|20/100
+|-enditem|p1a: Slurpuff|Sitrus Berry|[eat]
+|-heal|p1a: Slurpuff|45/100|[from] item: Sitrus Berry
+|move|p1a: Slurpuff|Facade|p2a: Celebi
+|-damage|p2a: Celebi|80/302
+|-heal|p2a: Celebi|98/302|[from] item: Leftovers
+|upkeep
+|turn|22
+|move|p1a: Slurpuff|Play Rough|p2a: Celebi
+|-damage|p2a: Celebi|35/302
+|move|p2a: Celebi|Psychic|p1a: Slurpuff
+|-damage|p1a: Slurpuff|0 fnt
+|faint|p1a: Slurpuff
+    </script>
+</div>
+
+<div class="battle-log battle-log-inline" style="display:none"></div>
+
+<script>
+    let daily = Math.floor(Date.now() / 1000 / 60 / 60 / 24); document.write('<script src="https://play.pokemonshowdown.com/js/replay-embed.js?version' + daily + '"></' + 'script>');
+</script>
+
+<p style="text-align:center"> Replay created by <a href="https://github.com/hsahovic/poke-env">poke-env</a>, with code from <a
+        href="https://github.com/smogon/pokemon-showdown"> pokemon-showdown</a>. If something goes wrong, don't hesitate
+    to open an <a href="https://github.com/hsahovic/poke-env/issues">issue!</a></p>

@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<!-- version 1 -->
+<title>battle-gen8randombattle-2044100081-ydlq87feg6g21a5kvscgglbxw96nts3pw</title>
+<style>
+    html,
+    body {
+        font-family: Verdana, sans-serif;
+        font-size: 10pt;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        padding: 12px 0;
+    }
+
+    .battle-log {
+        font-family: Verdana, sans-serif;
+        font-size: 10pt;
+    }
+
+    .battle-log-inline {
+        border: 1px solid #AAAAAA;
+        background: #EEF2F5;
+        color: black;
+        max-width: 640px;
+        margin: 0 auto 80px;
+        padding-bottom: 5px;
+    }
+
+    .battle-log .inner {
+        padding: 4px 8px 0px 8px;
+    }
+
+    .battle-log .inner-preempt {
+        padding: 0 8px 4px 8px;
+    }
+
+    .battle-log .inner-after {
+        margin-top: 0.5em;
+    }
+
+    .battle-log h2 {
+        margin: 0.5em -8px;
+        padding: 4px 8px;
+        border: 1px solid #AAAAAA;
+        background: #E0E7EA;
+        border-left: 0;
+        border-right: 0;
+        font-family: Verdana, sans-serif;
+        font-size: 13pt;
+    }
+
+    .backprop {
+        top: 0;
+    }
+
+    .battle-log .chat {
+        vertical-align: middle;
+        padding: 3px 0 3px 0;
+        font-size: 8pt;
+    }
+
+    .battle-log .chat strong {
+        color: #40576A;
+    }
+
+    .battle-log .chat em {
+        padding: 1px 4px 1px 3px;
+        color: #000000;
+        font-style: normal;
+    }
+
+    .chat.mine {
+        background: rgba(0, 0, 0, 0.05);
+        margin-left: -8px;
+        margin-right: -8px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .spoiler {
+        color: #BBBBBB;
+        background: #BBBBBB;
+        padding: 0px 3px;
+    }
+
+    .spoiler:hover,
+    .spoiler:active,
+    .spoiler-shown {
+        color: #000000;
+        background: #E2E2E2;
+        padding: 0px 3px;
+    }
+
+    .spoiler a {
+        color: #BBBBBB;
+    }
+
+    .spoiler:hover a,
+    .spoiler:active a,
+    .spoiler-shown a {
+        color: #2288CC;
+    }
+
+    .chat code,
+    .chat .spoiler:hover code,
+    .chat .spoiler:active code,
+    .chat .spoiler-shown code {
+        border: 1px solid #C0C0C0;
+        background: #EEEEEE;
+        color: black;
+        padding: 0 2px;
+    }
+
+    .chat .spoiler code {
+        border: 1px solid #CCCCCC;
+        background: #CCCCCC;
+        color: #CCCCCC;
+    }
+
+    .battle-log .rated {
+        padding: 3px 4px;
+    }
+
+    .battle-log .rated strong {
+        color: white;
+        background: #89A;
+        padding: 1px 4px;
+        border-radius: 4px;
+    }
+
+    .spacer {
+        margin-top: 0.5em;
+    }
+
+    .message-announce {
+        background: #6688AA;
+        color: white;
+        padding: 1px 4px 2px;
+    }
+
+    .message-announce a,
+    .broadcast-green a,
+    .broadcast-blue a,
+    .broadcast-red a {
+        color: #DDEEFF;
+    }
+
+    .broadcast-green {
+        background-color: #559955;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .broadcast-blue {
+        background-color: #6688AA;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .infobox {
+        border: 1px solid #6688AA;
+        padding: 2px 4px;
+    }
+
+    .infobox-limited {
+        max-height: 200px;
+        overflow: auto;
+        overflow-x: hidden;
+    }
+
+    .broadcast-red {
+        background-color: #AA5544;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .message-learn-canlearn {
+        font-weight: bold;
+        color: #228822;
+        text-decoration: underline;
+    }
+
+    .message-learn-cannotlearn {
+        font-weight: bold;
+        color: #CC2222;
+        text-decoration: underline;
+    }
+
+    .message-effect-weak {
+        font-weight: bold;
+        color: #CC2222;
+    }
+
+    .message-effect-resist {
+        font-weight: bold;
+        color: #6688AA;
+    }
+
+    .message-effect-immune {
+        font-weight: bold;
+        color: #666666;
+    }
+
+    .message-learn-list {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .message-throttle-notice,
+    .message-error {
+        color: #992222;
+    }
+
+    .message-overflow,
+    .chat small.message-overflow {
+        font-size: 0pt;
+    }
+
+    .message-overflow::before {
+        font-size: 9pt;
+        content: '...';
+    }
+
+    .subtle {
+        color: #3A4A66;
+    }
+</style>
+<div class="wrapper replay-wrapper" style="max-width:1180px;margin:0 auto">
+    <input type="hidden" name="replayid" value="unregisteredserver-gen8randombattle-320064" />
+    <div class="battle"></div>
+    <div class="battle-log"></div>
+    <div class="replay-controls"></div>
+    <div class="replay-controls-2"></div>
+    <h1 style="font-weight:normal;text-align:center"><strong>poke-env battle replay</strong><br />battle-gen8randombattle-2044100081-ydlq87feg6g21a5kvscgglbxw96nts3pw<br /><a
+            href="http://pokemonshowdown.com/users/randomplayer1" class="subtle" target="_blank">PokeLLM</a>
+        vs. <a href="http://pokemonshowdown.com/users/randomplayer2" class="subtle"
+            target="_blank">sleepwhenyouredead</a></h1>
+    <script type="text/plain" class="battle-log-data">
+    >battle-gen8randombattle-2044100081-ydlq87feg6g21a5kvscgglbxw96nts3pw|init|battle
+|title|PokeLLM vs. sleepwhenyouredead
+|j|☆PokeLLM
+|j|☆sleepwhenyouredead
+|gametype|singles
+|player|p1|PokeLLM|supernerd|1182
+|player|p2|sleepwhenyouredead|guitarist-gen4|1057
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Illusion Level Mod: Illusion disguises the Pokémon's true level
+|start
+|switch|p1a: Magnezone|Magnezone, L84|255/255
+|switch|p2a: Sableye|Sableye, L89, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by sleepwhenyouredead)
+|inactive|Time left: 150 sec this turn | 150 sec total | 60 sec grace
+|-start|p1a: Magnezone|Dynamax|
+|-heal|p1a: Magnezone|510/510|[silent]
+|move|p2a: Sableye|Taunt|p1a: Magnezone
+|-start|p1a: Magnezone|move: Taunt
+|move|p1a: Magnezone|Max Steelspike|p2a: Sableye
+|-damage|p2a: Sableye|9/100
+|-boost|p1a: Magnezone|def|1
+|-heal|p2a: Sableye|15/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p1a: Magnezone|Max Lightning|p2a: Sableye
+|-damage|p2a: Sableye|0 fnt
+|-fieldstart|move: Electric Terrain
+|faint|p2a: Sableye
+|upkeep
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p2a: Salazzle|Salazzle, L82, F|100/100
+|turn|3
+|inactive|Time left: 150 sec this turn | 150 sec total
+|-start|p2a: Salazzle|Dynamax|
+|-heal|p2a: Salazzle|100/100|[silent]
+|move|p2a: Salazzle|Max Flare|p1a: Magnezone
+|-supereffective|p1a: Magnezone
+|-damage|p1a: Magnezone|334/510
+|-weather|SunnyDay
+|move|p1a: Magnezone|Max Mindstorm|p2a: Salazzle
+|-supereffective|p2a: Salazzle
+|-damage|p2a: Salazzle|49/100
+|-fieldstart|move: Psychic Terrain
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Salazzle|52/100|[from] item: Black Sludge
+|-end|p1a: Magnezone|move: Taunt
+|upkeep
+|-end|p1a: Magnezone|Dynamax
+|-heal|p1a: Magnezone|167/255|[silent]
+|turn|4
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p2a: Salazzle|Max Flare|p1a: Magnezone
+|-supereffective|p1a: Magnezone
+|-damage|p1a: Magnezone|0 fnt
+|faint|p1a: Magnezone
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Salazzle|55/100|[from] item: Black Sludge
+|upkeep
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p1a: Ludicolo|Ludicolo, L86, M|278/278
+|turn|5
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p2a: Salazzle|Max Flare|p1a: Ludicolo
+|-damage|p1a: Ludicolo|79/278
+|move|p1a: Ludicolo|Scald|p2a: Salazzle
+|-supereffective|p2a: Salazzle
+|-damage|p2a: Salazzle|24/100
+|-damage|p1a: Ludicolo|52/278|[from] item: Life Orb
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Salazzle|27/100|[from] item: Black Sludge
+|upkeep
+|-end|p2a: Salazzle|Dynamax
+|-heal|p2a: Salazzle|27/100|[silent]
+|turn|6
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p2a: Salazzle|Protect|p2a: Salazzle
+|-singleturn|p2a: Salazzle|Protect
+|move|p1a: Ludicolo|Scald|p2a: Salazzle
+|-activate|p2a: Salazzle|move: Protect
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Salazzle|33/100|[from] item: Black Sludge
+|upkeep
+|turn|7
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p2a: Salazzle|Toxic|p1a: Ludicolo
+|-status|p1a: Ludicolo|tox
+|move|p1a: Ludicolo|Scald|p2a: Salazzle
+|-supereffective|p2a: Salazzle
+|-damage|p2a: Salazzle|0 fnt
+|faint|p2a: Salazzle
+|-damage|p1a: Ludicolo|25/278 tox|[from] item: Life Orb
+|-weather|none
+|-damage|p1a: Ludicolo|8/278 tox|[from] psn
+|-fieldend|move: Psychic Terrain
+|upkeep
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p2a: Decidueye|Decidueye, L86, F|100/100
+|turn|8
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p1a: Ludicolo|Ice Beam|p2a: Decidueye
+|-supereffective|p2a: Decidueye
+|-damage|p2a: Decidueye|51/100
+|-damage|p1a: Ludicolo|0 fnt|[from] item: Life Orb
+|faint|p1a: Ludicolo
+|move|p2a: Decidueye|Leaf Blade|p1: Ludicolo|[notarget]
+|-fail|p2a: Decidueye
+|upkeep
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p1a: Azelf|Azelf, L81|254/254
+|turn|9
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p1a: Azelf|Fire Blast|p2a: Decidueye
+|-supereffective|p2a: Decidueye
+|-damage|p2a: Decidueye|0 fnt
+|faint|p2a: Decidueye
+|-damage|p1a: Azelf|229/254|[from] item: Life Orb
+|upkeep
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p2a: Zeraora|Zeraora, L76|100/100
+|turn|10
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p2a: Zeraora|Plasma Fists|p1a: Azelf
+|-damage|p1a: Azelf|115/254
+|-fieldactivate|move: Ion Deluge
+|-hint|Normal-type moves become Electric-type after using Plasma Fists.
+|move|p1a: Azelf|Psychic|p2a: Zeraora
+|-damage|p2a: Zeraora|53/100
+|-unboost|p2a: Zeraora|spd|1
+|-damage|p1a: Azelf|90/254|[from] item: Life Orb
+|upkeep
+|turn|11
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p2a: Zeraora|Plasma Fists|p1a: Azelf
+|-damage|p1a: Azelf|0 fnt
+|-fieldactivate|move: Ion Deluge
+|-hint|Normal-type moves become Electric-type after using Plasma Fists.
+|faint|p1a: Azelf
+|upkeep
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p1a: Registeel|Registeel, L83|268/268
+|turn|12
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p2a: Zeraora|Close Combat|p1a: Registeel
+|-supereffective|p1a: Registeel
+|-damage|p1a: Registeel|170/268
+|-unboost|p2a: Zeraora|def|1
+|-unboost|p2a: Zeraora|spd|1
+|move|p1a: Registeel|Body Press|p2a: Zeraora
+|-damage|p2a: Zeraora|0 fnt
+|faint|p2a: Zeraora
+|upkeep
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p2a: Galvantula|Galvantula, L82, F|100/100
+|turn|13
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p1a: Regice|Regice, L84|271/271
+|move|p2a: Galvantula|Thunder|p1a: Regice
+|-damage|p1a: Regice|219/271
+|upkeep
+|turn|14
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p2a: Diancie|Diancie, L82|100/100
+|move|p1a: Regice|Ice Beam|p2a: Diancie
+|-damage|p2a: Diancie|67/100
+|-heal|p2a: Diancie|73/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p1a: Regice|Focus Blast|p2a: Diancie
+|-damage|p2a: Diancie|44/100
+|move|p2a: Diancie|Earth Power|p1a: Regice
+|-damage|p1a: Regice|188/271
+|-heal|p2a: Diancie|50/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p1a: Regice|Focus Blast|p2a: Diancie|[miss]
+|-miss|p1a: Regice|p2a: Diancie
+|move|p2a: Diancie|Moonblast|p1a: Regice
+|-damage|p1a: Regice|134/271
+|-heal|p2a: Diancie|57/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p1a: Registeel|Registeel, L83|170/268
+|move|p2a: Diancie|Diamond Storm|p1a: Registeel
+|-resisted|p1a: Registeel
+|-crit|p1a: Registeel
+|-damage|p1a: Registeel|119/268
+|-boost|p2a: Diancie|def|2
+|-heal|p2a: Diancie|63/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p1a: Registeel|Iron Head|p2a: Diancie
+|-supereffective|p2a: Diancie
+|-damage|p2a: Diancie|16/100
+|move|p2a: Diancie|Earth Power|p1a: Registeel
+|-supereffective|p1a: Registeel
+|-damage|p1a: Registeel|35/268
+|-heal|p2a: Diancie|22/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p1a: Registeel|Iron Head|p2a: Diancie
+|-supereffective|p2a: Diancie
+|-damage|p2a: Diancie|0 fnt
+|faint|p2a: Diancie
+|upkeep
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p2a: Galvantula|Galvantula, L82, F|100/100
+|turn|20
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p1a: Pikachu|Pikachu-Kalos, L92, M|214/214
+|move|p2a: Galvantula|Volt Switch|p1a: Pikachu
+|-ability|p1a: Pikachu|Lightning Rod|boost
+|-boost|p1a: Pikachu|spa|1
+|upkeep
+|turn|21
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p2a: Galvantula|Bug Buzz|p1a: Pikachu
+|-damage|p1a: Pikachu|82/214
+|move|p1a: Pikachu|Surf|p2a: Galvantula
+|-damage|p2a: Galvantula|20/100
+|upkeep
+|turn|22
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p2a: Galvantula|Bug Buzz|p1a: Pikachu
+|-damage|p1a: Pikachu|0 fnt
+|faint|p1a: Pikachu
+|upkeep
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p1a: Regice|Regice, L84|134/271
+|turn|23
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p2a: Galvantula|Volt Switch|p1a: Regice
+|-damage|p1a: Regice|94/271
+|move|p1a: Regice|Ice Beam|p2a: Galvantula
+|-damage|p2a: Galvantula|0 fnt
+|faint|p2a: Galvantula
+    </script>
+</div>
+
+<div class="battle-log battle-log-inline" style="display:none"></div>
+
+<script>
+    let daily = Math.floor(Date.now() / 1000 / 60 / 60 / 24); document.write('<script src="https://play.pokemonshowdown.com/js/replay-embed.js?version' + daily + '"></' + 'script>');
+</script>
+
+<p style="text-align:center"> Replay created by <a href="https://github.com/hsahovic/poke-env">poke-env</a>, with code from <a
+        href="https://github.com/smogon/pokemon-showdown"> pokemon-showdown</a>. If something goes wrong, don't hesitate
+    to open an <a href="https://github.com/hsahovic/poke-env/issues">issue!</a></p>

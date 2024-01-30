@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<!-- version 1 -->
+<title>battle-gen8randombattle-2044287945</title>
+<style>
+    html,
+    body {
+        font-family: Verdana, sans-serif;
+        font-size: 10pt;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        padding: 12px 0;
+    }
+
+    .battle-log {
+        font-family: Verdana, sans-serif;
+        font-size: 10pt;
+    }
+
+    .battle-log-inline {
+        border: 1px solid #AAAAAA;
+        background: #EEF2F5;
+        color: black;
+        max-width: 640px;
+        margin: 0 auto 80px;
+        padding-bottom: 5px;
+    }
+
+    .battle-log .inner {
+        padding: 4px 8px 0px 8px;
+    }
+
+    .battle-log .inner-preempt {
+        padding: 0 8px 4px 8px;
+    }
+
+    .battle-log .inner-after {
+        margin-top: 0.5em;
+    }
+
+    .battle-log h2 {
+        margin: 0.5em -8px;
+        padding: 4px 8px;
+        border: 1px solid #AAAAAA;
+        background: #E0E7EA;
+        border-left: 0;
+        border-right: 0;
+        font-family: Verdana, sans-serif;
+        font-size: 13pt;
+    }
+
+    .backprop {
+        top: 0;
+    }
+
+    .battle-log .chat {
+        vertical-align: middle;
+        padding: 3px 0 3px 0;
+        font-size: 8pt;
+    }
+
+    .battle-log .chat strong {
+        color: #40576A;
+    }
+
+    .battle-log .chat em {
+        padding: 1px 4px 1px 3px;
+        color: #000000;
+        font-style: normal;
+    }
+
+    .chat.mine {
+        background: rgba(0, 0, 0, 0.05);
+        margin-left: -8px;
+        margin-right: -8px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .spoiler {
+        color: #BBBBBB;
+        background: #BBBBBB;
+        padding: 0px 3px;
+    }
+
+    .spoiler:hover,
+    .spoiler:active,
+    .spoiler-shown {
+        color: #000000;
+        background: #E2E2E2;
+        padding: 0px 3px;
+    }
+
+    .spoiler a {
+        color: #BBBBBB;
+    }
+
+    .spoiler:hover a,
+    .spoiler:active a,
+    .spoiler-shown a {
+        color: #2288CC;
+    }
+
+    .chat code,
+    .chat .spoiler:hover code,
+    .chat .spoiler:active code,
+    .chat .spoiler-shown code {
+        border: 1px solid #C0C0C0;
+        background: #EEEEEE;
+        color: black;
+        padding: 0 2px;
+    }
+
+    .chat .spoiler code {
+        border: 1px solid #CCCCCC;
+        background: #CCCCCC;
+        color: #CCCCCC;
+    }
+
+    .battle-log .rated {
+        padding: 3px 4px;
+    }
+
+    .battle-log .rated strong {
+        color: white;
+        background: #89A;
+        padding: 1px 4px;
+        border-radius: 4px;
+    }
+
+    .spacer {
+        margin-top: 0.5em;
+    }
+
+    .message-announce {
+        background: #6688AA;
+        color: white;
+        padding: 1px 4px 2px;
+    }
+
+    .message-announce a,
+    .broadcast-green a,
+    .broadcast-blue a,
+    .broadcast-red a {
+        color: #DDEEFF;
+    }
+
+    .broadcast-green {
+        background-color: #559955;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .broadcast-blue {
+        background-color: #6688AA;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .infobox {
+        border: 1px solid #6688AA;
+        padding: 2px 4px;
+    }
+
+    .infobox-limited {
+        max-height: 200px;
+        overflow: auto;
+        overflow-x: hidden;
+    }
+
+    .broadcast-red {
+        background-color: #AA5544;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .message-learn-canlearn {
+        font-weight: bold;
+        color: #228822;
+        text-decoration: underline;
+    }
+
+    .message-learn-cannotlearn {
+        font-weight: bold;
+        color: #CC2222;
+        text-decoration: underline;
+    }
+
+    .message-effect-weak {
+        font-weight: bold;
+        color: #CC2222;
+    }
+
+    .message-effect-resist {
+        font-weight: bold;
+        color: #6688AA;
+    }
+
+    .message-effect-immune {
+        font-weight: bold;
+        color: #666666;
+    }
+
+    .message-learn-list {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .message-throttle-notice,
+    .message-error {
+        color: #992222;
+    }
+
+    .message-overflow,
+    .chat small.message-overflow {
+        font-size: 0pt;
+    }
+
+    .message-overflow::before {
+        font-size: 9pt;
+        content: '...';
+    }
+
+    .subtle {
+        color: #3A4A66;
+    }
+</style>
+<div class="wrapper replay-wrapper" style="max-width:1180px;margin:0 auto">
+    <input type="hidden" name="replayid" value="unregisteredserver-gen8randombattle-320064" />
+    <div class="battle"></div>
+    <div class="battle-log"></div>
+    <div class="replay-controls"></div>
+    <div class="replay-controls-2"></div>
+    <h1 style="font-weight:normal;text-align:center"><strong>poke-env battle replay</strong><br />battle-gen8randombattle-2044287945<br /><a
+            href="http://pokemonshowdown.com/users/randomplayer1" class="subtle" target="_blank">PokeLLM</a>
+        vs. <a href="http://pokemonshowdown.com/users/randomplayer2" class="subtle"
+            target="_blank">oioiklmn</a></h1>
+    <script type="text/plain" class="battle-log-data">
+    >battle-gen8randombattle-2044287945|init|battle
+|title|oioiklmn vs. PokeLLM
+|j|☆oioiklmn
+|j|☆PokeLLM
+|gametype|singles
+|player|p1|oioiklmn|169|1038
+|player|p2|PokeLLM|supernerd|1106
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Illusion Level Mod: Illusion disguises the Pokémon's true level
+|start
+|switch|p1a: Whimsicott|Whimsicott, L84, M|100/100
+|switch|p2a: Drifblim|Drifblim, L84, F|389/389
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by PokeLLM)
+|inactive|Time left: 150 sec this turn | 150 sec total | 60 sec grace
+|switch|p2a: Archeops|Archeops, L83, M|259/259
+|move|p1a: Whimsicott|Leech Seed|p2a: Archeops
+|-start|p2a: Archeops|move: Leech Seed
+|-damage|p2a: Archeops|227/259|[from] Leech Seed|[of] p1a: Whimsicott
+|upkeep
+|turn|2
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p1a: Talonflame|Talonflame, L81, M|100/100
+|move|p2a: Archeops|Dual Wingbeat|p1a: Talonflame
+|-damage|p1a: Talonflame|63/100
+|-status|p2a: Archeops|brn|[from] ability: Flame Body|[of] p1a: Talonflame
+|-damage|p1a: Talonflame|42/100
+|-hitcount|p1a: Talonflame|2
+|-damage|p2a: Archeops|195/259 brn|[from] Leech Seed|[of] p1a: Talonflame
+|-heal|p1a: Talonflame|54/100|[silent]
+|-damage|p2a: Archeops|179/259 brn|[from] brn
+|upkeep
+|turn|3
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p2a: Gourgeist|Gourgeist-Super, L85, M|283/283
+|-item|p1a: Talonflame|Heavy-Duty Boots|[from] ability: Frisk|[of] p2a: Gourgeist|[identify]
+|move|p1a: Talonflame|Roost|p1a: Talonflame
+|-heal|p1a: Talonflame|100/100
+|-singleturn|p1a: Talonflame|move: Roost
+|upkeep
+|turn|4
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p1a: Talonflame|Flare Blitz|p2a: Gourgeist
+|-supereffective|p2a: Gourgeist
+|-damage|p2a: Gourgeist|121/283
+|-damage|p1a: Talonflame|80/100|[from] Recoil
+|move|p2a: Gourgeist|Rock Slide|p1a: Talonflame
+|-supereffective|p1a: Talonflame
+|-damage|p1a: Talonflame|0 fnt
+|faint|p1a: Talonflame
+|-damage|p2a: Gourgeist|93/283|[from] item: Life Orb
+|upkeep
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p1a: Whimsicott|Whimsicott, L84, M|100/100
+|turn|5
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p2a: Electivire|Electivire, L82, M|257/257
+|move|p1a: Whimsicott|Moonblast|p2a: Electivire
+|-damage|p2a: Electivire|167/257
+|-unboost|p2a: Electivire|spa|1
+|upkeep
+|turn|6
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p1a: Whimsicott|Moonblast|p2a: Electivire
+|-damage|p2a: Electivire|83/257
+|-unboost|p2a: Electivire|spa|1
+|move|p2a: Electivire|Flamethrower|p1a: Whimsicott
+|-supereffective|p1a: Whimsicott
+|-damage|p1a: Whimsicott|66/100
+|-damage|p2a: Electivire|58/257|[from] item: Life Orb
+|-heal|p1a: Whimsicott|72/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p1a: Whimsicott|Moonblast|p2a: Electivire
+|-damage|p2a: Electivire|0 fnt
+|faint|p2a: Electivire
+|-heal|p1a: Whimsicott|78/100|[from] item: Leftovers
+|upkeep
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p2a: Jolteon|Jolteon, L82, M|241/241
+|turn|8
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p1a: Whimsicott|Leech Seed|p2a: Jolteon
+|-start|p2a: Jolteon|move: Leech Seed
+|move|p2a: Jolteon|Shadow Ball|p1a: Whimsicott
+|-damage|p1a: Whimsicott|35/100
+|-heal|p1a: Whimsicott|40/100|[from] item: Leftovers
+|-damage|p2a: Jolteon|211/241|[from] Leech Seed|[of] p1a: Whimsicott
+|-heal|p1a: Whimsicott|53/100|[silent]
+|upkeep
+|turn|9
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p1a: Magmortar|Magmortar, L87, F|100/100
+|move|p2a: Jolteon|Shadow Ball|p1a: Magmortar
+|-damage|p1a: Magmortar|82/100
+|-unboost|p1a: Magmortar|spd|1
+|-damage|p2a: Jolteon|181/241|[from] Leech Seed|[of] p1a: Magmortar
+|-heal|p1a: Magmortar|93/100|[silent]
+|upkeep
+|turn|10
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p2a: Archeops|Archeops, L83, M|179/259 brn
+|move|p1a: Magmortar|Fire Blast|p2a: Archeops
+|-resisted|p2a: Archeops
+|-damage|p2a: Archeops|92/259 brn
+|-damage|p2a: Archeops|76/259 brn|[from] brn
+|upkeep
+|turn|11
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p2a: Archeops|Earthquake|p1a: Magmortar
+|-supereffective|p1a: Magmortar
+|-damage|p1a: Magmortar|65/100
+|move|p1a: Magmortar|Psychic|p2a: Archeops
+|-damage|p2a: Archeops|0 fnt
+|faint|p2a: Archeops
+|upkeep
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p2a: Gourgeist|Gourgeist-Super, L85, M|93/283
+|-item|p1a: Magmortar|Assault Vest|[from] ability: Frisk|[of] p2a: Gourgeist|[identify]
+|turn|12
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p1a: Magmortar|Fire Blast|p2a: Gourgeist
+|-supereffective|p2a: Gourgeist
+|-damage|p2a: Gourgeist|0 fnt
+|faint|p2a: Gourgeist
+|upkeep
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p2a: Jolteon|Jolteon, L82, M|181/241
+|turn|13
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p1a: Whimsicott|Whimsicott, L84, M|53/100
+|move|p2a: Jolteon|Shadow Ball|p1a: Whimsicott
+|-damage|p1a: Whimsicott|11/100
+|-heal|p1a: Whimsicott|17/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p1a: Whimsicott|Leech Seed|p2a: Jolteon
+|-start|p2a: Jolteon|move: Leech Seed
+|move|p2a: Jolteon|Shadow Ball|p1a: Whimsicott
+|-damage|p1a: Whimsicott|0 fnt
+|faint|p1a: Whimsicott
+|upkeep
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p1a: Magmortar|Magmortar, L87, F|65/100
+|turn|15
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p2a: Jolteon|Shadow Ball|p1a: Magmortar
+|-damage|p1a: Magmortar|44/100
+|move|p1a: Magmortar|Thunderbolt|p2a: Jolteon
+|-heal|p2a: Jolteon|241/241|[from] ability: Volt Absorb|[of] p1a: Magmortar
+|-damage|p2a: Jolteon|211/241|[from] Leech Seed|[of] p1a: Magmortar
+|-heal|p1a: Magmortar|55/100|[silent]
+|upkeep
+|turn|16
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p2a: Jolteon|Shadow Ball|p1a: Magmortar
+|-damage|p1a: Magmortar|36/100
+|move|p1a: Magmortar|Fire Blast|p2a: Jolteon
+|-damage|p2a: Jolteon|61/241
+|-damage|p2a: Jolteon|31/241|[from] Leech Seed|[of] p1a: Magmortar
+|-heal|p1a: Magmortar|47/100|[silent]
+|upkeep
+|turn|17
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p2a: Jolteon|Shadow Ball|p1a: Magmortar
+|-damage|p1a: Magmortar|26/100
+|move|p1a: Magmortar|Psychic|p2a: Jolteon
+|-damage|p2a: Jolteon|0 fnt
+|faint|p2a: Jolteon
+|upkeep
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p2a: Drifblim|Drifblim, L84, F|389/389
+|turn|18
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p1a: Magmortar|Thunderbolt|p2a: Drifblim
+|-supereffective|p2a: Drifblim
+|-damage|p2a: Drifblim|169/389
+|-enditem|p2a: Drifblim|Sitrus Berry|[eat]
+|-heal|p2a: Drifblim|266/389|[from] item: Sitrus Berry
+|move|p2a: Drifblim|Shadow Ball|p1a: Magmortar
+|-damage|p1a: Magmortar|9/100
+|upkeep
+|turn|19
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p2a: Drifblim|Shadow Ball|p1a: Magmortar
+|-damage|p1a: Magmortar|0 fnt
+|faint|p1a: Magmortar
+|upkeep
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p1a: Zamazenta|Zamazenta, L72|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|20
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p2a: Drifblim|Strength Sap|p1a: Zamazenta
+|-unboost|p1a: Zamazenta|atk|1
+|-heal|p2a: Drifblim|389/389
+|move|p1a: Zamazenta|Crunch|p2a: Drifblim
+|-supereffective|p2a: Drifblim
+|-crit|p2a: Drifblim
+|-damage|p2a: Drifblim|39/389
+|-unboost|p2a: Drifblim|def|1
+|upkeep
+|turn|21
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p2a: Drifblim|Shadow Ball|p1a: Zamazenta
+|-damage|p1a: Zamazenta|71/100
+|move|p1a: Zamazenta|Crunch|p2a: Drifblim
+|-supereffective|p2a: Drifblim
+|-damage|p2a: Drifblim|0 fnt
+|faint|p2a: Drifblim
+|upkeep
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p2a: Frosmoth|Frosmoth, L82, M|249/249
+|turn|22
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p1a: Durant|Durant, L78, F|100/100
+|-start|p2a: Frosmoth|Dynamax|
+|-heal|p2a: Frosmoth|498/498|[silent]
+|move|p2a: Frosmoth|Max Airstream|p1a: Durant
+|-damage|p1a: Durant|14/100
+|-boost|p2a: Frosmoth|spe|1
+|upkeep
+|turn|23
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p2a: Frosmoth|Max Airstream|p1a: Durant
+|-damage|p1a: Durant|0 fnt
+|-boost|p2a: Frosmoth|spe|1
+|faint|p1a: Durant
+|upkeep
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p1a: Zamazenta|Zamazenta, L72|71/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|24
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p2a: Frosmoth|Max Airstream|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|-boost|p2a: Frosmoth|spe|1
+|faint|p1a: Zamazenta
+|upkeep
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p1a: Virizion|Virizion, L81|100/100
+|-end|p2a: Frosmoth|Dynamax
+|-heal|p2a: Frosmoth|249/249|[silent]
+|turn|25
+|inactive|Time left: 150 sec this turn | 150 sec total
+|-start|p1a: Virizion|Dynamax|
+|-heal|p1a: Virizion|100/100|[silent]
+|move|p2a: Frosmoth|Hurricane|p1a: Virizion|[miss]
+|-miss|p2a: Frosmoth|p1a: Virizion
+|move|p1a: Virizion|Max Rockfall|p2a: Frosmoth
+|-supereffective|p2a: Frosmoth
+|-damage|p2a: Frosmoth|0 fnt
+|-weather|Sandstorm
+|faint|p2a: Frosmoth
+    </script>
+</div>
+
+<div class="battle-log battle-log-inline" style="display:none"></div>
+
+<script>
+    let daily = Math.floor(Date.now() / 1000 / 60 / 60 / 24); document.write('<script src="https://play.pokemonshowdown.com/js/replay-embed.js?version' + daily + '"></' + 'script>');
+</script>
+
+<p style="text-align:center"> Replay created by <a href="https://github.com/hsahovic/poke-env">poke-env</a>, with code from <a
+        href="https://github.com/smogon/pokemon-showdown"> pokemon-showdown</a>. If something goes wrong, don't hesitate
+    to open an <a href="https://github.com/hsahovic/poke-env/issues">issue!</a></p>

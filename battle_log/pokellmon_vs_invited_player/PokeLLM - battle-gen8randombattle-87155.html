@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<!-- version 1 -->
+<title>battle-gen8randombattle-87155</title>
+<style>
+    html,
+    body {
+        font-family: Verdana, sans-serif;
+        font-size: 10pt;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        padding: 12px 0;
+    }
+
+    .battle-log {
+        font-family: Verdana, sans-serif;
+        font-size: 10pt;
+    }
+
+    .battle-log-inline {
+        border: 1px solid #AAAAAA;
+        background: #EEF2F5;
+        color: black;
+        max-width: 640px;
+        margin: 0 auto 80px;
+        padding-bottom: 5px;
+    }
+
+    .battle-log .inner {
+        padding: 4px 8px 0px 8px;
+    }
+
+    .battle-log .inner-preempt {
+        padding: 0 8px 4px 8px;
+    }
+
+    .battle-log .inner-after {
+        margin-top: 0.5em;
+    }
+
+    .battle-log h2 {
+        margin: 0.5em -8px;
+        padding: 4px 8px;
+        border: 1px solid #AAAAAA;
+        background: #E0E7EA;
+        border-left: 0;
+        border-right: 0;
+        font-family: Verdana, sans-serif;
+        font-size: 13pt;
+    }
+
+    .backprop {
+        top: 0;
+    }
+
+    .battle-log .chat {
+        vertical-align: middle;
+        padding: 3px 0 3px 0;
+        font-size: 8pt;
+    }
+
+    .battle-log .chat strong {
+        color: #40576A;
+    }
+
+    .battle-log .chat em {
+        padding: 1px 4px 1px 3px;
+        color: #000000;
+        font-style: normal;
+    }
+
+    .chat.mine {
+        background: rgba(0, 0, 0, 0.05);
+        margin-left: -8px;
+        margin-right: -8px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .spoiler {
+        color: #BBBBBB;
+        background: #BBBBBB;
+        padding: 0px 3px;
+    }
+
+    .spoiler:hover,
+    .spoiler:active,
+    .spoiler-shown {
+        color: #000000;
+        background: #E2E2E2;
+        padding: 0px 3px;
+    }
+
+    .spoiler a {
+        color: #BBBBBB;
+    }
+
+    .spoiler:hover a,
+    .spoiler:active a,
+    .spoiler-shown a {
+        color: #2288CC;
+    }
+
+    .chat code,
+    .chat .spoiler:hover code,
+    .chat .spoiler:active code,
+    .chat .spoiler-shown code {
+        border: 1px solid #C0C0C0;
+        background: #EEEEEE;
+        color: black;
+        padding: 0 2px;
+    }
+
+    .chat .spoiler code {
+        border: 1px solid #CCCCCC;
+        background: #CCCCCC;
+        color: #CCCCCC;
+    }
+
+    .battle-log .rated {
+        padding: 3px 4px;
+    }
+
+    .battle-log .rated strong {
+        color: white;
+        background: #89A;
+        padding: 1px 4px;
+        border-radius: 4px;
+    }
+
+    .spacer {
+        margin-top: 0.5em;
+    }
+
+    .message-announce {
+        background: #6688AA;
+        color: white;
+        padding: 1px 4px 2px;
+    }
+
+    .message-announce a,
+    .broadcast-green a,
+    .broadcast-blue a,
+    .broadcast-red a {
+        color: #DDEEFF;
+    }
+
+    .broadcast-green {
+        background-color: #559955;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .broadcast-blue {
+        background-color: #6688AA;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .infobox {
+        border: 1px solid #6688AA;
+        padding: 2px 4px;
+    }
+
+    .infobox-limited {
+        max-height: 200px;
+        overflow: auto;
+        overflow-x: hidden;
+    }
+
+    .broadcast-red {
+        background-color: #AA5544;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .message-learn-canlearn {
+        font-weight: bold;
+        color: #228822;
+        text-decoration: underline;
+    }
+
+    .message-learn-cannotlearn {
+        font-weight: bold;
+        color: #CC2222;
+        text-decoration: underline;
+    }
+
+    .message-effect-weak {
+        font-weight: bold;
+        color: #CC2222;
+    }
+
+    .message-effect-resist {
+        font-weight: bold;
+        color: #6688AA;
+    }
+
+    .message-effect-immune {
+        font-weight: bold;
+        color: #666666;
+    }
+
+    .message-learn-list {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .message-throttle-notice,
+    .message-error {
+        color: #992222;
+    }
+
+    .message-overflow,
+    .chat small.message-overflow {
+        font-size: 0pt;
+    }
+
+    .message-overflow::before {
+        font-size: 9pt;
+        content: '...';
+    }
+
+    .subtle {
+        color: #3A4A66;
+    }
+</style>
+<div class="wrapper replay-wrapper" style="max-width:1180px;margin:0 auto">
+    <input type="hidden" name="replayid" value="unregisteredserver-gen8randombattle-320064" />
+    <div class="battle"></div>
+    <div class="battle-log"></div>
+    <div class="replay-controls"></div>
+    <div class="replay-controls-2"></div>
+    <h1 style="font-weight:normal;text-align:center"><strong>poke-env battle replay</strong><br />battle-gen8randombattle-87155<br /><a
+            href="http://pokemonshowdown.com/users/randomplayer1" class="subtle" target="_blank">PokeLLM</a>
+        vs. <a href="http://pokemonshowdown.com/users/randomplayer2" class="subtle"
+            target="_blank">BayiHu</a></h1>
+    <script type="text/plain" class="battle-log-data">
+    >battle-gen8randombattle-87155|init|battle
+|title|BayiHu vs. PokeLLM
+|j|☆BayiHu
+|j|☆PokeLLM
+|gametype|singles
+|player|p1|BayiHu|101|1171
+|player|p2|PokeLLM|169|1329
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Illusion Level Mod: Illusion disguises the Pokémon's true level
+|start
+|switch|p1a: Wishiwashi|Wishiwashi, L85, M|100/100
+|switch|p2a: Terrakion|Terrakion, L77|267/267
+|-formechange|p1a: Wishiwashi|Wishiwashi-School||[from] ability: Schooling
+|turn|1
+|-start|p1a: Wishiwashi|Dynamax|
+|-heal|p1a: Wishiwashi|100/100|[silent]
+|move|p2a: Terrakion|Stone Edge|p1a: Wishiwashi
+|-damage|p1a: Wishiwashi|77/100
+|-damage|p2a: Terrakion|241/267|[from] item: Life Orb
+|move|p1a: Wishiwashi|Max Geyser|p2a: Terrakion
+|-supereffective|p2a: Terrakion
+|-damage|p2a: Terrakion|0 fnt
+|-weather|RainDance
+|faint|p2a: Terrakion
+|-weather|RainDance|[upkeep]
+|upkeep
+|switch|p2a: Accelgor|Accelgor, L87, M|281/281
+|turn|2
+|move|p2a: Accelgor|Toxic|p1a: Wishiwashi
+|-status|p1a: Wishiwashi|tox
+|move|p1a: Wishiwashi|Max Geyser|p2a: Accelgor
+|-damage|p2a: Accelgor|0 fnt
+|faint|p2a: Accelgor
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Wishiwashi|74/100 tox|[from] psn
+|upkeep
+|switch|p2a: Nihilego|Nihilego, L78|298/298
+|turn|3
+|move|p2a: Nihilego|Sludge Wave|p1a: Wishiwashi
+|-damage|p1a: Wishiwashi|63/100 tox
+|move|p1a: Wishiwashi|Max Geyser|p2a: Nihilego
+|-supereffective|p2a: Nihilego
+|-damage|p2a: Nihilego|0 fnt
+|faint|p2a: Nihilego
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Wishiwashi|57/100 tox|[from] psn
+|upkeep
+|switch|p2a: Gastrodon|Gastrodon-East, L84, F|324/324
+|-end|p1a: Wishiwashi|Dynamax
+|-heal|p1a: Wishiwashi|57/100 tox|[silent]
+|turn|4
+|move|p2a: Gastrodon|Earthquake|p1a: Wishiwashi
+|-damage|p1a: Wishiwashi|27/100 tox
+|move|p1a: Wishiwashi|U-turn|p2a: Gastrodon
+|-damage|p2a: Gastrodon|233/324
+|switch|p1a: Gengar|Gengar, L80, M|100/100|[from] U-turn
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gastrodon|253/324|[from] item: Leftovers
+|upkeep
+|turn|5
+|move|p1a: Gengar|Nasty Plot|p1a: Gengar
+|-boost|p1a: Gengar|spa|2
+|move|p2a: Gastrodon|Earthquake|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|faint|p1a: Gengar
+|-weather|none
+|-heal|p2a: Gastrodon|273/324|[from] item: Leftovers
+|upkeep
+|switch|p1a: Copperajah|Copperajah, L84, M|100/100
+|turn|6
+|move|p2a: Gastrodon|Earthquake|p1a: Copperajah
+|-supereffective|p1a: Copperajah
+|-damage|p1a: Copperajah|30/100
+|move|p1a: Copperajah|Play Rough|p2a: Gastrodon|[miss]
+|-miss|p1a: Copperajah|p2a: Gastrodon
+|-heal|p2a: Gastrodon|293/324|[from] item: Leftovers
+|upkeep
+|turn|7
+|move|p2a: Gastrodon|Earthquake|p1a: Copperajah
+|-supereffective|p1a: Copperajah
+|-damage|p1a: Copperajah|0 fnt
+|faint|p1a: Copperajah
+|-heal|p2a: Gastrodon|313/324|[from] item: Leftovers
+|upkeep
+|switch|p1a: Gurdurr|Gurdurr, L83, F|100/100
+|turn|8
+|switch|p2a: Polteageist|Polteageist, L78|222/222
+|move|p1a: Gurdurr|Drain Punch|p2a: Polteageist
+|-immune|p2a: Polteageist
+|upkeep
+|turn|9
+|switch|p1a: Galvantula|Galvantula, L82, F|100/100
+|-start|p2a: Polteageist|Dynamax|
+|-heal|p2a: Polteageist|444/444|[silent]
+|move|p2a: Polteageist|Max Phantasm|p1a: Galvantula
+|-damage|p1a: Galvantula|23/100
+|-unboost|p1a: Galvantula|def|1
+|upkeep
+|turn|10
+|move|p1a: Galvantula|Giga Drain|p2a: Polteageist
+|-damage|p2a: Polteageist|402/444
+|-heal|p1a: Galvantula|32/100|[from] drain|[of] p2a: Polteageist
+|move|p2a: Polteageist|Max Phantasm|p1a: Galvantula
+|-damage|p1a: Galvantula|0 fnt
+|faint|p1a: Galvantula
+|upkeep
+|switch|p1a: Gigalith|Gigalith, L82, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Gigalith
+|turn|11
+|move|p2a: Polteageist|Max Phantasm|p1a: Gigalith
+|-damage|p1a: Gigalith|61/100
+|-unboost|p1a: Gigalith|def|1
+|move|p1a: Gigalith|Stone Edge|p2a: Polteageist
+|-damage|p2a: Polteageist|228/444
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Polteageist|215/444|[from] Sandstorm
+|-heal|p1a: Gigalith|67/100|[from] item: Leftovers
+|upkeep
+|-end|p2a: Polteageist|Dynamax
+|-heal|p2a: Polteageist|108/222|[silent]
+|turn|12
+|move|p2a: Polteageist|Shadow Ball|p1a: Gigalith
+|-damage|p1a: Gigalith|39/100
+|move|p1a: Gigalith|Stone Edge|p2a: Polteageist
+|-damage|p2a: Polteageist|0 fnt
+|faint|p2a: Polteageist
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Gigalith|45/100|[from] item: Leftovers
+|upkeep
+|switch|p2a: Krookodile|Krookodile, L78, M|276/276
+|turn|13
+|move|p2a: Krookodile|Earthquake|p1a: Gigalith
+|-supereffective|p1a: Gigalith
+|-damage|p1a: Gigalith|0 fnt
+|faint|p1a: Gigalith
+|-ability|p2a: Krookodile|Moxie|boost
+|-boost|p2a: Krookodile|atk|1
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|switch|p1a: Wishiwashi|Wishiwashi, L85, M|27/100 tox
+|-formechange|p1a: Wishiwashi|Wishiwashi-School||[from] ability: Schooling
+|turn|14
+|move|p2a: Krookodile|Earthquake|p1a: Wishiwashi
+|-damage|p1a: Wishiwashi|0 fnt
+|faint|p1a: Wishiwashi
+|-ability|p2a: Krookodile|Moxie|boost
+|-boost|p2a: Krookodile|atk|1
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|switch|p1a: Gurdurr|Gurdurr, L83, F|100/100
+|turn|15
+|move|p2a: Krookodile|Earthquake|p1a: Gurdurr
+|-damage|p1a: Gurdurr|18/100
+|move|p1a: Gurdurr|Drain Punch|p2a: Krookodile
+|-supereffective|p2a: Krookodile
+|-damage|p2a: Krookodile|88/276
+|-heal|p1a: Gurdurr|52/100|[from] drain|[of] p2a: Krookodile
+|-weather|none
+|upkeep
+|turn|16
+|move|p2a: Krookodile|Earthquake|p1a: Gurdurr
+|-damage|p1a: Gurdurr|0 fnt
+|faint|p1a: Gurdurr
+    </script>
+</div>
+
+<div class="battle-log battle-log-inline" style="display:none"></div>
+
+<script>
+    let daily = Math.floor(Date.now() / 1000 / 60 / 60 / 24); document.write('<script src="https://play.pokemonshowdown.com/js/replay-embed.js?version' + daily + '"></' + 'script>');
+</script>
+
+<p style="text-align:center"> Replay created by <a href="https://github.com/hsahovic/poke-env">poke-env</a>, with code from <a
+        href="https://github.com/smogon/pokemon-showdown"> pokemon-showdown</a>. If something goes wrong, don't hesitate
+    to open an <a href="https://github.com/hsahovic/poke-env/issues">issue!</a></p>

@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<!-- version 1 -->
+<title>battle-gen8randombattle-87193</title>
+<style>
+    html,
+    body {
+        font-family: Verdana, sans-serif;
+        font-size: 10pt;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        padding: 12px 0;
+    }
+
+    .battle-log {
+        font-family: Verdana, sans-serif;
+        font-size: 10pt;
+    }
+
+    .battle-log-inline {
+        border: 1px solid #AAAAAA;
+        background: #EEF2F5;
+        color: black;
+        max-width: 640px;
+        margin: 0 auto 80px;
+        padding-bottom: 5px;
+    }
+
+    .battle-log .inner {
+        padding: 4px 8px 0px 8px;
+    }
+
+    .battle-log .inner-preempt {
+        padding: 0 8px 4px 8px;
+    }
+
+    .battle-log .inner-after {
+        margin-top: 0.5em;
+    }
+
+    .battle-log h2 {
+        margin: 0.5em -8px;
+        padding: 4px 8px;
+        border: 1px solid #AAAAAA;
+        background: #E0E7EA;
+        border-left: 0;
+        border-right: 0;
+        font-family: Verdana, sans-serif;
+        font-size: 13pt;
+    }
+
+    .backprop {
+        top: 0;
+    }
+
+    .battle-log .chat {
+        vertical-align: middle;
+        padding: 3px 0 3px 0;
+        font-size: 8pt;
+    }
+
+    .battle-log .chat strong {
+        color: #40576A;
+    }
+
+    .battle-log .chat em {
+        padding: 1px 4px 1px 3px;
+        color: #000000;
+        font-style: normal;
+    }
+
+    .chat.mine {
+        background: rgba(0, 0, 0, 0.05);
+        margin-left: -8px;
+        margin-right: -8px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .spoiler {
+        color: #BBBBBB;
+        background: #BBBBBB;
+        padding: 0px 3px;
+    }
+
+    .spoiler:hover,
+    .spoiler:active,
+    .spoiler-shown {
+        color: #000000;
+        background: #E2E2E2;
+        padding: 0px 3px;
+    }
+
+    .spoiler a {
+        color: #BBBBBB;
+    }
+
+    .spoiler:hover a,
+    .spoiler:active a,
+    .spoiler-shown a {
+        color: #2288CC;
+    }
+
+    .chat code,
+    .chat .spoiler:hover code,
+    .chat .spoiler:active code,
+    .chat .spoiler-shown code {
+        border: 1px solid #C0C0C0;
+        background: #EEEEEE;
+        color: black;
+        padding: 0 2px;
+    }
+
+    .chat .spoiler code {
+        border: 1px solid #CCCCCC;
+        background: #CCCCCC;
+        color: #CCCCCC;
+    }
+
+    .battle-log .rated {
+        padding: 3px 4px;
+    }
+
+    .battle-log .rated strong {
+        color: white;
+        background: #89A;
+        padding: 1px 4px;
+        border-radius: 4px;
+    }
+
+    .spacer {
+        margin-top: 0.5em;
+    }
+
+    .message-announce {
+        background: #6688AA;
+        color: white;
+        padding: 1px 4px 2px;
+    }
+
+    .message-announce a,
+    .broadcast-green a,
+    .broadcast-blue a,
+    .broadcast-red a {
+        color: #DDEEFF;
+    }
+
+    .broadcast-green {
+        background-color: #559955;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .broadcast-blue {
+        background-color: #6688AA;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .infobox {
+        border: 1px solid #6688AA;
+        padding: 2px 4px;
+    }
+
+    .infobox-limited {
+        max-height: 200px;
+        overflow: auto;
+        overflow-x: hidden;
+    }
+
+    .broadcast-red {
+        background-color: #AA5544;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .message-learn-canlearn {
+        font-weight: bold;
+        color: #228822;
+        text-decoration: underline;
+    }
+
+    .message-learn-cannotlearn {
+        font-weight: bold;
+        color: #CC2222;
+        text-decoration: underline;
+    }
+
+    .message-effect-weak {
+        font-weight: bold;
+        color: #CC2222;
+    }
+
+    .message-effect-resist {
+        font-weight: bold;
+        color: #6688AA;
+    }
+
+    .message-effect-immune {
+        font-weight: bold;
+        color: #666666;
+    }
+
+    .message-learn-list {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .message-throttle-notice,
+    .message-error {
+        color: #992222;
+    }
+
+    .message-overflow,
+    .chat small.message-overflow {
+        font-size: 0pt;
+    }
+
+    .message-overflow::before {
+        font-size: 9pt;
+        content: '...';
+    }
+
+    .subtle {
+        color: #3A4A66;
+    }
+</style>
+<div class="wrapper replay-wrapper" style="max-width:1180px;margin:0 auto">
+    <input type="hidden" name="replayid" value="unregisteredserver-gen8randombattle-320064" />
+    <div class="battle"></div>
+    <div class="battle-log"></div>
+    <div class="replay-controls"></div>
+    <div class="replay-controls-2"></div>
+    <h1 style="font-weight:normal;text-align:center"><strong>poke-env battle replay</strong><br />battle-gen8randombattle-87193<br /><a
+            href="http://pokemonshowdown.com/users/randomplayer1" class="subtle" target="_blank">PokeLLM</a>
+        vs. <a href="http://pokemonshowdown.com/users/randomplayer2" class="subtle"
+            target="_blank">BayiHu</a></h1>
+    <script type="text/plain" class="battle-log-data">
+    >battle-gen8randombattle-87193|init|battle
+|title|BayiHu vs. PokeLLM
+|j|☆BayiHu
+|j|☆PokeLLM
+|gametype|singles
+|player|p1|BayiHu|101|1229
+|player|p2|PokeLLM|169|1312
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Illusion Level Mod: Illusion disguises the Pokémon's true level
+|start
+|switch|p1a: Scizor|Scizor, L80, F|100/100
+|switch|p2a: Steelix|Steelix, L84, F|263/263
+|turn|1
+|switch|p2a: Rhyperior|Rhyperior, L81, F|319/319
+|move|p1a: Scizor|U-turn|p2a: Rhyperior
+|-damage|p2a: Rhyperior|258/319
+|switch|p1a: Flygon|Flygon, L80, F|100/100|[from] U-turn
+|upkeep
+|turn|2
+|switch|p2a: Musharna|Musharna, L86, M|340/340
+|move|p1a: Flygon|Fire Punch|p2a: Musharna
+|-damage|p2a: Musharna|271/340
+|-damage|p1a: Flygon|91/100|[from] item: Life Orb
+|-heal|p2a: Musharna|292/340|[from] item: Leftovers
+|upkeep
+|turn|3
+|switch|p1a: Scizor|Scizor, L80, F|100/100
+|move|p2a: Musharna|Moonblast|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|84/100
+|-unboost|p1a: Scizor|spa|1
+|-heal|p1a: Scizor|91/100|[from] item: Leftovers
+|-heal|p2a: Musharna|313/340|[from] item: Leftovers
+|upkeep
+|turn|4
+|switch|p2a: Rhyperior|Rhyperior, L81, F|258/319
+|move|p1a: Scizor|Bullet Punch|p2a: Rhyperior
+|-supereffective|p2a: Rhyperior
+|-damage|p2a: Rhyperior|177/319
+|-heal|p1a: Scizor|97/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|move|p1a: Scizor|Bullet Punch|p2a: Rhyperior
+|-supereffective|p2a: Rhyperior
+|-damage|p2a: Rhyperior|92/319
+|move|p2a: Rhyperior|Fire Punch|p1a: Scizor
+|-supereffective|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|upkeep
+|switch|p1a: Abomasnow|Abomasnow, L82, M|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|turn|6
+|move|p1a: Abomasnow|Wood Hammer|p2a: Rhyperior
+|-supereffective|p2a: Rhyperior
+|-damage|p2a: Rhyperior|0 fnt
+|faint|p2a: Rhyperior
+|-damage|p1a: Abomasnow|90/100|[from] Recoil
+|-weather|Hail|[upkeep]
+|upkeep
+|switch|p2a: Steelix|Steelix, L84, F|263/263
+|turn|7
+|move|p1a: Abomasnow|Wood Hammer|p2a: Steelix
+|-damage|p2a: Steelix|199/263
+|-damage|p1a: Abomasnow|82/100|[from] Recoil
+|move|p2a: Steelix|Head Smash|p1a: Abomasnow|[miss]
+|-miss|p2a: Steelix|p1a: Abomasnow
+|-weather|Hail|[upkeep]
+|-damage|p2a: Steelix|183/263|[from] Hail
+|-heal|p2a: Steelix|199/263|[from] item: Leftovers
+|upkeep
+|turn|8
+|move|p1a: Abomasnow|Aurora Veil|p1a: Abomasnow
+|-sidestart|p1: BayiHu|move: Aurora Veil
+|move|p2a: Steelix|Head Smash|p1a: Abomasnow
+|-supereffective|p1a: Abomasnow
+|-damage|p1a: Abomasnow|46/100
+|-weather|Hail|[upkeep]
+|-damage|p2a: Steelix|183/263|[from] Hail
+|-heal|p2a: Steelix|199/263|[from] item: Leftovers
+|upkeep
+|turn|9
+|move|p1a: Abomasnow|Blizzard|p2a: Steelix
+|-damage|p2a: Steelix|69/263
+|move|p2a: Steelix|Head Smash|p1a: Abomasnow
+|-supereffective|p1a: Abomasnow
+|-damage|p1a: Abomasnow|9/100
+|-weather|Hail|[upkeep]
+|-damage|p2a: Steelix|53/263|[from] Hail
+|-heal|p2a: Steelix|69/263|[from] item: Leftovers
+|upkeep
+|turn|10
+|move|p1a: Abomasnow|Blizzard|p2a: Steelix
+|-damage|p2a: Steelix|0 fnt
+|faint|p2a: Steelix
+|-weather|none
+|upkeep
+|switch|p2a: Druddigon|Druddigon, L84, M|267/267
+|turn|11
+|move|p1a: Abomasnow|Blizzard|p2a: Druddigon|[miss]
+|-miss|p1a: Abomasnow|p2a: Druddigon
+|move|p2a: Druddigon|Gunk Shot|p1a: Abomasnow|[miss]
+|-miss|p2a: Druddigon|p1a: Abomasnow
+|upkeep
+|turn|12
+|move|p1a: Abomasnow|Blizzard|p2a: Druddigon
+|-supereffective|p2a: Druddigon
+|-damage|p2a: Druddigon|61/267
+|move|p2a: Druddigon|Gunk Shot|p1a: Abomasnow
+|-supereffective|p1a: Abomasnow
+|-damage|p1a: Abomasnow|0 fnt
+|faint|p1a: Abomasnow
+|-damage|p2a: Druddigon|35/267|[from] item: Life Orb
+|upkeep
+|switch|p1a: Flygon|Flygon, L80, F|91/100
+|turn|13
+|move|p1a: Flygon|Outrage|p2a: Druddigon
+|-supereffective|p2a: Druddigon
+|-damage|p2a: Druddigon|0 fnt
+|-damage|p1a: Flygon|78/100|[from] ability: Rough Skin|[of] p2a: Druddigon
+|faint|p2a: Druddigon
+|-damage|p1a: Flygon|69/100|[from] item: Life Orb
+|upkeep
+|switch|p2a: Shiinotic|Shiinotic, L88, M|249/249
+|turn|14
+|move|p1a: Flygon|Outrage|p2a: Shiinotic|[from]lockedmove
+|-immune|p2a: Shiinotic
+|-start|p1a: Flygon|confusion|[fatigue]
+|move|p2a: Shiinotic|Moonblast|p1a: Flygon
+|-supereffective|p1a: Flygon
+|-damage|p1a: Flygon|23/100
+|upkeep
+|turn|15
+|switch|p1a: Cursola|Cursola, L87, F|100/100
+|move|p2a: Shiinotic|Moonblast|p1a: Cursola
+|-damage|p1a: Cursola|85/100
+|-heal|p1a: Cursola|91/100|[from] item: Leftovers
+|-sideend|p1: BayiHu|move: Aurora Veil
+|upkeep
+|turn|16
+|move|p2a: Shiinotic|Spore|p1a: Cursola
+|-status|p1a: Cursola|slp|[from] move: Spore
+|cant|p1a: Cursola|slp
+|-heal|p1a: Cursola|97/100 slp|[from] item: Leftovers
+|upkeep
+|turn|17
+|move|p2a: Shiinotic|Moonblast|p1a: Cursola
+|-damage|p1a: Cursola|65/100 slp
+|cant|p1a: Cursola|slp
+|-heal|p1a: Cursola|71/100 slp|[from] item: Leftovers
+|upkeep
+|turn|18
+|move|p2a: Shiinotic|Moonblast|p1a: Cursola
+|-damage|p1a: Cursola|42/100 slp
+|cant|p1a: Cursola|slp
+|-heal|p1a: Cursola|48/100 slp|[from] item: Leftovers
+|upkeep
+|turn|19
+|move|p2a: Shiinotic|Moonblast|p1a: Cursola
+|-damage|p1a: Cursola|16/100 slp
+|-curestatus|p1a: Cursola|slp|[msg]
+|move|p1a: Cursola|Shadow Ball|p2a: Shiinotic
+|-damage|p2a: Shiinotic|149/249
+|-heal|p2a: Shiinotic|164/249|[from] item: Leftovers
+|-heal|p1a: Cursola|22/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|move|p2a: Shiinotic|Moonblast|p1a: Cursola
+|-damage|p1a: Cursola|0 fnt
+|faint|p1a: Cursola
+|-heal|p2a: Shiinotic|179/249|[from] item: Leftovers
+|upkeep
+|switch|p1a: Xatu|Xatu, L90, M|100/100
+|turn|21
+|switch|p2a: Musharna|Musharna, L86, M|313/340
+|move|p1a: Xatu|Psychic|p2a: Musharna
+|-resisted|p2a: Musharna
+|-damage|p2a: Musharna|262/340
+|-heal|p2a: Musharna|283/340|[from] item: Leftovers
+|upkeep
+|turn|22
+|move|p1a: Xatu|Thunder Wave|p2a: Musharna
+|-status|p2a: Musharna|par
+|-activate|p2a: Musharna|ability: Synchronize
+|-status|p1a: Xatu|par
+|move|p2a: Musharna|Moonblast|p1a: Xatu
+|-damage|p1a: Xatu|67/100 par
+|-heal|p2a: Musharna|304/340 par|[from] item: Leftovers
+|upkeep
+|turn|23
+|move|p1a: Xatu|Psychic|p2a: Musharna
+|-resisted|p2a: Musharna
+|-damage|p2a: Musharna|256/340 par
+|move|p2a: Musharna|Moonblast|p1a: Xatu
+|-damage|p1a: Xatu|33/100 par
+|-heal|p2a: Musharna|277/340 par|[from] item: Leftovers
+|upkeep
+|turn|24
+|switch|p1a: Marowak|Marowak-Alola, L84, F|100/100
+|move|p2a: Musharna|Moonblast|p1a: Marowak
+|-resisted|p1a: Marowak
+|-damage|p1a: Marowak|84/100
+|-heal|p2a: Musharna|298/340 par|[from] item: Leftovers
+|upkeep
+|turn|25
+|switch|p2a: Dunsparce|Dunsparce, L90, F|326/326
+|move|p1a: Marowak|Poltergeist|p2a: Dunsparce
+|-immune|p2a: Dunsparce
+|upkeep
+|turn|26
+|-start|p2a: Dunsparce|Dynamax|
+|-heal|p2a: Dunsparce|652/652|[silent]
+|move|p2a: Dunsparce|Max Quake|p1a: Marowak
+|-supereffective|p1a: Marowak
+|-damage|p1a: Marowak|29/100
+|-boost|p2a: Dunsparce|spd|1
+|move|p1a: Marowak|Stone Edge|p2a: Dunsparce|[miss]
+|-miss|p1a: Marowak|p2a: Dunsparce
+|upkeep
+|turn|27
+|switch|p1a: Flygon|Flygon, L80, F|23/100
+|move|p2a: Dunsparce|Max Quake|p1a: Flygon
+|-immune|p1a: Flygon|[from] ability: Levitate
+|upkeep
+|turn|28
+|-start|p1a: Flygon|Dynamax|
+|-heal|p1a: Flygon|23/100|[silent]
+|move|p1a: Flygon|Max Wyrmwind|p2a: Dunsparce
+|-damage|p2a: Dunsparce|465/652
+|-unboost|p2a: Dunsparce|atk|1
+|-damage|p1a: Flygon|18/100|[from] item: Life Orb
+|move|p2a: Dunsparce|Max Strike|p1a: Flygon
+|-damage|p1a: Flygon|1/100
+|-unboost|p1a: Flygon|spe|1
+|-heal|p2a: Dunsparce|485/652|[from] item: Leftovers
+|upkeep
+|-end|p2a: Dunsparce|Dynamax
+|-heal|p2a: Dunsparce|243/326|[silent]
+|turn|29
+|move|p1a: Flygon|Max Wyrmwind|p2a: Dunsparce
+|-damage|p2a: Dunsparce|29/326
+|-unboost|p2a: Dunsparce|atk|1
+|-damage|p1a: Flygon|0 fnt|[from] item: Life Orb
+|faint|p1a: Flygon
+|move|p2a: Dunsparce|Body Slam|p1: Flygon|[notarget]
+|-fail|p2a: Dunsparce
+|-heal|p2a: Dunsparce|49/326|[from] item: Leftovers
+|upkeep
+|switch|p1a: Xatu|Xatu, L90, M|33/100 par
+|turn|30
+|move|p2a: Dunsparce|Roost|p2a: Dunsparce
+|-heal|p2a: Dunsparce|212/326
+|-singleturn|p2a: Dunsparce|move: Roost
+|move|p1a: Xatu|Psychic|p2a: Dunsparce
+|-crit|p2a: Dunsparce
+|-damage|p2a: Dunsparce|14/326
+|-heal|p2a: Dunsparce|34/326|[from] item: Leftovers
+|upkeep
+|turn|31
+|switch|p2a: Musharna|Musharna, L86, M|298/340 par
+|move|p1a: Xatu|Psychic|p2a: Musharna
+|-resisted|p2a: Musharna
+|-damage|p2a: Musharna|247/340 par
+|-heal|p2a: Musharna|268/340 par|[from] item: Leftovers
+|upkeep
+|turn|32
+|move|p1a: Xatu|Roost|p1a: Xatu
+|-heal|p1a: Xatu|83/100 par
+|-singleturn|p1a: Xatu|move: Roost
+|cant|p2a: Musharna|par
+|-heal|p2a: Musharna|289/340 par|[from] item: Leftovers
+|upkeep
+|turn|33
+|switch|p1a: Marowak|Marowak-Alola, L84, F|29/100
+|move|p2a: Musharna|Moonblast|p1a: Marowak
+|-resisted|p1a: Marowak
+|-damage|p1a: Marowak|12/100
+|-heal|p2a: Musharna|310/340 par|[from] item: Leftovers
+|upkeep
+|turn|34
+|switch|p2a: Dunsparce|Dunsparce, L90, F|34/326
+|move|p1a: Marowak|Poltergeist|p2a: Dunsparce
+|-immune|p2a: Dunsparce
+|-heal|p2a: Dunsparce|54/326|[from] item: Leftovers
+|upkeep
+|turn|35
+|switch|p1a: Xatu|Xatu, L90, M|83/100 par
+|move|p2a: Dunsparce|Earthquake|p1a: Xatu
+|-immune|p1a: Xatu
+|-heal|p2a: Dunsparce|74/326|[from] item: Leftovers
+|upkeep
+|turn|36
+|move|p2a: Dunsparce|Body Slam|p1a: Xatu
+|-damage|p1a: Xatu|51/100 par
+|move|p1a: Xatu|Teleport|p1a: Xatu
+|switch|p1a: Marowak|Marowak-Alola, L84, F|12/100|[from] Teleport
+|-heal|p2a: Dunsparce|94/326|[from] item: Leftovers
+|upkeep
+|turn|37
+|move|p2a: Dunsparce|Earthquake|p1a: Marowak
+|-supereffective|p1a: Marowak
+|-damage|p1a: Marowak|0 fnt
+|faint|p1a: Marowak
+|-heal|p2a: Dunsparce|114/326|[from] item: Leftovers
+|upkeep
+|switch|p1a: Xatu|Xatu, L90, M|51/100 par
+|turn|38
+|move|p2a: Dunsparce|Body Slam|p1a: Xatu
+|-damage|p1a: Xatu|17/100 par
+|move|p1a: Xatu|Psychic|p2a: Dunsparce
+|-damage|p2a: Dunsparce|0 fnt
+|faint|p2a: Dunsparce
+|upkeep
+|switch|p2a: Musharna|Musharna, L86, M|310/340 par
+|turn|39
+|move|p1a: Xatu|Roost|p1a: Xatu
+|-heal|p1a: Xatu|67/100 par
+|-singleturn|p1a: Xatu|move: Roost
+|move|p2a: Musharna|Moonblast|p1a: Xatu
+|-damage|p1a: Xatu|37/100 par
+|-heal|p2a: Musharna|331/340 par|[from] item: Leftovers
+|upkeep
+|turn|40
+|cant|p1a: Xatu|par
+|move|p2a: Musharna|Moonblast|p1a: Xatu
+|-damage|p1a: Xatu|2/100 par
+|-unboost|p1a: Xatu|spa|1
+|-heal|p2a: Musharna|340/340 par|[from] item: Leftovers
+|upkeep
+|turn|41
+|move|p1a: Xatu|Roost|p1a: Xatu
+|-heal|p1a: Xatu|52/100 par
+|-singleturn|p1a: Xatu|move: Roost
+|cant|p2a: Musharna|par
+|upkeep
+|turn|42
+|move|p1a: Xatu|Roost|p1a: Xatu
+|-heal|p1a: Xatu|100/100 par
+|-singleturn|p1a: Xatu|move: Roost
+|move|p2a: Musharna|Moonblast|p1a: Xatu
+|-damage|p1a: Xatu|69/100 par
+|upkeep
+|turn|43
+|cant|p1a: Xatu|par
+|cant|p2a: Musharna|par
+|upkeep
+|turn|44
+|move|p2a: Musharna|Moonblast|p1a: Xatu
+|-damage|p1a: Xatu|40/100 par
+|move|p1a: Xatu|Teleport||[still]
+|-fail|p1a: Xatu
+|upkeep
+|turn|45
+|move|p1a: Xatu|Psychic|p2a: Musharna
+|-resisted|p2a: Musharna
+|-damage|p2a: Musharna|309/340 par
+|-unboost|p2a: Musharna|spd|1
+|cant|p2a: Musharna|par
+|-heal|p2a: Musharna|330/340 par|[from] item: Leftovers
+|upkeep
+|turn|46
+|move|p1a: Xatu|Psychic|p2a: Musharna
+|-resisted|p2a: Musharna
+|-damage|p2a: Musharna|278/340 par
+|move|p2a: Musharna|Moonblast|p1a: Xatu
+|-damage|p1a: Xatu|8/100 par
+|-heal|p2a: Musharna|299/340 par|[from] item: Leftovers
+|upkeep
+|turn|47
+|move|p1a: Xatu|Psychic|p2a: Musharna
+|-resisted|p2a: Musharna
+|-damage|p2a: Musharna|246/340 par
+|move|p2a: Musharna|Moonblast|p1a: Xatu
+|-damage|p1a: Xatu|0 fnt
+|faint|p1a: Xatu
+    </script>
+</div>
+
+<div class="battle-log battle-log-inline" style="display:none"></div>
+
+<script>
+    let daily = Math.floor(Date.now() / 1000 / 60 / 60 / 24); document.write('<script src="https://play.pokemonshowdown.com/js/replay-embed.js?version' + daily + '"></' + 'script>');
+</script>
+
+<p style="text-align:center"> Replay created by <a href="https://github.com/hsahovic/poke-env">poke-env</a>, with code from <a
+        href="https://github.com/smogon/pokemon-showdown"> pokemon-showdown</a>. If something goes wrong, don't hesitate
+    to open an <a href="https://github.com/hsahovic/poke-env/issues">issue!</a></p>

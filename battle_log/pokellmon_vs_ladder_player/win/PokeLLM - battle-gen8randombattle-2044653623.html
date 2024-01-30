@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<!-- version 1 -->
+<title>battle-gen8randombattle-2044653623</title>
+<style>
+    html,
+    body {
+        font-family: Verdana, sans-serif;
+        font-size: 10pt;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        padding: 12px 0;
+    }
+
+    .battle-log {
+        font-family: Verdana, sans-serif;
+        font-size: 10pt;
+    }
+
+    .battle-log-inline {
+        border: 1px solid #AAAAAA;
+        background: #EEF2F5;
+        color: black;
+        max-width: 640px;
+        margin: 0 auto 80px;
+        padding-bottom: 5px;
+    }
+
+    .battle-log .inner {
+        padding: 4px 8px 0px 8px;
+    }
+
+    .battle-log .inner-preempt {
+        padding: 0 8px 4px 8px;
+    }
+
+    .battle-log .inner-after {
+        margin-top: 0.5em;
+    }
+
+    .battle-log h2 {
+        margin: 0.5em -8px;
+        padding: 4px 8px;
+        border: 1px solid #AAAAAA;
+        background: #E0E7EA;
+        border-left: 0;
+        border-right: 0;
+        font-family: Verdana, sans-serif;
+        font-size: 13pt;
+    }
+
+    .backprop {
+        top: 0;
+    }
+
+    .battle-log .chat {
+        vertical-align: middle;
+        padding: 3px 0 3px 0;
+        font-size: 8pt;
+    }
+
+    .battle-log .chat strong {
+        color: #40576A;
+    }
+
+    .battle-log .chat em {
+        padding: 1px 4px 1px 3px;
+        color: #000000;
+        font-style: normal;
+    }
+
+    .chat.mine {
+        background: rgba(0, 0, 0, 0.05);
+        margin-left: -8px;
+        margin-right: -8px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .spoiler {
+        color: #BBBBBB;
+        background: #BBBBBB;
+        padding: 0px 3px;
+    }
+
+    .spoiler:hover,
+    .spoiler:active,
+    .spoiler-shown {
+        color: #000000;
+        background: #E2E2E2;
+        padding: 0px 3px;
+    }
+
+    .spoiler a {
+        color: #BBBBBB;
+    }
+
+    .spoiler:hover a,
+    .spoiler:active a,
+    .spoiler-shown a {
+        color: #2288CC;
+    }
+
+    .chat code,
+    .chat .spoiler:hover code,
+    .chat .spoiler:active code,
+    .chat .spoiler-shown code {
+        border: 1px solid #C0C0C0;
+        background: #EEEEEE;
+        color: black;
+        padding: 0 2px;
+    }
+
+    .chat .spoiler code {
+        border: 1px solid #CCCCCC;
+        background: #CCCCCC;
+        color: #CCCCCC;
+    }
+
+    .battle-log .rated {
+        padding: 3px 4px;
+    }
+
+    .battle-log .rated strong {
+        color: white;
+        background: #89A;
+        padding: 1px 4px;
+        border-radius: 4px;
+    }
+
+    .spacer {
+        margin-top: 0.5em;
+    }
+
+    .message-announce {
+        background: #6688AA;
+        color: white;
+        padding: 1px 4px 2px;
+    }
+
+    .message-announce a,
+    .broadcast-green a,
+    .broadcast-blue a,
+    .broadcast-red a {
+        color: #DDEEFF;
+    }
+
+    .broadcast-green {
+        background-color: #559955;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .broadcast-blue {
+        background-color: #6688AA;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .infobox {
+        border: 1px solid #6688AA;
+        padding: 2px 4px;
+    }
+
+    .infobox-limited {
+        max-height: 200px;
+        overflow: auto;
+        overflow-x: hidden;
+    }
+
+    .broadcast-red {
+        background-color: #AA5544;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .message-learn-canlearn {
+        font-weight: bold;
+        color: #228822;
+        text-decoration: underline;
+    }
+
+    .message-learn-cannotlearn {
+        font-weight: bold;
+        color: #CC2222;
+        text-decoration: underline;
+    }
+
+    .message-effect-weak {
+        font-weight: bold;
+        color: #CC2222;
+    }
+
+    .message-effect-resist {
+        font-weight: bold;
+        color: #6688AA;
+    }
+
+    .message-effect-immune {
+        font-weight: bold;
+        color: #666666;
+    }
+
+    .message-learn-list {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .message-throttle-notice,
+    .message-error {
+        color: #992222;
+    }
+
+    .message-overflow,
+    .chat small.message-overflow {
+        font-size: 0pt;
+    }
+
+    .message-overflow::before {
+        font-size: 9pt;
+        content: '...';
+    }
+
+    .subtle {
+        color: #3A4A66;
+    }
+</style>
+<div class="wrapper replay-wrapper" style="max-width:1180px;margin:0 auto">
+    <input type="hidden" name="replayid" value="unregisteredserver-gen8randombattle-320064" />
+    <div class="battle"></div>
+    <div class="battle-log"></div>
+    <div class="replay-controls"></div>
+    <div class="replay-controls-2"></div>
+    <h1 style="font-weight:normal;text-align:center"><strong>poke-env battle replay</strong><br />battle-gen8randombattle-2044653623<br /><a
+            href="http://pokemonshowdown.com/users/randomplayer1" class="subtle" target="_blank">PokeLLM</a>
+        vs. <a href="http://pokemonshowdown.com/users/randomplayer2" class="subtle"
+            target="_blank">meddl1510</a></h1>
+    <script type="text/plain" class="battle-log-data">
+    >battle-gen8randombattle-2044653623|init|battle
+|title|meddl1510 vs. PokeLLM
+|j|☆meddl1510
+|j|☆PokeLLM
+|gametype|singles
+|player|p1|meddl1510|sabrina|1000
+|player|p2|PokeLLM|supernerd|1065
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Illusion Level Mod: Illusion disguises the Pokémon's true level
+|start
+|switch|p1a: Scolipede|Scolipede, L80, M|100/100
+|switch|p2a: Cramorant|Cramorant, L84, F|255/255
+|turn|1
+|-start|p2a: Cramorant|Dynamax|
+|-heal|p2a: Cramorant|510/510|[silent]
+|move|p1a: Scolipede|Swords Dance|p1a: Scolipede
+|-boost|p1a: Scolipede|atk|2
+|move|p2a: Cramorant|Max Airstream|p1a: Scolipede
+|-supereffective|p1a: Scolipede
+|-damage|p1a: Scolipede|0 fnt
+|-boost|p2a: Cramorant|spe|1
+|faint|p1a: Scolipede
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by PokeLLM)
+|inactive|Time left: 150 sec this turn | 150 sec total | 60 sec grace
+|switch|p1a: Kangaskhan|Kangaskhan, L85, F|100/100
+|turn|2
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p1a: Kangaskhan|Fake Out|p2a: Cramorant
+|-damage|p2a: Cramorant|455/510
+|move|p2a: Cramorant|Max Knuckle|p1a: Kangaskhan
+|-supereffective|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|59/100
+|-boost|p2a: Cramorant|atk|1
+|upkeep
+|turn|3
+|inactive|Time left: 150 sec this turn | 150 sec total
+|-start|p1a: Kangaskhan|Dynamax|
+|-heal|p1a: Kangaskhan|59/100|[silent]
+|move|p2a: Cramorant|Max Knuckle|p1a: Kangaskhan
+|-supereffective|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|30/100
+|-boost|p2a: Cramorant|atk|1
+|move|p1a: Kangaskhan|Max Strike|p2a: Cramorant
+|-damage|p2a: Cramorant|248/510
+|-unboost|p2a: Cramorant|spe|1
+|upkeep
+|-end|p2a: Cramorant|Dynamax
+|-heal|p2a: Cramorant|124/255|[silent]
+|turn|4
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p1a: Kangaskhan|Max Strike|p2a: Cramorant
+|-damage|p2a: Cramorant|0 fnt
+|faint|p2a: Cramorant
+|upkeep
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p2a: Mew|Mew, L79|288/288
+|turn|5
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p2a: Mew|Close Combat|p1a: Kangaskhan
+|-supereffective|p1a: Kangaskhan
+|-crit|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|0 fnt
+|-unboost|p2a: Mew|def|1
+|-unboost|p2a: Mew|spd|1
+|faint|p1a: Kangaskhan
+|upkeep
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p1a: Unfezant|Unfezant, L84, M|100/100
+|turn|6
+|inactive|Time left: 150 sec this turn | 150 sec total
+|inactive|PokeLLM has 120 seconds left.
+|move|p1a: Unfezant|Night Slash|p2a: Mew
+|-supereffective|p2a: Mew
+|-crit|p2a: Mew
+|-damage|p2a: Mew|46/288
+|move|p2a: Mew|Flare Blitz|p1a: Unfezant
+|-damage|p1a: Unfezant|69/100
+|-damage|p2a: Mew|18/288|[from] Recoil
+|upkeep
+|turn|7
+|inactive|Time left: 115 sec this turn | 115 sec total
+|move|p1a: Unfezant|Night Slash|p2a: Mew
+|-supereffective|p2a: Mew
+|-crit|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|upkeep
+|inactive|Time left: 110 sec this turn | 110 sec total
+|switch|p2a: Sceptile|Sceptile, L86, M|261/261
+|turn|8
+|inactive|Time left: 120 sec this turn | 120 sec total
+|move|p2a: Sceptile|Rock Slide|p1a: Unfezant
+|-supereffective|p1a: Unfezant
+|-damage|p1a: Unfezant|30/100
+|move|p1a: Unfezant|Brave Bird|p2a: Sceptile
+|-supereffective|p2a: Sceptile
+|-crit|p2a: Sceptile
+|-damage|p2a: Sceptile|0 fnt
+|faint|p2a: Sceptile
+|-damage|p1a: Unfezant|0 fnt|[from] Recoil
+|faint|p1a: Unfezant
+|upkeep
+|inactive|Time left: 125 sec this turn | 125 sec total
+|inactive|PokeLLM has 120 seconds left.
+|switch|p2a: Terrakion|Terrakion, L77|267/267
+|switch|p1a: Steelix|Steelix, L84, M|100/100
+|turn|9
+|inactive|Time left: 130 sec this turn | 130 sec total
+|move|p2a: Terrakion|Close Combat|p1a: Steelix
+|-supereffective|p1a: Steelix
+|-damage|p1a: Steelix|37/100
+|-unboost|p2a: Terrakion|def|1
+|-unboost|p2a: Terrakion|spd|1
+|-damage|p2a: Terrakion|241/267|[from] item: Life Orb
+|move|p1a: Steelix|Earthquake|p2a: Terrakion
+|-supereffective|p2a: Terrakion
+|-damage|p2a: Terrakion|0 fnt
+|faint|p2a: Terrakion
+|-heal|p1a: Steelix|43/100|[from] item: Leftovers
+|upkeep
+|inactive|Time left: 135 sec this turn | 135 sec total
+|switch|p2a: Metagross|Metagross, L78|253/253
+|turn|10
+|inactive|Time left: 145 sec this turn | 145 sec total
+|move|p2a: Metagross|Earthquake|p1a: Steelix
+|-supereffective|p1a: Steelix
+|-damage|p1a: Steelix|13/100
+|move|p1a: Steelix|Earthquake|p2a: Metagross
+|-supereffective|p2a: Metagross
+|-damage|p2a: Metagross|91/253
+|-enditem|p2a: Metagross|Weakness Policy
+|-boost|p2a: Metagross|atk|2|[from] item: Weakness Policy
+|-boost|p2a: Metagross|spa|2|[from] item: Weakness Policy
+|-heal|p1a: Steelix|19/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p2a: Metagross|Earthquake|p1a: Steelix
+|-supereffective|p1a: Steelix
+|-damage|p1a: Steelix|0 fnt
+|faint|p1a: Steelix
+|upkeep
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p1a: Weezing|Weezing-Galar, L86, F|100/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|turn|12
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p2a: Metagross|Earthquake|p1a: Weezing
+|-supereffective|p1a: Weezing
+|-damage|p1a: Weezing|11/100
+|move|p1a: Weezing|Fire Blast|p2a: Metagross
+|-supereffective|p2a: Metagross
+|-damage|p2a: Metagross|0 fnt
+|faint|p2a: Metagross
+|-heal|p1a: Weezing|17/100|[from] item: Black Sludge
+|upkeep
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p2a: Haxorus|Haxorus, L77, F|244/244
+|turn|13
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p2a: Haxorus|Earthquake|p1a: Weezing
+|-supereffective|p1a: Weezing
+|-damage|p1a: Weezing|0 fnt
+|faint|p1a: Weezing
+|-end|p1a: Weezing|ability: Neutralizing Gas
+|-ability|p2a: Haxorus|Mold Breaker
+|-damage|p2a: Haxorus|220/244|[from] item: Life Orb
+|upkeep
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p1a: Stunfisk|Stunfisk-Galar, L84, F|100/100
+|turn|14
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p2a: Haxorus|Earthquake|p1a: Stunfisk
+|-supereffective|p1a: Stunfisk
+|-damage|p1a: Stunfisk|44/100
+|-damage|p2a: Haxorus|196/244|[from] item: Life Orb
+|move|p1a: Stunfisk|Pain Split|p2a: Haxorus
+|-sethp|p2a: Haxorus|167/244|[from] move: Pain Split|[silent]
+|-sethp|p1a: Stunfisk|53/100|[from] move: Pain Split
+|-heal|p1a: Stunfisk|59/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p2a: Haxorus|Earthquake|p1a: Stunfisk
+|-supereffective|p1a: Stunfisk
+|-damage|p1a: Stunfisk|0 fnt
+|faint|p1a: Stunfisk
+|-damage|p2a: Haxorus|143/244|[from] item: Life Orb
+    </script>
+</div>
+
+<div class="battle-log battle-log-inline" style="display:none"></div>
+
+<script>
+    let daily = Math.floor(Date.now() / 1000 / 60 / 60 / 24); document.write('<script src="https://play.pokemonshowdown.com/js/replay-embed.js?version' + daily + '"></' + 'script>');
+</script>
+
+<p style="text-align:center"> Replay created by <a href="https://github.com/hsahovic/poke-env">poke-env</a>, with code from <a
+        href="https://github.com/smogon/pokemon-showdown"> pokemon-showdown</a>. If something goes wrong, don't hesitate
+    to open an <a href="https://github.com/hsahovic/poke-env/issues">issue!</a></p>

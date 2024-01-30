@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<!-- version 1 -->
+<title>battle-gen8randombattle-2044066014</title>
+<style>
+    html,
+    body {
+        font-family: Verdana, sans-serif;
+        font-size: 10pt;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        padding: 12px 0;
+    }
+
+    .battle-log {
+        font-family: Verdana, sans-serif;
+        font-size: 10pt;
+    }
+
+    .battle-log-inline {
+        border: 1px solid #AAAAAA;
+        background: #EEF2F5;
+        color: black;
+        max-width: 640px;
+        margin: 0 auto 80px;
+        padding-bottom: 5px;
+    }
+
+    .battle-log .inner {
+        padding: 4px 8px 0px 8px;
+    }
+
+    .battle-log .inner-preempt {
+        padding: 0 8px 4px 8px;
+    }
+
+    .battle-log .inner-after {
+        margin-top: 0.5em;
+    }
+
+    .battle-log h2 {
+        margin: 0.5em -8px;
+        padding: 4px 8px;
+        border: 1px solid #AAAAAA;
+        background: #E0E7EA;
+        border-left: 0;
+        border-right: 0;
+        font-family: Verdana, sans-serif;
+        font-size: 13pt;
+    }
+
+    .backprop {
+        top: 0;
+    }
+
+    .battle-log .chat {
+        vertical-align: middle;
+        padding: 3px 0 3px 0;
+        font-size: 8pt;
+    }
+
+    .battle-log .chat strong {
+        color: #40576A;
+    }
+
+    .battle-log .chat em {
+        padding: 1px 4px 1px 3px;
+        color: #000000;
+        font-style: normal;
+    }
+
+    .chat.mine {
+        background: rgba(0, 0, 0, 0.05);
+        margin-left: -8px;
+        margin-right: -8px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .spoiler {
+        color: #BBBBBB;
+        background: #BBBBBB;
+        padding: 0px 3px;
+    }
+
+    .spoiler:hover,
+    .spoiler:active,
+    .spoiler-shown {
+        color: #000000;
+        background: #E2E2E2;
+        padding: 0px 3px;
+    }
+
+    .spoiler a {
+        color: #BBBBBB;
+    }
+
+    .spoiler:hover a,
+    .spoiler:active a,
+    .spoiler-shown a {
+        color: #2288CC;
+    }
+
+    .chat code,
+    .chat .spoiler:hover code,
+    .chat .spoiler:active code,
+    .chat .spoiler-shown code {
+        border: 1px solid #C0C0C0;
+        background: #EEEEEE;
+        color: black;
+        padding: 0 2px;
+    }
+
+    .chat .spoiler code {
+        border: 1px solid #CCCCCC;
+        background: #CCCCCC;
+        color: #CCCCCC;
+    }
+
+    .battle-log .rated {
+        padding: 3px 4px;
+    }
+
+    .battle-log .rated strong {
+        color: white;
+        background: #89A;
+        padding: 1px 4px;
+        border-radius: 4px;
+    }
+
+    .spacer {
+        margin-top: 0.5em;
+    }
+
+    .message-announce {
+        background: #6688AA;
+        color: white;
+        padding: 1px 4px 2px;
+    }
+
+    .message-announce a,
+    .broadcast-green a,
+    .broadcast-blue a,
+    .broadcast-red a {
+        color: #DDEEFF;
+    }
+
+    .broadcast-green {
+        background-color: #559955;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .broadcast-blue {
+        background-color: #6688AA;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .infobox {
+        border: 1px solid #6688AA;
+        padding: 2px 4px;
+    }
+
+    .infobox-limited {
+        max-height: 200px;
+        overflow: auto;
+        overflow-x: hidden;
+    }
+
+    .broadcast-red {
+        background-color: #AA5544;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .message-learn-canlearn {
+        font-weight: bold;
+        color: #228822;
+        text-decoration: underline;
+    }
+
+    .message-learn-cannotlearn {
+        font-weight: bold;
+        color: #CC2222;
+        text-decoration: underline;
+    }
+
+    .message-effect-weak {
+        font-weight: bold;
+        color: #CC2222;
+    }
+
+    .message-effect-resist {
+        font-weight: bold;
+        color: #6688AA;
+    }
+
+    .message-effect-immune {
+        font-weight: bold;
+        color: #666666;
+    }
+
+    .message-learn-list {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .message-throttle-notice,
+    .message-error {
+        color: #992222;
+    }
+
+    .message-overflow,
+    .chat small.message-overflow {
+        font-size: 0pt;
+    }
+
+    .message-overflow::before {
+        font-size: 9pt;
+        content: '...';
+    }
+
+    .subtle {
+        color: #3A4A66;
+    }
+</style>
+<div class="wrapper replay-wrapper" style="max-width:1180px;margin:0 auto">
+    <input type="hidden" name="replayid" value="unregisteredserver-gen8randombattle-320064" />
+    <div class="battle"></div>
+    <div class="battle-log"></div>
+    <div class="replay-controls"></div>
+    <div class="replay-controls-2"></div>
+    <h1 style="font-weight:normal;text-align:center"><strong>poke-env battle replay</strong><br />battle-gen8randombattle-2044066014<br /><a
+            href="http://pokemonshowdown.com/users/randomplayer1" class="subtle" target="_blank">PokeLLM</a>
+        vs. <a href="http://pokemonshowdown.com/users/randomplayer2" class="subtle"
+            target="_blank">ultramudkip2</a></h1>
+    <script type="text/plain" class="battle-log-data">
+    >battle-gen8randombattle-2044066014|init|battle
+|title|ultramudkip2 vs. PokeLLM
+|j|☆ultramudkip2
+|j|☆PokeLLM
+|gametype|singles
+|player|p1|ultramudkip2|unknown|1000
+|player|p2|PokeLLM|supernerd|1050
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Illusion Level Mod: Illusion disguises the Pokémon's true level
+|start
+|switch|p1a: Togedemaru|Togedemaru, L86, M|100/100
+|switch|p2a: Conkeldurr|Conkeldurr, L79, M|295/295
+|turn|1
+|-start|p2a: Conkeldurr|Dynamax|
+|-heal|p2a: Conkeldurr|590/590|[silent]
+|move|p1a: Togedemaru|Spiky Shield|p1a: Togedemaru
+|-singleturn|p1a: Togedemaru|move: Protect
+|move|p2a: Conkeldurr|Max Knuckle|p1a: Togedemaru
+|-supereffective|p1a: Togedemaru
+|-zbroken|p1a: Togedemaru
+|-damage|p1a: Togedemaru|79/100
+|-boost|p2a: Conkeldurr|atk|1
+|-heal|p1a: Togedemaru|85/100|[from] item: Leftovers
+|-status|p2a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|switch|p1a: Zygarde|Zygarde-10%, L82|100/100
+|-ability|p1a: Zygarde|Aura Break
+|move|p2a: Conkeldurr|Max Knuckle|p1a: Zygarde
+|-damage|p1a: Zygarde|0 fnt
+|-boost|p2a: Conkeldurr|atk|1
+|faint|p1a: Zygarde
+|-damage|p2a: Conkeldurr|572/590 brn|[from] brn
+|upkeep
+|switch|p1a: Eiscue|Eiscue, L82, M|100/100
+|turn|3
+|move|p1a: Eiscue|Substitute|p1a: Eiscue
+|-start|p1a: Eiscue|Substitute
+|-damage|p1a: Eiscue|75/100
+|move|p2a: Conkeldurr|Max Knuckle|p1a: Eiscue
+|-supereffective|p1a: Eiscue
+|-end|p1a: Eiscue|Substitute
+|-boost|p2a: Conkeldurr|atk|1
+|-damage|p2a: Conkeldurr|554/590 brn|[from] brn
+|upkeep
+|-end|p2a: Conkeldurr|Dynamax
+|-heal|p2a: Conkeldurr|277/295 brn|[silent]
+|turn|4
+|move|p2a: Conkeldurr|Mach Punch|p1a: Eiscue
+|-activate|p1a: Eiscue|ability: Ice Face
+|-damage|p1a: Eiscue|75/100
+|detailschange|p1a: Eiscue|Eiscue-Noice, L82, M
+|move|p1a: Eiscue|Icicle Crash|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|202/295 brn
+|-damage|p2a: Conkeldurr|184/295 brn|[from] brn
+|upkeep
+|turn|5
+|-start|p1a: Eiscue|Dynamax|
+|-heal|p1a: Eiscue|75/100|[silent]
+|move|p1a: Eiscue|Max Hailstorm|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|64/295 brn
+|-weather|Hail
+|-activate|p1a: Eiscue|ability: Ice Face
+|detailschange|p1a: Eiscue|Eiscue, L82, M
+|move|p2a: Conkeldurr|Close Combat|p1a: Eiscue
+|-activate|p1a: Eiscue|ability: Ice Face
+|-damage|p1a: Eiscue|75/100
+|-unboost|p2a: Conkeldurr|def|1
+|-unboost|p2a: Conkeldurr|spd|1
+|detailschange|p1a: Eiscue|Eiscue-Noice, L82, M
+|-weather|Hail|[upkeep]
+|-damage|p2a: Conkeldurr|46/295 brn|[from] Hail
+|-damage|p2a: Conkeldurr|28/295 brn|[from] brn
+|upkeep
+|turn|6
+|move|p1a: Eiscue|Max Guard|p1a: Eiscue
+|-singleturn|p1a: Eiscue|Max Guard
+|move|p2a: Conkeldurr|Mach Punch|p1a: Eiscue
+|-activate|p1a: Eiscue|move: Max Guard
+|-weather|Hail|[upkeep]
+|-damage|p2a: Conkeldurr|10/295 brn|[from] Hail
+|-damage|p2a: Conkeldurr|0 fnt|[from] brn
+|faint|p2a: Conkeldurr
+|upkeep
+|switch|p2a: Scizor|Scizor, L80, M|243/243
+|turn|7
+|move|p2a: Scizor|Bullet Punch|p1a: Eiscue
+|-supereffective|p1a: Eiscue
+|-damage|p1a: Eiscue|42/100
+|move|p1a: Eiscue|Max Hailstorm|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|189/243
+|-weather|Hail|[upkeep]
+|-damage|p2a: Scizor|174/243|[from] Hail
+|-heal|p2a: Scizor|189/243|[from] item: Leftovers
+|upkeep
+|-end|p1a: Eiscue|Dynamax
+|-heal|p1a: Eiscue|42/100|[silent]
+|turn|8
+|move|p2a: Scizor|Bullet Punch|p1a: Eiscue
+|-supereffective|p1a: Eiscue
+|-damage|p1a: Eiscue|0 fnt
+|faint|p1a: Eiscue
+|-weather|Hail|[upkeep]
+|-damage|p2a: Scizor|174/243|[from] Hail
+|-heal|p2a: Scizor|189/243|[from] item: Leftovers
+|upkeep
+|switch|p1a: Togedemaru|Togedemaru, L86, M|85/100
+|turn|9
+|switch|p2a: Necrozma|Necrozma, L80|286/286
+|move|p1a: Togedemaru|Spiky Shield||[still]
+|-fail|p1a: Togedemaru
+|-weather|none
+|-heal|p1a: Togedemaru|91/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|move|p1a: Togedemaru|Nuzzle|p2a: Necrozma
+|-damage|p2a: Necrozma|264/286
+|-status|p2a: Necrozma|par
+|move|p2a: Necrozma|Heat Wave|p1a: Togedemaru
+|-supereffective|p1a: Togedemaru
+|-damage|p1a: Togedemaru|21/100
+|-heal|p1a: Togedemaru|27/100|[from] item: Leftovers
+|-heal|p2a: Necrozma|281/286 par|[from] item: Leftovers
+|upkeep
+|turn|11
+|move|p1a: Togedemaru|Spiky Shield|p1a: Togedemaru
+|-singleturn|p1a: Togedemaru|move: Protect
+|cant|p2a: Necrozma|par
+|-heal|p1a: Togedemaru|33/100|[from] item: Leftovers
+|-heal|p2a: Necrozma|286/286 par|[from] item: Leftovers
+|upkeep
+|turn|12
+|move|p1a: Togedemaru|Zing Zap|p2a: Necrozma
+|-damage|p2a: Necrozma|196/286 par
+|move|p2a: Necrozma|Heat Wave|p1a: Togedemaru
+|-supereffective|p1a: Togedemaru
+|-damage|p1a: Togedemaru|0 fnt
+|faint|p1a: Togedemaru
+|-heal|p2a: Necrozma|213/286 par|[from] item: Leftovers
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by PokeLLM)
+|inactive|Time left: 150 sec this turn | 150 sec total | 60 sec grace
+|switch|p1a: Snorlax|Snorlax, L82, M|100/100
+|turn|13
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p2a: Toxicroak|Toxicroak, L84, F|277/277
+|move|p1a: Snorlax|Darkest Lariat|p2a: Toxicroak
+|-resisted|p2a: Toxicroak
+|-damage|p2a: Toxicroak|222/277
+|-heal|p2a: Toxicroak|239/277|[from] item: Black Sludge
+|upkeep
+|turn|14
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p1a: Claydol|Claydol, L86|100/100
+|move|p2a: Toxicroak|Swords Dance|p2a: Toxicroak
+|-boost|p2a: Toxicroak|atk|2
+|-heal|p2a: Toxicroak|256/277|[from] item: Black Sludge
+|upkeep
+|turn|15
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p2a: Toxicroak|Drain Punch|p1a: Claydol
+|-resisted|p1a: Claydol
+|-damage|p1a: Claydol|70/100
+|-heal|p2a: Toxicroak|277/277|[from] drain|[of] p1a: Claydol
+|move|p1a: Claydol|Psychic|p2a: Toxicroak
+|-supereffective|p2a: Toxicroak
+|-damage|p2a: Toxicroak|0 fnt
+|faint|p2a: Toxicroak
+|-heal|p1a: Claydol|76/100|[from] item: Leftovers
+|upkeep
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p2a: Scizor|Scizor, L80, M|189/243
+|turn|16
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p1a: Claydol|Earthquake|p2a: Scizor
+|-damage|p2a: Scizor|99/243
+|move|p2a: Scizor|U-turn|p1a: Claydol
+|-supereffective|p1a: Claydol
+|-damage|p1a: Claydol|16/100
+|inactive|Time left: 150 sec this turn | 150 sec total
+|inactive|PokeLLM has 120 seconds left.
+|switch|p2a: Escavalier|Escavalier, L84, M|255/255|[from] U-turn
+|-heal|p1a: Claydol|22/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|inactive|Time left: 130 sec this turn | 130 sec total
+|-message|ultramudkip2 forfeited.
+    </script>
+</div>
+
+<div class="battle-log battle-log-inline" style="display:none"></div>
+
+<script>
+    let daily = Math.floor(Date.now() / 1000 / 60 / 60 / 24); document.write('<script src="https://play.pokemonshowdown.com/js/replay-embed.js?version' + daily + '"></' + 'script>');
+</script>
+
+<p style="text-align:center"> Replay created by <a href="https://github.com/hsahovic/poke-env">poke-env</a>, with code from <a
+        href="https://github.com/smogon/pokemon-showdown"> pokemon-showdown</a>. If something goes wrong, don't hesitate
+    to open an <a href="https://github.com/hsahovic/poke-env/issues">issue!</a></p>

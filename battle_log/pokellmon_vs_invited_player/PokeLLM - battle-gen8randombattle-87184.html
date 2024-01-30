@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<!-- version 1 -->
+<title>battle-gen8randombattle-87184</title>
+<style>
+    html,
+    body {
+        font-family: Verdana, sans-serif;
+        font-size: 10pt;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        padding: 12px 0;
+    }
+
+    .battle-log {
+        font-family: Verdana, sans-serif;
+        font-size: 10pt;
+    }
+
+    .battle-log-inline {
+        border: 1px solid #AAAAAA;
+        background: #EEF2F5;
+        color: black;
+        max-width: 640px;
+        margin: 0 auto 80px;
+        padding-bottom: 5px;
+    }
+
+    .battle-log .inner {
+        padding: 4px 8px 0px 8px;
+    }
+
+    .battle-log .inner-preempt {
+        padding: 0 8px 4px 8px;
+    }
+
+    .battle-log .inner-after {
+        margin-top: 0.5em;
+    }
+
+    .battle-log h2 {
+        margin: 0.5em -8px;
+        padding: 4px 8px;
+        border: 1px solid #AAAAAA;
+        background: #E0E7EA;
+        border-left: 0;
+        border-right: 0;
+        font-family: Verdana, sans-serif;
+        font-size: 13pt;
+    }
+
+    .backprop {
+        top: 0;
+    }
+
+    .battle-log .chat {
+        vertical-align: middle;
+        padding: 3px 0 3px 0;
+        font-size: 8pt;
+    }
+
+    .battle-log .chat strong {
+        color: #40576A;
+    }
+
+    .battle-log .chat em {
+        padding: 1px 4px 1px 3px;
+        color: #000000;
+        font-style: normal;
+    }
+
+    .chat.mine {
+        background: rgba(0, 0, 0, 0.05);
+        margin-left: -8px;
+        margin-right: -8px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .spoiler {
+        color: #BBBBBB;
+        background: #BBBBBB;
+        padding: 0px 3px;
+    }
+
+    .spoiler:hover,
+    .spoiler:active,
+    .spoiler-shown {
+        color: #000000;
+        background: #E2E2E2;
+        padding: 0px 3px;
+    }
+
+    .spoiler a {
+        color: #BBBBBB;
+    }
+
+    .spoiler:hover a,
+    .spoiler:active a,
+    .spoiler-shown a {
+        color: #2288CC;
+    }
+
+    .chat code,
+    .chat .spoiler:hover code,
+    .chat .spoiler:active code,
+    .chat .spoiler-shown code {
+        border: 1px solid #C0C0C0;
+        background: #EEEEEE;
+        color: black;
+        padding: 0 2px;
+    }
+
+    .chat .spoiler code {
+        border: 1px solid #CCCCCC;
+        background: #CCCCCC;
+        color: #CCCCCC;
+    }
+
+    .battle-log .rated {
+        padding: 3px 4px;
+    }
+
+    .battle-log .rated strong {
+        color: white;
+        background: #89A;
+        padding: 1px 4px;
+        border-radius: 4px;
+    }
+
+    .spacer {
+        margin-top: 0.5em;
+    }
+
+    .message-announce {
+        background: #6688AA;
+        color: white;
+        padding: 1px 4px 2px;
+    }
+
+    .message-announce a,
+    .broadcast-green a,
+    .broadcast-blue a,
+    .broadcast-red a {
+        color: #DDEEFF;
+    }
+
+    .broadcast-green {
+        background-color: #559955;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .broadcast-blue {
+        background-color: #6688AA;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .infobox {
+        border: 1px solid #6688AA;
+        padding: 2px 4px;
+    }
+
+    .infobox-limited {
+        max-height: 200px;
+        overflow: auto;
+        overflow-x: hidden;
+    }
+
+    .broadcast-red {
+        background-color: #AA5544;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .message-learn-canlearn {
+        font-weight: bold;
+        color: #228822;
+        text-decoration: underline;
+    }
+
+    .message-learn-cannotlearn {
+        font-weight: bold;
+        color: #CC2222;
+        text-decoration: underline;
+    }
+
+    .message-effect-weak {
+        font-weight: bold;
+        color: #CC2222;
+    }
+
+    .message-effect-resist {
+        font-weight: bold;
+        color: #6688AA;
+    }
+
+    .message-effect-immune {
+        font-weight: bold;
+        color: #666666;
+    }
+
+    .message-learn-list {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .message-throttle-notice,
+    .message-error {
+        color: #992222;
+    }
+
+    .message-overflow,
+    .chat small.message-overflow {
+        font-size: 0pt;
+    }
+
+    .message-overflow::before {
+        font-size: 9pt;
+        content: '...';
+    }
+
+    .subtle {
+        color: #3A4A66;
+    }
+</style>
+<div class="wrapper replay-wrapper" style="max-width:1180px;margin:0 auto">
+    <input type="hidden" name="replayid" value="unregisteredserver-gen8randombattle-320064" />
+    <div class="battle"></div>
+    <div class="battle-log"></div>
+    <div class="replay-controls"></div>
+    <div class="replay-controls-2"></div>
+    <h1 style="font-weight:normal;text-align:center"><strong>poke-env battle replay</strong><br />battle-gen8randombattle-87184<br /><a
+            href="http://pokemonshowdown.com/users/randomplayer1" class="subtle" target="_blank">PokeLLM</a>
+        vs. <a href="http://pokemonshowdown.com/users/randomplayer2" class="subtle"
+            target="_blank">BayiHu</a></h1>
+    <script type="text/plain" class="battle-log-data">
+    >battle-gen8randombattle-87184|init|battle
+|title|BayiHu vs. PokeLLM
+|j|☆BayiHu
+|j|☆PokeLLM
+|gametype|singles
+|player|p1|BayiHu|101|1250
+|player|p2|PokeLLM|169|1291
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Illusion Level Mod: Illusion disguises the Pokémon's true level
+|start
+|switch|p1a: Sawk|Sawk, L86, M|100/100
+|switch|p2a: Tauros|Tauros, L81, M|254/254
+|-ability|p1a: Sawk|Mold Breaker
+|turn|1
+|move|p2a: Tauros|Zen Headbutt|p1a: Sawk
+|-supereffective|p1a: Sawk
+|-damage|p1a: Sawk|29/100
+|move|p1a: Sawk|Stone Edge|p2a: Tauros|[miss]
+|-miss|p1a: Sawk|p2a: Tauros
+|upkeep
+|turn|2
+|switch|p1a: Magmortar|Magmortar, L87, M|100/100
+|move|p2a: Tauros|Zen Headbutt|p1a: Magmortar
+|-damage|p1a: Magmortar|63/100
+|upkeep
+|turn|3
+|move|p2a: Tauros|Rock Slide|p1a: Magmortar
+|-supereffective|p1a: Magmortar
+|-crit|p1a: Magmortar
+|-damage|p1a: Magmortar|0 fnt
+|faint|p1a: Magmortar
+|upkeep
+|switch|p1a: Frosmoth|Frosmoth, L82, M|100/100
+|turn|4
+|-start|p2a: Tauros|Dynamax|
+|-heal|p2a: Tauros|508/508|[silent]
+|move|p2a: Tauros|Max Rockfall|p1a: Frosmoth
+|-supereffective|p1a: Frosmoth
+|-damage|p1a: Frosmoth|0 fnt
+|-weather|Sandstorm
+|faint|p1a: Frosmoth
+|-damage|p2a: Tauros|483/508|[from] item: Life Orb
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tauros|468/508|[from] Sandstorm
+|upkeep
+|switch|p1a: Orbeetle|Orbeetle, L86, F|100/100
+|-item|p2a: Tauros|Life Orb|[from] ability: Frisk|[of] p1a: Orbeetle|[identify]
+|turn|5
+|move|p2a: Tauros|Max Rockfall|p1a: Orbeetle
+|-supereffective|p1a: Orbeetle
+|-damage|p1a: Orbeetle|22/100
+|-damage|p2a: Tauros|443/508|[from] item: Life Orb
+|move|p1a: Orbeetle|Psychic|p2a: Tauros
+|-damage|p2a: Tauros|344/508
+|-unboost|p2a: Tauros|spd|1
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tauros|329/508|[from] Sandstorm
+|-damage|p1a: Orbeetle|16/100|[from] Sandstorm
+|upkeep
+|turn|6
+|move|p2a: Tauros|Max Rockfall|p1a: Orbeetle
+|-supereffective|p1a: Orbeetle
+|-damage|p1a: Orbeetle|0 fnt
+|faint|p1a: Orbeetle
+|-damage|p2a: Tauros|304/508|[from] item: Life Orb
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tauros|289/508|[from] Sandstorm
+|upkeep
+|switch|p1a: Claydol|Claydol, L86|100/100
+|-end|p2a: Tauros|Dynamax
+|-heal|p2a: Tauros|145/254|[silent]
+|turn|7
+|switch|p2a: Hitmonchan|Hitmonchan, L86, M|226/226
+|move|p1a: Claydol|Ice Beam|p2a: Hitmonchan
+|-damage|p2a: Hitmonchan|198/226
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hitmonchan|184/226|[from] Sandstorm
+|upkeep
+|turn|8
+|move|p2a: Hitmonchan|Ice Punch|p1a: Claydol
+|-supereffective|p1a: Claydol
+|-damage|p1a: Claydol|51/100
+|move|p1a: Claydol|Psychic|p2a: Hitmonchan
+|-supereffective|p2a: Hitmonchan
+|-damage|p2a: Hitmonchan|100/226
+|-weather|none
+|upkeep
+|turn|9
+|move|p2a: Hitmonchan|Ice Punch|p1a: Claydol
+|-supereffective|p1a: Claydol
+|-damage|p1a: Claydol|5/100
+|move|p1a: Claydol|Psychic|p2a: Hitmonchan
+|-supereffective|p2a: Hitmonchan
+|-damage|p2a: Hitmonchan|16/226
+|upkeep
+|turn|10
+|move|p2a: Hitmonchan|Ice Punch|p1a: Claydol
+|-supereffective|p1a: Claydol
+|-damage|p1a: Claydol|0 fnt
+|faint|p1a: Claydol
+|upkeep
+|switch|p1a: Sawk|Sawk, L86, M|29/100
+|-ability|p1a: Sawk|Mold Breaker
+|turn|11
+|switch|p2a: Gardevoir|Gardevoir, L82, F|246/246
+|-ability|p2a: Gardevoir|Mold Breaker
+|-ability|p2a: Gardevoir|Mold Breaker|[from] ability: Trace|[of] p1a: Sawk
+|move|p1a: Sawk|Close Combat|p2a: Gardevoir
+|-resisted|p2a: Gardevoir
+|-damage|p2a: Gardevoir|167/246
+|-unboost|p1a: Sawk|def|1
+|-unboost|p1a: Sawk|spd|1
+|upkeep
+|turn|12
+|switch|p1a: Rhydon|Rhydon, L86, F|100/100
+|move|p2a: Gardevoir|Moonblast|p1a: Rhydon
+|-damage|p1a: Rhydon|48/100
+|-unboost|p1a: Rhydon|spa|1
+|-damage|p2a: Gardevoir|143/246|[from] item: Life Orb
+|upkeep
+|turn|13
+|-start|p1a: Rhydon|Dynamax|
+|-heal|p1a: Rhydon|48/100|[silent]
+|move|p1a: Rhydon|Max Guard|p1a: Rhydon
+|-singleturn|p1a: Rhydon|Max Guard
+|move|p2a: Gardevoir|Moonblast|p1a: Rhydon
+|-activate|p1a: Rhydon|move: Max Guard
+|upkeep
+|turn|14
+|move|p2a: Gardevoir|Moonblast|p1a: Rhydon
+|-damage|p1a: Rhydon|23/100
+|-unboost|p1a: Rhydon|spa|1
+|-damage|p2a: Gardevoir|119/246|[from] item: Life Orb
+|move|p1a: Rhydon|Max Rockfall|p2a: Gardevoir
+|-damage|p2a: Gardevoir|0 fnt
+|-weather|Sandstorm
+|faint|p2a: Gardevoir
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|switch|p2a: Heatmor|Heatmor, L91, M|303/303
+|turn|15
+|move|p2a: Heatmor|Giga Drain|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|0 fnt
+|faint|p1a: Rhydon
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Heatmor|285/303|[from] Sandstorm
+|upkeep
+|switch|p1a: Sawk|Sawk, L86, M|29/100
+|-ability|p1a: Sawk|Mold Breaker
+|turn|16
+|switch|p2a: Alcremie|Alcremie, L85, F|249/249
+|move|p1a: Sawk|Poison Jab|p2a: Alcremie
+|-supereffective|p2a: Alcremie
+|-damage|p2a: Alcremie|0 fnt
+|faint|p2a: Alcremie
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sawk|23/100|[from] Sandstorm
+|upkeep
+|switch|p2a: Archeops|Archeops, L83, F|259/259
+|turn|17
+|move|p2a: Archeops|Dual Wingbeat|p1a: Sawk
+|-supereffective|p1a: Sawk
+|-damage|p1a: Sawk|0 fnt
+|faint|p1a: Sawk
+|-hitcount|p1: Sawk|1
+    </script>
+</div>
+
+<div class="battle-log battle-log-inline" style="display:none"></div>
+
+<script>
+    let daily = Math.floor(Date.now() / 1000 / 60 / 60 / 24); document.write('<script src="https://play.pokemonshowdown.com/js/replay-embed.js?version' + daily + '"></' + 'script>');
+</script>
+
+<p style="text-align:center"> Replay created by <a href="https://github.com/hsahovic/poke-env">poke-env</a>, with code from <a
+        href="https://github.com/smogon/pokemon-showdown"> pokemon-showdown</a>. If something goes wrong, don't hesitate
+    to open an <a href="https://github.com/hsahovic/poke-env/issues">issue!</a></p>

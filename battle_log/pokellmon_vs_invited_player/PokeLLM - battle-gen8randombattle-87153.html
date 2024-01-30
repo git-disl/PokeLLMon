@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<!-- version 1 -->
+<title>battle-gen8randombattle-87153</title>
+<style>
+    html,
+    body {
+        font-family: Verdana, sans-serif;
+        font-size: 10pt;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        padding: 12px 0;
+    }
+
+    .battle-log {
+        font-family: Verdana, sans-serif;
+        font-size: 10pt;
+    }
+
+    .battle-log-inline {
+        border: 1px solid #AAAAAA;
+        background: #EEF2F5;
+        color: black;
+        max-width: 640px;
+        margin: 0 auto 80px;
+        padding-bottom: 5px;
+    }
+
+    .battle-log .inner {
+        padding: 4px 8px 0px 8px;
+    }
+
+    .battle-log .inner-preempt {
+        padding: 0 8px 4px 8px;
+    }
+
+    .battle-log .inner-after {
+        margin-top: 0.5em;
+    }
+
+    .battle-log h2 {
+        margin: 0.5em -8px;
+        padding: 4px 8px;
+        border: 1px solid #AAAAAA;
+        background: #E0E7EA;
+        border-left: 0;
+        border-right: 0;
+        font-family: Verdana, sans-serif;
+        font-size: 13pt;
+    }
+
+    .backprop {
+        top: 0;
+    }
+
+    .battle-log .chat {
+        vertical-align: middle;
+        padding: 3px 0 3px 0;
+        font-size: 8pt;
+    }
+
+    .battle-log .chat strong {
+        color: #40576A;
+    }
+
+    .battle-log .chat em {
+        padding: 1px 4px 1px 3px;
+        color: #000000;
+        font-style: normal;
+    }
+
+    .chat.mine {
+        background: rgba(0, 0, 0, 0.05);
+        margin-left: -8px;
+        margin-right: -8px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .spoiler {
+        color: #BBBBBB;
+        background: #BBBBBB;
+        padding: 0px 3px;
+    }
+
+    .spoiler:hover,
+    .spoiler:active,
+    .spoiler-shown {
+        color: #000000;
+        background: #E2E2E2;
+        padding: 0px 3px;
+    }
+
+    .spoiler a {
+        color: #BBBBBB;
+    }
+
+    .spoiler:hover a,
+    .spoiler:active a,
+    .spoiler-shown a {
+        color: #2288CC;
+    }
+
+    .chat code,
+    .chat .spoiler:hover code,
+    .chat .spoiler:active code,
+    .chat .spoiler-shown code {
+        border: 1px solid #C0C0C0;
+        background: #EEEEEE;
+        color: black;
+        padding: 0 2px;
+    }
+
+    .chat .spoiler code {
+        border: 1px solid #CCCCCC;
+        background: #CCCCCC;
+        color: #CCCCCC;
+    }
+
+    .battle-log .rated {
+        padding: 3px 4px;
+    }
+
+    .battle-log .rated strong {
+        color: white;
+        background: #89A;
+        padding: 1px 4px;
+        border-radius: 4px;
+    }
+
+    .spacer {
+        margin-top: 0.5em;
+    }
+
+    .message-announce {
+        background: #6688AA;
+        color: white;
+        padding: 1px 4px 2px;
+    }
+
+    .message-announce a,
+    .broadcast-green a,
+    .broadcast-blue a,
+    .broadcast-red a {
+        color: #DDEEFF;
+    }
+
+    .broadcast-green {
+        background-color: #559955;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .broadcast-blue {
+        background-color: #6688AA;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .infobox {
+        border: 1px solid #6688AA;
+        padding: 2px 4px;
+    }
+
+    .infobox-limited {
+        max-height: 200px;
+        overflow: auto;
+        overflow-x: hidden;
+    }
+
+    .broadcast-red {
+        background-color: #AA5544;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .message-learn-canlearn {
+        font-weight: bold;
+        color: #228822;
+        text-decoration: underline;
+    }
+
+    .message-learn-cannotlearn {
+        font-weight: bold;
+        color: #CC2222;
+        text-decoration: underline;
+    }
+
+    .message-effect-weak {
+        font-weight: bold;
+        color: #CC2222;
+    }
+
+    .message-effect-resist {
+        font-weight: bold;
+        color: #6688AA;
+    }
+
+    .message-effect-immune {
+        font-weight: bold;
+        color: #666666;
+    }
+
+    .message-learn-list {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .message-throttle-notice,
+    .message-error {
+        color: #992222;
+    }
+
+    .message-overflow,
+    .chat small.message-overflow {
+        font-size: 0pt;
+    }
+
+    .message-overflow::before {
+        font-size: 9pt;
+        content: '...';
+    }
+
+    .subtle {
+        color: #3A4A66;
+    }
+</style>
+<div class="wrapper replay-wrapper" style="max-width:1180px;margin:0 auto">
+    <input type="hidden" name="replayid" value="unregisteredserver-gen8randombattle-320064" />
+    <div class="battle"></div>
+    <div class="battle-log"></div>
+    <div class="replay-controls"></div>
+    <div class="replay-controls-2"></div>
+    <h1 style="font-weight:normal;text-align:center"><strong>poke-env battle replay</strong><br />battle-gen8randombattle-87153<br /><a
+            href="http://pokemonshowdown.com/users/randomplayer1" class="subtle" target="_blank">PokeLLM</a>
+        vs. <a href="http://pokemonshowdown.com/users/randomplayer2" class="subtle"
+            target="_blank">BayiHu</a></h1>
+    <script type="text/plain" class="battle-log-data">
+    >battle-gen8randombattle-87153|init|battle
+|title|BayiHu vs. PokeLLM
+|j|☆BayiHu
+|j|☆PokeLLM
+|gametype|singles
+|player|p1|BayiHu|101|1138
+|player|p2|PokeLLM|169|1343
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Illusion Level Mod: Illusion disguises the Pokémon's true level
+|start
+|switch|p1a: Mr. Mime|Mr. Mime-Galar, L85, M|100/100
+|switch|p2a: Silvally|Silvally-Electric, L83|293/293
+|turn|1
+|move|p1a: Mr. Mime|Freeze-Dry|p2a: Silvally
+|-damage|p2a: Silvally|221/293
+|move|p2a: Silvally|Flamethrower|p1a: Mr. Mime
+|-supereffective|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|61/100
+|upkeep
+|turn|2
+|move|p1a: Mr. Mime|Nasty Plot|p1a: Mr. Mime
+|-boost|p1a: Mr. Mime|spa|2
+|move|p2a: Silvally|Flamethrower|p1a: Mr. Mime
+|-supereffective|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|28/100
+|upkeep
+|turn|3
+|move|p1a: Mr. Mime|Focus Blast|p2a: Silvally
+|-damage|p2a: Silvally|49/293
+|move|p2a: Silvally|Flamethrower|p1a: Mr. Mime
+|-supereffective|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|0 fnt
+|faint|p1a: Mr. Mime
+|upkeep
+|switch|p1a: Cherrim|Cherrim, L94, F|100/100
+|turn|4
+|move|p1a: Cherrim|Energy Ball|p2a: Silvally
+|-damage|p2a: Silvally|0 fnt
+|faint|p2a: Silvally
+|upkeep
+|switch|p2a: Tornadus|Tornadus-Therian, L78, M|251/251
+|turn|5
+|-start|p2a: Tornadus|Dynamax|
+|-heal|p2a: Tornadus|502/502|[silent]
+|move|p1a: Cherrim|Energy Ball|p2a: Tornadus
+|-resisted|p2a: Tornadus
+|-crit|p2a: Tornadus
+|-damage|p2a: Tornadus|418/502
+|move|p2a: Tornadus|Max Airstream|p1a: Cherrim
+|-supereffective|p1a: Cherrim
+|-damage|p1a: Cherrim|3/100
+|-boost|p2a: Tornadus|spe|1
+|upkeep
+|turn|6
+|move|p2a: Tornadus|Max Airstream|p1a: Cherrim
+|-supereffective|p1a: Cherrim
+|-damage|p1a: Cherrim|0 fnt
+|-boost|p2a: Tornadus|spe|1
+|faint|p1a: Cherrim
+|upkeep
+|switch|p1a: Rhydon|Rhydon, L86, M|100/100
+|turn|7
+|-start|p1a: Rhydon|Dynamax|
+|-heal|p1a: Rhydon|100/100|[silent]
+|move|p2a: Tornadus|Max Knuckle|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|91/100
+|-boost|p2a: Tornadus|atk|1
+|move|p1a: Rhydon|Max Rockfall|p2a: Tornadus
+|-supereffective|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|-weather|Sandstorm
+|faint|p2a: Tornadus
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|switch|p2a: Mantine|Mantine, L86, F|286/286
+|turn|8
+|move|p2a: Mantine|Scald|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|56/100
+|move|p1a: Rhydon|Max Flutterby|p2a: Mantine
+|-resisted|p2a: Mantine
+|-damage|p2a: Mantine|209/286
+|-unboost|p2a: Mantine|spa|1
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mantine|192/286|[from] Sandstorm
+|-heal|p2a: Mantine|209/286|[from] item: Leftovers
+|upkeep
+|turn|9
+|move|p2a: Mantine|Scald|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-crit|p1a: Rhydon
+|-damage|p1a: Rhydon|11/100
+|move|p1a: Rhydon|Max Rockfall|p2a: Mantine
+|-supereffective|p2a: Mantine
+|-damage|p2a: Mantine|0 fnt
+|faint|p2a: Mantine
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|switch|p2a: Octillery|Octillery, L90, F|281/281
+|-end|p1a: Rhydon|Dynamax
+|-heal|p1a: Rhydon|11/100|[silent]
+|turn|10
+|move|p2a: Octillery|Hydro Pump|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|0 fnt
+|faint|p1a: Rhydon
+|-damage|p2a: Octillery|253/281|[from] item: Life Orb
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Octillery|236/281|[from] Sandstorm
+|upkeep
+|switch|p1a: Qwilfish|Qwilfish, L85, M|100/100
+|-ability|p1a: Qwilfish|Intimidate|boost
+|-unboost|p2a: Octillery|atk|1
+|turn|11
+|switch|p2a: Hitmontop|Hitmontop, L85, M|224/224
+|-ability|p2a: Hitmontop|Intimidate|boost
+|-unboost|p1a: Qwilfish|atk|1
+|move|p1a: Qwilfish|Thunder Wave|p2a: Hitmontop
+|-status|p2a: Hitmontop|par
+|-weather|none
+|upkeep
+|turn|12
+|move|p1a: Qwilfish|Waterfall|p2a: Hitmontop
+|-damage|p2a: Hitmontop|172/224 par
+|cant|p2a: Hitmontop|par
+|-heal|p2a: Hitmontop|186/224 par|[from] item: Leftovers
+|upkeep
+|turn|13
+|move|p1a: Qwilfish|Taunt|p2a: Hitmontop
+|-start|p2a: Hitmontop|move: Taunt
+|move|p2a: Hitmontop|Earthquake|p1a: Qwilfish
+|-supereffective|p1a: Qwilfish
+|-damage|p1a: Qwilfish|37/100
+|-heal|p1a: Qwilfish|43/100|[from] item: Black Sludge
+|-heal|p2a: Hitmontop|200/224 par|[from] item: Leftovers
+|upkeep
+|turn|14
+|move|p1a: Qwilfish|Destiny Bond|p1a: Qwilfish
+|-singlemove|p1a: Qwilfish|Destiny Bond
+|cant|p2a: Hitmontop|par
+|-heal|p1a: Qwilfish|49/100|[from] item: Black Sludge
+|-heal|p2a: Hitmontop|214/224 par|[from] item: Leftovers
+|upkeep
+|turn|15
+|move|p1a: Qwilfish|Destiny Bond||[still]
+|-fail|p1a: Qwilfish
+|cant|p2a: Hitmontop|par
+|-heal|p1a: Qwilfish|55/100|[from] item: Black Sludge
+|-heal|p2a: Hitmontop|224/224 par|[from] item: Leftovers
+|-end|p2a: Hitmontop|move: Taunt
+|upkeep
+|turn|16
+|move|p1a: Qwilfish|Destiny Bond|p1a: Qwilfish
+|-singlemove|p1a: Qwilfish|Destiny Bond
+|move|p2a: Hitmontop|Earthquake|p1a: Qwilfish
+|-supereffective|p1a: Qwilfish
+|-damage|p1a: Qwilfish|0 fnt
+|faint|p1a: Qwilfish
+|-activate|p1a: Qwilfish|move: Destiny Bond
+|faint|p2a: Hitmontop
+|upkeep
+|switch|p1a: Pinsir|Pinsir, L84, M|100/100
+|switch|p2a: Flapple|Flapple, L84, M|255/255
+|-ability|p1a: Pinsir|Mold Breaker
+|turn|17
+|move|p2a: Flapple|Sucker Punch|p1a: Pinsir|[miss]
+|-miss|p2a: Flapple|p1a: Pinsir
+|move|p1a: Pinsir|X-Scissor|p2a: Flapple
+|-supereffective|p2a: Flapple
+|-damage|p2a: Flapple|21/255
+|upkeep
+|turn|18
+|switch|p2a: Octillery|Octillery, L90, F|236/281
+|move|p1a: Pinsir|X-Scissor|p2a: Octillery
+|-damage|p2a: Octillery|130/281
+|upkeep
+|turn|19
+|move|p1a: Pinsir|Close Combat|p2a: Octillery
+|-damage|p2a: Octillery|12/281
+|-unboost|p1a: Pinsir|def|1
+|-unboost|p1a: Pinsir|spd|1
+|move|p2a: Octillery|Ice Beam|p1a: Pinsir
+|-damage|p1a: Pinsir|24/100
+|-damage|p2a: Octillery|0 fnt|[from] item: Life Orb
+|faint|p2a: Octillery
+|upkeep
+|switch|p2a: Flapple|Flapple, L84, M|21/255
+|turn|20
+|move|p2a: Flapple|Sucker Punch||[still]
+|-fail|p2a: Flapple
+|move|p1a: Pinsir|Stealth Rock|p2a: Flapple
+|-sidestart|p2: PokeLLM|move: Stealth Rock
+|upkeep
+|turn|21
+|move|p2a: Flapple|Sucker Punch||[still]
+|-fail|p2a: Flapple
+|move|p1a: Pinsir|Stealth Rock||[still]
+|-fail|p1a: Pinsir
+|upkeep
+|turn|22
+|move|p2a: Flapple|Sucker Punch|p1a: Pinsir
+|-damage|p1a: Pinsir|0 fnt
+|faint|p1a: Pinsir
+|upkeep
+|switch|p1a: Turtonator|Turtonator, L84, M|100/100
+|turn|23
+|move|p2a: Flapple|Sucker Punch|p1a: Turtonator
+|-damage|p1a: Turtonator|64/100
+|move|p1a: Turtonator|Draco Meteor|p2a: Flapple
+|-supereffective|p2a: Flapple
+|-damage|p2a: Flapple|0 fnt
+|-unboost|p1a: Turtonator|spa|2
+|-enditem|p1a: Turtonator|White Herb
+|-clearnegativeboost|p1a: Turtonator|[silent]
+|faint|p2a: Flapple
+    </script>
+</div>
+
+<div class="battle-log battle-log-inline" style="display:none"></div>
+
+<script>
+    let daily = Math.floor(Date.now() / 1000 / 60 / 60 / 24); document.write('<script src="https://play.pokemonshowdown.com/js/replay-embed.js?version' + daily + '"></' + 'script>');
+</script>
+
+<p style="text-align:center"> Replay created by <a href="https://github.com/hsahovic/poke-env">poke-env</a>, with code from <a
+        href="https://github.com/smogon/pokemon-showdown"> pokemon-showdown</a>. If something goes wrong, don't hesitate
+    to open an <a href="https://github.com/hsahovic/poke-env/issues">issue!</a></p>

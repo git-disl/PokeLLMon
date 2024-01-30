@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<!-- version 1 -->
+<title>battle-gen8randombattle-87162</title>
+<style>
+    html,
+    body {
+        font-family: Verdana, sans-serif;
+        font-size: 10pt;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        padding: 12px 0;
+    }
+
+    .battle-log {
+        font-family: Verdana, sans-serif;
+        font-size: 10pt;
+    }
+
+    .battle-log-inline {
+        border: 1px solid #AAAAAA;
+        background: #EEF2F5;
+        color: black;
+        max-width: 640px;
+        margin: 0 auto 80px;
+        padding-bottom: 5px;
+    }
+
+    .battle-log .inner {
+        padding: 4px 8px 0px 8px;
+    }
+
+    .battle-log .inner-preempt {
+        padding: 0 8px 4px 8px;
+    }
+
+    .battle-log .inner-after {
+        margin-top: 0.5em;
+    }
+
+    .battle-log h2 {
+        margin: 0.5em -8px;
+        padding: 4px 8px;
+        border: 1px solid #AAAAAA;
+        background: #E0E7EA;
+        border-left: 0;
+        border-right: 0;
+        font-family: Verdana, sans-serif;
+        font-size: 13pt;
+    }
+
+    .backprop {
+        top: 0;
+    }
+
+    .battle-log .chat {
+        vertical-align: middle;
+        padding: 3px 0 3px 0;
+        font-size: 8pt;
+    }
+
+    .battle-log .chat strong {
+        color: #40576A;
+    }
+
+    .battle-log .chat em {
+        padding: 1px 4px 1px 3px;
+        color: #000000;
+        font-style: normal;
+    }
+
+    .chat.mine {
+        background: rgba(0, 0, 0, 0.05);
+        margin-left: -8px;
+        margin-right: -8px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .spoiler {
+        color: #BBBBBB;
+        background: #BBBBBB;
+        padding: 0px 3px;
+    }
+
+    .spoiler:hover,
+    .spoiler:active,
+    .spoiler-shown {
+        color: #000000;
+        background: #E2E2E2;
+        padding: 0px 3px;
+    }
+
+    .spoiler a {
+        color: #BBBBBB;
+    }
+
+    .spoiler:hover a,
+    .spoiler:active a,
+    .spoiler-shown a {
+        color: #2288CC;
+    }
+
+    .chat code,
+    .chat .spoiler:hover code,
+    .chat .spoiler:active code,
+    .chat .spoiler-shown code {
+        border: 1px solid #C0C0C0;
+        background: #EEEEEE;
+        color: black;
+        padding: 0 2px;
+    }
+
+    .chat .spoiler code {
+        border: 1px solid #CCCCCC;
+        background: #CCCCCC;
+        color: #CCCCCC;
+    }
+
+    .battle-log .rated {
+        padding: 3px 4px;
+    }
+
+    .battle-log .rated strong {
+        color: white;
+        background: #89A;
+        padding: 1px 4px;
+        border-radius: 4px;
+    }
+
+    .spacer {
+        margin-top: 0.5em;
+    }
+
+    .message-announce {
+        background: #6688AA;
+        color: white;
+        padding: 1px 4px 2px;
+    }
+
+    .message-announce a,
+    .broadcast-green a,
+    .broadcast-blue a,
+    .broadcast-red a {
+        color: #DDEEFF;
+    }
+
+    .broadcast-green {
+        background-color: #559955;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .broadcast-blue {
+        background-color: #6688AA;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .infobox {
+        border: 1px solid #6688AA;
+        padding: 2px 4px;
+    }
+
+    .infobox-limited {
+        max-height: 200px;
+        overflow: auto;
+        overflow-x: hidden;
+    }
+
+    .broadcast-red {
+        background-color: #AA5544;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .message-learn-canlearn {
+        font-weight: bold;
+        color: #228822;
+        text-decoration: underline;
+    }
+
+    .message-learn-cannotlearn {
+        font-weight: bold;
+        color: #CC2222;
+        text-decoration: underline;
+    }
+
+    .message-effect-weak {
+        font-weight: bold;
+        color: #CC2222;
+    }
+
+    .message-effect-resist {
+        font-weight: bold;
+        color: #6688AA;
+    }
+
+    .message-effect-immune {
+        font-weight: bold;
+        color: #666666;
+    }
+
+    .message-learn-list {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .message-throttle-notice,
+    .message-error {
+        color: #992222;
+    }
+
+    .message-overflow,
+    .chat small.message-overflow {
+        font-size: 0pt;
+    }
+
+    .message-overflow::before {
+        font-size: 9pt;
+        content: '...';
+    }
+
+    .subtle {
+        color: #3A4A66;
+    }
+</style>
+<div class="wrapper replay-wrapper" style="max-width:1180px;margin:0 auto">
+    <input type="hidden" name="replayid" value="unregisteredserver-gen8randombattle-320064" />
+    <div class="battle"></div>
+    <div class="battle-log"></div>
+    <div class="replay-controls"></div>
+    <div class="replay-controls-2"></div>
+    <h1 style="font-weight:normal;text-align:center"><strong>poke-env battle replay</strong><br />battle-gen8randombattle-87162<br /><a
+            href="http://pokemonshowdown.com/users/randomplayer1" class="subtle" target="_blank">PokeLLM</a>
+        vs. <a href="http://pokemonshowdown.com/users/randomplayer2" class="subtle"
+            target="_blank">BayiHu</a></h1>
+    <script type="text/plain" class="battle-log-data">
+    >battle-gen8randombattle-87162|init|battle
+|title|BayiHu vs. PokeLLM
+|j|☆BayiHu
+|j|☆PokeLLM
+|gametype|singles
+|player|p1|BayiHu|101|1223
+|player|p2|PokeLLM|169|1306
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Illusion Level Mod: Illusion disguises the Pokémon's true level
+|start
+|switch|p1a: Duraludon|Duraludon, L84, M|100/100
+|switch|p2a: Rayquaza|Rayquaza, L74|277/277
+|-ability|p2a: Rayquaza|Air Lock
+|turn|1
+|-start|p1a: Duraludon|Dynamax|
+|-heal|p1a: Duraludon|100/100|[silent]
+|move|p1a: Duraludon|Max Wyrmwind|p2a: Rayquaza
+|-supereffective|p2a: Rayquaza
+|-damage|p2a: Rayquaza|0 fnt
+|faint|p2a: Rayquaza
+|upkeep
+|switch|p2a: Toxicroak|Toxicroak, L84, F|277/277
+|turn|2
+|-start|p2a: Toxicroak|Dynamax|
+|-heal|p2a: Toxicroak|554/554|[silent]
+|move|p2a: Toxicroak|Max Guard|p2a: Toxicroak
+|-singleturn|p2a: Toxicroak|Max Guard
+|move|p1a: Duraludon|Max Wyrmwind|p2a: Toxicroak
+|-activate|p2a: Toxicroak|move: Max Guard
+|upkeep
+|turn|3
+|move|p2a: Toxicroak|Max Knuckle|p1a: Duraludon
+|-supereffective|p1a: Duraludon
+|-damage|p1a: Duraludon|58/100
+|-boost|p2a: Toxicroak|atk|1
+|-damage|p2a: Toxicroak|527/554|[from] item: Life Orb
+|move|p1a: Duraludon|Max Wyrmwind|p2a: Toxicroak
+|-damage|p2a: Toxicroak|317/554
+|-unboost|p2a: Toxicroak|atk|1
+|upkeep
+|-end|p1a: Duraludon|Dynamax
+|-heal|p1a: Duraludon|58/100|[silent]
+|turn|4
+|switch|p1a: Stoutland|Stoutland, L87, F|100/100
+|-ability|p1a: Stoutland|Intimidate|boost
+|-unboost|p2a: Toxicroak|atk|1
+|move|p2a: Toxicroak|Max Knuckle|p1a: Stoutland
+|-supereffective|p1a: Stoutland
+|-damage|p1a: Stoutland|41/100
+|-boost|p2a: Toxicroak|atk|1
+|-damage|p2a: Toxicroak|290/554|[from] item: Life Orb
+|upkeep
+|-end|p2a: Toxicroak|Dynamax
+|-heal|p2a: Toxicroak|145/277|[silent]
+|turn|5
+|move|p1a: Stoutland|Play Rough|p2a: Toxicroak
+|-damage|p2a: Toxicroak|49/277
+|move|p2a: Toxicroak|Drain Punch|p1a: Stoutland
+|-supereffective|p1a: Stoutland
+|-damage|p1a: Stoutland|0 fnt
+|-heal|p2a: Toxicroak|108/277|[from] drain|[of] p1a: Stoutland
+|faint|p1a: Stoutland
+|-damage|p2a: Toxicroak|81/277|[from] item: Life Orb
+|upkeep
+|switch|p1a: Thundurus|Thundurus, L80, M|100/100
+|turn|6
+|switch|p2a: Heliolisk|Heliolisk, L82, M|236/236
+|move|p1a: Thundurus|Sludge Wave|p2a: Heliolisk
+|-damage|p2a: Heliolisk|168/236
+|upkeep
+|turn|7
+|switch|p1a: Tapu Bulu|Tapu Bulu, L82|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Tapu Bulu
+|move|p2a: Heliolisk|Volt Switch|p1a: Tapu Bulu
+|-resisted|p1a: Tapu Bulu
+|-damage|p1a: Tapu Bulu|82/100
+|-damage|p2a: Heliolisk|145/236|[from] item: Life Orb
+|switch|p2a: Trevenant|Trevenant, L87, F|290/290|[from] Volt Switch
+|-heal|p1a: Tapu Bulu|88/100|[from] Grassy Terrain
+|upkeep
+|turn|8
+|switch|p2a: Machamp|Machamp, L82, M|282/282
+|move|p1a: Tapu Bulu|Stone Edge|p2a: Machamp|[miss]
+|-miss|p1a: Tapu Bulu|p2a: Machamp
+|-heal|p1a: Tapu Bulu|94/100|[from] Grassy Terrain
+|-status|p2a: Machamp|brn|[from] item: Flame Orb
+|upkeep
+|turn|9
+|move|p2a: Machamp|Bullet Punch|p1a: Tapu Bulu
+|-supereffective|p1a: Tapu Bulu
+|-damage|p1a: Tapu Bulu|61/100
+|move|p1a: Tapu Bulu|Stone Edge|p2a: Machamp
+|-resisted|p2a: Machamp
+|-damage|p2a: Machamp|210/282 brn
+|-heal|p1a: Tapu Bulu|67/100|[from] Grassy Terrain
+|-heal|p2a: Machamp|227/282 brn|[from] Grassy Terrain
+|-damage|p2a: Machamp|210/282 brn|[from] brn
+|upkeep
+|turn|10
+|move|p2a: Machamp|Bullet Punch|p1a: Tapu Bulu
+|-supereffective|p1a: Tapu Bulu
+|-damage|p1a: Tapu Bulu|34/100
+|move|p1a: Tapu Bulu|Stone Edge|p2a: Machamp
+|-resisted|p2a: Machamp
+|-damage|p2a: Machamp|140/282 brn
+|-heal|p1a: Tapu Bulu|40/100|[from] Grassy Terrain
+|-heal|p2a: Machamp|157/282 brn|[from] Grassy Terrain
+|-damage|p2a: Machamp|140/282 brn|[from] brn
+|upkeep
+|turn|11
+|switch|p1a: Bewear|Bewear, L82, F|100/100
+|move|p2a: Machamp|Bullet Punch|p1a: Bewear
+|-damage|p1a: Bewear|92/100
+|-heal|p1a: Bewear|98/100|[from] Grassy Terrain
+|-heal|p2a: Machamp|157/282 brn|[from] Grassy Terrain
+|-damage|p2a: Machamp|140/282 brn|[from] brn
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|12
+|move|p1a: Bewear|Swords Dance|p1a: Bewear
+|-boost|p1a: Bewear|atk|2
+|move|p2a: Machamp|Close Combat|p1a: Bewear
+|-supereffective|p1a: Bewear
+|-damage|p1a: Bewear|23/100
+|-unboost|p2a: Machamp|def|1
+|-unboost|p2a: Machamp|spd|1
+|-damage|p2a: Machamp|123/282 brn|[from] brn
+|upkeep
+|turn|13
+|move|p1a: Bewear|Darkest Lariat|p2a: Machamp
+|-resisted|p2a: Machamp
+|-damage|p2a: Machamp|18/282 brn
+|-damage|p1a: Bewear|13/100|[from] item: Life Orb
+|move|p2a: Machamp|Close Combat|p1a: Bewear
+|-supereffective|p1a: Bewear
+|-crit|p1a: Bewear
+|-damage|p1a: Bewear|0 fnt
+|-unboost|p2a: Machamp|def|1
+|-unboost|p2a: Machamp|spd|1
+|faint|p1a: Bewear
+|-damage|p2a: Machamp|1/282 brn|[from] brn
+|upkeep
+|switch|p1a: Thundurus|Thundurus, L80, M|100/100
+|turn|14
+|switch|p2a: Trevenant|Trevenant, L87, F|290/290
+|move|p1a: Thundurus|Thunderbolt|p2a: Trevenant
+|-resisted|p2a: Trevenant
+|-damage|p2a: Trevenant|239/290
+|upkeep
+|turn|15
+|move|p1a: Thundurus|Sludge Wave|p2a: Trevenant
+|-damage|p2a: Trevenant|165/290
+|move|p2a: Trevenant|Rock Slide|p1a: Thundurus
+|-supereffective|p1a: Thundurus
+|-damage|p1a: Thundurus|24/100
+|-damage|p2a: Trevenant|136/290|[from] item: Life Orb
+|upkeep
+|turn|16
+|move|p1a: Thundurus|Grass Knot|p2a: Trevenant
+|-resisted|p2a: Trevenant
+|-damage|p2a: Trevenant|106/290
+|move|p2a: Trevenant|Rock Slide|p1a: Thundurus
+|-supereffective|p1a: Thundurus
+|-damage|p1a: Thundurus|0 fnt
+|faint|p1a: Thundurus
+|-damage|p2a: Trevenant|77/290|[from] item: Life Orb
+|upkeep
+|switch|p1a: Druddigon|Druddigon, L84, F|100/100
+|turn|17
+|switch|p2a: Gardevoir|Gardevoir, L82, F|246/246
+|-ability|p2a: Gardevoir|Rough Skin|[from] ability: Trace|[of] p1a: Druddigon
+|move|p1a: Druddigon|Outrage|p2a: Gardevoir
+|-immune|p2a: Gardevoir
+|upkeep
+|turn|18
+|move|p2a: Gardevoir|Moonblast|p1a: Druddigon
+|-supereffective|p1a: Druddigon
+|-damage|p1a: Druddigon|13/100
+|move|p1a: Druddigon|Outrage|p2a: Gardevoir
+|-immune|p2a: Gardevoir
+|upkeep
+|turn|19
+|switch|p1a: Tapu Bulu|Tapu Bulu, L82|40/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Tapu Bulu
+|move|p2a: Gardevoir|Moonblast|p1a: Tapu Bulu
+|-damage|p1a: Tapu Bulu|0 fnt
+|faint|p1a: Tapu Bulu
+|upkeep
+|switch|p1a: Druddigon|Druddigon, L84, F|13/100
+|turn|20
+|move|p2a: Gardevoir|Moonblast|p1a: Druddigon
+|-supereffective|p1a: Druddigon
+|-damage|p1a: Druddigon|0 fnt
+|faint|p1a: Druddigon
+|upkeep
+|switch|p1a: Duraludon|Duraludon, L84, M|58/100
+|turn|21
+|move|p1a: Duraludon|Thunderbolt|p2a: Gardevoir
+|-damage|p2a: Gardevoir|185/246
+|move|p2a: Gardevoir|Moonblast|p1a: Duraludon
+|-damage|p1a: Duraludon|0 fnt
+|faint|p1a: Duraludon
+    </script>
+</div>
+
+<div class="battle-log battle-log-inline" style="display:none"></div>
+
+<script>
+    let daily = Math.floor(Date.now() / 1000 / 60 / 60 / 24); document.write('<script src="https://play.pokemonshowdown.com/js/replay-embed.js?version' + daily + '"></' + 'script>');
+</script>
+
+<p style="text-align:center"> Replay created by <a href="https://github.com/hsahovic/poke-env">poke-env</a>, with code from <a
+        href="https://github.com/smogon/pokemon-showdown"> pokemon-showdown</a>. If something goes wrong, don't hesitate
+    to open an <a href="https://github.com/hsahovic/poke-env/issues">issue!</a></p>

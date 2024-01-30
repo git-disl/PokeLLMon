@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<!-- version 1 -->
+<title>battle-gen8randombattle-2044781059</title>
+<style>
+    html,
+    body {
+        font-family: Verdana, sans-serif;
+        font-size: 10pt;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        padding: 12px 0;
+    }
+
+    .battle-log {
+        font-family: Verdana, sans-serif;
+        font-size: 10pt;
+    }
+
+    .battle-log-inline {
+        border: 1px solid #AAAAAA;
+        background: #EEF2F5;
+        color: black;
+        max-width: 640px;
+        margin: 0 auto 80px;
+        padding-bottom: 5px;
+    }
+
+    .battle-log .inner {
+        padding: 4px 8px 0px 8px;
+    }
+
+    .battle-log .inner-preempt {
+        padding: 0 8px 4px 8px;
+    }
+
+    .battle-log .inner-after {
+        margin-top: 0.5em;
+    }
+
+    .battle-log h2 {
+        margin: 0.5em -8px;
+        padding: 4px 8px;
+        border: 1px solid #AAAAAA;
+        background: #E0E7EA;
+        border-left: 0;
+        border-right: 0;
+        font-family: Verdana, sans-serif;
+        font-size: 13pt;
+    }
+
+    .backprop {
+        top: 0;
+    }
+
+    .battle-log .chat {
+        vertical-align: middle;
+        padding: 3px 0 3px 0;
+        font-size: 8pt;
+    }
+
+    .battle-log .chat strong {
+        color: #40576A;
+    }
+
+    .battle-log .chat em {
+        padding: 1px 4px 1px 3px;
+        color: #000000;
+        font-style: normal;
+    }
+
+    .chat.mine {
+        background: rgba(0, 0, 0, 0.05);
+        margin-left: -8px;
+        margin-right: -8px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .spoiler {
+        color: #BBBBBB;
+        background: #BBBBBB;
+        padding: 0px 3px;
+    }
+
+    .spoiler:hover,
+    .spoiler:active,
+    .spoiler-shown {
+        color: #000000;
+        background: #E2E2E2;
+        padding: 0px 3px;
+    }
+
+    .spoiler a {
+        color: #BBBBBB;
+    }
+
+    .spoiler:hover a,
+    .spoiler:active a,
+    .spoiler-shown a {
+        color: #2288CC;
+    }
+
+    .chat code,
+    .chat .spoiler:hover code,
+    .chat .spoiler:active code,
+    .chat .spoiler-shown code {
+        border: 1px solid #C0C0C0;
+        background: #EEEEEE;
+        color: black;
+        padding: 0 2px;
+    }
+
+    .chat .spoiler code {
+        border: 1px solid #CCCCCC;
+        background: #CCCCCC;
+        color: #CCCCCC;
+    }
+
+    .battle-log .rated {
+        padding: 3px 4px;
+    }
+
+    .battle-log .rated strong {
+        color: white;
+        background: #89A;
+        padding: 1px 4px;
+        border-radius: 4px;
+    }
+
+    .spacer {
+        margin-top: 0.5em;
+    }
+
+    .message-announce {
+        background: #6688AA;
+        color: white;
+        padding: 1px 4px 2px;
+    }
+
+    .message-announce a,
+    .broadcast-green a,
+    .broadcast-blue a,
+    .broadcast-red a {
+        color: #DDEEFF;
+    }
+
+    .broadcast-green {
+        background-color: #559955;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .broadcast-blue {
+        background-color: #6688AA;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .infobox {
+        border: 1px solid #6688AA;
+        padding: 2px 4px;
+    }
+
+    .infobox-limited {
+        max-height: 200px;
+        overflow: auto;
+        overflow-x: hidden;
+    }
+
+    .broadcast-red {
+        background-color: #AA5544;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .message-learn-canlearn {
+        font-weight: bold;
+        color: #228822;
+        text-decoration: underline;
+    }
+
+    .message-learn-cannotlearn {
+        font-weight: bold;
+        color: #CC2222;
+        text-decoration: underline;
+    }
+
+    .message-effect-weak {
+        font-weight: bold;
+        color: #CC2222;
+    }
+
+    .message-effect-resist {
+        font-weight: bold;
+        color: #6688AA;
+    }
+
+    .message-effect-immune {
+        font-weight: bold;
+        color: #666666;
+    }
+
+    .message-learn-list {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .message-throttle-notice,
+    .message-error {
+        color: #992222;
+    }
+
+    .message-overflow,
+    .chat small.message-overflow {
+        font-size: 0pt;
+    }
+
+    .message-overflow::before {
+        font-size: 9pt;
+        content: '...';
+    }
+
+    .subtle {
+        color: #3A4A66;
+    }
+</style>
+<div class="wrapper replay-wrapper" style="max-width:1180px;margin:0 auto">
+    <input type="hidden" name="replayid" value="unregisteredserver-gen8randombattle-320064" />
+    <div class="battle"></div>
+    <div class="battle-log"></div>
+    <div class="replay-controls"></div>
+    <div class="replay-controls-2"></div>
+    <h1 style="font-weight:normal;text-align:center"><strong>poke-env battle replay</strong><br />battle-gen8randombattle-2044781059<br /><a
+            href="http://pokemonshowdown.com/users/randomplayer1" class="subtle" target="_blank">PokeLLM</a>
+        vs. <a href="http://pokemonshowdown.com/users/randomplayer2" class="subtle"
+            target="_blank">4rhj</a></h1>
+    <script type="text/plain" class="battle-log-data">
+    >battle-gen8randombattle-2044781059|init|battle
+|title|4rhj vs. PokeLLM
+|j|☆4rhj
+|j|☆PokeLLM
+|gametype|singles
+|player|p1|4rhj|265|1073
+|player|p2|PokeLLM|supernerd|1047
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Illusion Level Mod: Illusion disguises the Pokémon's true level
+|start
+|switch|p1a: Sableye|Sableye, L89, F|100/100
+|switch|p2a: Xurkitree|Xurkitree, L75|248/248
+|turn|1
+|-start|p2a: Xurkitree|Dynamax|
+|-heal|p2a: Xurkitree|496/496|[silent]
+|move|p1a: Sableye|Taunt|p2a: Xurkitree
+|-start|p2a: Xurkitree|move: Taunt
+|move|p2a: Xurkitree|Max Starfall|p1a: Sableye
+|-supereffective|p1a: Sableye
+|-damage|p1a: Sableye|0 fnt
+|-fieldstart|move: Misty Terrain
+|faint|p1a: Sableye
+|-ability|p2a: Xurkitree|Beast Boost|boost
+|-boost|p2a: Xurkitree|spa|1
+|upkeep
+|switch|p1a: Entei|Entei, L77|100/100
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by PokeLLM)
+|inactive|Time left: 150 sec this turn | 150 sec total | 60 sec grace
+|inactive|4rhj has 120 seconds left.
+|switch|p1a: Bellossom|Bellossom, L82, F|100/100
+|move|p2a: Xurkitree|Max Lightning|p1a: Bellossom
+|-resisted|p1a: Bellossom
+|-damage|p1a: Bellossom|54/100
+|-fieldstart|move: Electric Terrain
+|-heal|p1a: Bellossom|60/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p2a: Xurkitree|Max Starfall|p1a: Bellossom
+|-crit|p1a: Bellossom
+|-damage|p1a: Bellossom|0 fnt
+|-fieldstart|move: Misty Terrain
+|faint|p1a: Bellossom
+|-ability|p2a: Xurkitree|Beast Boost|boost
+|-boost|p2a: Xurkitree|spa|1
+|-end|p2a: Xurkitree|move: Taunt
+|upkeep
+|inactive|Time left: 150 sec this turn | 150 sec total
+|inactive|4rhj has 120 seconds left.
+|switch|p1a: Entei|Entei, L77|100/100
+|-end|p2a: Xurkitree|Dynamax
+|-heal|p2a: Xurkitree|248/248|[silent]
+|turn|4
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p1a: Entei|Stomping Tantrum|p2a: Xurkitree
+|-supereffective|p2a: Xurkitree
+|-damage|p2a: Xurkitree|58/248
+|move|p2a: Xurkitree|Thunderbolt|p1a: Entei
+|-damage|p1a: Entei|0 fnt
+|faint|p1a: Entei
+|-ability|p2a: Xurkitree|Beast Boost|boost
+|-boost|p2a: Xurkitree|spa|1
+|upkeep
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p1a: Starmie|Starmie, L84|100/100
+|turn|5
+|inactive|Time left: 150 sec this turn | 150 sec total
+|inactive|4rhj has 90 seconds left.
+|switch|p2a: Cresselia|Cresselia, L80, F|323/323
+|move|p1a: Starmie|Psyshock|p2a: Cresselia
+|-resisted|p2a: Cresselia
+|-damage|p2a: Cresselia|248/323
+|-heal|p2a: Cresselia|268/323|[from] item: Leftovers
+|upkeep
+|turn|6
+|inactive|Time left: 145 sec this turn | 145 sec total
+|inactive|4rhj has 90 seconds left.
+|switch|p1a: Registeel|Registeel, L83|100/100
+|move|p2a: Cresselia|Moonlight|p2a: Cresselia
+|-heal|p2a: Cresselia|323/323
+|upkeep
+|turn|7
+|inactive|Time left: 150 sec this turn | 150 sec total
+|inactive|4rhj has 90 seconds left.
+|switch|p2a: Krookodile|Krookodile, L78, F|276/276
+|-ability|p2a: Krookodile|Intimidate|boost
+|-fail|p1a: Registeel|unboost|[from] ability: Clear Body|[of] p1a: Registeel
+|move|p1a: Registeel|Iron Head|p2a: Krookodile
+|-damage|p2a: Krookodile|198/276
+|-fieldend|Misty Terrain
+|upkeep
+|turn|8
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p1a: Beartic|Beartic, L85, F|100/100
+|move|p2a: Krookodile|Earthquake|p1a: Beartic
+|-crit|p1a: Beartic
+|-damage|p1a: Beartic|28/100
+|-damage|p2a: Krookodile|171/276|[from] item: Life Orb
+|upkeep
+|turn|9
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p1a: Beartic|Aqua Jet|p2a: Krookodile
+|-supereffective|p2a: Krookodile
+|-damage|p2a: Krookodile|37/276
+|move|p2a: Krookodile|Close Combat|p1a: Beartic
+|-supereffective|p1a: Beartic
+|-damage|p1a: Beartic|0 fnt
+|-unboost|p2a: Krookodile|def|1
+|-unboost|p2a: Krookodile|spd|1
+|faint|p1a: Beartic
+|-damage|p2a: Krookodile|10/276|[from] item: Life Orb
+|upkeep
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p1a: Starmie|Starmie, L84|100/100
+|turn|10
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p2a: Xurkitree|Xurkitree, L75|58/248
+|move|p1a: Starmie|Scald|p2a: Xurkitree
+|-damage|p2a: Xurkitree|0 fnt
+|faint|p2a: Xurkitree
+|upkeep
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p2a: Scyther|Scyther, L81, M|246/246
+|turn|11
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p1a: Starmie|Scald|p2a: Scyther
+|-damage|p2a: Scyther|95/246
+|move|p2a: Scyther|Knock Off|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|41/100
+|-enditem|p1a: Starmie|Choice Specs|[from] move: Knock Off|[of] p2a: Scyther
+|upkeep
+|turn|12
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p1a: Starmie|Scald|p2a: Scyther
+|-damage|p2a: Scyther|1/246
+|move|p2a: Scyther|Knock Off|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|upkeep
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p1a: Registeel|Registeel, L83|100/100
+|turn|13
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p2a: Jirachi|Jirachi, L79|288/288
+|-start|p1a: Registeel|Dynamax|
+|-heal|p1a: Registeel|100/100|[silent]
+|move|p1a: Registeel|Max Knuckle|p2a: Jirachi
+|-damage|p2a: Jirachi|238/288
+|-boost|p1a: Registeel|atk|1
+|-heal|p2a: Jirachi|256/288|[from] item: Leftovers
+|upkeep
+|turn|14
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p2a: Jirachi|Fire Punch|p1a: Registeel
+|-supereffective|p1a: Registeel
+|-damage|p1a: Registeel|88/100
+|move|p1a: Registeel|Max Knuckle|p2a: Jirachi
+|-damage|p2a: Jirachi|177/288
+|-boost|p1a: Registeel|atk|1
+|-heal|p2a: Jirachi|195/288|[from] item: Leftovers
+|upkeep
+|turn|15
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p2a: Jirachi|Fire Punch|p1a: Registeel
+|-supereffective|p1a: Registeel
+|-damage|p1a: Registeel|76/100
+|-status|p1a: Registeel|brn
+|move|p1a: Registeel|Max Steelspike|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|144/288
+|-boost|p1a: Registeel|def|1
+|-heal|p2a: Jirachi|162/288|[from] item: Leftovers
+|-damage|p1a: Registeel|73/100 brn|[from] brn
+|upkeep
+|-end|p1a: Registeel|Dynamax
+|-heal|p1a: Registeel|73/100 brn|[silent]
+|turn|16
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p2a: Jirachi|Fire Punch|p1a: Registeel
+|-supereffective|p1a: Registeel
+|-damage|p1a: Registeel|56/100 brn
+|move|p1a: Registeel|Rest|p1a: Registeel
+|-status|p1a: Registeel|slp|[from] move: Rest
+|-heal|p1a: Registeel|100/100 slp|[silent]
+|-enditem|p1a: Registeel|Chesto Berry|[eat]
+|-curestatus|p1a: Registeel|slp|[msg]
+|-heal|p2a: Jirachi|180/288|[from] item: Leftovers
+|upkeep
+|turn|17
+|inactive|Time left: 150 sec this turn | 150 sec total
+|switch|p2a: Sawk|Sawk, L86, M|269/269
+|-ability|p2a: Sawk|Mold Breaker
+|move|p1a: Registeel|Body Press|p2a: Sawk
+|-damage|p2a: Sawk|142/269
+|upkeep
+|turn|18
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p2a: Sawk|Bulk Up|p2a: Sawk
+|-boost|p2a: Sawk|atk|1
+|-boost|p2a: Sawk|def|1
+|move|p1a: Registeel|Iron Head|p2a: Sawk
+|-damage|p2a: Sawk|40/269
+|upkeep
+|turn|19
+|inactive|Time left: 150 sec this turn | 150 sec total
+|move|p2a: Sawk|Close Combat|p1a: Registeel
+|-supereffective|p1a: Registeel
+|-damage|p1a: Registeel|0 fnt
+|-unboost|p2a: Sawk|def|1
+|-unboost|p2a: Sawk|spd|1
+|faint|p1a: Registeel
+|-damage|p2a: Sawk|14/269|[from] item: Life Orb
+    </script>
+</div>
+
+<div class="battle-log battle-log-inline" style="display:none"></div>
+
+<script>
+    let daily = Math.floor(Date.now() / 1000 / 60 / 60 / 24); document.write('<script src="https://play.pokemonshowdown.com/js/replay-embed.js?version' + daily + '"></' + 'script>');
+</script>
+
+<p style="text-align:center"> Replay created by <a href="https://github.com/hsahovic/poke-env">poke-env</a>, with code from <a
+        href="https://github.com/smogon/pokemon-showdown"> pokemon-showdown</a>. If something goes wrong, don't hesitate
+    to open an <a href="https://github.com/hsahovic/poke-env/issues">issue!</a></p>

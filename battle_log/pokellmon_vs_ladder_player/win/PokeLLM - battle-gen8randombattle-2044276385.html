@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<!-- version 1 -->
+<title>battle-gen8randombattle-2044276385</title>
+<style>
+    html,
+    body {
+        font-family: Verdana, sans-serif;
+        font-size: 10pt;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        padding: 12px 0;
+    }
+
+    .battle-log {
+        font-family: Verdana, sans-serif;
+        font-size: 10pt;
+    }
+
+    .battle-log-inline {
+        border: 1px solid #AAAAAA;
+        background: #EEF2F5;
+        color: black;
+        max-width: 640px;
+        margin: 0 auto 80px;
+        padding-bottom: 5px;
+    }
+
+    .battle-log .inner {
+        padding: 4px 8px 0px 8px;
+    }
+
+    .battle-log .inner-preempt {
+        padding: 0 8px 4px 8px;
+    }
+
+    .battle-log .inner-after {
+        margin-top: 0.5em;
+    }
+
+    .battle-log h2 {
+        margin: 0.5em -8px;
+        padding: 4px 8px;
+        border: 1px solid #AAAAAA;
+        background: #E0E7EA;
+        border-left: 0;
+        border-right: 0;
+        font-family: Verdana, sans-serif;
+        font-size: 13pt;
+    }
+
+    .backprop {
+        top: 0;
+    }
+
+    .battle-log .chat {
+        vertical-align: middle;
+        padding: 3px 0 3px 0;
+        font-size: 8pt;
+    }
+
+    .battle-log .chat strong {
+        color: #40576A;
+    }
+
+    .battle-log .chat em {
+        padding: 1px 4px 1px 3px;
+        color: #000000;
+        font-style: normal;
+    }
+
+    .chat.mine {
+        background: rgba(0, 0, 0, 0.05);
+        margin-left: -8px;
+        margin-right: -8px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .spoiler {
+        color: #BBBBBB;
+        background: #BBBBBB;
+        padding: 0px 3px;
+    }
+
+    .spoiler:hover,
+    .spoiler:active,
+    .spoiler-shown {
+        color: #000000;
+        background: #E2E2E2;
+        padding: 0px 3px;
+    }
+
+    .spoiler a {
+        color: #BBBBBB;
+    }
+
+    .spoiler:hover a,
+    .spoiler:active a,
+    .spoiler-shown a {
+        color: #2288CC;
+    }
+
+    .chat code,
+    .chat .spoiler:hover code,
+    .chat .spoiler:active code,
+    .chat .spoiler-shown code {
+        border: 1px solid #C0C0C0;
+        background: #EEEEEE;
+        color: black;
+        padding: 0 2px;
+    }
+
+    .chat .spoiler code {
+        border: 1px solid #CCCCCC;
+        background: #CCCCCC;
+        color: #CCCCCC;
+    }
+
+    .battle-log .rated {
+        padding: 3px 4px;
+    }
+
+    .battle-log .rated strong {
+        color: white;
+        background: #89A;
+        padding: 1px 4px;
+        border-radius: 4px;
+    }
+
+    .spacer {
+        margin-top: 0.5em;
+    }
+
+    .message-announce {
+        background: #6688AA;
+        color: white;
+        padding: 1px 4px 2px;
+    }
+
+    .message-announce a,
+    .broadcast-green a,
+    .broadcast-blue a,
+    .broadcast-red a {
+        color: #DDEEFF;
+    }
+
+    .broadcast-green {
+        background-color: #559955;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .broadcast-blue {
+        background-color: #6688AA;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .infobox {
+        border: 1px solid #6688AA;
+        padding: 2px 4px;
+    }
+
+    .infobox-limited {
+        max-height: 200px;
+        overflow: auto;
+        overflow-x: hidden;
+    }
+
+    .broadcast-red {
+        background-color: #AA5544;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .message-learn-canlearn {
+        font-weight: bold;
+        color: #228822;
+        text-decoration: underline;
+    }
+
+    .message-learn-cannotlearn {
+        font-weight: bold;
+        color: #CC2222;
+        text-decoration: underline;
+    }
+
+    .message-effect-weak {
+        font-weight: bold;
+        color: #CC2222;
+    }
+
+    .message-effect-resist {
+        font-weight: bold;
+        color: #6688AA;
+    }
+
+    .message-effect-immune {
+        font-weight: bold;
+        color: #666666;
+    }
+
+    .message-learn-list {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .message-throttle-notice,
+    .message-error {
+        color: #992222;
+    }
+
+    .message-overflow,
+    .chat small.message-overflow {
+        font-size: 0pt;
+    }
+
+    .message-overflow::before {
+        font-size: 9pt;
+        content: '...';
+    }
+
+    .subtle {
+        color: #3A4A66;
+    }
+</style>
+<div class="wrapper replay-wrapper" style="max-width:1180px;margin:0 auto">
+    <input type="hidden" name="replayid" value="unregisteredserver-gen8randombattle-320064" />
+    <div class="battle"></div>
+    <div class="battle-log"></div>
+    <div class="replay-controls"></div>
+    <div class="replay-controls-2"></div>
+    <h1 style="font-weight:normal;text-align:center"><strong>poke-env battle replay</strong><br />battle-gen8randombattle-2044276385<br /><a
+            href="http://pokemonshowdown.com/users/randomplayer1" class="subtle" target="_blank">PokeLLM</a>
+        vs. <a href="http://pokemonshowdown.com/users/randomplayer2" class="subtle"
+            target="_blank">VanilliaTapioca</a></h1>
+    <script type="text/plain" class="battle-log-data">
+    >battle-gen8randombattle-2044276385|init|battle
+|title|VanilliaTapioca vs. PokeLLM
+|j|☆VanilliaTapioca
+|j|☆PokeLLM
+|gametype|singles
+|player|p1|VanilliaTapioca|caitlin|1000
+|player|p2|PokeLLM|supernerd|1152
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Illusion Level Mod: Illusion disguises the Pokémon's true level
+|start
+|switch|p1a: Mimikyu|Mimikyu, L76, F|100/100
+|switch|p2a: Vanilluxe|Vanilluxe, L82, M|251/251
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Vanilluxe
+|turn|1
+|move|p1a: Mimikyu|Swords Dance|p1a: Mimikyu
+|-boost|p1a: Mimikyu|atk|2
+|move|p2a: Vanilluxe|Flash Cannon|p1a: Mimikyu
+|-activate|p1a: Mimikyu|ability: Disguise
+|-damage|p1a: Mimikyu|100/100
+|detailschange|p1a: Mimikyu|Mimikyu-Busted, L76, F
+|-damage|p1a: Mimikyu|88/100|[from] pokemon: Mimikyu-Busted
+|-weather|Hail|[upkeep]
+|-damage|p1a: Mimikyu|82/100|[from] Hail
+|upkeep
+|turn|2
+|move|p1a: Mimikyu|Play Rough|p2a: Vanilluxe
+|-damage|p2a: Vanilluxe|43/251
+|-damage|p1a: Mimikyu|72/100|[from] item: Life Orb
+|move|p2a: Vanilluxe|Aurora Veil|p2a: Vanilluxe
+|-sidestart|p2: PokeLLM|move: Aurora Veil
+|-weather|Hail|[upkeep]
+|-damage|p1a: Mimikyu|66/100|[from] Hail
+|upkeep
+|turn|3
+|switch|p2a: Linoone|Linoone, L84, F|268/268
+|move|p1a: Mimikyu|Play Rough|p2a: Linoone
+|-damage|p2a: Linoone|137/268
+|-damage|p1a: Mimikyu|56/100|[from] item: Life Orb
+|-weather|Hail|[upkeep]
+|-damage|p2a: Linoone|121/268|[from] Hail
+|-damage|p1a: Mimikyu|50/100|[from] Hail
+|-enditem|p2a: Linoone|Wiki Berry|[eat]
+|-heal|p2a: Linoone|210/268|[from] item: Wiki Berry
+|upkeep
+|turn|4
+|move|p2a: Linoone|Throat Chop|p1a: Mimikyu
+|-damage|p1a: Mimikyu|23/100
+|-start|p1a: Mimikyu|Throat Chop|[silent]
+|move|p1a: Mimikyu|Drain Punch|p2a: Linoone
+|-supereffective|p2a: Linoone
+|-damage|p2a: Linoone|72/268
+|-heal|p1a: Mimikyu|56/100|[from] drain|[of] p2a: Linoone
+|-damage|p1a: Mimikyu|47/100|[from] item: Life Orb
+|-weather|Hail|[upkeep]
+|-damage|p2a: Linoone|56/268|[from] Hail
+|-damage|p1a: Mimikyu|41/100|[from] Hail
+|upkeep
+|turn|5
+|move|p2a: Linoone|Throat Chop|p1a: Mimikyu
+|-crit|p1a: Mimikyu
+|-damage|p1a: Mimikyu|1/100
+|move|p1a: Mimikyu|Drain Punch|p2a: Linoone
+|-supereffective|p2a: Linoone
+|-crit|p2a: Linoone
+|-damage|p2a: Linoone|0 fnt
+|-heal|p1a: Mimikyu|14/100|[from] drain|[of] p2a: Linoone
+|faint|p2a: Linoone
+|-damage|p1a: Mimikyu|5/100|[from] item: Life Orb
+|-weather|none
+|-end|p1a: Mimikyu|Throat Chop|[silent]
+|upkeep
+|switch|p2a: Lunala|Lunala, L72|316/316
+|turn|6
+|move|p1a: Mimikyu|Shadow Sneak|p2a: Lunala
+|-supereffective|p2a: Lunala
+|-damage|p2a: Lunala|207/316
+|-damage|p1a: Mimikyu|0 fnt|[from] item: Life Orb
+|faint|p1a: Mimikyu
+|move|p2a: Lunala|Moongeist Beam|p1: Mimikyu|[notarget]
+|-fail|p2a: Lunala
+|-heal|p2a: Lunala|226/316|[from] item: Leftovers
+|upkeep
+|switch|p1a: Dialga|Dialga, L74|100/100
+|-ability|p1a: Dialga|Pressure
+|turn|7
+|move|p2a: Lunala|Calm Mind|p2a: Lunala
+|-boost|p2a: Lunala|spa|1
+|-boost|p2a: Lunala|spd|1
+|move|p1a: Dialga|Toxic|p2a: Lunala|[miss]
+|-miss|p1a: Dialga|p2a: Lunala
+|-heal|p2a: Lunala|245/316|[from] item: Leftovers
+|upkeep
+|turn|8
+|move|p2a: Lunala|Moonblast|p1a: Dialga
+|-damage|p1a: Dialga|64/100
+|-unboost|p1a: Dialga|spa|1
+|move|p1a: Dialga|Toxic|p2a: Lunala|[miss]
+|-miss|p1a: Dialga|p2a: Lunala
+|-heal|p2a: Lunala|264/316|[from] item: Leftovers
+|-heal|p1a: Dialga|70/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|move|p2a: Lunala|Moonblast|p1a: Dialga
+|-damage|p1a: Dialga|30/100
+|move|p1a: Dialga|Toxic|p2a: Lunala
+|-status|p2a: Lunala|tox
+|-heal|p2a: Lunala|283/316 tox|[from] item: Leftovers
+|-heal|p1a: Dialga|36/100|[from] item: Leftovers
+|-damage|p2a: Lunala|264/316 tox|[from] psn
+|-sideend|p2: PokeLLM|move: Aurora Veil
+|upkeep
+|turn|10
+|move|p2a: Lunala|Moonblast|p1a: Dialga
+|-damage|p1a: Dialga|0 fnt
+|faint|p1a: Dialga
+|-heal|p2a: Lunala|283/316 tox|[from] item: Leftovers
+|-damage|p2a: Lunala|245/316 tox|[from] psn
+|upkeep
+|switch|p1a: Lanturn|Lanturn, L86, M|100/100
+|turn|11
+|switch|p2a: Heatmor|Heatmor, L91, M|303/303
+|move|p1a: Lanturn|Thunderbolt|p2a: Heatmor
+|-damage|p2a: Heatmor|207/303
+|upkeep
+|turn|12
+|move|p2a: Heatmor|Giga Drain|p1a: Lanturn
+|-supereffective|p1a: Lanturn
+|-damage|p1a: Lanturn|61/100
+|-heal|p2a: Heatmor|277/303|[from] drain|[of] p1a: Lanturn
+|move|p1a: Lanturn|Scald|p2a: Heatmor
+|-supereffective|p2a: Heatmor
+|-damage|p2a: Heatmor|119/303
+|-heal|p1a: Lanturn|67/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|move|p2a: Heatmor|Giga Drain|p1a: Lanturn
+|-supereffective|p1a: Lanturn
+|-damage|p1a: Lanturn|27/100
+|-heal|p2a: Heatmor|191/303|[from] drain|[of] p1a: Lanturn
+|move|p1a: Lanturn|Scald|p2a: Heatmor
+|-supereffective|p2a: Heatmor
+|-damage|p2a: Heatmor|11/303
+|-heal|p1a: Lanturn|33/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|move|p2a: Heatmor|Giga Drain|p1a: Lanturn
+|-supereffective|p1a: Lanturn
+|-damage|p1a: Lanturn|0 fnt
+|-heal|p2a: Heatmor|69/303|[from] drain|[of] p1a: Lanturn
+|faint|p1a: Lanturn
+|upkeep
+|switch|p1a: Lycanroc|Lycanroc-Dusk, L79, F|100/100
+|turn|15
+|move|p1a: Lycanroc|Stone Edge|p2a: Heatmor
+|-supereffective|p2a: Heatmor
+|-damage|p2a: Heatmor|0 fnt
+|faint|p2a: Heatmor
+|-damage|p1a: Lycanroc|91/100|[from] item: Life Orb
+|upkeep
+|switch|p2a: Suicune|Suicune, L80|291/291
+|-ability|p2a: Suicune|Pressure
+|turn|16
+|move|p1a: Lycanroc|Close Combat|p2a: Suicune
+|-damage|p2a: Suicune|158/291
+|-unboost|p1a: Lycanroc|def|1
+|-unboost|p1a: Lycanroc|spd|1
+|-damage|p1a: Lycanroc|81/100|[from] item: Life Orb
+|move|p2a: Suicune|Scald|p1a: Lycanroc
+|-supereffective|p1a: Lycanroc
+|-damage|p1a: Lycanroc|0 fnt
+|faint|p1a: Lycanroc
+|-heal|p2a: Suicune|176/291|[from] item: Leftovers
+|upkeep
+|switch|p1a: Grapploct|Grapploct, L86, F|100/100
+|turn|17
+|move|p2a: Suicune|Scald|p1a: Grapploct
+|-damage|p1a: Grapploct|71/100
+|move|p1a: Grapploct|Bulk Up|p1a: Grapploct
+|-boost|p1a: Grapploct|atk|1
+|-boost|p1a: Grapploct|def|1
+|-heal|p2a: Suicune|194/291|[from] item: Leftovers
+|upkeep
+|turn|18
+|move|p2a: Suicune|Scald|p1a: Grapploct
+|-damage|p1a: Grapploct|44/100
+|move|p1a: Grapploct|Drain Punch|p2a: Suicune
+|-damage|p2a: Suicune|46/291
+|-heal|p1a: Grapploct|70/100|[from] drain|[of] p2a: Suicune
+|-damage|p1a: Grapploct|61/100|[from] item: Life Orb
+|-heal|p2a: Suicune|64/291|[from] item: Leftovers
+|upkeep
+|turn|19
+|switch|p2a: Lunala|Lunala, L72|245/316 tox
+|move|p1a: Grapploct|Drain Punch|p2a: Lunala
+|-immune|p2a: Lunala
+|-heal|p2a: Lunala|264/316 tox|[from] item: Leftovers
+|-damage|p2a: Lunala|245/316 tox|[from] psn
+|upkeep
+|turn|20
+|move|p2a: Lunala|Moonblast|p1a: Grapploct
+|-supereffective|p1a: Grapploct
+|-damage|p1a: Grapploct|8/100
+|move|p1a: Grapploct|Brutal Swing|p2a: Lunala
+|-supereffective|p2a: Lunala
+|-damage|p2a: Lunala|0 fnt
+|faint|p2a: Lunala
+|-damage|p1a: Grapploct|0 fnt|[from] item: Life Orb
+|faint|p1a: Grapploct
+|upkeep
+|switch|p2a: Arctozolt|Arctozolt, L87|298/298
+|switch|p1a: Spiritomb|Spiritomb, L88, M|100/100
+|turn|21
+|-start|p2a: Arctozolt|Dynamax|
+|-heal|p2a: Arctozolt|596/596|[silent]
+|move|p2a: Arctozolt|Max Lightning|p1a: Spiritomb
+|-damage|p1a: Spiritomb|43/100
+|-fieldstart|move: Electric Terrain
+|move|p1a: Spiritomb|Poltergeist|p2a: Arctozolt
+|-activate|p2a: Arctozolt|move: Poltergeist|Assault Vest
+|-damage|p2a: Arctozolt|415/596
+|upkeep
+|turn|22
+|-start|p1a: Spiritomb|Dynamax|
+|-heal|p1a: Spiritomb|43/100|[silent]
+|move|p2a: Arctozolt|Max Lightning|p1a: Spiritomb
+|-damage|p1a: Spiritomb|7/100
+|move|p1a: Spiritomb|Max Darkness|p2a: Arctozolt
+|-damage|p2a: Arctozolt|295/596
+|-unboost|p2a: Arctozolt|spd|1
+|upkeep
+|turn|23
+|move|p2a: Arctozolt|Max Lightning|p1a: Spiritomb
+|-crit|p1a: Spiritomb
+|-damage|p1a: Spiritomb|0 fnt
+|faint|p1a: Spiritomb
+    </script>
+</div>
+
+<div class="battle-log battle-log-inline" style="display:none"></div>
+
+<script>
+    let daily = Math.floor(Date.now() / 1000 / 60 / 60 / 24); document.write('<script src="https://play.pokemonshowdown.com/js/replay-embed.js?version' + daily + '"></' + 'script>');
+</script>
+
+<p style="text-align:center"> Replay created by <a href="https://github.com/hsahovic/poke-env">poke-env</a>, with code from <a
+        href="https://github.com/smogon/pokemon-showdown"> pokemon-showdown</a>. If something goes wrong, don't hesitate
+    to open an <a href="https://github.com/hsahovic/poke-env/issues">issue!</a></p>
