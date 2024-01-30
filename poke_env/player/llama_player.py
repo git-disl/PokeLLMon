@@ -29,7 +29,7 @@ class LLAMAPlayer(LLMPlayer):
         super().__init__(battle_format=battle_format,
                          account_configuration=account_configuration,
                          server_configuration=server_configuration)
-        
+
         # initialize the LLAMA model
         # load the LLAMA model
         self.except_cnt = 0
