@@ -1,13 +1,12 @@
-from poke_env.player.gpt_player_wo_knowledge import LLMPlayer
+from poke_env.player.gpt_player import LLMPlayer
 from poke_env.environment.abstract_battle import AbstractBattle
 import json
 from peft import PeftModel
 import transformers
 import torch
 from poke_env.player.player import BattleOrder
-from tqdm import tqdm
 
-my_token = "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"
+my_token = ""
 IGNORE_INDEX = -100
 DEFAULT_PAD_TOKEN = "[PAD]"
 DEFAULT_EOS_TOKEN = "</s>"
@@ -78,29 +77,13 @@ class LLAMAPlayer(LLMPlayer):
         system_prompt, state_prompt = self.state_translate(battle) # add lower case
 
         if battle.active_pokemon.fainted:
-
             constraint_prompt1 = '''Choose the most suitable pokemon to switch. Your output MUST be a JSON like: {"switch":"<switch_pokemon_name>"}\n'''
-            constraint_prompt2 = '''Choose the most suitable pokemon to switch by thinking step by step. Your thought should no more than 4 sentences. Your output MUST be a JSON like: {"thought":"<step-by-step-thinking>", "switch":"<switch_pokemon_name>"}\n'''
-            # constraint_prompt3 = '''Generate top-k (k<=3) best switch options, evaluate the possible consequences of each option. Pick the best option based on the evaluation. Your output MUST be a JSON like:{"option_1":{"action":"switch","target":"<switch_pokemon_name>","evaluation":"<evaluation>"}, ..., "option_k":{"action":"switch","target":"<switch_pokemon_name>","evaluation":"<evaluation>"},"decision":{"action":"switch","target":"<switch_pokemon_name>"}}\n'''
-            constraint_prompt3 = '''Generate top-k (k<=3) best switch options and pick out the best option by considering their consequences. Your output MUST be a JSON like:{"option_1":{"action":"switch","target":"<switch_pokemon_name>"}, ..., "option_k":{"action":"switch","target":"<switch_pokemon_name>"},"decision":{"action":"switch","target":"<switch_pokemon_name>"}}\n'''
-            constraint_prompt4_1 = '''Generate top-k (k<=3) best switch options. Your output MUST be a JSON like:{"option_1":{"action":"switch","target":"<switch_pokemon_name>"}, ..., "option_k":{"action":"switch","target":"<switch_pokemon_name>"}}\n'''
-            constraint_prompt4_2 = '''Select the best option from the following choices by considering their consequences: [OPTIONS]. Your output MUST be a JSON like:{"decision":{"action":"switch","target":"<switch_pokemon_name>"}}\n'''
-
         else:
             constraint_prompt1 = '''Choose the best action and your output MUST be a JSON like: {"move":"<move_name>"} or {"switch":"<switch_pokemon_name>"}\n'''
-            constraint_prompt2 = '''Choose the best action by thinking step by step. Your thought should no more than 4 sentences. Your output MUST be a JSON like: {"thought":"<step-by-step-thinking>", "move":"<move_name>"} or {"thought":"<step-by-step-thinking>", "switch":"<switch_pokemon_name>"}\n'''
-            # constraint_prompt3 = '''Generate top-k (k<=3) best action options, and evaluate their consequences in terms of speed, type advantage/weakness, and the first-move hit if switch-in. Pick out the best action based on the evaluation. Your output MUST be a JSON like: {"option_1":{"action":"<move_or_switch>", "target":"<move_name_or_switch_pokemon_name>", "evaluation":"<evaluation>"}, ..., "option_k":{"action":"<move_or_switch>", "target":"<move_name_or_switch_pokemon_name>", "evaluation":"<evaluation>"}, "decision":{"action":"<move_or_switch>", "target":"<move_name_or_switch_pokemon_name>"}}\n'''
-            constraint_prompt3 = '''Generate top-k (k<=3) best action options and pick out the best action by considering their consequences. Your output MUST be a JSON like: {"option_1":{"action":"<move_or_switch>", "target":"<move_name_or_switch_pokemon_name>"}, ..., "option_k":{"action":"<move_or_switch>", "target":"<move_name_or_switch_pokemon_name>"}, "decision":{"action":"<move_or_switch>", "target":"<move_name_or_switch_pokemon_name>"}}\n'''
-            constraint_prompt4_1 = '''Generate top-k (k<=3) best action options. Your output MUST be a JSON like: {"option_1":{"action":"<move_or_switch>", "target":"<move_name_or_switch_pokemon_name>"}, ..., "option_k":{"action":"<move_or_switch>", "target":"<move_name_or_switch_pokemon_name>"}}\n'''
-            constraint_prompt4_2 = '''Select the best action from the following choices by considering their consequences: [OPTIONS]. Your output MUST be a JSON like:"decision":{"action":"<move_or_switch>", "target":"<move_name_or_switch_pokemon_name>"}\n'''
 
-        state_prompt1 = state_prompt + constraint_prompt1
-        state_prompt2 = state_prompt + constraint_prompt2
-        state_prompt3 = state_prompt + constraint_prompt3
-        state_prompt4_1 = state_prompt + constraint_prompt4_1
-        state_prompt4_2 = state_prompt + constraint_prompt4_2
+        state_prompt_io = state_prompt + constraint_prompt1
 
-        user_prompt = system_prompt + state_prompt1 + 'Output:{"'
+        user_prompt = system_prompt + state_prompt_io + 'Output:{"'
         print("===================")
         print(user_prompt)
 
@@ -206,5 +189,4 @@ class LLAMAPlayer(LLMPlayer):
         self.total_cnt += 1
         self.last_state_prompt = state_prompt
         return next_action
-        # except Exception as e:
-        #     continue
+

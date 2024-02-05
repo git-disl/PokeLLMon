@@ -100,9 +100,10 @@ def move_type_damage_wraper(pokemon, type_chart, constraint_type_list=None):
 class LLMPlayer(Player):
     def __init__(self,
                  battle_format,
+                 api_key="",
                  backend="gpt-4-1106-preview",
                  temperature=0.8,
-                 w_reason=False,
+                 prompt_algo="io",
                  log_dir=None,
                  team=None,
                  save_replays=None,
@@ -122,7 +123,8 @@ class LLMPlayer(Player):
         self.backend = backend
         self.temperature = temperature
         self.log_dir = log_dir
-        self.w_reason = w_reason
+        self.api_key = api_key
+        self.prompt_algo = prompt_algo
         self.gen = GenData.from_format(battle_format)
         with open("./poke_env/data/static/moves/moves_effect.json", "r") as f:
             self.move_effect = json.load(f)
@@ -142,8 +144,7 @@ class LLMPlayer(Player):
         self.HP_FRACTION_COEFICIENT = 0.4
 
     def chatgpt(self, system_prompt, user_prompt, model, temperature=0.7, json_format=False, seed=None, stop=[], max_tokens=200) -> str:
-        # time.sleep(2)
-        client = OpenAI(api_key="Enter Your OpenAI API Key")
+        client = OpenAI(api_key=self.api_key)
         if json_format:
             response = client.chat.completions.create(
                 response_format={"type": "json_object"},
@@ -551,7 +552,7 @@ class LLMPlayer(Player):
 
     def parse(self, llm_output, battle):
         json_start = llm_output.find('{')
-        json_end = llm_output.find('}') + 1 # find the first }
+        json_end = llm_output.rfind('}') + 1 # find the first }
         json_content = llm_output[json_start:json_end]
         llm_action_json = json.loads(json_content)
         next_action = None
@@ -560,9 +561,7 @@ class LLMPlayer(Player):
             llm_move_id = llm_move_id.replace(" ","").replace("-", "")
             for i, move in enumerate(battle.available_moves):
                 if move.id.lower() == llm_move_id.lower():
-                    print("should_dynamax:", self._should_dynamax(battle))
                     next_action = self.create_order(move, dynamax=self._should_dynamax(battle))
-                    # next_action = self.create_order(move)
 
         elif "switch" in llm_action_json.keys():
             llm_switch_species = llm_action_json["switch"]
@@ -570,14 +569,9 @@ class LLMPlayer(Player):
                 if pokemon.species.lower() == llm_switch_species.lower():
                     next_action = self.create_order(pokemon)
 
-        plan = ""
-        if "plan" in llm_action_json.keys():
-            plan = llm_action_json["plan"]
-
         if next_action is None:
             raise ValueError("Value Error")
-
-        return next_action, plan
+        return next_action
 
 
     def parse_new(self, llm_output, battle):
@@ -592,7 +586,7 @@ class LLMPlayer(Player):
         if action.lower() == "move":
             for i, move in enumerate(battle.available_moves):
                 if move.id.lower() == target.lower():
-                    next_action = self.create_order(move)
+                    next_action = self.create_order(move, dynamax=self._should_dynamax(battle))
 
         elif action.lower() == "switch":
             for i, pokemon in enumerate(battle.available_switches):
@@ -693,204 +687,203 @@ class LLMPlayer(Player):
 
         if battle.active_pokemon.fainted:
 
-            constraint_prompt1 = '''Choose the most suitable pokemon to switch. Your output MUST be a JSON like: {"switch":"<switch_pokemon_name>"}\n'''
-            constraint_prompt2 = '''Choose the most suitable pokemon to switch by thinking step by step. Your thought should no more than 4 sentences. Your output MUST be a JSON like: {"thought":"<step-by-step-thinking>", "switch":"<switch_pokemon_name>"}\n'''
-            # constraint_prompt3 = '''Generate top-k (k<=3) best switch options, evaluate the possible consequences of each option. Pick the best option based on the evaluation. Your output MUST be a JSON like:{"option_1":{"action":"switch","target":"<switch_pokemon_name>","evaluation":"<evaluation>"}, ..., "option_k":{"action":"switch","target":"<switch_pokemon_name>","evaluation":"<evaluation>"},"decision":{"action":"switch","target":"<switch_pokemon_name>"}}\n'''
-            constraint_prompt3 = '''Generate top-k (k<=3) best switch options and pick out the best option by considering their consequences. Your output MUST be a JSON like:{"option_1":{"action":"switch","target":"<switch_pokemon_name>"}, ..., "option_k":{"action":"switch","target":"<switch_pokemon_name>"},"decision":{"action":"switch","target":"<switch_pokemon_name>"}}\n'''
-            constraint_prompt4_1 = '''Generate top-k (k<=3) best switch options. Your output MUST be a JSON like:{"option_1":{"action":"switch","target":"<switch_pokemon_name>"}, ..., "option_k":{"action":"switch","target":"<switch_pokemon_name>"}}\n'''
-            constraint_prompt4_2 = '''Select the best option from the following choices by considering their consequences: [OPTIONS]. Your output MUST be a JSON like:{"decision":{"action":"switch","target":"<switch_pokemon_name>"}}\n'''
+            constraint_prompt_io = '''Choose the most suitable pokemon to switch. Your output MUST be a JSON like: {"switch":"<switch_pokemon_name>"}\n'''
+            constraint_prompt_cot = '''Choose the most suitable pokemon to switch by thinking step by step. Your thought should no more than 4 sentences. Your output MUST be a JSON like: {"thought":"<step-by-step-thinking>", "switch":"<switch_pokemon_name>"}\n'''
+            constraint_prompt_tot_1 = '''Generate top-k (k<=3) best switch options. Your output MUST be a JSON like:{"option_1":{"action":"switch","target":"<switch_pokemon_name>"}, ..., "option_k":{"action":"switch","target":"<switch_pokemon_name>"}}\n'''
+            constraint_prompt_tot_2 = '''Select the best option from the following choices by considering their consequences: [OPTIONS]. Your output MUST be a JSON like:{"decision":{"action":"switch","target":"<switch_pokemon_name>"}}\n'''
 
         else:
-            constraint_prompt1 = '''Choose the best action and your output MUST be a JSON like: {"move":"<move_name>"} or {"switch":"<switch_pokemon_name>"}\n'''
-            constraint_prompt2 = '''Choose the best action by thinking step by step. Your thought should no more than 4 sentences. Your output MUST be a JSON like: {"thought":"<step-by-step-thinking>", "move":"<move_name>"} or {"thought":"<step-by-step-thinking>", "switch":"<switch_pokemon_name>"}\n'''
-            # constraint_prompt3 = '''Generate top-k (k<=3) best action options, and evaluate their consequences in terms of speed, type advantage/weakness, and the first-move hit if switch-in. Pick out the best action based on the evaluation. Your output MUST be a JSON like: {"option_1":{"action":"<move_or_switch>", "target":"<move_name_or_switch_pokemon_name>", "evaluation":"<evaluation>"}, ..., "option_k":{"action":"<move_or_switch>", "target":"<move_name_or_switch_pokemon_name>", "evaluation":"<evaluation>"}, "decision":{"action":"<move_or_switch>", "target":"<move_name_or_switch_pokemon_name>"}}\n'''
-            constraint_prompt3 = '''Generate top-k (k<=3) best action options and pick out the best action by considering their consequences. Your output MUST be a JSON like: {"option_1":{"action":"<move_or_switch>", "target":"<move_name_or_switch_pokemon_name>"}, ..., "option_k":{"action":"<move_or_switch>", "target":"<move_name_or_switch_pokemon_name>"}, "decision":{"action":"<move_or_switch>", "target":"<move_name_or_switch_pokemon_name>"}}\n'''
-            constraint_prompt4_1 = '''Generate top-k (k<=3) best action options. Your output MUST be a JSON like: {"option_1":{"action":"<move_or_switch>", "target":"<move_name_or_switch_pokemon_name>"}, ..., "option_k":{"action":"<move_or_switch>", "target":"<move_name_or_switch_pokemon_name>"}}\n'''
-            constraint_prompt4_2 = '''Select the best action from the following choices by considering their consequences: [OPTIONS]. Your output MUST be a JSON like:"decision":{"action":"<move_or_switch>", "target":"<move_name_or_switch_pokemon_name>"}\n'''
+            constraint_prompt_io = '''Choose the best action and your output MUST be a JSON like: {"move":"<move_name>"} or {"switch":"<switch_pokemon_name>"}\n'''
+            constraint_prompt_cot = '''Choose the best action by thinking step by step. Your thought should no more than 4 sentences. Your output MUST be a JSON like: {"thought":"<step-by-step-thinking>", "move":"<move_name>"} or {"thought":"<step-by-step-thinking>", "switch":"<switch_pokemon_name>"}\n'''
+            constraint_prompt_tot_1 = '''Generate top-k (k<=3) best action options. Your output MUST be a JSON like: {"option_1":{"action":"<move_or_switch>", "target":"<move_name_or_switch_pokemon_name>"}, ..., "option_k":{"action":"<move_or_switch>", "target":"<move_name_or_switch_pokemon_name>"}}\n'''
+            constraint_prompt_tot_2 = '''Select the best action from the following choices by considering their consequences: [OPTIONS]. Your output MUST be a JSON like:"decision":{"action":"<move_or_switch>", "target":"<move_name_or_switch_pokemon_name>"}\n'''
 
-        state_prompt1 = state_prompt + constraint_prompt1
-        state_prompt2 = state_prompt + constraint_prompt2
-        state_prompt3 = state_prompt + constraint_prompt3
-        state_prompt4_1 = state_prompt + constraint_prompt4_1
-        state_prompt4_2 = state_prompt + constraint_prompt4_2
+        state_prompt_io = state_prompt + constraint_prompt_io
+        state_prompt_cot = state_prompt + constraint_prompt_cot
+        state_prompt_tot_1 = state_prompt + constraint_prompt_tot_1
+        state_prompt_tot_2 = state_prompt + constraint_prompt_tot_2
 
         print("===================")
         print(state_prompt)
 
-        # Self-consistency
-        # next_action1 = None
-        # next_action2 = None
-        # for i in range(8):
-        #     try:
-        #         llm_output1 = self.chatgpt(system_prompt=system_prompt,
-        #                                   user_prompt=state_prompt1,
-        #                                   model=self.backend,
-        #                                   temperature=self.temperature,
-        #                                   max_tokens=100,
-        #                                   json_format=True)
-        #         print("llm_output1:", llm_output1)
-        #         next_action1, plan = self.parse(llm_output1, battle)
-        #         break
-        #     except:
-        #         continue
-        #
-        # for i in range(2):
-        #     try:
-        #         llm_output2 = self.chatgpt(system_prompt=system_prompt,
-        #                                   user_prompt=state_prompt1,
-        #                                   model=self.backend,
-        #                                   temperature=self.temperature,
-        #                                   max_tokens=100,
-        #                                   json_format=True)
-        #         print("llm_output2:", llm_output2)
-        #         next_action2, plan = self.parse(llm_output2, battle)
-        #         break
-        #     except:
-        #         continue
-        # if next_action1 and next_action2:
-        #     if next_action1.message == next_action2.message:
-        #         with open(f"{self.log_dir}/output.jsonl", "a") as f:
-        #             f.write(json.dumps({"turn": battle.turn,
-        #                                 "system_prompt": system_prompt,
-        #                                 "user_prompt": state_prompt1,
-        #                                 "llm_output1": llm_output1,
-        #                                 "llm_output2": llm_output2,
-        #                                 "battle_tag": battle.battle_tag
-        #                                 }) + "\n")
-        #         return next_action1
-        #     else:
-        #         next_action3 = None
-        #         for i in range(3):
-        #             try:
-        #                 llm_output3 = self.chatgpt(system_prompt=system_prompt,
-        #                                            user_prompt=state_prompt1,
-        #                                            model=self.backend,
-        #                                            temperature=self.temperature,
-        #                                            max_tokens=100,
-        #                                            json_format=True)
-        #                 print("llm_output3:", llm_output3)
-        #                 next_action3, plan = self.parse(llm_output3, battle)
-        #                 break
-        #             except:
-        #                 continue
-        #         if next_action3:
-        #             with open(f"{self.log_dir}/output.jsonl", "a") as f:
-        #                 f.write(json.dumps({"turn": battle.turn,
-        #                                     "system_prompt": system_prompt,
-        #                                     "user_prompt": state_prompt1,
-        #                                     "llm_output1": llm_output1,
-        #                                     "llm_output2": llm_output2,
-        #                                     "llm_output3": llm_output3,
-        #                                     "battle_tag": battle.battle_tag
-        #                                     }) + "\n")
-        #             return next_action3
-        #         else:
-        #             return next_action1
-        # next_action = self.choose_max_damage_move(battle)
-        # return next_action
+        if self.prompt_algo == "io":
+            next_action = None
+            for i in range(2):
+                try:
+                    llm_output = self.chatgpt(system_prompt=system_prompt,
+                                              user_prompt=state_prompt_io,
+                                              model=self.backend,
+                                              temperature=self.temperature,
+                                              max_tokens=100,
+                                              # stop=["reason"],
+                                              json_format=True)
+                    print("LLM output:", llm_output)
+                    next_action = self.parse(llm_output, battle)
+                    with open(f"{self.log_dir}/output.jsonl", "a") as f:
+                        f.write(json.dumps({"turn": battle.turn,
+                                            "system_prompt": system_prompt,
+                                            "user_prompt": state_prompt_io,
+                                            "llm_output": llm_output,
+                                            "battle_tag": battle.battle_tag
+                                            }) + "\n")
+                    break
+                except:
+                    continue
+            if next_action is None:
+                next_action = self.choose_max_damage_move(battle)
 
+            return next_action
 
-        # next_action = None
-        # for i in range(3):
-        #     try:
-        #         llm_output = self.chatgpt(system_prompt=system_prompt,
-        #                                   user_prompt=state_prompt3,
-        #                                   model=self.backend,
-        #                                   temperature=self.temperature,
-        #                                   max_tokens=500,
-        #                                   # stop=["reason"],
-        #                                   json_format=True)
-        #         print("LLM output:", llm_output)
-        #         next_action = self.parse_new(llm_output, battle)
-        #         with open(f"{self.log_dir}/output.jsonl", "a") as f:
-        #             f.write(json.dumps({"turn": battle.turn,
-        #                                 "system_prompt": system_prompt,
-        #                                 "user_prompt": state_prompt3,
-        #                                 "llm_output": llm_output,
-        #                                 "battle_tag": battle.battle_tag
-        #                                 }) + "\n")
-        #         break
-        #     except:
-        #         continue
+        # Self-consistency with k = 3
+        elif self.prompt_algo == "sc":
+            next_action1 = None
+            next_action2 = None
+            for i in range(2):
+                try:
+                    llm_output1 = self.chatgpt(system_prompt=system_prompt,
+                                              user_prompt=state_prompt_io,
+                                              model=self.backend,
+                                              temperature=self.temperature,
+                                              max_tokens=100,
+                                              json_format=True)
+                    print("llm_output1:", llm_output1)
+                    next_action1 = self.parse(llm_output1, battle)
+                    break
+                except:
+                    continue
 
-        # llm_output1 = ""
-        # next_action = None
-        # for i in range(2):
-        #     try:
-        #         llm_output1 = self.chatgpt(system_prompt=system_prompt,
-        #                                   user_prompt=state_prompt4_1,
-        #                                   model=self.backend,
-        #                                   temperature=self.temperature,
-        #                                   max_tokens=200,
-        #                                   # stop=["reason"],
-        #                                   json_format=True)
-        #         print("Phase 1 output:", llm_output1)
-        #         break
-        #     except:
-        #         continue
-        #
-        # if llm_output1 is "":
-        #     return self.choose_max_damage_move(battle)
-        #
-        # for i in range(2):
-        #     try:
-        #         llm_output2 = self.chatgpt(system_prompt=system_prompt,
-        #                                   user_prompt=state_prompt4_2.replace("[OPTIONS]", llm_output1),
-        #                                   model=self.backend,
-        #                                   temperature=self.temperature,
-        #                                   max_tokens=100,
-        #                                   json_format=True)
-        #
-        #         print("Phase 2 output:", llm_output2)
-        #         next_action = self.parse_new(llm_output2, battle)
-        #         with open(f"{self.log_dir}/output.jsonl", "a") as f:
-        #             f.write(json.dumps({"turn": battle.turn,
-        #                                 "system_prompt": system_prompt,
-        #                                 "user_prompt1": state_prompt4_1,
-        #                                 "user_prompt2": state_prompt4_2,
-        #                                 "llm_output1": llm_output1,
-        #                                 "llm_output2": llm_output2,
-        #                                 "battle_tag": battle.battle_tag
-        #                                 }) + "\n")
-        #         break
-        #     except:
-        #         continue
-
-        next_action = None
-        for i in range(2):
-            try:
-                llm_output = self.chatgpt(system_prompt=system_prompt,
-                                          user_prompt=state_prompt1,
-                                          model=self.backend,
-                                          temperature=self.temperature,
-                                          max_tokens=100,
-                                          # stop=["reason"],
-                                          json_format=True)
-                print("LLM output:", llm_output)
-                next_action, _ = self.parse(llm_output, battle)
-                with open(f"{self.log_dir}/output.jsonl", "a") as f:
-                    f.write(json.dumps({"turn": battle.turn,
-                                        "system_prompt": system_prompt,
-                                        "user_prompt": state_prompt1,
-                                        "llm_output": llm_output,
-                                        "battle_tag": battle.battle_tag
-                                        }) + "\n")
-                break
-            except:
-                continue
-
-        if next_action is None:
+            for i in range(2):
+                try:
+                    llm_output2 = self.chatgpt(system_prompt=system_prompt,
+                                              user_prompt=state_prompt_io,
+                                              model=self.backend,
+                                              temperature=self.temperature,
+                                              max_tokens=100,
+                                              json_format=True)
+                    print("llm_output2:", llm_output2)
+                    next_action2 = self.parse(llm_output2, battle)
+                    break
+                except:
+                    continue
+            if next_action1 and next_action2:
+                if next_action1.message == next_action2.message:
+                    with open(f"{self.log_dir}/output.jsonl", "a") as f:
+                        f.write(json.dumps({"turn": battle.turn,
+                                            "system_prompt": system_prompt,
+                                            "user_prompt": state_prompt_io,
+                                            "llm_output1": llm_output1,
+                                            "llm_output2": llm_output2,
+                                            "battle_tag": battle.battle_tag
+                                            }) + "\n")
+                    return next_action1
+                else:
+                    next_action3 = None
+                    for i in range(2):
+                        try:
+                            llm_output3 = self.chatgpt(system_prompt=system_prompt,
+                                                       user_prompt=state_prompt_io,
+                                                       model=self.backend,
+                                                       temperature=self.temperature,
+                                                       max_tokens=100,
+                                                       json_format=True)
+                            print("llm_output3:", llm_output3)
+                            next_action3 = self.parse(llm_output3, battle)
+                            break
+                        except:
+                            continue
+                    if next_action3:
+                        with open(f"{self.log_dir}/output.jsonl", "a") as f:
+                            f.write(json.dumps({"turn": battle.turn,
+                                                "system_prompt": system_prompt,
+                                                "user_prompt": state_prompt_io,
+                                                "llm_output1": llm_output1,
+                                                "llm_output2": llm_output2,
+                                                "llm_output3": llm_output3,
+                                                "battle_tag": battle.battle_tag
+                                                }) + "\n")
+                        return next_action3
+                    else:
+                        return next_action1
             next_action = self.choose_max_damage_move(battle)
+            return next_action
 
-        # while True:
-        #     human_action = input("Please enter the action for this turn: ")
-        #     try:
-        #         next_action, plan = self.parse(human_action, battle)
-        #         break
-        #     except:
-        #         continue
+        # Chain-of-thought
+        elif self.prompt_algo == "cot":
+            next_action = None
+            for i in range(3):
+                try:
+                    llm_output = self.chatgpt(system_prompt=system_prompt,
+                                              user_prompt=state_prompt_cot,
+                                              model=self.backend,
+                                              temperature=self.temperature,
+                                              max_tokens=500,
+                                              # stop=["reason"],
+                                              json_format=True)
+                    print("LLM output:", llm_output)
+                    next_action = self.parse(llm_output, battle)
+                    with open(f"{self.log_dir}/output.jsonl", "a") as f:
+                        f.write(json.dumps({"turn": battle.turn,
+                                            "system_prompt": system_prompt,
+                                            "user_prompt": state_prompt_cot,
+                                            "llm_output": llm_output,
+                                            "battle_tag": battle.battle_tag
+                                            }) + "\n")
+                    break
+                except:
+                    continue
+            if next_action is None:
+                next_action = self.choose_max_damage_move(battle)
+            return next_action
 
-        return next_action
+        # Tree of thought, k = 3
+        elif self.prompt_algo == "tot":
+            llm_output1 = ""
+            next_action = None
+            for i in range(2):
+                try:
+                    llm_output1 = self.chatgpt(system_prompt=system_prompt,
+                                               user_prompt=state_prompt_tot_1,
+                                               model=self.backend,
+                                               temperature=self.temperature,
+                                               max_tokens=200,
+                                               json_format=True)
+                    print("Phase 1 output:", llm_output1)
+                    break
+                except:
+                    continue
+
+            if llm_output1 is "":
+                return self.choose_max_damage_move(battle)
+
+            for i in range(2):
+                try:
+                    llm_output2 = self.chatgpt(system_prompt=system_prompt,
+                                               user_prompt=state_prompt_tot_2.replace("[OPTIONS]", llm_output1),
+                                               model=self.backend,
+                                               temperature=self.temperature,
+                                               max_tokens=100,
+                                               json_format=True)
+
+                    print("Phase 2 output:", llm_output2)
+                    next_action = self.parse_new(llm_output2, battle)
+                    with open(f"{self.log_dir}/output.jsonl", "a") as f:
+                        f.write(json.dumps({"turn": battle.turn,
+                                            "system_prompt": system_prompt,
+                                            "user_prompt1": state_prompt_tot_1,
+                                            "user_prompt2": state_prompt_tot_2,
+                                            "llm_output1": llm_output1,
+                                            "llm_output2": llm_output2,
+                                            "battle_tag": battle.battle_tag
+                                            }) + "\n")
+                    break
+                except:
+                    continue
+
+            if next_action is None:
+                next_action = self.choose_max_damage_move(battle)
+            return next_action
+
+
 
     def battle_summary(self):
 

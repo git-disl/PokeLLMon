@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<!-- version 1 -->
+<title>battle-gen8randombattle-88215</title>
+<style>
+    html,
+    body {
+        font-family: Verdana, sans-serif;
+        font-size: 10pt;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        padding: 12px 0;
+    }
+
+    .battle-log {
+        font-family: Verdana, sans-serif;
+        font-size: 10pt;
+    }
+
+    .battle-log-inline {
+        border: 1px solid #AAAAAA;
+        background: #EEF2F5;
+        color: black;
+        max-width: 640px;
+        margin: 0 auto 80px;
+        padding-bottom: 5px;
+    }
+
+    .battle-log .inner {
+        padding: 4px 8px 0px 8px;
+    }
+
+    .battle-log .inner-preempt {
+        padding: 0 8px 4px 8px;
+    }
+
+    .battle-log .inner-after {
+        margin-top: 0.5em;
+    }
+
+    .battle-log h2 {
+        margin: 0.5em -8px;
+        padding: 4px 8px;
+        border: 1px solid #AAAAAA;
+        background: #E0E7EA;
+        border-left: 0;
+        border-right: 0;
+        font-family: Verdana, sans-serif;
+        font-size: 13pt;
+    }
+
+    .backprop {
+        top: 0;
+    }
+
+    .battle-log .chat {
+        vertical-align: middle;
+        padding: 3px 0 3px 0;
+        font-size: 8pt;
+    }
+
+    .battle-log .chat strong {
+        color: #40576A;
+    }
+
+    .battle-log .chat em {
+        padding: 1px 4px 1px 3px;
+        color: #000000;
+        font-style: normal;
+    }
+
+    .chat.mine {
+        background: rgba(0, 0, 0, 0.05);
+        margin-left: -8px;
+        margin-right: -8px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .spoiler {
+        color: #BBBBBB;
+        background: #BBBBBB;
+        padding: 0px 3px;
+    }
+
+    .spoiler:hover,
+    .spoiler:active,
+    .spoiler-shown {
+        color: #000000;
+        background: #E2E2E2;
+        padding: 0px 3px;
+    }
+
+    .spoiler a {
+        color: #BBBBBB;
+    }
+
+    .spoiler:hover a,
+    .spoiler:active a,
+    .spoiler-shown a {
+        color: #2288CC;
+    }
+
+    .chat code,
+    .chat .spoiler:hover code,
+    .chat .spoiler:active code,
+    .chat .spoiler-shown code {
+        border: 1px solid #C0C0C0;
+        background: #EEEEEE;
+        color: black;
+        padding: 0 2px;
+    }
+
+    .chat .spoiler code {
+        border: 1px solid #CCCCCC;
+        background: #CCCCCC;
+        color: #CCCCCC;
+    }
+
+    .battle-log .rated {
+        padding: 3px 4px;
+    }
+
+    .battle-log .rated strong {
+        color: white;
+        background: #89A;
+        padding: 1px 4px;
+        border-radius: 4px;
+    }
+
+    .spacer {
+        margin-top: 0.5em;
+    }
+
+    .message-announce {
+        background: #6688AA;
+        color: white;
+        padding: 1px 4px 2px;
+    }
+
+    .message-announce a,
+    .broadcast-green a,
+    .broadcast-blue a,
+    .broadcast-red a {
+        color: #DDEEFF;
+    }
+
+    .broadcast-green {
+        background-color: #559955;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .broadcast-blue {
+        background-color: #6688AA;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .infobox {
+        border: 1px solid #6688AA;
+        padding: 2px 4px;
+    }
+
+    .infobox-limited {
+        max-height: 200px;
+        overflow: auto;
+        overflow-x: hidden;
+    }
+
+    .broadcast-red {
+        background-color: #AA5544;
+        color: white;
+        padding: 2px 4px;
+    }
+
+    .message-learn-canlearn {
+        font-weight: bold;
+        color: #228822;
+        text-decoration: underline;
+    }
+
+    .message-learn-cannotlearn {
+        font-weight: bold;
+        color: #CC2222;
+        text-decoration: underline;
+    }
+
+    .message-effect-weak {
+        font-weight: bold;
+        color: #CC2222;
+    }
+
+    .message-effect-resist {
+        font-weight: bold;
+        color: #6688AA;
+    }
+
+    .message-effect-immune {
+        font-weight: bold;
+        color: #666666;
+    }
+
+    .message-learn-list {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .message-throttle-notice,
+    .message-error {
+        color: #992222;
+    }
+
+    .message-overflow,
+    .chat small.message-overflow {
+        font-size: 0pt;
+    }
+
+    .message-overflow::before {
+        font-size: 9pt;
+        content: '...';
+    }
+
+    .subtle {
+        color: #3A4A66;
+    }
+</style>
+<div class="wrapper replay-wrapper" style="max-width:1180px;margin:0 auto">
+    <input type="hidden" name="replayid" value="unregisteredserver-gen8randombattle-320064" />
+    <div class="battle"></div>
+    <div class="battle-log"></div>
+    <div class="replay-controls"></div>
+    <div class="replay-controls-2"></div>
+    <h1 style="font-weight:normal;text-align:center"><strong>poke-env battle replay</strong><br />battle-gen8randombattle-88215<br /><a
+            href="http://pokemonshowdown.com/users/randomplayer1" class="subtle" target="_blank">PokeLLM</a>
+        vs. <a href="http://pokemonshowdown.com/users/randomplayer2" class="subtle"
+            target="_blank">BayiHu</a></h1>
+    <script type="text/plain" class="battle-log-data">
+    >battle-gen8randombattle-88215|init|battle
+|title|BayiHu vs. PokeLLM
+|j|☆BayiHu
+|j|☆PokeLLM
+|gametype|singles
+|player|p1|BayiHu|2|1262
+|player|p2|PokeLLM|265|1280
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|8
+|tier|[Gen 8] Random Battle
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Illusion Level Mod: Illusion disguises the Pokémon's true level
+|start
+|switch|p1a: Grimmsnarl|Grimmsnarl, L83, M|100/100
+|switch|p2a: Kangaskhan|Kangaskhan, L85, F|317/317
+|turn|1
+|move|p1a: Grimmsnarl|Trick|p2a: Kangaskhan
+|-activate|p1a: Grimmsnarl|move: Trick|[of] p2a: Kangaskhan
+|-item|p2a: Kangaskhan|Choice Band|[from] move: Trick
+|-item|p1a: Grimmsnarl|Choice Band|[from] move: Trick
+|move|p2a: Kangaskhan|Double-Edge|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|15/100
+|-damage|p2a: Kangaskhan|234/317|[from] Recoil
+|upkeep
+|turn|2
+|move|p1a: Grimmsnarl|Sucker Punch|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|86/317
+|move|p2a: Kangaskhan|Double-Edge|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|faint|p1a: Grimmsnarl
+|-damage|p2a: Kangaskhan|72/317|[from] Recoil
+|upkeep
+|switch|p1a: Bouffalant|Bouffalant, L84, F|100/100
+|turn|3
+|move|p2a: Kangaskhan|Double-Edge|p1a: Bouffalant
+|-damage|p1a: Bouffalant|36/100
+|-damage|p2a: Kangaskhan|8/317|[from] Recoil
+|move|p1a: Bouffalant|Close Combat|p2a: Kangaskhan
+|-supereffective|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|0 fnt
+|-unboost|p1a: Bouffalant|def|1
+|-unboost|p1a: Bouffalant|spd|1
+|faint|p2a: Kangaskhan
+|-heal|p1a: Bouffalant|42/100|[from] item: Leftovers
+|upkeep
+|switch|p2a: Zacian|Zacian-Crowned, L62|218/218
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|turn|4
+|move|p2a: Zacian|Behemoth Blade|p1a: Bouffalant
+|-damage|p1a: Bouffalant|0 fnt
+|faint|p1a: Bouffalant
+|upkeep
+|switch|p1a: Golisopod|Golisopod, L84, F|100/100
+|turn|5
+|move|p2a: Zacian|Behemoth Blade|p1a: Golisopod
+|-resisted|p1a: Golisopod
+|-damage|p1a: Golisopod|81/100
+|move|p1a: Golisopod|Liquidation|p2a: Zacian
+|-damage|p2a: Zacian|94/218
+|upkeep
+|turn|6
+|move|p2a: Zacian|Behemoth Blade|p1a: Golisopod
+|-resisted|p1a: Golisopod
+|-damage|p1a: Golisopod|64/100
+|move|p1a: Golisopod|Liquidation|p2a: Zacian
+|-damage|p2a: Zacian|0 fnt
+|faint|p2a: Zacian
+|upkeep
+|switch|p2a: Corsola|Corsola-Galar, L84, F|238/238
+|turn|7
+|move|p1a: Golisopod|Spikes|p2a: Corsola
+|-sidestart|p2: PokeLLM|Spikes
+|move|p2a: Corsola|Strength Sap|p1a: Golisopod
+|-unboost|p1a: Golisopod|atk|1
+|upkeep
+|turn|8
+|move|p1a: Golisopod|First Impression||[still]
+|-hint|First Impression only works on your first turn out.
+|-fail|p1a: Golisopod
+|move|p2a: Corsola|Strength Sap|p1a: Golisopod
+|-unboost|p1a: Golisopod|atk|1
+|upkeep
+|turn|9
+|move|p1a: Golisopod|Knock Off|p2a: Corsola
+|-supereffective|p2a: Corsola
+|-damage|p2a: Corsola|188/238
+|-start|p1a: Golisopod|Disable|Knock Off|[from] ability: Cursed Body|[of] p2a: Corsola
+|-enditem|p2a: Corsola|Eviolite|[from] move: Knock Off|[of] p1a: Golisopod
+|move|p2a: Corsola|Strength Sap|p1a: Golisopod
+|-unboost|p1a: Golisopod|atk|1
+|-heal|p2a: Corsola|238/238
+|upkeep
+|turn|10
+|move|p1a: Golisopod|First Impression||[still]
+|-hint|First Impression only works on your first turn out.
+|-fail|p1a: Golisopod
+|move|p2a: Corsola|Strength Sap|p1a: Golisopod
+|-unboost|p1a: Golisopod|atk|1
+|upkeep
+|turn|11
+|-start|p1a: Golisopod|Dynamax|
+|-heal|p1a: Golisopod|64/100|[silent]
+|move|p1a: Golisopod|Max Geyser|p2a: Corsola
+|-damage|p2a: Corsola|189/238
+|-weather|RainDance
+|move|p2a: Corsola|Strength Sap|p1a: Golisopod
+|-unboost|p1a: Golisopod|atk|1
+|-heal|p2a: Corsola|238/238
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|move|p1a: Golisopod|Max Geyser|p2a: Corsola
+|-damage|p2a: Corsola|168/238
+|move|p2a: Corsola|Strength Sap|p1a: Golisopod
+|-unboost|p1a: Golisopod|atk|1
+|-heal|p2a: Corsola|238/238
+|-weather|RainDance|[upkeep]
+|-end|p1a: Golisopod|Disable
+|upkeep
+|turn|13
+|move|p1a: Golisopod|Max Geyser|p2a: Corsola
+|-damage|p2a: Corsola|177/238
+|move|p2a: Corsola|Strength Sap||[still]
+|-fail|p2a: Corsola
+|-weather|RainDance|[upkeep]
+|upkeep
+|-end|p1a: Golisopod|Dynamax
+|-heal|p1a: Golisopod|64/100|[silent]
+|turn|14
+|move|p1a: Golisopod|First Impression||[still]
+|-hint|First Impression only works on your first turn out.
+|-fail|p1a: Golisopod
+|move|p2a: Corsola|Strength Sap||[still]
+|-fail|p2a: Corsola
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|15
+|move|p1a: Golisopod|First Impression||[still]
+|-hint|First Impression only works on your first turn out.
+|-fail|p1a: Golisopod
+|move|p2a: Corsola|Strength Sap||[still]
+|-fail|p2a: Corsola
+|-weather|none
+|upkeep
+|turn|16
+|move|p1a: Golisopod|Knock Off|p2a: Corsola
+|-supereffective|p2a: Corsola
+|-damage|p2a: Corsola|149/238
+|-start|p1a: Golisopod|Disable|Knock Off|[from] ability: Cursed Body|[of] p2a: Corsola
+|move|p2a: Corsola|Strength Sap||[still]
+|-fail|p2a: Corsola
+|upkeep
+|turn|17
+|move|p1a: Golisopod|Spikes|p2a: Corsola
+|-sidestart|p2: PokeLLM|Spikes
+|move|p2a: Corsola|Strength Sap||[still]
+|-fail|p2a: Corsola
+|upkeep
+|turn|18
+|switch|p1a: Conkeldurr|Conkeldurr, L79, M|100/100
+|move|p2a: Corsola|Strength Sap|p1a: Conkeldurr
+|-unboost|p1a: Conkeldurr|atk|1
+|-heal|p2a: Corsola|238/238
+|-status|p1a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|19
+|move|p1a: Conkeldurr|Close Combat|p2a: Corsola
+|-immune|p2a: Corsola
+|move|p2a: Corsola|Strength Sap|p1a: Conkeldurr
+|-unboost|p1a: Conkeldurr|atk|1
+|-damage|p1a: Conkeldurr|94/100 brn|[from] brn
+|upkeep
+|turn|20
+|move|p1a: Conkeldurr|Knock Off|p2a: Corsola
+|-supereffective|p2a: Corsola
+|-damage|p2a: Corsola|162/238
+|move|p2a: Corsola|Strength Sap|p1a: Conkeldurr
+|-unboost|p1a: Conkeldurr|atk|1
+|-heal|p2a: Corsola|238/238
+|-damage|p1a: Conkeldurr|88/100 brn|[from] brn
+|upkeep
+|turn|21
+|move|p1a: Conkeldurr|Knock Off|p2a: Corsola
+|-supereffective|p2a: Corsola
+|-damage|p2a: Corsola|178/238
+|move|p2a: Corsola|Strength Sap|p1a: Conkeldurr
+|-unboost|p1a: Conkeldurr|atk|1
+|-heal|p2a: Corsola|238/238
+|-damage|p1a: Conkeldurr|82/100 brn|[from] brn
+|upkeep
+|turn|22
+|move|p1a: Conkeldurr|Knock Off|p2a: Corsola
+|-supereffective|p2a: Corsola
+|-damage|p2a: Corsola|184/238
+|-start|p1a: Conkeldurr|Disable|Knock Off|[from] ability: Cursed Body|[of] p2a: Corsola
+|move|p2a: Corsola|Strength Sap|p1a: Conkeldurr
+|-unboost|p1a: Conkeldurr|atk|1
+|-heal|p2a: Corsola|238/238
+|-damage|p1a: Conkeldurr|76/100 brn|[from] brn
+|upkeep
+|turn|23
+|switch|p1a: Golisopod|Golisopod, L84, F|64/100
+|move|p2a: Corsola|Stealth Rock|p1a: Golisopod
+|-sidestart|p1: BayiHu|move: Stealth Rock
+|upkeep
+|turn|24
+|move|p1a: Golisopod|Spikes|p2a: Corsola
+|-sidestart|p2: PokeLLM|Spikes
+|move|p2a: Corsola|Stealth Rock||[still]
+|-fail|p2a: Corsola
+|upkeep
+|turn|25
+|switch|p1a: Gengar|Gengar, L80, F|100/100
+|-damage|p1a: Gengar|88/100|[from] Stealth Rock
+|move|p2a: Corsola|Stealth Rock||[still]
+|-fail|p2a: Corsola
+|upkeep
+|turn|26
+|move|p1a: Gengar|Sludge Wave|p2a: Corsola
+|-resisted|p2a: Corsola
+|-damage|p2a: Corsola|172/238
+|-start|p1a: Gengar|Disable|Sludge Wave|[from] ability: Cursed Body|[of] p2a: Corsola
+|-damage|p1a: Gengar|78/100|[from] item: Life Orb
+|move|p2a: Corsola|Stealth Rock||[still]
+|-fail|p2a: Corsola
+|upkeep
+|turn|27
+|move|p1a: Gengar|Shadow Ball|p2a: Corsola
+|-supereffective|p2a: Corsola
+|-damage|p2a: Corsola|0 fnt
+|faint|p2a: Corsola
+|-damage|p1a: Gengar|69/100|[from] item: Life Orb
+|upkeep
+|switch|p2a: Zamazenta|Zamazenta, L72|251/251
+|-damage|p2a: Zamazenta|189/251|[from] Spikes
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|28
+|move|p2a: Zamazenta|Close Combat|p1a: Gengar
+|-immune|p1a: Gengar
+|move|p1a: Gengar|Shadow Ball|p2a: Zamazenta
+|-damage|p2a: Zamazenta|56/251
+|-damage|p1a: Gengar|59/100|[from] item: Life Orb
+|upkeep
+|turn|29
+|move|p2a: Zamazenta|Close Combat|p1a: Gengar
+|-immune|p1a: Gengar
+|move|p1a: Gengar|Nasty Plot|p1a: Gengar
+|-boost|p1a: Gengar|spa|2
+|-end|p1a: Gengar|Disable
+|upkeep
+|turn|30
+|move|p2a: Zamazenta|Close Combat|p1a: Gengar
+|-immune|p1a: Gengar
+|move|p1a: Gengar|Nasty Plot|p1a: Gengar
+|-boost|p1a: Gengar|spa|2
+|upkeep
+|turn|31
+|move|p2a: Zamazenta|Close Combat|p1a: Gengar
+|-immune|p1a: Gengar
+|move|p1a: Gengar|Sludge Wave|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|-damage|p1a: Gengar|49/100|[from] item: Life Orb
+|upkeep
+|switch|p2a: Amoonguss|Amoonguss, L83, F|325/325
+|-damage|p2a: Amoonguss|244/325|[from] Spikes
+|turn|32
+|move|p1a: Gengar|Focus Blast|p2a: Amoonguss|[miss]
+|-miss|p1a: Gengar|p2a: Amoonguss
+|move|p2a: Amoonguss|Sludge Bomb|p1a: Gengar
+|-resisted|p1a: Gengar
+|-damage|p1a: Gengar|39/100
+|-heal|p2a: Amoonguss|264/325|[from] item: Black Sludge
+|upkeep
+|turn|33
+|move|p1a: Gengar|Focus Blast|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|42/325
+|-unboost|p2a: Amoonguss|spd|1
+|-damage|p1a: Gengar|29/100|[from] item: Life Orb
+|move|p2a: Amoonguss|Sludge Bomb|p1a: Gengar
+|-resisted|p1a: Gengar
+|-damage|p1a: Gengar|18/100
+|-heal|p2a: Amoonguss|62/325|[from] item: Black Sludge
+|upkeep
+|turn|34
+|move|p1a: Gengar|Focus Blast|p2a: Amoonguss|[miss]
+|-miss|p1a: Gengar|p2a: Amoonguss
+|move|p2a: Amoonguss|Sludge Bomb|p1a: Gengar
+|-resisted|p1a: Gengar
+|-damage|p1a: Gengar|8/100
+|-heal|p2a: Amoonguss|82/325|[from] item: Black Sludge
+|upkeep
+|turn|35
+|move|p1a: Gengar|Sludge Wave|p2a: Amoonguss
+|-damage|p2a: Amoonguss|0 fnt
+|faint|p2a: Amoonguss
+|-damage|p1a: Gengar|0 fnt|[from] item: Life Orb
+|faint|p1a: Gengar
+|upkeep
+|switch|p1a: Registeel|Registeel, L83|100/100
+|switch|p2a: Glalie|Glalie, L94, F|303/303
+|-damage|p1a: Registeel|95/100|[from] Stealth Rock
+|turn|36
+|move|p2a: Glalie|Explosion|p1a: Registeel
+|-resisted|p1a: Registeel
+|-damage|p1a: Registeel|73/100
+|faint|p2a: Glalie
+    </script>
+</div>
+
+<div class="battle-log battle-log-inline" style="display:none"></div>
+
+<script>
+    let daily = Math.floor(Date.now() / 1000 / 60 / 60 / 24); document.write('<script src="https://play.pokemonshowdown.com/js/replay-embed.js?version' + daily + '"></' + 'script>');
+</script>
+
+<p style="text-align:center"> Replay created by <a href="https://github.com/hsahovic/poke-env">poke-env</a>, with code from <a
+        href="https://github.com/smogon/pokemon-showdown"> pokemon-showdown</a>. If something goes wrong, don't hesitate
+    to open an <a href="https://github.com/hsahovic/poke-env/issues">issue!</a></p>
