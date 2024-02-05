@@ -1,6 +1,7 @@
 # PokéLLMon
 
-This is the implementation for the paper PokéLLMon: A Human-Parity Agent for Pokémon battles with Large Language Models.
+This is the implementation for the paper "PokéLLMon: A Human-Parity Agent for Pokémon battles with Large Language Models."
+
 
 <div align="center">
   <img src="./resource/LLM_attrition_strategy.gif" alt="PokemonBattle">
@@ -29,6 +30,7 @@ cd pokemon-showdown
 npm install
 cp config/config-example.js config/config.js
 node pokemon-showdown start --no-security
+Enter "http://localhost:8000/" in your browsers.
 ``` 
 
 ### Configuring OpenAI API
@@ -60,13 +62,16 @@ python vs_bot.py # fill in your username and password for PokeLLMon
 
 ### Battle Against a Human Player Locally
 
-first log in your another account into local server, choosing "[Gen 8] Random Battle"
+First, log into your other account manually on the local server, choosing "[Gen 8] Random Battle".
 
 ```sh
 python vs_local_player.py # fill in your username and password for PokeLLMon
 ```
 
 ### Battle Against Ladder Players on Pokémon Showdown
+
+Open and log in: https://play.pokemonshowdown.com/
+
 ```sh
 python vs_ladder_player.py # fill in your username and password for PokeLLMon, no need to set up local server.
 ```
