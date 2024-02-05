@@ -13,7 +13,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument("--backend", type=str, default="gpt-4-0125-preview", choices=["gpt-3.5-turbo-0125", "gpt-4-1106-preview", "gpt-4-0125-preview"])
 parser.add_argument("--temperature", type=float, default=0.8)
 parser.add_argument("--prompt_algo", default="io", choices=["io", "sc", "cot", "tot"])
-parser.add_argument("--log_dir", type=str, default="./battle_log/pokellmon_vs_human")
+parser.add_argument("--log_dir", type=str, default="./battle_log/pokellmon_vs_bot")
 args = parser.parse_args()
 
 async def main():
