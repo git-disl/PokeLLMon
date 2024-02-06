@@ -14,7 +14,7 @@ class Teambuilder(ABC):
     They must implement the yield_team method, which must return a valid
     packed-formatted showdown team every time it is called.
 
-    This format is a custom format decribed in Pokemon's showdown protocol
+    This format is a custom format described in Pokemon's showdown protocol
     documentation:
     https://github.com/smogon/pokemon-showdown/blob/master/PROTOCOL.md#team-format
 
