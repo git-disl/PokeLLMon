@@ -8,8 +8,6 @@ This is the implementation for the paper "PokéLLMon: A Human-Parity Agent for P
 </div>
 
 
-The documentation will be fully updated within 3 days.
-
 ## Requirements:
 
 ```sh
@@ -75,7 +73,3 @@ Open and log in: https://play.pokemonshowdown.com/
 ```sh
 python vs_ladder_player.py # fill in your username and password for PokeLLMon, no need to set up local server.
 ```
-
-## Acknowledgement
-
-The environment is implemented based on [Poke Env](https://github.com/hsahovic/poke-env).
