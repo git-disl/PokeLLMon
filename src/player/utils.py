@@ -6,10 +6,10 @@ import math
 from concurrent.futures import Future
 from typing import Dict, List, Optional, Tuple
 
-from env.concurrency import POKE_LOOP
-from env.data import to_id_str
-from env.player.baselines import RandomPlayer, MaxBasePowerPlayer, HeuristicsPlayer
-from env.player.player import Player
+from src.concurrency import POKE_LOOP
+from src.data import to_id_str
+from src.player.baselines import RandomPlayer, MaxBasePowerPlayer, HeuristicsPlayer
+from src.player.player import Player
 
 _EVALUATION_RATINGS = {
     RandomPlayer: 1,

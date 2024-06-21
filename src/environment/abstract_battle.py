@@ -3,12 +3,12 @@ from abc import ABC, abstractmethod
 from logging import Logger
 from typing import Any, Dict, List, Optional, Set, Tuple, Union
 
-from env.data import GenData, to_id_str
-from env.data.replay_template import REPLAY_TEMPLATE
-from env.environment.field import Field
-from env.environment.pokemon import Pokemon
-from env.environment.side_condition import STACKABLE_CONDITIONS, SideCondition
-from env.environment.weather import Weather
+from src.data import GenData, to_id_str
+from src.data.replay_template import REPLAY_TEMPLATE
+from src.environment.field import Field
+from src.environment.pokemon import Pokemon
+from src.environment.side_condition import STACKABLE_CONDITIONS, SideCondition
+from src.environment.weather import Weather
 
 
 class AbstractBattle(ABC):

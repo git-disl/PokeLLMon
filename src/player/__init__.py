@@ -1,25 +1,24 @@
 """poke_env.player module init.
 """
-from env.concurrency import POKE_LOOP
-from env.player import utils
-from env.player.baselines import MaxBasePowerPlayer, HeuristicsPlayer, RandomPlayer
-from env.player.gpt_player import LLMPlayer
-# from poke_env.player.gpt_player_wo_knowledge import LLMPlayer
-from env.player.battle_order import (
+from src.concurrency import POKE_LOOP
+from src.player import utils
+from src.player.baselines import MaxBasePowerPlayer, HeuristicsPlayer, RandomPlayer
+from src.player.gpt_player import LLMPlayer
+from src.player.battle_order import (
     BattleOrder,
     DefaultBattleOrder,
     DoubleBattleOrder,
     ForfeitBattleOrder,
 )
-from env.player.openai_api import ActType, ObsType, OpenAIGymEnv
-from env.player.player import Player
-from env.player.utils import (
+from src.player.openai_api import ActType, ObsType, OpenAIGymEnv
+from src.player.player import Player
+from src.player.utils import (
     background_cross_evaluate,
     background_evaluate_player,
     cross_evaluate,
     evaluate_player,
 )
-from env.client import Client
+from src.client import Client
 
 __all__ = [
     "openai_api",

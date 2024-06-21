@@ -1,6 +1,6 @@
-from env.client.account_configuration import AccountConfiguration
-from env.client.client import Client
-from env.client.server_configuration import (
+from src.client.account_configuration import AccountConfiguration
+from src.client.client import Client
+from src.client.server_configuration import (
     LocalhostServerConfiguration,
     ServerConfiguration,
     ShowdownServerConfiguration,

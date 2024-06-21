@@ -2,17 +2,17 @@ from typing import List
 import json
 import os
 
-from env.environment.abstract_battle import AbstractBattle
-from env.environment.double_battle import DoubleBattle
-from env.environment.move_category import MoveCategory
-from env.environment.pokemon import Pokemon
-from env.environment.side_condition import SideCondition
-from env.player.player import Player
-from env.data.gen_data import GenData
-from env.player.battle_order import BattleOrder
+from src.environment.abstract_battle import AbstractBattle
+from src.environment.double_battle import DoubleBattle
+from src.environment.move_category import MoveCategory
+from src.environment.pokemon import Pokemon
+from src.environment.side_condition import SideCondition
+from src.player.player import Player
+from src.data.gen_data import GenData
+from src.player.battle_order import BattleOrder
 
 
-with open("./env/data/static/moves/moves_effect.json", "r") as f:
+with open("./data/static/moves/moves_effect.json", "r") as f:
     move_effect = json.load(f)
 
 

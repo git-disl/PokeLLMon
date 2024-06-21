@@ -1,11 +1,11 @@
 from logging import Logger
 from typing import Any, Dict, List, Optional, Union
 
-from env.environment.abstract_battle import AbstractBattle
-from env.environment.move import SPECIAL_MOVES, Move
-from env.environment.move_category import MoveCategory
-from env.environment.pokemon import Pokemon
-from env.environment.pokemon_type import PokemonType
+from src.environment.abstract_battle import AbstractBattle
+from src.environment.move import SPECIAL_MOVES, Move
+from src.environment.move_category import MoveCategory
+from src.environment.pokemon import Pokemon
+from src.environment.pokemon_type import PokemonType
 
 
 class DoubleBattle(AbstractBattle):

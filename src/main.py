@@ -1,12 +1,11 @@
 import asyncio
-import time
 from tqdm import tqdm
 import numpy as np
 import os
 import pickle as pkl
 import argparse
 
-from env.player import LLMPlayer, HeuristicsPlayer
+from src.player import LLMPlayer, HeuristicsPlayer
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--backend", type=str, default="gpt-4-0125", choices=["gpt-3.5-turbo-0125", "gpt-4-1106", "gpt-4-0125"])

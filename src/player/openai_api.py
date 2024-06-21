@@ -14,16 +14,16 @@ from typing import Any, Awaitable, Callable, Dict, Generic, List, Optional, Tupl
 from gymnasium.core import ActType, Env, ObsType
 from gymnasium.spaces import Discrete, Space
 
-from env.concurrency import POKE_LOOP, create_in_poke_loop
-from env.environment.abstract_battle import AbstractBattle
-from env.player.battle_order import BattleOrder, ForfeitBattleOrder
-from env.player.player import Player
-from env.client import AccountConfiguration
-from env.client.server_configuration import (
+from src.concurrency import POKE_LOOP, create_in_poke_loop
+from src.environment.abstract_battle import AbstractBattle
+from src.player.battle_order import BattleOrder, ForfeitBattleOrder
+from src.player.player import Player
+from src.client import AccountConfiguration
+from src.client.server_configuration import (
     LocalhostServerConfiguration,
     ServerConfiguration,
 )
-from env.teambuilder.teambuilder import Teambuilder
+from src.teambuilder.teambuilder import Teambuilder
 
 
 class _AsyncQueue:

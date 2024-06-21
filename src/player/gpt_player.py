@@ -2,18 +2,18 @@ import json
 import os
 import random
 from typing import List
-from env.environment.abstract_battle import AbstractBattle
-from env.environment.double_battle import DoubleBattle
-from env.environment.move_category import MoveCategory
-from env.environment.pokemon import Pokemon
-from env.environment.side_condition import SideCondition
-from env.player.player import Player, BattleOrder
+from src.environment.abstract_battle import AbstractBattle
+from src.environment.double_battle import DoubleBattle
+from src.environment.move_category import MoveCategory
+from src.environment.pokemon import Pokemon
+from src.environment.side_condition import SideCondition
+from src.player.player import Player, BattleOrder
 from typing import Dict, List, Optional, Union
-from env.environment.move import Move
+from src.environment.move import Move
 import time
 import json
 from openai import OpenAI
-from env.data.gen_data import GenData
+from src.data.gen_data import GenData
 
 def calculate_move_type_damage_multipier(type_1, type_2, type_chart, constraint_type_list):
     TYPE_list = 'BUG,DARK,DRAGON,ELECTRIC,FAIRY,FIGHTING,FIRE,FLYING,GHOST,GRASS,GROUND,ICE,NORMAL,POISON,PSYCHIC,ROCK,STEEL,WATER'.split(",")

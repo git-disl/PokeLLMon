@@ -3,7 +3,7 @@ format to specify pokemon builds in teambuilders custom classes.
 """
 from typing import List, Optional
 
-from env.data import to_id_str
+from src.data import to_id_str
 
 
 class TeambuilderPokemon:

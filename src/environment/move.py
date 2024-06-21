@@ -2,12 +2,12 @@ import copy
 from functools import lru_cache
 from typing import Any, Dict, List, Optional, Set, Tuple, Union
 
-from env.data import GenData, to_id_str
-from env.environment.field import Field
-from env.environment.move_category import MoveCategory
-from env.environment.pokemon_type import PokemonType
-from env.environment.status import Status
-from env.environment.weather import Weather
+from src.data import GenData, to_id_str
+from src.environment.field import Field
+from src.environment.move_category import MoveCategory
+from src.environment.pokemon_type import PokemonType
+from src.environment.status import Status
+from src.environment.weather import Weather
 
 SPECIAL_MOVES: Set[str] = {"struggle", "recharge"}
 

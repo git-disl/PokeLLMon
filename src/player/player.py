@@ -11,30 +11,30 @@ from typing import Any, Awaitable, Dict, List, Optional, Union
 
 import orjson
 
-from env.concurrency import create_in_poke_loop, handle_threaded_coroutines
-from env.data import GenData, to_id_str
-from env.environment.abstract_battle import AbstractBattle
-from env.environment.battle import Battle
-from env.environment.double_battle import DoubleBattle
-from env.environment.move import Move
-from env.environment.pokemon import Pokemon
-from env.exceptions import ShowdownException
-from env.player.battle_order import (
+from src.concurrency import create_in_poke_loop, handle_threaded_coroutines
+from src.data import GenData, to_id_str
+from src.environment.abstract_battle import AbstractBattle
+from src.environment.battle import Battle
+from src.environment.double_battle import DoubleBattle
+from src.environment.move import Move
+from src.environment.pokemon import Pokemon
+from src.exceptions import ShowdownException
+from src.player.battle_order import (
     BattleOrder,
     DefaultBattleOrder,
     DoubleBattleOrder,
 )
-from env.client import Client
-from env.client.account_configuration import (
+from src.client import Client
+from src.client.account_configuration import (
     CONFIGURATION_FROM_PLAYER_COUNTER,
     AccountConfiguration,
 )
-from env.client.server_configuration import (
+from src.client.server_configuration import (
     LocalhostServerConfiguration,
     ServerConfiguration,
 )
-from env.teambuilder.constant_teambuilder import ConstantTeambuilder
-from env.teambuilder.teambuilder import Teambuilder
+from src.teambuilder.constant_teambuilder import ConstantTeambuilder
+from src.teambuilder.teambuilder import Teambuilder
 
 class Player(ABC):
     """

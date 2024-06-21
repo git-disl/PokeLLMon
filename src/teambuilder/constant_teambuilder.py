@@ -1,7 +1,7 @@
 """This module defines the ConstantTeambuilder class, which is a subclass of
 ShowdownTeamBuilder that yields a constant team.
 """
-from env.teambuilder.teambuilder import Teambuilder
+from src.teambuilder.teambuilder import Teambuilder
 
 
 class ConstantTeambuilder(Teambuilder):

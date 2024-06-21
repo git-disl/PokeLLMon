@@ -12,14 +12,14 @@ import requests
 import websockets.client as ws
 from websockets.exceptions import ConnectionClosedOK
 
-from env.concurrency import (
+from src.concurrency import (
     POKE_LOOP,
     create_in_poke_loop,
     handle_threaded_coroutines,
 )
-from env.exceptions import ShowdownException
-from env.client.account_configuration import AccountConfiguration
-from env.client.server_configuration import ServerConfiguration
+from src.exceptions import ShowdownException
+from src.client.account_configuration import AccountConfiguration
+from src.client.server_configuration import ServerConfiguration
 
 
 class Client:

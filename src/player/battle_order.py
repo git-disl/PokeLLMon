@@ -1,9 +1,9 @@
 from dataclasses import dataclass
 from typing import Any, List, Optional, Union
 
-from env.environment.double_battle import DoubleBattle
-from env.environment.move import Move
-from env.environment.pokemon import Pokemon
+from src.environment.double_battle import DoubleBattle
+from src.environment.move import Move
+from src.environment.pokemon import Pokemon
 
 
 @dataclass

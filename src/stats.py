@@ -4,7 +4,7 @@
 import math
 from typing import List
 
-from env.data import GenData
+from src.data import GenData
 
 STATS_TO_IDX = {
     "hp": 0,

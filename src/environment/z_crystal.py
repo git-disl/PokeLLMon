@@ -3,7 +3,7 @@ directly.
 """
 from typing import Dict, Optional, Tuple
 
-from env.environment.pokemon_type import PokemonType
+from src.environment.pokemon_type import PokemonType
 
 Z_CRYSTAL: Dict[str, Tuple[Optional[PokemonType], Optional[str]]] = {
     "buginiumz": (PokemonType.BUG, None),

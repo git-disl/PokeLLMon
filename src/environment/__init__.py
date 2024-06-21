@@ -1,4 +1,4 @@
-from env.environment import (
+from src.environment import (
     abstract_battle,
     battle,
     double_battle,
@@ -14,20 +14,20 @@ from env.environment import (
     weather,
     z_crystal,
 )
-from env.environment.abstract_battle import AbstractBattle
-from env.environment.battle import Battle
-from env.environment.double_battle import DoubleBattle
-from env.environment.effect import Effect
-from env.environment.field import Field
-from env.environment.move import SPECIAL_MOVES, EmptyMove, Move
-from env.environment.move_category import MoveCategory
-from env.environment.pokemon import Pokemon
-from env.environment.pokemon_gender import PokemonGender
-from env.environment.pokemon_type import PokemonType
-from env.environment.side_condition import STACKABLE_CONDITIONS, SideCondition
-from env.environment.status import Status
-from env.environment.weather import Weather
-from env.environment.z_crystal import Z_CRYSTAL
+from src.environment.abstract_battle import AbstractBattle
+from src.environment.battle import Battle
+from src.environment.double_battle import DoubleBattle
+from src.environment.effect import Effect
+from src.environment.field import Field
+from src.environment.move import SPECIAL_MOVES, EmptyMove, Move
+from src.environment.move_category import MoveCategory
+from src.environment.pokemon import Pokemon
+from src.environment.pokemon_gender import PokemonGender
+from src.environment.pokemon_type import PokemonType
+from src.environment.side_condition import STACKABLE_CONDITIONS, SideCondition
+from src.environment.status import Status
+from src.environment.weather import Weather
+from src.environment.z_crystal import Z_CRYSTAL
 
 __all__ = [
     "AbstractBattle",

@@ -2,13 +2,13 @@ from __future__ import annotations
 
 from typing import Any, Dict, List, Optional, Tuple, Union
 
-from env.data import GenData, to_id_str
-from env.environment.effect import Effect
-from env.environment.move import SPECIAL_MOVES, Move
-from env.environment.pokemon_gender import PokemonGender
-from env.environment.pokemon_type import PokemonType
-from env.environment.status import Status
-from env.environment.z_crystal import Z_CRYSTAL
+from src.data import GenData, to_id_str
+from src.environment.effect import Effect
+from src.environment.move import SPECIAL_MOVES, Move
+from src.environment.pokemon_gender import PokemonGender
+from src.environment.pokemon_type import PokemonType
+from src.environment.status import Status
+from src.environment.z_crystal import Z_CRYSTAL
 import math
 
 
