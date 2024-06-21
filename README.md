@@ -1,12 +1,12 @@
 # PokéLLMon
 
-This is the implementation for the paper "PokéLLMon: A Human-Parity Agent for Pokémon battles with Large Language Models."
+[//]: # (<div align="center">)
 
+[//]: # (  <img src="./resource/LLM_attrition_strategy.gif" alt="PokemonBattle">)
 
-<div align="center">
-  <img src="./resource/LLM_attrition_strategy.gif" alt="PokemonBattle">
-</div>
+[//]: # (</div>)
 
+[//]: # ()
 
 ## Requirements:
 
