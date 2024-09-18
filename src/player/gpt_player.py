@@ -126,17 +126,17 @@ class LLMPlayer(Player):
         self.api_key = api_key
         self.prompt_algo = prompt_algo
         self.gen = GenData.from_format(battle_format)
-        with open("./poke_env/data/static/moves/moves_effect.json", "r") as f:
+        with open("data/static/moves/moves_effect.json", "r") as f:
             self.move_effect = json.load(f)
-        with open("./poke_env/data/static/moves/gen8pokemon_move_dict.json", "r") as f:
+        with open("data/static/moves/gen8pokemon_move_dict.json", "r") as f:
             self.pokemon_move_dict = json.load(f)
-        with open("./poke_env/data/static/abilities/ability_effect.json", "r") as f:
+        with open("data/static/abilities/ability_effect.json", "r") as f:
             self.ability_effect = json.load(f)
-        with open("./poke_env/data/static/abilities/gen8pokemon_ability_dict.json", "r") as f:
+        with open("data/static/abilities/gen8pokemon_ability_dict.json", "r") as f:
             self.pokemon_ability_dict = json.load(f)
-        with open("./poke_env/data/static/items/item_effect.json", "r") as f:
+        with open("data/static/items/item_effect.json", "r") as f:
             self.item_effect = json.load(f)
-        with open("./poke_env/data/static/items/gen8pokemon_item_dict.json", "r") as f:
+        with open("data/static/items/gen8pokemon_item_dict.json", "r") as f:
             self.pokemon_item_dict = json.load(f)
 
         self.last_plan = ""
