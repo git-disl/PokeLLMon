@@ -1,0 +1,45 @@
+Below are three examples to teach you how to select an action. Do not repeat outputs in examples:
+===Example Start===
+Example 1:
+Historical turns:
+Turn 6: You sent out Drednaw. opposing Electivire used Ice Punch. It was ineffective to Drednaw. It damaged Drednaw's HP by 14% (86% left). opposing Electivire's HP was damaged by 10% [from] item: Life Orb (65% left).
+Turn 7: (Current turn):
+Opponent has 4 pokemons left.
+Opponent current pokemon:electivire:Type:ELECTRIC,HP:65%,Atk:249,Def:157,Spa:203,Spd:187,Spe:203
+You have 5 pokemons can switch:
+sandaconda:Type:GROUND,HP:29%,Status:frozen, Atk:228,Def:258,Spa:157,Spd:166,Spe:167,Moves:[stoneedge,ROCK],[earthquake,GROUND]
+calyrexshadow:Type:PSYCHIC&GHOST,HP:100%,Atk:113,Def:140,Spa:249,Spd:166,Spe:230,Moves:[psyshock,PSYCHIC],[astralbarrage,GHOST]
+sirfetchd:Type:FIGHTING,HP:84%,Atk:269,Def:203,Spa:159,Spd:182,Spe:154,Moves:[knockoff,DARK],[closecombat,FIGHTING],[bravebird,FLYING]
+bisharp:Type:DARK&STEEL,HP:43%,Atk:246,Def:206,Spa:142,Spd:158,Spe:158,Moves:[knockoff,DARK],[suckerpunch,DARK],[ironhead,STEEL]
+latias:Type:DRAGON&PSYCHIC,HP:100%,Atk:134,Def:192,Spa:225,Spd:257,Spe:225,Moves:[psychic,PSYCHIC],[dracometeor,DRAGON]
+Output:{"switch":"calyrexshadow"}
+
+Example 2:
+Historical turns:
+Turn 34: opposing Heatran used Flash Cannon. It was ineffective to Centiskorch. It damaged Centiskorch's HP by 21% (6% left). Centiskorch used Coil. It boosted Centiskorch's atk 0 level. It boosted Centiskorch's def 0 level. It boosted Centiskorch's accuracy 0 level. opposing Heatran outspeeded Centiskorch.
+Turn 35: (Current turn):
+Opponent has 5 pokemons left.
+Opponent current pokemon:heatran:Type:FIRE&STEEL,HP:100%,Atk:185,Def:210,Spa:248,Spd:210,Spe:165
+You have 4 pokemons can switch:
+golduck:Type:WATER,HP:100%,Atk:146,Def:183,Spa:213,Spd:187,Spe:195,Moves:[focusblast,FIGHTING],[scald,WATER]
+skarmory:Type:STEEL&FLYING,HP:100%,Atk:176,Def:273,Spa:111,Spd:160,Spe:160,Moves:[bravebird,FLYING]
+heracross:Type:BUG&FIGHTING,HP:100%,Atk:249,Def:168,Spa:111,Spd:201,Spe:184,Moves:[knockoff,DARK],[facade,NORMAL],[closecombat,FIGHTING],[megahorn,BUG]
+vanilluxe:Type:ICE,HP:100%,Atk:203,Def:187,Spa:228,Spd:203,Spe:177,Moves:[blizzard,ICE],[explosion,NORMAL],[freezedry,ICE]
+Output:{"switch":"golduck"}
+
+Example 3:
+Historical turns:
+Turn 4: opposing Archeops used Stone Edge. It was ineffective to Flygon. A critical hit. It damaged Flygon's HP by 68% (32% left). Flygon used Outrage. It damaged opposing Archeops's HP by 70% (30% left). opposing Archeops outspeeded Flygon.
+Turn 5: (Current turn):
+Opponent has 5 pokemons left.
+Opponent current pokemon:archeops:Type:ROCK&FLYING,HP:30%,Atk:280,Def:156,Spa:234,Spd:156,Spe:230
+You have 4 pokemons can switch:
+lunatone:Type:ROCK&PSYCHIC,HP:100%,Atk:101,Def:165,Spa:217,Spd:200,Spe:173,Moves:[earthpower,GROUND],[powergem,ROCK],[psychic,PSYCHIC]
+slowkinggalar:Type:POISON&PSYCHIC,HP:100%,Atk:114,Def:183,Spa:233,Spd:233,Spe:99,Moves:[psyshock,PSYCHIC],[fireblast,FIRE],[sludgebomb,POISON]
+landorustherian:Type:GROUND&FLYING,HP:100%,Atk:251,Def:172,Spa:193,Spd:157,Spe:173,Moves:[stoneedge,ROCK],[earthquake,GROUND],[fly,FLYING]
+maractus:Type:GRASS,HP:100%,Atk:170,Def:183,Spa:258,Spd:183,Spe:170,Moves:[energyball,GRASS]
+Output:{"switch":"lunatone"}
+===Example Ends===
+
+Here is the real case:
+[INPUT]

@@ -1,0 +1,104 @@
+===Example Start===
+Historical turns:
+Turn 4: Shiftry used Heat Wave. It missed. opposing Steelix used Head Smash. It damaged Shiftry's HP by 59% (41% left). Shiftry outspeeded opposing Steelix.
+Turn 5: (Current turn):
+Opponent has 5 pokemons left.
+Opponent current pokemon:steelix:Type:STEEL&GROUND,HP:100%,Atk:286(1 stage),Def:384,Spa:141,Spd:157,Spe:148(1 stage)
+steelix as defender, GROUND,FIGHTING,FIRE deal 2x damage; FAIRY,STEEL,DRAGON,PSYCHIC only deal 0.5x damage; ROCK only deal 0.25x damage; ELECTRIC,POISON have no effect to steelix
+steelix as attacker, STEEL deal 2x damage to FAIRY,ROCK pokemon; STEEL deal 0.5x damage to FIRE,ELECTRIC,STEEL pokemon; GROUND deal 2x damage to FIRE,ELECTRIC,POISON,STEEL,ROCK pokemon; GROUND deal 0.5x damage to GRASS pokemon
+Your current pokemon:shiftry,Type:GRASS&DARK,HP:41%,Atk:179,Def:154,Spa:206,Spd:154,Spe:189
+Your shiftry has 4 moves can take:
+nastyplot:Type:DARK,Cate:Status,Power:0,Acc:100%,Effect:Raises the user's Special Attack by two stages.
+darkpulse:Type:DARK,Cate:Special,Power:105,Acc:100%,Effect:Has a 20% chance to make the target flinch.
+leafstorm:Type:GRASS,Cate:Special,Power:171,Acc:90%,Effect:Lowers the user's Special Attack by two stages after inflicting damage.
+heatwave:Type:FIRE,Cate:Special,Power:125,Acc:90%,Effect:Has a 10% chance to burn the target.
+You have 5 pokemons can switch:
+garbodor:Type:POISON,HP:100%,Atk:215,Def:192,Spa:154,Spd:192,Spe:180,Moves:[stompingtantrum,GROUND],[gunkshot,POISON]
+cobalion:Type:STEEL&FIGHTING,HP:100%,Atk:185,Def:246,Spa:185,Spd:157,Spe:214,Moves:[closecombat,FIGHTING],[ironhead,STEEL],[stoneedge,ROCK]
+zekrom:Type:DRAGON&ELECTRIC,HP:14%,Atk:247,Def:206,Spa:206,Spd:178,Spe:165,Moves:[outrage,DRAGON],[boltstrike,ELECTRIC]
+xerneas:Type:FAIRY,HP:100%,Atk:180,Def:167,Spa:215,Spd:171,Spe:172,Moves:[moonblast,FAIRY],[thunderbolt,ELECTRIC],[psyshock,PSYCHIC]
+hitmonlee:Type:FIGHTING,HP:100%,Atk:247,Def:136,Spa:106,Spd:230,Spe:192,Moves:[poisonjab,POISON],[knockoff,DARK],[closecombat,FIGHTING]
+
+Output:{"Thought": "This is not a force switch, therefore if I switch in a Pokemon, it will bear a free attack from the opponent. Given shiftry's speed (189) is higher than the opposing steelix (148), shiftry can outspeed steelix. And since FIRE attack deal 2x damage to steelix, I choose to use heatwave, which will lead to a significant damage, even thought it was missed in last turn.", "move":"heatwave"}
+
+
+
+Example1:
+
+Opponent has 6 pokemons left.
+Opponent current pokemon:mandibuzz:Type:DARK&FLYING,HP:100%,Atk:154,Def:219,Spa:137,Spd:203,Spe:178
+$ROCK, ELECTRIC, ICE attack is super-effective (2x damage) to mandibuzz.GHOST attack is ineffective (0.5x damage) to mandibuzz.GROUND attack is zero effect (0x damage) to mandibuzz.$
+Your current pokemon:magmortar,Type:FIRE,HP:100%,Atk:170,Def:166,Spa:267,Spd:215,Spe:194
+Your magmortar has 4 moves can take:
+taunt:Type:DARK,Cate:Status,Power:0,Acc:100%,$Effect:For the next few turns, the target can only use damaging moves.$
+focusblast:Type:FIGHTING,Cate:Special,Power:158,Acc:70%,$Effect:Has a 10% chance to lower the target's Special Defense by one stage.$
+thunderbolt:Type:ELECTRIC,Cate:Special,Power:118,Acc:100%,$Effect:Has a 10% chance to paralyze the target.$
+fireblast:Type:FIRE,Cate:Special,Power:145,Acc:85%,$Effect:Has a 10% chance to burn the target.$
+You have 5 pokemons can switch:
+golduck:Type:WATER,HP:100%,Atk:146,Def:183,Spa:213,Spd:187,Spe:195,Moves:[focusblast,FIGHTING],[scald,WATER]
+corviknight:Type:FLYING&STEEL,HP:100%,Atk:181,Def:209,Spa:128,Spd:178,Spe:150,Moves:[bravebird,FLYING],[bodypress,FIGHTING]
+gigalith:Type:ROCK,HP:100%,Atk:269,Def:260,Spa:146,Spd:178,Spe:88,Moves:[superpower,FIGHTING],[earthquake,GROUND],[stoneedge,ROCK]
+drampa:Type:NORMAL&DRAGON,HP:100%,Atk:108,Def:195,Spa:281,Spd:206,Spe:111,Moves:[dracometeor,DRAGON],[hypervoice,NORMAL],[fireblast,FIRE]
+dusknoir:Type:GHOST,HP:100%,Atk:224,Def:285,Spa:163,Spd:285,Spe:128,Moves:[shadowsneak,GHOST],[earthquake,GROUND],[icepunch,ICE],[poltergeist,GHOST]
+
+Output:{"thought": "Magmortar is faster than Mandibuzz and has a high Special Attack stat, while Mandibuzz has a lower Special Defense. Since Thunderbolt is super-effective against Mandibuzz's Flying type and has 100% accuracy, using Thunderbolt with Magmortar maximizes damage and minimizes risk. Therefore, the best action is for Magmortar to use Thunderbolt against Mandibuzz.", "move":"thunderbolt"}
+
+Example 2:
+
+Historical turns:
+Turn 3: Corviknight used Brave Bird. It damaged opposing Golurk's HP by 17% (0% left). opposing Golurk fainted. Corviknight's HP was damaged by 5% [from] Recoil (95% left). Opponent sent out Umbreon.
+Turn 4: (Current turn):
+Opponent has 5 pokemons left.
+Opponent current pokemon:umbreon:Type:DARK,HP:100%,Atk:154,Def:228,Spa:146,Spd:260,Spe:154
+$FIGHTING attack is super-effective (2x damage) to umbreon.DARK attack is ineffective (0.5x damage) to umbreon.$
+Your current pokemon:corviknight,Type:FLYING&STEEL,HP:100%,Atk:181,Def:209,Spa:128,Spd:178,Spe:150
+Your corviknight has 4 moves can take:
+roost:Type:FLYING,Cate:Status,Power:0,Acc:100%,$Effect:Heals the user by half its max HP.$
+bravebird:Type:FLYING,Cate:Physical,Power:95,Acc:100%,$Effect:User receives 1/3 the damage inflicted in recoil.$
+bulkup:Type:FIGHTING,Cate:Status,Power:0,Acc:100%,$Effect:Raises the user's Attack and Defense by one stage.$
+bodypress:Type:FIGHTING,Cate:Physical,Power:64,Acc:100%,$Effect:Body Press inflicts damage, but it uses the user's Defense stat instead of its Attack stat to calculate damage$
+You have 4 pokemons can switch:
+cinccino:Type:NORMAL,HP:100%,Atk:208,Def:149,Spa:157,Spd:149,Spe:241,Moves:[bulletseed,GRASS],[rockblast,ROCK],[knockoff,DARK],[tailslap,NORMAL]
+blaziken:Type:FIRE&FIGHTING,HP:100%,Atk:224,Def:149,Spa:209,Spd:149,Spe:164,Moves:[stoneedge,ROCK],[flareblitz,FIRE],[closecombat,FIGHTING]
+hitmonlee:Type:FIGHTING,HP:100%,Atk:247,Def:136,Spa:106,Spd:230,Spe:192,Moves:[poisonjab,POISON],[highjumpkick,FIGHTING],[stoneedge,ROCK],[knockoff,DARK]
+dedenne:Type:ELECTRIC&FAIRY,HP:100%,Atk:107,Def:151,Spa:193,Spd:168,Spe:228,Moves:[thunderbolt,ELECTRIC]
+
+Output:{"thought":"Umbreon is a Dark-type Pokémon weak to Fighting-type moves, and Corviknight has Body Press, a Fighting-type move that uses its high Defense stat for damage calculation. Corviknight's Steel/Flying typing grants it resistance to Dark-type moves and immunity to Poison-type moves like Toxic, minimizing the risk from Umbreon's potential attacks. Switching to another Pokémon like Blaziken or Hitmonlee introduces unnecessary risk, as they could take damage or be affected by status conditions upon entry. Therefore, the best action is to have Corviknight stay in and use Body Press to deal super-effective damage to Umbreon.", "move":"bodypress"}
+
+Example 3:
+
+Historical turns:
+Turn 6: opposing Umbreon used Foul Play. It damaged Corviknight's HP by 27% (14% left). Corviknight used Brave Bird. It damaged opposing Umbreon's HP by 31% (4% left). opposing Umbreon outspeeded Corviknight.
+Turn 7: (Current turn):
+Opponent has 5 pokemons left.
+Opponent current pokemon:umbreon:Type:DARK,HP:10%,Atk:154,Def:228,Spa:146,Spd:260,Spe:154
+$FIGHTING attack is super-effective (2x damage) to umbreon.DARK attack is ineffective (0.5x damage) to umbreon.$
+Your current pokemon:corviknight,Type:FLYING&STEEL,HP:10%,Atk:181,Def:209,Spa:128,Spd:178,Spe:150
+Your corviknight has 4 moves can take:
+roost:Type:FLYING,Cate:Status,Power:0,Acc:100%,$Effect:Heals the user by half its max HP.$
+bravebird:Type:FLYING,Cate:Physical,Power:95,Acc:100%,$Effect:User receives 1/3 the damage inflicted in recoil.$
+bulkup:Type:FIGHTING,Cate:Status,Power:0,Acc:100%,$Effect:Raises the user's Attack and Defense by one stage.$
+bodypress:Type:FIGHTING,Cate:Physical,Power:64,Acc:100%,$Effect:Body Press inflicts damage, but it uses the user's Defense stat instead of its Attack stat to calculate damage$
+You have 4 pokemons can switch:
+cinccino:Type:NORMAL,HP:100%,Atk:208,Def:149,Spa:157,Spd:149,Spe:241,Moves:[bulletseed,GRASS],[rockblast,ROCK],[knockoff,DARK],[tailslap,NORMAL]
+blaziken:Type:FIRE&FIGHTING,HP:100%,Atk:224,Def:149,Spa:209,Spd:149,Spe:164,Moves:[stoneedge,ROCK],[flareblitz,FIRE],[closecombat,FIGHTING]
+hitmonlee:Type:FIGHTING,HP:100%,Atk:247,Def:136,Spa:106,Spd:230,Spe:192,Moves:[poisonjab,POISON],[highjumpkick,FIGHTING],[stoneedge,ROCK],[knockoff,DARK]
+dedenne:Type:ELECTRIC&FAIRY,HP:100%,Atk:107,Def:151,Spa:193,Spd:168,Spe:228,Moves:[thunderbolt,ELECTRIC]
+
+
+Output: {"thought": "Since Corviknight is at 10% HP and will be knocked out by Umbreon's next Foul Play due to being outsped, and switching to Dedenne would result in it taking unnecessary damage from that attack, it's more strategic to let Corviknight faint. Preserving Corviknight at such low health may not offer significant advantages in future turns, and avoiding damage to Dedenne keeps it at full strength for later battles. Therefore, the best action is to keep Corviknight in and accept that it will be knocked out.", "move":"bravebird"}
+
+
+Example 3:
+Historical turns:
+Turn 4: opposing Archeops used Stone Edge. It was ineffective to Flygon. A critical hit. It damaged Flygon's HP by 68% (32% left). Flygon used Outrage. It damaged opposing Archeops's HP by 70% (30% left). opposing Archeops outspeeded Flygon.
+Turn 5: (Current turn):
+Opponent has 5 pokemons left.
+Opponent current pokemon:archeops:Type:ROCK&FLYING,HP:30%,Atk:280,Def:156,Spa:234,Spd:156,Spe:230
+You have 4 pokemons can switch:
+lunatone:Type:ROCK&PSYCHIC,HP:100%,Atk:101,Def:165,Spa:217,Spd:200,Spe:173,Moves:[earthpower,GROUND],[powergem,ROCK],[psychic,PSYCHIC]
+slowkinggalar:Type:POISON&PSYCHIC,HP:100%,Atk:114,Def:183,Spa:233,Spd:233,Spe:99,Moves:[psyshock,PSYCHIC],[fireblast,FIRE],[sludgebomb,POISON]
+landorustherian:Type:GROUND&FLYING,HP:100%,Atk:251,Def:172,Spa:193,Spd:157,Spe:173,Moves:[stoneedge,ROCK],[earthquake,GROUND],[fly,FLYING]
+maractus:Type:GRASS,HP:100%,Atk:170,Def:183,Spa:258,Spd:183,Spe:170,Moves:[energyball,GRASS]
+
+Lunatone is a solid choice because it can withstand Archeops's attacks thanks to its good defenses and neutral typing against Rock-type moves. Moreover, Lunatone can retaliate with Power Gem, a super-effective Rock-type move against Archeops's Rock/Flying typing, likely securing a knockout. Therefore, the best action is to switch to Lunatone to safely eliminate Archeops.

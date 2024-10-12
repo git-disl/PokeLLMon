@@ -1,0 +1,18 @@
+Below is an example to teach you how to select an action.
+===Example Start===
+Historical turns:
+Turn 6: You sent out Drednaw. opposing Electivire used Ice Punch. It was ineffective to Drednaw. It damaged Drednaw's HP by 14% (86% left). opposing Electivire's HP was damaged by 10% [from] item: Life Orb (65% left).
+Turn 7: (Current turn):
+Opponent has 4 pokemons left.
+Opponent current pokemon:electivire:Type:ELECTRIC,HP:65%,Atk:249,Def:157,Spa:203,Spd:187,Spe:203
+You have 5 pokemons can switch:
+sandaconda:Type:GROUND,HP:29%,Status:frozen, Atk:228,Def:258,Spa:157,Spd:166,Spe:167,Moves:[stoneedge,ROCK],[earthquake,GROUND]
+calyrexshadow:Type:PSYCHIC&GHOST,HP:100%,Atk:113,Def:140,Spa:249,Spd:166,Spe:230,Moves:[psyshock,PSYCHIC],[astralbarrage,GHOST]
+sirfetchd:Type:FIGHTING,HP:84%,Atk:269,Def:203,Spa:159,Spd:182,Spe:154,Moves:[knockoff,DARK],[closecombat,FIGHTING],[bravebird,FLYING]
+bisharp:Type:DARK&STEEL,HP:43%,Atk:246,Def:206,Spa:142,Spd:158,Spe:158,Moves:[knockoff,DARK],[suckerpunch,DARK],[ironhead,STEEL]
+latias:Type:DRAGON&PSYCHIC,HP:100%,Atk:134,Def:192,Spa:225,Spd:257,Spe:225,Moves:[psychic,PSYCHIC],[dracometeor,DRAGON]
+Output:{"switch":"calyrexshadow"}
+===Example Ends===
+
+Here is the real case:
+[INPUT]

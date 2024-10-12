@@ -1,0 +1,33 @@
+Below is an example to teach you how to criticize, evaluate and select the best action from the proposal:
+===Example Start===
+Historical turns:
+Turn 3: opposing Thievul used Dark Pulse. It damaged Dragalge's HP by 78% (22% left). Dragalge used Focus Blast. It missed. opposing Thievul outspeeded Dragalge.
+Turn 4: (Current turn):
+Opponent has 6 pokemons left.
+Opponent current pokemon:thievul:Type:DARK,HP:52%,Atk:152,Def:152,Spa:609(4 stage),Spd:212,Spe:209
+thievul as defender, FIGHTING deal 2x damage; GHOST,DARK only deal 0.5x damage; PSYCHIC have no effect to thievul
+thievul as attacker, DARK deal 2x damage to PSYCHIC,GHOST pokemon; DARK deal 0.5x damage to DARK,FIGHTING pokemon
+Your current pokemon:dragalge,Type:POISON&DRAGON,HP:28%,Atk:135,Def:206,Spa:219,Spd:264,Spe:126
+Your dragalge has 4 moves can take:
+toxicspikes:Type:POISON,Cate:Status,Power:0,Acc:100%,Effect:Scatters poisoned spikes, poisoning opposing Pokémon that switch in.
+dracometeor:Type:DRAGON,Cate:Special,Power:134,Acc:90%,Effect:Lowers the user's Special Attack by two stages after inflicting damage.
+sludgewave:Type:POISON,Cate:Special,Power:98,Acc:100%,Effect:Has a 10% chance to poison the target.
+focusblast:Type:FIGHTING,Cate:Special,Power:124,Acc:70%,Effect:Has a 10% chance to lower the target's Special Defense by one stage.
+You have 5 pokemons can switch:
+blacephalon:Type:FIRE&GHOST,HP:100%,Atk:205,Def:129,Spa:284,Spd:170,Spe:215,Moves:[fireblast,FIRE],[shadowball,GHOST],[psyshock,PSYCHIC]
+jellicent:Type:WATER&GHOST,HP:100%,Atk:107,Def:168,Spa:193,Spd:227,Spe:151,Moves:[shadowball,GHOST],[scald,WATER]
+snorlax:Type:NORMAL,HP:100%,Atk:228,Def:154,Spa:154,Spd:228,Spe:96,Moves:[doubleedge,NORMAL],[darkestlariat,DARK],[facade,NORMAL]
+slowbro:Type:WATER&PSYCHIC,HP:100%,Atk:132,Def:236,Spa:219,Spd:185,Spe:100,Moves:[scald,WATER]
+regieleki:Type:ELECTRIC,HP:100%,Atk:199,Def:122,Spa:199,Spd:122,Spe:353,Moves:[explosion,NORMAL],[thunderbolt,ELECTRIC],[voltswitch,ELECTRIC]
+
+Proposal:
+{"thought":"Thievul's previous Dark Pulse did 78% damage, leaving Dragalge at 22% HP. Since Thievul outspeeds Dragalge, it will KO Dragalge before it can attack. Switching out Dragalge keeps it as fodder or for a potential safe switch-in later. If choose to switch, the switch in pokemon will first bear an attack. With a high SpD, Snorlax can potentially survive a boosted Dark Pulse from Thievul. If Thievul misses, we can use focusblast to knock out Thievul.", "proposal1":{"switch":"snorlax"}, "proposal2":{"move":"focusblast"}, "proposal3":{"move":"dracometeor"}}
+Output:{"thought": "Since Thievul outspeeds Dragalge and has high Spa, it will KO Dragalge before it can attack. If choose to use attack, it is very likely be knocked out in the next step. However, if choose to switch in a non force switch, the switch in pokemon will first bear an attack and be knocked out since Thievul's Special Attack has been boosted very high. Therefore, it is better to let Thievul stay in the battle to be knocked out and switch in a faster pokemon in a force switch.","move":"focusblast"}
+===Example Ends===
+
+Here is the real case:
+[INPUT]
+Your previous proposal:
+[PROPOSAL]
+Your output should be a json like: {"thought":"<step_by_step_thinking>", "<switch_or_move>":"<pokemon_or_move_name>"}}
+Output:

@@ -1,0 +1,34 @@
+This is an example to teach you how to reflect on the outcome of a previous pokemon battle turn:
+===Example Start===
+The state of the game step:
+Historical turns: Turn 7: opposing Drapion used Poison Jab. It damaged Weezing's HP by 23% (40% left). Weezing used Pain Split. opposing Drapion outspeeded Weezing.
+Turn 8: (Current turn):
+Opponent has 6 pokemons left. Opponent's known pokemon off the field:tapubulu
+Opponent current pokemon:drapion:Type:POISON&DARK,HP:76%,Atk:195,Def:228,Spa:146,Spd:170,Spe:203
+drapion as defender, DARK,GRASS,POISON only deal 0.5x damage to drapion
+drapion as attacker, POISON deal 2x damage to GRASS,FAIRY pokemon; POISON deal 0.5x damage to ROCK,POISON pokemon; DARK deal 0.5x damage to DARK,FAIRY,FIGHTING pokemon
+Your current pokemon:weezinggalar,Type:POISON&FAIRY,HP:74%,Atk:159,Def:256,Spa:195,Spd:170,Spe:152, your side condition: toxic spikes
+Your weezinggalar has 4 moves can take:
+sludgebomb:Type:POISON,Cate:Special,Power:103,Acc:100%,Effect:Has a 30% chance to poison the target.
+toxicspikes:Type:POISON,Cate:Status,Power:0,Acc:100%,Effect:Scatters poisoned spikes, poisoning opposing Pokémon that switch in.
+painsplit:Type:NORMAL,Cate:Status,Power:0,Acc:100%,Effect:Sets the user's and targets's HP to the average of their current HP.
+strangesteam:Type:FAIRY,Cate:Special,Power:103,Acc:95%,Effect:does normal damage and has a chance of inflicting confusion status.
+You have 5 pokemons can switch:
+togekiss:Type:FAIRY&FLYING,HP:100%,Atk:85,Def:198,Spa:238,Spd:230,Spe:174,Moves:[airslash,FLYING],[aurasphere,FIGHTING]
+sawk:Type:FIGHTING,HP:64%,Status:poisoned, Atk:264,Def:178,Spa:101,Spd:178,Spe:195,Moves:[knockoff,DARK],[stoneedge,ROCK],[closecombat,FIGHTING]
+cryogonal:Type:ICE,HP:100%,Atk:135,Def:135,Spa:213,Spd:281,Spe:230,Moves:[freezedry,ICE],[rapidspin,NORMAL]
+braviary:Type:NORMAL&FLYING,HP:69%,Atk:246,Def:168,Spa:139,Spd:168,Spe:176,Moves:[closecombat,FIGHTING],[bravebird,FLYING]
+maractus:Type:GRASS,HP:100%,Atk:170,Def:183,Spa:258,Spd:183,Spe:170,Moves:[energyball,GRASS]
+
+Chosen action: {"switch":"togekiss"}
+Outcome of the action: You sent out Togekiss. opposing Drapion used Poison Jab. It was super effective to Togekiss. It damaged Togekiss's HP by 59% (41% left).
+Reflection: {"reflection":"The switch-in Pokemon bears an attack from the opponent. Switching Weezing-Galar out for Togekiss was a suboptimal move because Togekiss is weak to Drapion's Poison Jab, leading to significant damage due to the type disadvantage and the predictability of Drapion's attack. Knowing that the opposing Drapion had just used Poison Jab and likely would continue to do so—especially since it outspeeds Weezing-Galar—it was risky to switch in a Pokémon with a known weakness to Poison.  A better strategy would have been to anticipate the opponent's move and either keep Weezing-Galar in battle to use Pain Split or Strange Steam, or switch to a less vulnerable Pokémon like Braviary or Cryogonal.
+===Example End===
+
+Here is the real case:
+The state of the game step:
+[INPUT]
+
+Chosen action: [ACTION]
+Outcome of the action: [OUTCOME]
+Output your reflection in a JSON format:

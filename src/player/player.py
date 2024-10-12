@@ -153,6 +153,7 @@ class Player(ABC):
         self.move_set = set()
         self.item_set = set()
         self.ability_set = set()
+        self.pokemon_set = set()
         self._reward_buffer: Dict[AbstractBattle, float] = {}
         self.pokemon_move_dict = {}
         self.pokemon_item_dict = {}
@@ -320,7 +321,7 @@ class Player(ABC):
 
                 elif msg[idx][1] == "turn":
                     if len(battle.speed_list) == 2:
-                        description = f" {battle.speed_list[0]} outspeeded {battle.speed_list[1]} in this turn."
+                        description = f" {battle.speed_list[0]} outspeeded {battle.speed_list[1]}."
                     description += "[sep]Turn " + msg[idx][2] + ":"
                     battle.speed_list = []
 
@@ -344,7 +345,7 @@ class Player(ABC):
                     description = " " + msg[idx][2] + "was dragged out."
 
                 elif msg[idx][1] == "faint":
-                    description = " " + msg[idx][2] + " faint."
+                    description = " " + msg[idx][2] + " fainted."
 
                 elif msg[idx][1] == "move":
                     description = " " + msg[idx][2] + " used "+ msg[idx][3] + "."
@@ -378,7 +379,7 @@ class Player(ABC):
                         target = "your"
                     else:
                         target = "opponent"
-                    description = " " + msg[idx][3] + "was removed from " + target + " team"
+                    description = " " + msg[idx][3] + "was removed from " + target + " team."
 
                 elif msg[idx][1] == "-start":
                     description = " " + msg[idx][2] + " started " + msg[idx][3] + "."
@@ -387,22 +388,23 @@ class Player(ABC):
                             description = " " + msg[idx][2] + " started " + msg[idx][3] + " due to " + msg[idx][4] + "."
 
                 elif msg[idx][1] == "-end":
-                    description = " " + msg[idx][2] + " stop " + msg[idx][3] + "."
+                    description = " " + msg[idx][2] + " stopped " + msg[idx][3] + "."
 
-                elif msg[idx][1] == "-fieldstart":
-                    description = " Field start: " + msg[idx][2] + " ran across the battlefield."
-
-                elif msg[idx][1] == "-fieldend":
-                    description = " Field end: " + msg[idx][2] + " disappeared from the battlefield."
+                # remove field and put it into the state
+                # elif msg[idx][1] == "-fieldstart":
+                #     description = " Field start: " + msg[idx][2] + " ran across the battlefield."
+                #
+                # elif msg[idx][1] == "-fieldend":
+                #     description = " Field end: " + msg[idx][2] + " disappeared from the battlefield."
 
                 elif msg[idx][1] == "-ability":
                     description = " " + msg[idx][2] + "'s ability: " + msg[idx][3] + "."
 
                 elif msg[idx][1] == "-supereffective":
-                    description = " The move was super effective to " + msg[idx][2] + "."
+                    description = " It was super effective to " + msg[idx][2] + "."
 
                 elif msg[idx][1] == "-resisted":
-                    description = " The move was ineffective to " + msg[idx][2] + "."
+                    description = " It was ineffective to " + msg[idx][2] + "."
 
                 elif msg[idx][1] == "-heal":
                     try:
@@ -424,7 +426,10 @@ class Player(ABC):
                     delta_hp_fraction = current_hp_fraction - previous_hp_fraction
 
                     if len(msg[idx]) > 4:
-                        description = f" {msg[idx][2]} restored {delta_hp_fraction}% of HP ({current_hp_fraction}% left) {msg[idx][4]}."
+                        if "item" in msg[idx][4]:
+                            pass
+                        else:
+                            description = f" {msg[idx][2]} restored {delta_hp_fraction}% of HP ({current_hp_fraction}% left) {msg[idx][4]}."
                     else:
                         description = f" {msg[idx][2]} restored {delta_hp_fraction}% of HP ({current_hp_fraction}% left)."
                     try:

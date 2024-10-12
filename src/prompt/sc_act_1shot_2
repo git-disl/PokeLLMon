@@ -1,0 +1,28 @@
+Below is an example to teach you how to reason and select an action.
+===Example Start===
+Here is the real case:
+Historical turns:
+Battle start: You sent out Druddigon. Opponent sent out Necrozma. Druddigon's ability: Mold Breaker.
+Turn 1: (Current turn):
+Opponent has 6 pokemons left.
+Opponent current pokemon:necrozma:Type:PSYCHIC,HP:100%,Atk:217,Def:208,Spa:249,Spd:189,Spe:173
+necrozma as defender, DARK deal 2x damage; FIGHTING only deal 0.5x damage to necrozma
+necrozma as attacker, PSYCHIC deal 2x damage to FIGHTING pokemon; PSYCHIC deal 0.5x damage to STEEL pokemon; PSYCHIC have no effect to DARK pokemon
+Your current pokemon:druddigon,Type:DRAGON,HP:100%,Atk:250,Def:199,Spa:149,Spd:199,Spe:129
+Your druddigon has 4 moves can take:
+superpower:Type:FIGHTING,Cate:Physical,Power:144,Acc:100%,Effect:Lowers the user's Attack and Defense by one stage after inflicting damage.
+outrage:Type:DRAGON,Cate:Physical,Power:144,Acc:100%,Effect:Hits every turn for 2-3 turns, then confuses the user.
+stealthrock:Type:ROCK,Cate:Status,Power:0,Acc:100%,Effect:Causes damage when opposing Pokémon switch in.
+earthquake:Type:GROUND,Cate:Physical,Power:120,Acc:100%,Effect:Inflicts regular damage and can hit Dig users.
+You have 5 pokemons can switch:
+mienshao:Type:FIGHTING,HP:100%,Atk:252,Def:146,Spa:203,Spd:146,Spe:219,Moves:[knockoff,DARK],[closecombat,FIGHTING],[stoneedge,ROCK]
+genesectdouse:Type:BUG&STEEL,HP:100%,Atk:221,Def:184,Spa:221,Spd:184,Spe:190,Moves:[extremespeed,NORMAL],[thunderbolt,ELECTRIC],[technoblast,NORMAL],[ironhead,STEEL]
+shiinotic:Type:GRASS&FAIRY,HP:100%,Atk:84,Def:191,Spa:209,Spd:226,Spe:103,Moves:[moonblast,FAIRY]
+corsolagalar:Type:GHOST,HP:100%,Atk:97,Def:216,Spa:157,Spd:216,
+leafeon:Type:GRASS,HP:100%,Atk:238,Def:273,Spa:152,Spd:161,Spe:213,Moves:[doubleedge,NORMAL],[leafblade,GRASS],[knockoff,DARK]
+
+Output:{"thought": "Although slower, Druddigon is not vulnerable to the opposing Necrozma's PSYCHIC attack, thus can bear attacks from the opponent. At the beggining of the game (turn 1), setting steal rock to opponent's team is a good choice because it can cause damage when opposing pokemon switch in.", "move":"stealthrock"}
+===Example Ends===
+
+Here is the real case:
+[INPUT]

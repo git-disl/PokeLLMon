@@ -1,0 +1,20 @@
+Below is an example to teach you how to reason and switch Pokemon:
+===Example Start===
+Historical turns:
+Turn 3: You sent out Tapu Koko. opposing Turtonator used Shell Smash. It decreased opposing Turtonator's def 1 level. It decreased opposing Turtonator's spd 1 level. It boosted opposing Turtonator's atk 2 level. It boosted opposing Turtonator's spa 2 level. It boosted opposing Turtonator's spe 2 level.
+Turn 4: (Current turn):
+Opponent has 5 pokemons left.
+Opponent current pokemon:turtonator:Type:FIRE&DRAGON,HP:100%,Atk:358(2 stage),Def:275,Spa:402(2 stage),Spd:191,Spe:218(2 stage)
+turtonator as defender, DRAGON deal 2x damage; BUG only deal 0.5x damage; GRASS only deal 0.25x damage to turtonator
+turtonator as attacker, FIRE deal 2x damage to GRASS,BUG,ICE pokemon; FIRE deal 0.5x damage to DRAGON pokemon; DRAGON deal 2x damage to DRAGON pokemon; DRAGON have no effect to FAIRY pokemon
+This is a force switch, You have 5 pokemons can switch:
+accelgor:Type:BUG,HP:71%,Atk:126,Def:119,Spa:224,Spd:154,Spe:302,Moves:[energyball,GRASS],[bugbuzz,BUG],[focusblast,FIGHTING]
+abomasnow:Type:GRASS&ICE,HP:100%,Atk:198,Def:170,Spa:198,Spd:187,Spe:146,Moves:[blizzard,ICE],[iceshard,ICE],[woodhammer,GRASS]
+absol:Type:DARK,HP:100%,Atk:267,Def:149,Spa:174,Spd:149,Spe:174,Moves:[suckerpunch,DARK],[knockoff,DARK],[playrough,FAIRY]
+kommoo:Type:DRAGON&FIGHTING,HP:100%,Atk:222,Def:246,Spa:206,Spd:214,Spe:182,Moves:[clangingscales,DRAGON],[closecombat,FIGHTING],[poisonjab,POISON]
+avalugg:Type:ICE,HP:100%,Atk:250,Def:366,Spa:125,Spd:128,Spe:97,Moves:[avalanche,ICE],[bodypress,FIGHTING]
+Output:{"Thought":"Accelgor, despite outspeeding Turtonator, lacks super-effective moves and is vulnerable to opposing turtonator's FIRE attack. Abomasnow and Avalugg are slower than turtonator, and vulnerable due to type disadvantages and low defenses. Kommo-o, while having a super-effective Dragon move, is slower and at risk of being one-shot by Turtonator's potential Dragon attacks. Absol stands out as the best option because it has Sucker Punch, a priority move that can bypass Turtonator's speed advantage. Absol's Attack stat and STAB bonus on Sucker Punch allow it to inflict high damage.", "switch":"Absol"}
+===Example Ends===
+
+Here is the real case:
+[INPUT]

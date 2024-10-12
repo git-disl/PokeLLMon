@@ -1,0 +1,60 @@
+Below are three examples to teach you how to select an action.
+===Example Start===
+Example1:
+Opponent has 6 pokemons left.
+Opponent current pokemon:mandibuzz:Type:DARK&FLYING,HP:100%,Atk:154,Def:219,Spa:137,Spd:203,Spe:178
+Your current pokemon:magmortar,Type:FIRE,HP:100%,Atk:170,Def:166,Spa:267,Spd:215,Spe:194
+Your magmortar has 4 moves can take:
+taunt:Type:DARK,Cate:Status,Power:0,Acc:100%
+focusblast:Type:FIGHTING,Cate:Special,Power:158,Acc:70%
+thunderbolt:Type:ELECTRIC,Cate:Special,Power:118,Acc:100%
+fireblast:Type:FIRE,Cate:Special,Power:145,Acc:85%
+You have 5 pokemons can switch:
+golduck:Type:WATER,HP:100%,Atk:146,Def:183,Spa:213,Spd:187,Spe:195,Moves:[focusblast,FIGHTING],[scald,WATER]
+corviknight:Type:FLYING&STEEL,HP:100%,Atk:181,Def:209,Spa:128,Spd:178,Spe:150,Moves:[bravebird,FLYING],[bodypress,FIGHTING]
+gigalith:Type:ROCK,HP:100%,Atk:269,Def:260,Spa:146,Spd:178,Spe:88,Moves:[superpower,FIGHTING],[earthquake,GROUND],[stoneedge,ROCK]
+drampa:Type:NORMAL&DRAGON,HP:100%,Atk:108,Def:195,Spa:281,Spd:206,Spe:111,Moves:[dracometeor,DRAGON],[hypervoice,NORMAL],[fireblast,FIRE]
+dusknoir:Type:GHOST,HP:100%,Atk:224,Def:285,Spa:163,Spd:285,Spe:128,Moves:[shadowsneak,GHOST],[earthquake,GROUND],[icepunch,ICE],[poltergeist,GHOST]
+Output:{"move":"thunderbolt"}
+
+Example 2:
+Historical turns:
+Turn 3: Corviknight used Brave Bird. It damaged opposing Golurk's HP by 17% (0% left). opposing Golurk fainted. Corviknight's HP was damaged by 5% [from] Recoil (95% left). Opponent sent out Umbreon.
+Turn 4: (Current turn):
+Opponent has 5 pokemons left.
+Opponent current pokemon:umbreon:Type:DARK,HP:100%,Atk:154,Def:228,Spa:146,Spd:260,Spe:154
+Your current pokemon:corviknight,Type:FLYING&STEEL,HP:100%,Atk:181,Def:209,Spa:128,Spd:178,Spe:150
+Your corviknight has 4 moves can take:
+roost:Type:FLYING,Cate:Status,Power:0,Acc:100%
+bravebird:Type:FLYING,Cate:Physical,Power:95,Acc:100%
+bulkup:Type:FIGHTING,Cate:Status,Power:0,Acc:100%
+bodypress:Type:FIGHTING,Cate:Physical,Power:64,Acc:100%
+You have 4 pokemons can switch:
+cinccino:Type:NORMAL,HP:100%,Atk:208,Def:149,Spa:157,Spd:149,Spe:241,Moves:[bulletseed,GRASS],[rockblast,ROCK],[knockoff,DARK],[tailslap,NORMAL]
+blaziken:Type:FIRE&FIGHTING,HP:100%,Atk:224,Def:149,Spa:209,Spd:149,Spe:164,Moves:[stoneedge,ROCK],[flareblitz,FIRE],[closecombat,FIGHTING]
+hitmonlee:Type:FIGHTING,HP:100%,Atk:247,Def:136,Spa:106,Spd:230,Spe:192,Moves:[poisonjab,POISON],[highjumpkick,FIGHTING],[stoneedge,ROCK],[knockoff,DARK]
+dedenne:Type:ELECTRIC&FAIRY,HP:100%,Atk:107,Def:151,Spa:193,Spd:168,Spe:228,Moves:[thunderbolt,ELECTRIC]
+Output:{"move":"bodypress"}
+
+Example 3:
+Historical turns:
+Turn 6: opposing Umbreon used Foul Play. It damaged Corviknight's HP by 27% (14% left). Corviknight used Brave Bird. It damaged opposing Umbreon's HP by 31% (4% left). opposing Umbreon outspeeded Corviknight.
+Turn 7: (Current turn):
+Opponent has 5 pokemons left.
+Opponent current pokemon:umbreon:Type:DARK,HP:10%,Atk:154,Def:228,Spa:146,Spd:260,Spe:154
+Your current pokemon:corviknight,Type:FLYING&STEEL,HP:10%,Atk:181,Def:209,Spa:128,Spd:178,Spe:150
+Your corviknight has 4 moves can take:
+roost:Type:FLYING,Cate:Status,Power:0,Acc:100%
+bravebird:Type:FLYING,Cate:Physical,Power:95,Acc:100%
+bulkup:Type:FIGHTING,Cate:Status,Power:0,Acc:100%
+bodypress:Type:FIGHTING,Cate:Physical,Power:64,Acc:100%
+You have 4 pokemons can switch:
+cinccino:Type:NORMAL,HP:100%,Atk:208,Def:149,Spa:157,Spd:149,Spe:241,Moves:[bulletseed,GRASS],[rockblast,ROCK],[knockoff,DARK],[tailslap,NORMAL]
+blaziken:Type:FIRE&FIGHTING,HP:100%,Atk:224,Def:149,Spa:209,Spd:149,Spe:164,Moves:[stoneedge,ROCK],[flareblitz,FIRE],[closecombat,FIGHTING]
+hitmonlee:Type:FIGHTING,HP:100%,Atk:247,Def:136,Spa:106,Spd:230,Spe:192,Moves:[poisonjab,POISON],[highjumpkick,FIGHTING],[stoneedge,ROCK],[knockoff,DARK]
+dedenne:Type:ELECTRIC&FAIRY,HP:100%,Atk:107,Def:151,Spa:193,Spd:168,Spe:228,Moves:[thunderbolt,ELECTRIC]
+Output:{"move":"bravebird"}
+===Example Ends===
+
+Here is the real case:
+[INPUT]

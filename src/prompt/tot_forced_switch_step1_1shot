@@ -1,0 +1,23 @@
+Below is an example to teach you how to reason and propose two best switch-in pokemons:
+===Example Start===
+Historical turns:
+Turn 2: You sent out Tornadus. opposing Frosmoth used Bug Buzz. It was ineffective to Tornadus. It damaged Tornadus's HP by 33% (67% left).
+Turn 3: (Current turn):
+Opponent has 6 pokemons left.
+Opponent current pokemon:frosmoth:Type:ICE&BUG,HP:47%,Atk:154,Def:146,Spa:378(1 stage),Spd:292(1 stage),Spe:231(1 stage)
+frosmoth as defender, GROUND,ICE only deal 0.5x damage to frosmoth
+frosmoth as attacker, ICE deal 2x damage to GROUND pokemon; ICE deal 0.5x damage to WATER,ICE pokemon; BUG deal 2x damage to DARK pokemon; BUG deal 0.5x damage to FAIRY,FIGHTING,POISON pokemon
+This is a force switch, You have 5 pokemons can switch:
+grimmsnarl:Type:DARK&FAIRY,HP:100%,Atk:247,Def:156,Spa:205,Spd:172,Spe:147,Moves:[darkestlariat,DARK],[playrough,FAIRY],[suckerpunch,DARK]
+chansey:Type:NORMAL,HP:100%,Atk:13,Def:57,Spa:107,Spd:225,
+arctozolt:Type:ELECTRIC&ICE,HP:100%,Atk:224,Def:206,Spa:206,Spd:189,Spe:145,Moves:[iciclecrash,ICE],[stompingtantrum,GROUND],[boltbeak,ELECTRIC]
+milotic:Type:WATER,HP:100%,Atk:103,Def:177,Spa:211,Spd:252,Spe:180,Moves:[scald,WATER]
+toxicroak:Type:POISON&FIGHTING,HP:100%,Atk:226,Def:157,Spa:193,Spd:157,Spe:191,Moves:[gunkshot,POISON],[drainpunch,FIGHTING]
+
+Output:{"thought":"According to type-effectiveness, frosmoth is resistant to GROUND and ICE type, and can cause large damage to GROUND, DARK type, therefore, I cannot switch to grimmsnarl and arctozolt. From the speed perspective, all of my pokemon outspeeded by frosmoth. Therefore, the switch-in pokemon will bear one attack before taking move. Given that frosmoth use special attack moves, thus I need to choose pokemon with high special defense, such as milotic and chansey.", "proposal1":{"switch":"milotic"},"proposal2":{"switch":"chansey"}}
+===Example Ends===
+
+Here is the real case:
+[INPUT]
+Your output should be a json like: {"thought":"<step_by_step_thinking>", "proposal1":{"<switch_or_move>":"<name>"},"proposal2":{"<switch_or_move>":"<name>"}}
+Output:

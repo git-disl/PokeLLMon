@@ -1,0 +1,27 @@
+Below is an example to teach you how to reason and select an action.
+===Example Start===
+Historical turns:
+Turn 4: Shiftry used Heat Wave. It missed. opposing Steelix used Head Smash. It damaged Shiftry's HP by 59% (41% left). Shiftry outspeeded opposing Steelix.
+Turn 5: (Current turn):
+Opponent has 5 pokemons left.
+Opponent current pokemon:steelix:Type:STEEL&GROUND,HP:100%,Atk:286(1 stage),Def:384,Spa:141,Spd:157,Spe:148(1 stage)
+steelix as defender, GROUND,FIGHTING,FIRE deal 2x damage; FAIRY,STEEL,DRAGON,PSYCHIC only deal 0.5x damage; ROCK only deal 0.25x damage; ELECTRIC,POISON have no effect to steelix
+steelix as attacker, STEEL deal 2x damage to FAIRY,ROCK pokemon; STEEL deal 0.5x damage to FIRE,ELECTRIC,STEEL pokemon; GROUND deal 2x damage to FIRE,ELECTRIC,POISON,STEEL,ROCK pokemon; GROUND deal 0.5x damage to GRASS pokemon
+Your current pokemon:shiftry,Type:GRASS&DARK,HP:41%,Atk:179,Def:154,Spa:206,Spd:154,Spe:189
+Your shiftry has 4 moves can take:
+nastyplot:Type:DARK,Cate:Status,Power:0,Acc:100%,Effect:Raises the user's Special Attack by two stages.
+darkpulse:Type:DARK,Cate:Special,Power:105,Acc:100%,Effect:Has a 20% chance to make the target flinch.
+leafstorm:Type:GRASS,Cate:Special,Power:171,Acc:90%,Effect:Lowers the user's Special Attack by two stages after inflicting damage.
+heatwave:Type:FIRE,Cate:Special,Power:125,Acc:90%,Effect:Has a 10% chance to burn the target.
+You have 5 pokemons can switch:
+garbodor:Type:POISON,HP:100%,Atk:215,Def:192,Spa:154,Spd:192,Spe:180,Moves:[stompingtantrum,GROUND],[gunkshot,POISON]
+cobalion:Type:STEEL&FIGHTING,HP:100%,Atk:185,Def:246,Spa:185,Spd:157,Spe:214,Moves:[closecombat,FIGHTING],[ironhead,STEEL],[stoneedge,ROCK]
+zekrom:Type:DRAGON&ELECTRIC,HP:14%,Atk:247,Def:206,Spa:206,Spd:178,Spe:165,Moves:[outrage,DRAGON],[boltstrike,ELECTRIC]
+xerneas:Type:FAIRY,HP:100%,Atk:180,Def:167,Spa:215,Spd:171,Spe:172,Moves:[moonblast,FAIRY],[thunderbolt,ELECTRIC],[psyshock,PSYCHIC]
+hitmonlee:Type:FIGHTING,HP:100%,Atk:247,Def:136,Spa:106,Spd:230,Spe:192,Moves:[poisonjab,POISON],[knockoff,DARK],[closecombat,FIGHTING]
+
+Output:{"Thought": "This is not a force switch, therefore if I switch in a Pokemon, it will bear a free attack from the opponent. Given shiftry's speed (189) is higher than the opposing steelix (148), shiftry can outspeed steelix. And since FIRE attack deal 2x damage to steelix, I choose to use heatwave, which will lead to a significant damage, even thought it was missed in last turn.", "move":"heatwave"}
+===Example Ends===
+
+Here is the real case:
+[INPUT]

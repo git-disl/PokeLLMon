@@ -1,0 +1,24 @@
+Below is an example to teach you how to reason and switch Pokemon:
+===Example Start===
+Here is the real case:
+Historical turns:
+Turn 4: You sent out Dracovish. opposing Mamoswine used Earthquake. It damaged Dracovish's HP by 60% (3% left). opposing Mamoswine's HP was damaged by 9% [from] item: Life Orb (91% left).
+Turn 5: (Current turn):
+Opponent has 5 pokemons left.
+Opponent current pokemon:mamoswine:Type:ICE&GROUND,HP:91%,Atk:254,Def:174,Spa:158,Spd:142,Spe:174
+mamoswine as defender, FIGHTING,STEEL,WATER deal 2x damage; POISON only deal 0.5x damage to mamoswine
+mamoswine as attacker, ICE deal 2x damage to GROUND,DRAGON pokemon; ICE deal 0.5x damage to STEEL,ICE,WATER pokemon; GROUND deal 2x damage to STEEL,POISON pokemon
+This is a force switch, You have 5 pokemons can switch:
+thievul:Type:DARK,HP:100%,Atk:107,Def:152,Spa:203,Spd:212,Spe:209,Moves:[darkpulse,DARK]
+dracovish:Type:WATER&DRAGON,HP:3%,Atk:190,Def:206,Spa:158,Spd:174,Spe:166,Moves:[psychicfangs,PSYCHIC],[fishiousrend,WATER],[crunch,DARK]
+druddigon:Type:DRAGON,HP:100%,Atk:250,Def:199,Spa:149,Spd:199,Spe:129,Moves:[superpower,FIGHTING],[earthquake,GROUND],[outrage,DRAGON]
+nidoqueen:Type:POISON&GROUND,HP:80%,Atk:157,Def:192,Spa:172,Spd:189,Spe:174,Moves:[earthpower,GROUND],[icebeam,ICE],[sludgewave,POISON]
+mawile:Type:STEEL&FAIRY,HP:100%,Atk:198,Def:198,Spa:145,Spd:145,Spe:137,Moves:[playrough,FAIRY],[ironhead,STEEL],[suckerpunch,DARK]
+
+Output: {"thought": "Dracovish is at very low HP and cannot withstand another attack. Thievul is faster than mamoswine and does not have type-weakness. Druddigon has a Fighting move, Superpower, which is super-effective against Mamoswine, but it is slower and vulnerable to Ice attacks. Nidoqueen has Earth Power, which is not very effective against Mamoswine, and is also vulnerable to Ice attacks. Mawile, being Steel type, is also vulnerable to mamoswine's Ground moves. Therefore, Thievul is the best choice.", "switch":"thievul"}
+===Example Ends===
+
+Here is the real case:
+[INPUT]
+
+

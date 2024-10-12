@@ -1,0 +1,21 @@
+Below is an example to teach you how to reason and switch Pokemon:
+===Example Start===
+Historical turns:
+Turn 5: Persian used U-turn. It was ineffective to opposing Tapu Koko. It damaged opposing Tapu Koko's HP by 14% (86% left). You sent out Durant. opposing Tapu Koko used Calm Mind. It boosted opposing Tapu Koko's spa 1 level. It boosted opposing Tapu Koko's spd 1 level. Persian outspeeded opposing Tapu Koko.
+Turn 6: (Current turn):
+Opponent has 5 pokemons left.
+Opponent current pokemon:tapukoko:Type:ELECTRIC&FAIRY,HP:92%,Atk:222,Def:175,Spa:382(2 stage),Spd:320(2 stage),Spe:245
+tapukoko as defender, BUG,ELECTRIC,DARK,FLYING,FIGHTING only deal 0.5x damage to tapukoko
+tapukoko as attacker, ELECTRIC deal 2x damage to FLYING,WATER pokemon; ELECTRIC deal 0.5x damage to ELECTRIC pokemon; FAIRY deal 2x damage to FIGHTING,DARK pokemon; FAIRY deal 0.5x damage to FIRE pokemon
+This is a force switch, You have 5 pokemons can switch:
+golduck:Type:WATER,HP:100%,Atk:146,Def:183,Spa:213,Spd:187,Spe:195,Moves:[scald,WATER],[psyshock,PSYCHIC],[focusblast,FIGHTING]
+manectric:Type:ELECTRIC,HP:52%,Atk:135,Def:154,Spa:232,Spd:154,Spe:232,Moves:[voltswitch,ELECTRIC],[flamethrower,FIRE],[thunderbolt,ELECTRIC]
+clefable:Type:FAIRY,HP:100%,Atk:119,Def:167,Spa:203,Spd:195,Spe:146,Moves:[fireblast,FIRE],[moonblast,FAIRY]
+persian:Type:NORMAL,HP:100%,Atk:175,Def:158,Spa:166,Spd:166,Spe:255,Moves:[uturn,BUG],[knockoff,DARK],[playrough,FAIRY],[doubleedge,NORMAL]
+cramorant:Type:FLYING&WATER,HP:100%,Atk:191,Def:141,Spa:191,Spd:208,Spe:191,Moves:[bravebird,FLYING],[surf,WATER],[superpower,FIGHTING]
+
+Output: {'thought': "Tapu Koko has boosted Special Attack and Special Defense. As a result, pokemon's speed less than 245 are very likely be knocked out in one hit. Among my left pokemon, only persian outspeeds tapukoko and can use doubleedge or playrough that tapukoko is not resistant to.", "switch":"persian"}
+===Example Ends===
+
+Here is the real case:
+[INPUT]

@@ -1,0 +1,8 @@
+name_or_path: meta-llama/Llama-2-7b-hf
+tokenizer_name_or_path: null
+archive: null
+block_name: LlamaDecoderLayer
+
+policy_dtype: bfloat16
+fsdp_policy_mp: null
+reference_dtype: bfloat16

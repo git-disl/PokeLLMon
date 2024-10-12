@@ -1,0 +1,25 @@
+Below is an example to teach you how to reason and select an action.
+===Example Start===
+Historical turns:
+Turn 10: You sent out Druddigon. Druddigon activated move: Sticky Web. It decreased Druddigon's spe 1 level. Druddigon's ability: Mold Breaker. opposing Vikavolt used Bug Buzz. It damaged Druddigon's HP by 45% (55% left).
+Turn 11: (Current turn):
+Opponent has 4 pokemons left.
+Opponent current pokemon:vikavolt:Type:BUG&ELECTRIC,HP:47%,Atk:162,Def:195,Spa:285,Spd:170,Spe:118
+vikavolt as defender, FIGHTING,GRASS only deal 0.5x damage to vikavolt
+vikavolt as attacker, BUG deal 2x damage to GRASS,DARK pokemon; BUG deal 0.5x damage to FIGHTING,FAIRY pokemon; ELECTRIC deal 0.5x damage to GRASS,DRAGON pokemon; ELECTRIC have no effect to GROUND pokemon
+Your current pokemon:druddigon,Type:DRAGON,HP:55%,Atk:250,Def:199,Spa:149,Spd:199,Spe:86(-1 stage), your side condition: sticky web
+Your druddigon has 4 moves can take:
+superpower:Type:FIGHTING,Cate:Physical,Power:154,Acc:100%,Effect:Lowers the user's Attack and Defense by one stage after inflicting damage.
+outrage:Type:DRAGON,Cate:Physical,Power:154,Acc:100%,Effect:Hits every turn for 2-3 turns, then confuses the user.
+stealthrock:Type:ROCK,Cate:Status,Power:0,Acc:100%,Effect:Causes damage when opposing Pokémon switch in.
+earthquake:Type:GROUND,Cate:Physical,Power:128,Acc:100%,Effect:Inflicts regular damage and can hit Dig users.
+You have 3 pokemons can switch:
+leafeon:Type:GRASS,HP:80%,Atk:238,Def:273,Spa:152,Spd:161,Spe:213,Moves:[doubleedge,NORMAL],[leafblade,GRASS],[knockoff,DARK]
+shiinotic:Type:GRASS&FAIRY,HP:100%,Atk:84,Def:191,Spa:209,Spd:226,Spe:103,Moves:[moonblast,FAIRY]
+corsolagalar:Type:GHOST,HP:100%,Atk:97,Def:216,Spa:157,Spd:216,
+
+Output: {'thought': "Druddigon is slower than, and Vikavolt's Bug Buzz caused 45%, which means Druddigon can bear another attack from Vikavolt and use one move. It is not a forced switch, which means the switch-in pokemon will bear a free attack. My left pokemon leafeon and shiinotic are GRASS type, making them vulnerable to vikavolt's BUG attack. Therefore, I choose to use the attack move with the highest power, outrage. I do not use superpower is because it is FIGHTING type attack, which only deal 0.5x damage to vikavolt.", "move":"outrage"}
+===Example Ends===
+
+Here is the real case:
+[INPUT]
